@@ -39,28 +39,28 @@ The English suites are based on the OLMo 3 evaluation suites[^1].
 
 #### English Main (`eng_base_main`)
 
-| Group | # Tasks | Benchmarks |
-|-------|---------|------------|
-| stem_qa_mc | ~23 | ARC, MMLU STEM, MedMCQA, MedQA, SciQ |
-| nonstem_qa_mc | ~46 | MMLU Humanities/Social/Other, CSQA, PiQA, SocialIQA, CoQA, DROP, Jeopardy, NaturalQs, SQuAD |
-| agieval_mc | 9 | AQUA-RAT, GaoKao, LogiQA, LSAT, SAT |
+| Group | # Benchmarks | Benchmarks |
+|-------|--------------|------------|
+| stem_qa_mc | 5 | ARC, MMLU STEM, MedMCQA, MedQA, SciQ |
+| nonstem_qa_mc | 9 | MMLU Humanities/Social/Other, CSQA, PiQA, SocialIQA, CoQA, DROP, Jeopardy, NaturalQs, SQuAD |
+| agieval_mc | 5 | AQUA-RAT, GaoKao, LogiQA, LSAT, SAT |
 | gen | 9 | HellaSwag, WinoGrande, Lambada, Basic Skills, DROP, Jeopardy, NaturalQs, SQuAD, CoQA |
-| math | ~12 | GSM8K, GSM-Symbolic, Minerva Math, MATH-500 |
+| math | 4 | GSM8K, GSM-Symbolic, Minerva Math, MATH-500 |
 | code | 2 | HumanEval, MBPP |
-| heldout | ~100 | LBPP, BBH (27), MMLU Pro (14), DeepMind Math (56), GPQA |
+| heldout | 5 | LBPP, BBH (27), MMLU Pro (14), DeepMind Math (56), GPQA |
 
 #### German Main (`deu_base_main`)
 
-| Group | # Tasks | Benchmarks |
-|-------|---------|------------|
-| deu_stem_qa_mc | ~21 | ARC, MMMLU filtered STEM (19 subjects) |
-| deu_nonstem_qa_mc | ~16 | MMMLU filtered non-STEM (13 subjects), CSQA, PiQA, SocialIQA |
-| deu_agieval_mc | 9 | AGIEval (German translations) |
+| Group | # Benchmarks | Benchmarks |
+|-------|--------------|------------|
+| deu_stem_qa_mc | 2 | ARC, MMMLU filtered STEM (19 subjects) |
+| deu_nonstem_qa_mc | 4 | MMMLU filtered non-STEM (13 subjects), CSQA, PiQA, SocialIQA |
+| deu_agieval_mc | 5 | AQUA-RAT, GaoKao, LogiQA, LSAT, SAT (German) |
 | deu_gen | 3 | HellaSwag, WinoGrande, CoQA |
-| deu_math | ~8 | Minerva Math, GSM8K Platinum |
+| deu_math | 2 | Minerva Math, GSM8K Platinum |
 | deu_code | 2 | HumanEval, MBPP (German docstrings) |
-| deu_glp / deu_glp_mc | 44 | German Language Proficiency |
-| deu_heldout | ~22 | MMLU Pro, GPQA, HLE, INCLUDE, SimpleQA |
+| deu_glp / deu_glp_mc | 1 | German Language Proficiency (22 topics × RC + MC) |
+| deu_heldout | 5 | MMLU Pro, GPQA, HLE, INCLUDE, SimpleQA |
 
 For detailed task listings, format variants, and per-benchmark documentation, see [`tasks/README.md`](tasks/README.md).
 
