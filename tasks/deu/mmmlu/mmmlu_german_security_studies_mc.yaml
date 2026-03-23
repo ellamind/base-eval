@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_security_studies_mc
+process_docs: !function utils.process_security_studies
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_security_studies
+metadata:
+  version: 1.0

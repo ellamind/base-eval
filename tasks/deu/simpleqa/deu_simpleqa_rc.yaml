@@ -1,0 +1,9 @@
+include: _simpleqa_rc_template.yaml
+task: deu_simpleqa_rc
+process_docs: !function utils.process_docs_mc
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_mc
+metadata:
+  version: 1.0
+  description: "SimpleQA Verified German — 5-shot RC (rank choice) with hard distractors"

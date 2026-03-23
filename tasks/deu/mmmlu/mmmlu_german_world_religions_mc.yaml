@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_world_religions_mc
+process_docs: !function utils.process_world_religions
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_world_religions
+metadata:
+  version: 1.0

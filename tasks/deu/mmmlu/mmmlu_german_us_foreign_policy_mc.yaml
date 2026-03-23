@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_us_foreign_policy_mc
+process_docs: !function utils.process_us_foreign_policy
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_us_foreign_policy
+metadata:
+  version: 1.0

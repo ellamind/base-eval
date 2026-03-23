@@ -1,0 +1,6 @@
+include: _basic_skills_rc_template.yaml
+task: basic_skills_pattern_rc
+dataset_name: pattern
+metadata:
+  version: 1.0
+  description: "Basic Skills Pattern - multiple choice"

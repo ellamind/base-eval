@@ -1,0 +1,6 @@
+include: _default_rc_template.yaml
+task: deu_glp_adjective_ending_rc
+process_docs: !function utils.filter_adjective_ending
+metadata:
+  version: 1.0
+  description: "German adjective ending errors"

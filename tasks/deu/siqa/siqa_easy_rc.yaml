@@ -1,0 +1,6 @@
+include: _siqa_rc_template.yaml
+task: deu_siqa_easy_rc
+process_docs: !function utils.prepare_easy
+metadata:
+  version: 1.0
+  description: "SocialIQA German Easy - social reasoning QA (easy distractors only)"

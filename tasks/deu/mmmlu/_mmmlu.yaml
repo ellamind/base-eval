@@ -1,0 +1,13 @@
+group: deu_mmmlu_mc
+task:
+  - deu_mmmlu_stem_mc
+  - deu_mmmlu_humanities_mc
+  - deu_mmmlu_social_sciences_mc
+  - deu_mmmlu_other_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

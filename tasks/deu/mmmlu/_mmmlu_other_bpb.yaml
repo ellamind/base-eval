@@ -1,0 +1,20 @@
+group: deu_mmmlu_other_bpb
+task:
+  - deu_mmmlu_business_ethics_bpb
+  - deu_mmmlu_clinical_knowledge_bpb
+  - deu_mmmlu_college_medicine_bpb
+  - deu_mmmlu_global_facts_bpb
+  - deu_mmmlu_human_aging_bpb
+  - deu_mmmlu_management_bpb
+  - deu_mmmlu_marketing_bpb
+  - deu_mmmlu_medical_genetics_bpb
+  - deu_mmmlu_miscellaneous_bpb
+  - deu_mmmlu_nutrition_bpb
+  - deu_mmmlu_professional_accounting_bpb
+  - deu_mmmlu_professional_medicine_bpb
+  - deu_mmmlu_virology_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

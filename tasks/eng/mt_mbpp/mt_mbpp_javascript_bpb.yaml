@@ -1,0 +1,6 @@
+include: _mt_mbpp_bpb_template.yaml
+task: mt_mbpp_javascript_bpb
+dataset_name: javascript
+metadata:
+  version: 1.0
+  description: "Multilingual MBPP - javascript - BPB evaluation"

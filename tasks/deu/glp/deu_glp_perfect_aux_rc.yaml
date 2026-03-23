@@ -1,0 +1,6 @@
+include: _default_rc_template.yaml
+task: deu_glp_perfect_aux_rc
+process_docs: !function utils.filter_perfect_aux
+metadata:
+  version: 1.0
+  description: "German perfect auxiliary and participle errors"

@@ -1,0 +1,28 @@
+# MMMLU German MC (filtered, non-STEM) — 13 translation-safe non-STEM subjects
+# Subset of deu_mmmlu_filtered_mc: humanities + social sciences + other
+group: deu_mmmlu_filtered_nonstem_mc
+task:
+  # Humanities (2)
+  - deu_mmmlu_formal_logic_mc
+  - deu_mmmlu_logical_fallacies_mc
+  # Social sciences (3)
+  - deu_mmmlu_high_school_macroeconomics_mc
+  - deu_mmmlu_high_school_microeconomics_mc
+  - deu_mmmlu_professional_accounting_mc
+  # Medicine & health (6)
+  - deu_mmmlu_anatomy_mc
+  - deu_mmmlu_clinical_knowledge_mc
+  - deu_mmmlu_college_medicine_mc
+  - deu_mmmlu_professional_medicine_mc
+  - deu_mmmlu_medical_genetics_mc
+  - deu_mmmlu_virology_mc
+  # Other (2)
+  - deu_mmmlu_nutrition_mc
+  - deu_mmmlu_human_aging_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

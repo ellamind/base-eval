@@ -1,0 +1,17 @@
+include: _mbpp_template.yaml
+task: mbpp_bpb
+dataset_name: full
+output_type: loglikelihood
+target_delimiter: ""
+process_docs: !function utils.strip_cr
+doc_to_text: !function utils.doc_to_text_bpb
+doc_to_target: !function utils.doc_to_target_bpb
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "MBPP - BPB evaluation on Python programming"
+  fewshot_source: "lm-eval default (random sampling from train/validation split)"

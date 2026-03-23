@@ -1,0 +1,37 @@
+# GSM-Symbolic - Symbolic Math with Chain-of-Thought
+# Source: reasoning-machines/gsm-symbolic
+# Format: 8-shot CoT (uses GSM8K fewshot), generate step-by-step solution
+# Metric: Exact match (answer extraction after ####)
+# Sampling: n=8 for pass@k evaluation
+
+task: gsm_symbolic_cot
+dataset_path: apple/GSM-Symbolic
+dataset_name: main
+test_split: test
+output_type: generate_until
+doc_to_text: "Question: {{question}}\nAnswer:"
+doc_to_target: "{{answer}}"
+generation_kwargs:
+  max_gen_toks: 512
+  until:
+    - "Question:"
+    - "\n\n\n"
+  do_sample: false
+  temperature: 0.0
+num_fewshot: 8
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_gsm_symbolic_fewshot
+repeats: 1  # Greedy decoding
+# OLMES-style lenient answer extraction
+process_results: !function utils.process_results
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "GSM-Symbolic math with CoT (8-shot, n=8 samples)"
+  fewshot_source: "STD:GSM8k"
+  pass_at_k: [1, 8]
+  note: "Uses GSM8K fewshot examples"

@@ -1,0 +1,6 @@
+include: _piqa_rc_template.yaml
+task: deu_piqa_rc
+process_docs: !function utils.prepare_all
+metadata:
+  version: 1.0
+  description: "PiQA German - physical intuition QA (3 choices)"

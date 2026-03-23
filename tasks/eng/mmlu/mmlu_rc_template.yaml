@@ -1,0 +1,23 @@
+# MMLU English RC Template (reading comprehension / cloze format)
+# Source: cais/mmlu
+# Format: 5-shot, cloze prompt scoring full answer texts (aligned with OLMES mmlu:rc)
+# Prompt: "Question: {question}\nAnswer:" — model scores each answer text
+dataset_path: cais/mmlu
+test_split: test
+fewshot_split: dev
+fewshot_config:
+  sampler: first_n
+num_fewshot: 5
+output_type: multiple_choice
+doc_to_text: !function utils.doc_to_text_rc
+doc_to_choice: !function utils.doc_to_choice_rc
+doc_to_target: "{{answer}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

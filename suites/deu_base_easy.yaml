@@ -1,0 +1,25 @@
+group: deu_base_easy
+task:
+  # Math BPB (1 task)
+  - deu_math_bpb
+  # Code BPB (2 tasks)
+  - deu_code_bpb
+  # QA Reading Comprehension (13 entries)
+  - deu_qa_rc
+  # QA BPB (10 entries)
+  - deu_qa_bpb
+  # Grammar & Fluency (22 tasks)
+  - deu_glp
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German BASE EASY evaluation suite - BPB and RC tasks"

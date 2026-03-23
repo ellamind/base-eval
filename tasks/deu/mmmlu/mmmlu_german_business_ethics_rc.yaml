@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_business_ethics_rc
+process_docs: !function utils.process_business_ethics
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Wirtschaftsethik.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_business_ethics
+metadata:
+  version: 1.0

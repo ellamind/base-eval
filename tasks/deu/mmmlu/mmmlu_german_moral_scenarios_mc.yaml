@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_moral_scenarios_mc
+process_docs: !function utils.process_moral_scenarios
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_moral_scenarios
+metadata:
+  version: 1.0

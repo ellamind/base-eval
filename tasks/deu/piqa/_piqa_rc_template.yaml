@@ -1,0 +1,23 @@
+# PiQA German RC Template (reading comprehension / multiple-choice)
+# Source: ellamind/piqa-multilingual
+# Format: 0-shot by default, deterministic fewshot
+dataset_path: ellamind/piqa-multilingual
+dataset_name: deu
+validation_split: validation
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_samples
+num_fewshot: 5
+output_type: multiple_choice
+doc_to_text: "Ziel: {{goal}}\nAntwort:"
+doc_to_target: "{{answer_idx}}"
+doc_to_choice: "{{choices}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

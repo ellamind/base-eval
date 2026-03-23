@@ -1,0 +1,12 @@
+include: _lambada_template.yaml
+task: lambada_bpb
+output_type: loglikelihood_rolling
+doc_to_text: ""
+doc_to_target: "{{text}}"
+metric_list:
+  - metric: bits_per_byte
+    aggregation: bits_per_byte
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "LAMBADA - BPB evaluation"

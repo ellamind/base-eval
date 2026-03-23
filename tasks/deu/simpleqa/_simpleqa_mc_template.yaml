@@ -1,0 +1,24 @@
+# SimpleQA Verified German Multiple Choice Template — 5-shot
+# Dataset: ellamind/simpleqa-verified-multilingual (deu subset)
+# 5 choices: correct answer + 4 hard distractors, shuffled deterministically.
+dataset_path: ellamind/simpleqa-verified-multilingual
+dataset_name: deu
+test_split: eval
+output_type: multiple_choice
+doc_to_text: !function utils.doc_to_text_mc
+doc_to_target: !function utils.doc_to_target_mc
+doc_to_choice: !function utils.doc_to_choice_mc
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+fewshot_delimiter: "\n\n"
+target_delimiter: " "
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

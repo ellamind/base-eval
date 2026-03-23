@@ -1,0 +1,6 @@
+include: _mt_mbpp_bpb_template.yaml
+task: mt_mbpp_r_bpb
+dataset_name: r
+metadata:
+  version: 1.0
+  description: "Multilingual MBPP - r - BPB evaluation"

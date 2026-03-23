@@ -1,0 +1,9 @@
+# DROP Reading Comprehension Template
+# Note: drop_rc.yaml overrides dataset_path to use allenai/drop-gen2mc
+test_split: validation
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_drop_rc_fewshot
+metadata:
+  version: 1.0

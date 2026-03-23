@@ -1,0 +1,26 @@
+group: deu_mmmlu_stem_bpb
+task:
+  - deu_mmmlu_abstract_algebra_bpb
+  - deu_mmmlu_anatomy_bpb
+  - deu_mmmlu_astronomy_bpb
+  - deu_mmmlu_college_biology_bpb
+  - deu_mmmlu_college_chemistry_bpb
+  - deu_mmmlu_college_computer_science_bpb
+  - deu_mmmlu_college_mathematics_bpb
+  - deu_mmmlu_college_physics_bpb
+  - deu_mmmlu_computer_security_bpb
+  - deu_mmmlu_conceptual_physics_bpb
+  - deu_mmmlu_electrical_engineering_bpb
+  - deu_mmmlu_elementary_mathematics_bpb
+  - deu_mmmlu_high_school_biology_bpb
+  - deu_mmmlu_high_school_chemistry_bpb
+  - deu_mmmlu_high_school_computer_science_bpb
+  - deu_mmmlu_high_school_mathematics_bpb
+  - deu_mmmlu_high_school_physics_bpb
+  - deu_mmmlu_high_school_statistics_bpb
+  - deu_mmmlu_machine_learning_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

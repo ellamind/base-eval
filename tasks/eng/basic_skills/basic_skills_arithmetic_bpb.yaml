@@ -1,0 +1,6 @@
+include: _basic_skills_bpb_template.yaml
+task: basic_skills_arithmetic_bpb
+dataset_name: arithmetic
+metadata:
+  version: 1.0
+  description: "Basic Skills Arithmetic - BPB evaluation"

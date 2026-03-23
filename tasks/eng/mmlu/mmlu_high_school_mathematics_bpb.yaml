@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_high_school_mathematics_bpb
+dataset_name: high_school_mathematics
+description: "The following are questions (with answers) about high school mathematics.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU High School Mathematics - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

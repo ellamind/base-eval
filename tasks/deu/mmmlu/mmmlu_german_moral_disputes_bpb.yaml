@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_moral_disputes_bpb
+process_docs: !function utils.process_moral_disputes
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema moralische Streitfragen.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_moral_disputes
+metadata:
+  version: 1.0

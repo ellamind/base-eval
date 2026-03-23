@@ -1,0 +1,22 @@
+# MATH-500 — 500-problem subset from "Let's Verify Step by Step"
+# Mirrors OLMES config: 4-shot CoT, temp=0.6, n=32, pass@1/16
+include: _minerva_math_gen.yaml
+task: minerva_math_500_gen
+dataset_path: HuggingFaceH4/MATH-500
+dataset_name: default
+repeats: 32
+process_results: !function utils.process_results_n32
+metric_list:
+  - metric: pass_at_1
+    aggregation: mean
+    higher_is_better: true
+  - metric: pass_at_16
+    aggregation: mean
+    higher_is_better: true
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "MATH-500 (4-shot CoT, n=32 samples) — mirrors OLMES"
+  fewshot_source: "Minerva:MATH:fixed"

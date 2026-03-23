@@ -1,0 +1,6 @@
+include: _mt_mbpp_bpb_template.yaml
+task: mt_mbpp_typescript_bpb
+dataset_name: typescript
+metadata:
+  version: 1.0
+  description: "Multilingual MBPP - typescript - BPB evaluation"

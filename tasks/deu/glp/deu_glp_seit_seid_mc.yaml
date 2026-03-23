@@ -1,0 +1,6 @@
+include: _default_mc_template.yaml
+task: deu_glp_seit_seid_mc
+process_docs: !function utils.filter_seit_seid
+metadata:
+  version: 1.0
+  description: "German seit/seid confusion errors (MC)"

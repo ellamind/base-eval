@@ -1,0 +1,9 @@
+include: _agieval_mc_template.yaml
+task: agieval_sat_en_mc
+dataset_path: hails/agieval-sat-en
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_sat_en
+metadata:
+  version: 1.0
+  description: "AGIEval SAT English - Multiple Choice"

@@ -1,0 +1,23 @@
+# Multilingual MBPP BPB Template (answer-only, OLMES-style)
+# BPB = -log2 P(code | comment) / bytes(code)
+# Prompt: fenced code blocks with language tag (aligned with OLMES mt_mbpp_v2fix)
+
+dataset_path: allenai/multilingual_mbpp
+test_split: test
+output_type: loglikelihood
+target_delimiter: ""
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+num_fewshot: 3
+fewshot_split: prompt
+fewshot_config:
+  sampler: first_n
+process_docs: !function utils.process_docs
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  fewshot_source: "prompt split (first 3, shuffled with seed 1234)"

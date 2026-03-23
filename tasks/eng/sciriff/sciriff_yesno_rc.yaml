@@ -1,0 +1,16 @@
+include: _sciriff_template.yaml
+task: sciriff_yesno_rc
+output_type: multiple_choice
+doc_to_text: "{{context}}\nQuestion: {{question}}"
+doc_to_target: "{{gold}}"
+doc_to_choice: "{{['Yes', 'No']}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "SciRIFF Yes/No - multiple choice"

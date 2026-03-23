@@ -1,0 +1,20 @@
+# Code Generation Tasks
+#
+# Tasks: HumanEval, MBPP (Python code generation)
+# Format: Generate code completion, evaluate with code execution
+# Metric: pass@k
+
+group: deu_code
+task:
+  - deu_humaneval_code
+  - deu_mbpp_code
+aggregate_metric_list:
+  - metric: pass@1
+    aggregation: mean
+    weight_by_size: false
+  - metric: pass@10
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German code generation tasks (HumanEval, MBPP)"

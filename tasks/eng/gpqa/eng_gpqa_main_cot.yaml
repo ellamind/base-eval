@@ -1,0 +1,7 @@
+include: _gpqa_cot_template.yaml
+task: gpqa_main_cot
+dataset_name: gpqa_main
+process_docs: !function utils.process_docs
+metadata:
+  version: 1.0
+  description: "GPQA English main — 5-shot COT, 448 questions"

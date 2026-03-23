@@ -1,0 +1,26 @@
+# Winogrande German RC (coreference resolution / multiple-choice)
+# Source: ellamind/winogrande-multilingual
+# Format: partial context scoring (P(continuation | prefix + option))
+task: deu_winogrande_rc
+dataset_path: ellamind/winogrande-multilingual
+dataset_name: deu
+validation_split: validation
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_samples
+num_fewshot: 5
+output_type: multiple_choice
+target_delimiter: ""
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+doc_to_choice: !function utils.doc_to_choice
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "Winogrande German - coreference resolution"

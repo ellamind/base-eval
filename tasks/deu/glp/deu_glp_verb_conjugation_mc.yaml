@@ -1,0 +1,6 @@
+include: _default_mc_template.yaml
+task: deu_glp_verb_conjugation_mc
+process_docs: !function utils.filter_verb_conjugation
+metadata:
+  version: 1.0
+  description: "German verb conjugation errors (MC)"

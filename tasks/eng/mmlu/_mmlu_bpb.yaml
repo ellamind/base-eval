@@ -1,0 +1,14 @@
+# MMLU BPB — all 57 subjects via domain subgroups
+group: mmlu_bpb
+task:
+  - mmlu_stem_bpb
+  - mmlu_humanities_bpb
+  - mmlu_social_sciences_bpb
+  - mmlu_other_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU BPB - 57 subjects with macro averaging"

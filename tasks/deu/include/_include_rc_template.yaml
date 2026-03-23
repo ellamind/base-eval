@@ -1,0 +1,21 @@
+# INCLUDE German Rank Choice Template — 5-shot
+# Scores loglikelihood of full answer texts (no letter labels in prompt).
+dataset_path: CohereForAI/include-base-44
+dataset_name: German
+test_split: test
+output_type: multiple_choice
+doc_to_text: !function utils.doc_to_text_rc
+doc_to_target: !function utils.doc_to_target_mc
+doc_to_choice: !function utils.doc_to_choice_rc
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_conceptual_physics_rc
+process_docs: !function utils.process_conceptual_physics
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema konzeptionelle Physik.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_conceptual_physics
+metadata:
+  version: 1.0

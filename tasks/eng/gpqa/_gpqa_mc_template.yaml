@@ -1,0 +1,22 @@
+# GPQA English Multiple Choice Template — 0-shot
+# Dataset: Idavidrein/gpqa
+# No bracket-stripping preprocessing (fixes lm-eval-harness #3594)
+# OLMES-compatible choice shuffling (seed 111 + index)
+dataset_path: Idavidrein/gpqa
+test_split: train
+output_type: multiple_choice
+doc_to_text: !function utils.doc_to_text_mc
+doc_to_target: !function utils.doc_to_target_mc
+doc_to_choice: !function utils.doc_to_choice_mc
+num_fewshot: 0
+target_delimiter: " "
+fewshot_delimiter: "\n\n"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

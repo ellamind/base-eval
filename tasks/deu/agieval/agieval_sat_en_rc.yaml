@@ -1,0 +1,9 @@
+include: _agieval_rc_template.yaml
+task: deu_agieval_sat_en_rc
+process_docs: !function utils.filter_sat_en
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_sat_en
+metadata:
+  version: 1.0
+  description: "AGIEval SAT English German - Rank Classification"

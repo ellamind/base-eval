@@ -1,0 +1,30 @@
+# CoQA German Generative Template — 0-shot (matches OLMES coqa::olmes)
+# Dataset: ellamind/coqa-multilingual (deu subset)
+# Conversational QA: passage + multi-turn history + question → answer
+# Scoring: token-level F1 + exact match (SQuAD-style, primary metric: f1)
+dataset_path: ellamind/coqa-multilingual
+dataset_name: deu
+validation_split: validation
+output_type: generate_until
+description: "Nachfolgend ist ein Textabschnitt, gefolgt von einem bisherigen Gespräch, bei dem jede Runde eine Frage und eine Antwort enthält. Bitte beantworten Sie die letzte Frage unter Bezugnahme auf den Textabschnitt und die vorherigen Fragen.\n\n"
+doc_to_text: "{{query}}"
+doc_to_target: " {{answers[0]}}"
+num_fewshot: 0
+generation_kwargs:
+  max_gen_toks: 50
+  until:
+    - "\n\n"
+    - "Antwort:"
+    - "Frage:"
+  do_sample: false
+  temperature: 0.0
+process_results: !function utils.process_results_gen
+metric_list:
+  - metric: em
+    aggregation: mean
+    higher_is_better: true
+  - metric: f1 # olmes primary metric
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

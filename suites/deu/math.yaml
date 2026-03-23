@@ -1,0 +1,17 @@
+# Math Reasoning Tasks
+#
+# Tasks: Minerva Math (7 categories), GSM8K Platinum (1209 grade-school problems)
+# Format: Chain-of-thought generation with answer extraction
+# Metric: Exact match (after answer extraction)
+
+group: deu_math
+task:
+  - deu_minerva_math_gen
+  - deu_gsm8k_platinum_cot
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German math reasoning with chain-of-thought"

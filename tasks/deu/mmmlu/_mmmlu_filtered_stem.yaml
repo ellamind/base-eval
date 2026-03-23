@@ -1,0 +1,36 @@
+# MMMLU German MC (filtered, STEM) — 19 translation-safe STEM subjects
+# Subset of deu_mmmlu_filtered_mc matching deu_mmmlu_stem subjects
+group: deu_mmmlu_filtered_stem_mc
+task:
+  # Math & formal reasoning (6)
+  - deu_mmmlu_abstract_algebra_mc
+  - deu_mmmlu_college_mathematics_mc
+  - deu_mmmlu_elementary_mathematics_mc
+  - deu_mmmlu_high_school_mathematics_mc
+  - deu_mmmlu_high_school_statistics_mc
+  - deu_mmmlu_econometrics_mc
+  # Physics (3)
+  - deu_mmmlu_college_physics_mc
+  - deu_mmmlu_high_school_physics_mc
+  - deu_mmmlu_conceptual_physics_mc
+  # Chemistry (2)
+  - deu_mmmlu_college_chemistry_mc
+  - deu_mmmlu_high_school_chemistry_mc
+  # Biology (2)
+  - deu_mmmlu_college_biology_mc
+  - deu_mmmlu_high_school_biology_mc
+  # Other STEM (2)
+  - deu_mmmlu_astronomy_mc
+  - deu_mmmlu_electrical_engineering_mc
+  # Computer science (4)
+  - deu_mmmlu_college_computer_science_mc
+  - deu_mmmlu_high_school_computer_science_mc
+  - deu_mmmlu_computer_security_mc
+  - deu_mmmlu_machine_learning_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

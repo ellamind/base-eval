@@ -1,0 +1,17 @@
+include: _qasper_template.yaml
+task: qasper_yesno_rc
+# Convert to multiple choice for consistent acc metrics (matches OLMES approach)
+output_type: multiple_choice
+doc_to_text: "Title: {{title}}\n\nAbstract: {{abstract}}\n\nQuestion: {{question}}\nAnswer:"
+doc_to_target: "{{ 0 if answer | lower == 'yes' else 1 }}"
+doc_to_choice: ["Yes", "No"]
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "QASPER Yes/No - scientific paper QA (multiple choice)"

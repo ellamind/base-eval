@@ -1,0 +1,19 @@
+group: deu_minerva_math_gen
+task:
+  - deu_minerva_math_algebra_gen
+  - deu_minerva_math_counting_and_probability_gen
+  - deu_minerva_math_geometry_gen
+  - deu_minerva_math_intermediate_algebra_gen
+  - deu_minerva_math_number_theory_gen
+  - deu_minerva_math_prealgebra_gen
+  - deu_minerva_math_precalculus_gen
+aggregate_metric_list:
+  - metric: pass_at_1
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Minerva Math German Gen (7 categories) - macro averaged"

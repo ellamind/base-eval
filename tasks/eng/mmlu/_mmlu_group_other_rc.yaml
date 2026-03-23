@@ -1,0 +1,29 @@
+# MMLU Other Subjects - Rank Classification
+# 14 Other subjects from MMLU benchmark
+
+group: mmlu_other_rc
+task:
+  - mmlu_business_ethics_rc
+  - mmlu_clinical_knowledge_rc
+  - mmlu_college_medicine_rc
+  - mmlu_global_facts_rc
+  - mmlu_human_aging_rc
+  - mmlu_management_rc
+  - mmlu_marketing_rc
+  - mmlu_medical_genetics_rc
+  - mmlu_miscellaneous_rc
+  - mmlu_nutrition_rc
+  - mmlu_professional_accounting_rc
+  - mmlu_professional_medicine_rc
+  - mmlu_us_foreign_policy_rc
+  - mmlu_virology_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU Other subjects (14) RC - macro averaged"

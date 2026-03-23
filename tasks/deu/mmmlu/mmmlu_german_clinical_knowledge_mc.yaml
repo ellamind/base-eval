@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_clinical_knowledge_mc
+process_docs: !function utils.process_clinical_knowledge
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_clinical_knowledge
+metadata:
+  version: 1.0

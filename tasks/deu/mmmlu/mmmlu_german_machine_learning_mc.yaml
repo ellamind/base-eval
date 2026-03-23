@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_machine_learning_mc
+process_docs: !function utils.process_machine_learning
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_machine_learning
+metadata:
+  version: 1.0

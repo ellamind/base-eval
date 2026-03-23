@@ -1,0 +1,22 @@
+# German AGIEval — Rank Classification (9 subsets)
+group: deu_agieval_rc
+task:
+  - deu_agieval_aqua_rat_rc
+  - deu_agieval_gaokao_english_rc
+  - deu_agieval_logiqa_en_rc
+  - deu_agieval_lsat_ar_rc
+  - deu_agieval_lsat_lr_rc
+  - deu_agieval_lsat_rc_rc
+  - deu_agieval_sat_en_rc
+  - deu_agieval_sat_en_without_passage_rc
+  - deu_agieval_sat_math_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German AGIEval — Rank Classification"

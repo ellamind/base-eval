@@ -1,0 +1,9 @@
+include: _csqa_mc_template.yaml
+task: csqa_rc
+doc_to_text: "Question: {{question}}\nAnswer:"
+doc_to_target: "{{choices.label.index(answerKey)}}"
+doc_to_choice: "{{choices.text}}"
+metadata:
+  version: 1.0
+  description: "CommonsenseQA reading comprehension"
+  fewshot_source: "OLMES:commonsense_qa"

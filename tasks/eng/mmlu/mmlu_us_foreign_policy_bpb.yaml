@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_us_foreign_policy_bpb
+dataset_name: us_foreign_policy
+description: "The following are questions (with answers) about us foreign policy.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU Us Foreign Policy - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

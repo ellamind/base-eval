@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_abstract_algebra_bpb
+process_docs: !function utils.process_abstract_algebra
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema abstrakte Algebra.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_abstract_algebra
+metadata:
+  version: 1.0

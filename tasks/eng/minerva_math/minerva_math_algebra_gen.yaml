@@ -1,0 +1,7 @@
+include: _minerva_math_gen.yaml
+task: minerva_math_algebra_gen
+dataset_name: algebra
+metadata:
+  version: 1.0
+  description: "Minerva Math algebra (4-shot, n=4 samples)"
+  fewshot_source: "Minerva:MATH:fixed"

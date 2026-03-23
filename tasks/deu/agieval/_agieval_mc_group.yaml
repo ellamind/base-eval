@@ -1,0 +1,22 @@
+# German AGIEval — Multiple Choice (9 subsets)
+group: deu_agieval_mc
+task:
+  - deu_agieval_aqua_rat_mc
+  - deu_agieval_gaokao_english_mc
+  - deu_agieval_logiqa_en_mc
+  - deu_agieval_lsat_ar_mc
+  - deu_agieval_lsat_lr_mc
+  - deu_agieval_lsat_rc_mc
+  - deu_agieval_sat_en_mc
+  - deu_agieval_sat_en_without_passage_mc
+  - deu_agieval_sat_math_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German AGIEval — Multiple Choice"

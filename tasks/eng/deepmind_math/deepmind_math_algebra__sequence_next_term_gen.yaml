@@ -1,0 +1,5 @@
+include: _deepmind_math_gen_template.yaml
+task: deepmind_math_algebra__sequence_next_term_gen
+process_docs: !function utils.filter_algebra__sequence_next_term
+metadata:
+  version: 1.0

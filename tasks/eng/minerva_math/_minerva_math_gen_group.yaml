@@ -1,0 +1,23 @@
+# Minerva Math - Competition Math with Chain-of-Thought
+# Source: hendrycks/competition_math (MATH dataset)
+# 7 categories: algebra, counting_and_probability, geometry,
+#               intermediate_algebra, number_theory, prealgebra, precalculus
+# Format: 4-shot CoT, generate step-by-step solution
+# Metric: pass@1 (unbiased estimator over n=4 samples)
+
+group: minerva_math_gen
+task:
+  - minerva_math_algebra_gen
+  - minerva_math_counting_and_probability_gen
+  - minerva_math_geometry_gen
+  - minerva_math_intermediate_algebra_gen
+  - minerva_math_number_theory_gen
+  - minerva_math_prealgebra_gen
+  - minerva_math_precalculus_gen
+aggregate_metric_list:
+  - metric: pass_at_1
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Minerva Math (7 categories) - macro averaged"

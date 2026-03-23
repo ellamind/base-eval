@@ -1,0 +1,6 @@
+description: "Multiple-Choice-Fragen und Antworten zum Thema Geschichte mit Schritt-für-Schritt-Lösungen.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: deu_mmlu_pro_history_cot
+process_docs: !function utils.process_history
+metadata:
+  version: 1.0

@@ -1,0 +1,6 @@
+# CoQA Base Template
+# Note: coqa_rc.yaml overrides dataset_path to use allenai/coqa-gen2mc
+test_split: validation
+num_fewshot: 0
+metadata:
+  version: 1.0

@@ -1,0 +1,23 @@
+group: deu_mmlu_pro_cot
+task:
+  - deu_mmlu_pro_biology_cot
+  - deu_mmlu_pro_business_cot
+  - deu_mmlu_pro_chemistry_cot
+  - deu_mmlu_pro_computer_science_cot
+  - deu_mmlu_pro_economics_cot
+  - deu_mmlu_pro_engineering_cot
+  - deu_mmlu_pro_health_cot
+  - deu_mmlu_pro_history_cot
+  - deu_mmlu_pro_law_cot
+  - deu_mmlu_pro_math_cot
+  - deu_mmlu_pro_other_cot
+  - deu_mmlu_pro_philosophy_cot
+  - deu_mmlu_pro_physics_cot
+  - deu_mmlu_pro_psychology_cot
+aggregate_metric_list:
+  - aggregation: mean
+    metric: exact_match
+    weight_by_size: true
+    filter_list: strict-match
+metadata:
+  version: 1.0

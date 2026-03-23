@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_college_chemistry_bpb
+process_docs: !function utils.process_college_chemistry
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Chemie (Hochschule).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_college_chemistry
+metadata:
+  version: 1.0

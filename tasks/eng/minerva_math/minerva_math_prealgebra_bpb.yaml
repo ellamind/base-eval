@@ -1,0 +1,21 @@
+task: minerva_math_prealgebra_bpb
+dataset_path: EleutherAI/hendrycks_math
+dataset_name: prealgebra
+test_split: test
+output_type: loglikelihood
+doc_to_text: "Problem:\n{{problem}}\n\nSolution:"
+target_delimiter: ""
+doc_to_target: " {{solution}}"
+num_fewshot: 4
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_minerva_math_fewshot_bpb
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "Minerva Math Prealgebra - BPB evaluation"
+  fewshot_source: "Minerva:MATH:fixed"

@@ -1,0 +1,10 @@
+include: _arc_bpb_template.yaml
+task: arc_challenge_bpb
+dataset_name: ARC-Challenge
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_arc_challenge_fewshot
+metadata:
+  version: 1.0
+  description: "ARC Challenge - BPB evaluation"
+  fewshot_source: "OLMES:ARC-Challenge"

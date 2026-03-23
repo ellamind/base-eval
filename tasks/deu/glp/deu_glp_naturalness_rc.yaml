@@ -1,0 +1,6 @@
+include: _default_rc_template.yaml
+task: deu_glp_naturalness_rc
+process_docs: !function utils.filter_naturalness
+metadata:
+  version: 1.0
+  description: "German naturalness fluency errors"

@@ -1,0 +1,30 @@
+# MMLU STEM Subjects - Bits Per Byte
+# 18 STEM subjects from MMLU benchmark
+
+group: mmlu_stem_bpb
+task:
+  - mmlu_abstract_algebra_bpb
+  - mmlu_anatomy_bpb
+  - mmlu_astronomy_bpb
+  - mmlu_college_biology_bpb
+  - mmlu_college_chemistry_bpb
+  - mmlu_college_computer_science_bpb
+  - mmlu_college_mathematics_bpb
+  - mmlu_college_physics_bpb
+  - mmlu_computer_security_bpb
+  - mmlu_conceptual_physics_bpb
+  - mmlu_electrical_engineering_bpb
+  - mmlu_elementary_mathematics_bpb
+  - mmlu_high_school_biology_bpb
+  - mmlu_high_school_chemistry_bpb
+  - mmlu_high_school_computer_science_bpb
+  - mmlu_high_school_mathematics_bpb
+  - mmlu_high_school_physics_bpb
+  - mmlu_high_school_statistics_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU STEM subjects (18) BPB - macro averaged"

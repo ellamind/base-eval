@@ -1,0 +1,30 @@
+# Generative Tasks
+#
+# Tasks: HellaSwag RC, WinoGrande RC, Lambada,
+#        DROP, Jeopardy, NaturalQs, SQuAD, CoQA (generative variants)
+# Format: Reading comprehension (RC) and generate_until
+# Metric: Accuracy for RC, exact_match/F1 for generative
+# Fewshot: 5-shot (0-shot for CoQA, Lambada)
+# NOTE: basic_skills_rc removed - allenai/basic-skills uses deprecated dataset scripts
+
+group: gen
+task:
+  - hellaswag_rc
+  - winogrande_rc
+  - lambada_gen_olmes
+  - basic_skills_rc
+  - drop_gen
+  - jeopardy_gen
+  - naturalqs_gen
+  - squad_gen
+  - coqa_gen
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: f1
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Generative and reading comprehension tasks"

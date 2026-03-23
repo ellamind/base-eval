@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_global_facts_rc
+dataset_name: global_facts
+description: "The following are questions (with answers) about global facts.\n\n"
+metadata:
+  version: 1.0

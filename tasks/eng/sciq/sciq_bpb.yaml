@@ -1,0 +1,14 @@
+include: _sciq_template.yaml
+task: sciq_bpb
+output_type: loglikelihood
+doc_to_text: "{{support}}\n\nQuestion: {{question}}\nAnswer:"
+target_delimiter: ""
+doc_to_target: " {{correct_answer}}"
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "SciQ - BPB evaluation"

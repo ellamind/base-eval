@@ -1,0 +1,22 @@
+include: _jeopardy_template.yaml
+task: jeopardy_rc
+dataset_path: allenai/jeopardy-gen2mc
+test_split: test
+output_type: multiple_choice
+doc_to_text: "Category: {{context_original.split(': ', 1)[0]}}\nQuestion: {{context_original.split(': ', 1)[1]}}\nAnswer:"
+doc_to_target: "{{ ['A', 'B', 'C', 'D', 'E'].index(answerKey) }}"
+doc_to_choice: "{{choices.text}}"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_jeopardy_rc_fewshot
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "Jeopardy - trivia question answering (gen2mc multiple choice)"
+  fewshot_source: "OLMES:jeopardy_mc"

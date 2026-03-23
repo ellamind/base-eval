@@ -1,0 +1,21 @@
+# MMLU BPB Template (answer-only, OLMES-style)
+# BPB = -log2 P(answer | context) / bytes(answer)
+
+dataset_path: cais/mmlu
+test_split: test
+output_type: loglikelihood
+target_delimiter: ""
+doc_to_text: "Question: {{question.strip()}}\nAnswer:"
+doc_to_target: " {{choices[answer]}}"
+num_fewshot: 5
+fewshot_split: dev
+fewshot_config:
+  sampler: first_n
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  fewshot_source: "MMLU dev split (first 5 examples)"

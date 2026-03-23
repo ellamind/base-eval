@@ -1,0 +1,5 @@
+include: _gsm_symbolic_gen_template.yaml
+task: gsm_symbolic_p1_gen
+dataset_name: p1
+metadata:
+  version: 1.0

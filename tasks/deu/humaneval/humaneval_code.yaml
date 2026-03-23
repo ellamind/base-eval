@@ -1,0 +1,42 @@
+include: _humaneval_template.yaml
+task: deu_humaneval_code
+unsafe_code: true
+fewshot_split: null # needs to be done to enable fewshot config
+output_type: generate_until
+# olmo3 prompt variant: wrap in ```python blocks
+doc_to_text: "```python\n{{prompt}}"
+doc_to_target: !function utils.doc_to_target
+fewshot_config:
+  sampler: default
+  doc_to_target: !function utils.doc_to_target_fewshot
+target_delimiter: ""
+generation_kwargs:
+  max_gen_toks: 1024
+  until:
+    - "\nclass"
+    - "\nif"
+    - "\nprint"
+    - "\n#"
+    - "\n```"
+    - "\n```\n\n"
+    - "<|eot_id|>"
+  do_sample: true
+  temperature: 0.6
+  top_p: 0.6
+repeats: 32
+metric_list:
+  - metric: !function utils.pass_at_k
+    aggregation: mean
+    higher_is_better: true
+    k: [1, 16]
+filter_list:
+  - name: "create_test"
+    filter:
+      - function: "custom"
+        filter_fn: !function utils.build_predictions_olmo
+metadata:
+  version: 1.0
+  description: "HumanEval German - Code generation (3-shot, n=32, olmo3 variant)"
+  fewshot_source: "OLMES:random from test split"
+  pass_at_k: [1, 16]
+  execution: "Sandboxed code execution via hf_evaluate code_eval"

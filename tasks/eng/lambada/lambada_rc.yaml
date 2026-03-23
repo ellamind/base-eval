@@ -1,0 +1,13 @@
+include: _lambada_template.yaml
+task: lambada_rc
+output_type: loglikelihood
+doc_to_text: "{{text.rsplit(' ', 1)[0]}}"
+target_delimiter: ""
+doc_to_target: " {{text.rsplit(' ', 1)[1]}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "LAMBADA - word prediction in context"

@@ -1,0 +1,7 @@
+# MedMCQA Base Template
+dataset_path: openlifescienceai/medmcqa
+test_split: validation
+fewshot_split: train
+num_fewshot: 5
+metadata:
+  version: 1.0

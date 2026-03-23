@@ -1,0 +1,29 @@
+# German STEM Multiple Choice Tasks
+#
+# Mirrors ENG stem_qa_mc.yaml structure:
+#   ENG arc_easy_mc        → deu_arc_easy_mc
+#   ENG arc_challenge_mc   → deu_arc_challenge_mc
+#   ENG mmlu_stem_mc       → deu_mmmlu_filtered_stem_mc (19 subjects, macro-averaged)
+#   ENG medmcqa_mc         — not available in DEU
+#   ENG medqa_mc           — not available in DEU
+#   ENG sciq_mc            — not available in DEU
+#   GPQA (graduate-level)  → moved to deu_heldout
+#
+# Format: Multiple choice with 4-5 options
+# Metric: Accuracy (standard and length-normalized)
+
+group: deu_stem_qa_mc
+task:
+  - deu_arc_easy_mc
+  - deu_arc_challenge_mc
+  - deu_mmmlu_filtered_stem_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German STEM multiple choice QA tasks"

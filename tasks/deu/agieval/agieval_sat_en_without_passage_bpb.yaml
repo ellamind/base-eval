@@ -1,0 +1,9 @@
+include: _agieval_bpb_template.yaml
+task: deu_agieval_sat_en_without_passage_bpb
+process_docs: !function utils.filter_sat_en_without_passage
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_sat_en_without_passage
+metadata:
+  version: 1.0
+  description: "AGIEval SAT English (no passage) German - Bits Per Byte"

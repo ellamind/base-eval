@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_elementary_mathematics_mc
+process_docs: !function utils.process_elementary_mathematics
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_elementary_mathematics
+metadata:
+  version: 1.0

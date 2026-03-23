@@ -1,0 +1,7 @@
+# LAMBADA Base Template
+dataset_path: EleutherAI/lambada_openai
+dataset_name: default
+test_split: test
+num_fewshot: 0
+metadata:
+  version: 1.0

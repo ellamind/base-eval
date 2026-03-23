@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_high_school_macroeconomics_bpb
+process_docs: !function utils.process_high_school_macroeconomics
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Makroökonomie (Oberstufe).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_high_school_macroeconomics
+metadata:
+  version: 1.0

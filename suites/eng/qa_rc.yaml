@@ -1,0 +1,39 @@
+# QA Reading Comprehension Tasks
+#
+# Tasks: ARC, MMLU, CSQA, HellaSwag, WinoGrande, SocialIQA, PiQA,
+#        CoQA, DROP, Jeopardy, NaturalQs, SQuAD, SciQ, Lambada,
+#        MedMCQA, MedQA, AGIEval, Basic Skills
+# Format: Reading comprehension (likelihood-based)
+# Metric: Accuracy (standard and length-normalized)
+
+group: qa_rc
+task:
+  - arc_easy_rc
+  - arc_challenge_rc
+  - mmlu_rc
+  - csqa_rc
+  - hellaswag_rc
+  - winogrande_rc
+  - socialiqa_rc
+  - piqa_rc
+  - coqa_rc
+  - drop_rc
+  - jeopardy_rc
+  - naturalqs_rc
+  - squad_rc
+  - sciq_rc
+  - lambada_rc
+  - medmcqa_rc
+  - medqa_rc
+  - agieval_rc
+  - basic_skills_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "QA Reading Comprehension suite - accuracy-based evaluation"

@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_human_aging_bpb
+dataset_name: human_aging
+description: "The following are questions (with answers) about human aging.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU Human Aging - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

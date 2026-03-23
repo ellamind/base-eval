@@ -1,0 +1,36 @@
+group: bbh_cot
+task:
+  - bbh_boolean_expressions_cot
+  - bbh_causal_judgement_cot
+  - bbh_date_understanding_cot
+  - bbh_disambiguation_qa_cot
+  - bbh_dyck_languages_cot
+  - bbh_formal_fallacies_cot
+  - bbh_geometric_shapes_cot
+  - bbh_hyperbaton_cot
+  - bbh_logical_deduction_five_objects_cot
+  - bbh_logical_deduction_seven_objects_cot
+  - bbh_logical_deduction_three_objects_cot
+  - bbh_movie_recommendation_cot
+  - bbh_multistep_arithmetic_two_cot
+  - bbh_navigate_cot
+  - bbh_object_counting_cot
+  - bbh_penguins_in_a_table_cot
+  - bbh_reasoning_about_colored_objects_cot
+  - bbh_ruin_names_cot
+  - bbh_salient_translation_error_detection_cot
+  - bbh_snarks_cot
+  - bbh_sports_understanding_cot
+  - bbh_temporal_sequences_cot
+  - bbh_tracking_shuffled_objects_five_objects_cot
+  - bbh_tracking_shuffled_objects_seven_objects_cot
+  - bbh_tracking_shuffled_objects_three_objects_cot
+  - bbh_web_of_lies_cot
+  - bbh_word_sorting_cot
+aggregate_metric_list:
+  - aggregation: mean
+    metric: exact_match
+    weight_by_size: true
+    filter_list: get-answer
+metadata:
+  version: 1.0

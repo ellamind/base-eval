@@ -1,0 +1,6 @@
+include: _mmlu_mc_template.yaml
+task: mmlu_other_clinical_knowledge_mc
+dataset_name: clinical_knowledge
+description: "The following are multiple choice questions (with answers) about clinical knowledge.\n\n"
+metadata:
+  version: 1.0

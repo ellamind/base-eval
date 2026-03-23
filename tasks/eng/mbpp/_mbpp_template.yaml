@@ -1,0 +1,7 @@
+# MBPP Base Template
+dataset_path: google-research-datasets/mbpp
+dataset_name: full  # 'sanitized' config has different fields (prompt vs text)
+test_split: test
+num_fewshot: 3
+metadata:
+  version: 1.0

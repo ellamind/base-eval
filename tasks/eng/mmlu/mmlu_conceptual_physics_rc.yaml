@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_conceptual_physics_rc
+dataset_name: conceptual_physics
+description: "The following are questions (with answers) about conceptual physics.\n\n"
+metadata:
+  version: 1.0

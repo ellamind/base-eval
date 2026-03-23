@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_high_school_computer_science_rc
+dataset_name: high_school_computer_science
+description: "The following are questions (with answers) about high school computer science.\n\n"
+metadata:
+  version: 1.0

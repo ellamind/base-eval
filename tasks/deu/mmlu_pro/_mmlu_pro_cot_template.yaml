@@ -1,0 +1,41 @@
+# MMLU-ProX German Chain-of-Thought Template — 5-shot COT
+# Dataset: li-lab/MMLU-ProX (de config)
+# 11,759 test questions across 14 categories, 70 validation examples for fewshot
+dataset_path: li-lab/MMLU-ProX
+dataset_name: de
+test_split: test
+fewshot_split: validation
+output_type: generate_until
+doc_to_text: !function utils.doc_to_text
+doc_to_target: answer
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  doc_to_text: !function utils.fewshot_to_text
+  doc_to_target: ""
+fewshot_delimiter: "\n\n"
+target_delimiter: " "
+generation_kwargs:
+  max_gen_toks: 1024
+  until:
+    - "Frage:"
+    - "Q:"
+    - "</s>"
+    - "<eos>"
+    - "<|im_end|>"
+  do_sample: false
+  temperature: 0.0
+filter_list:
+  - name: "strict-match"
+    filter:
+      - function: "regex"
+        regex_pattern: "(?:Die Antwort ist|[Tt]he answer is)\\s*\\(?([A-J])\\)?"
+      - function: "take_first"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+metadata:
+  version: 1.0

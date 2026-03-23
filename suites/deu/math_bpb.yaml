@@ -1,0 +1,16 @@
+# Math BPB Tasks
+#
+# Tasks: Minerva Math (7 categories)
+# Format: Bits-per-byte evaluation
+# Metric: bits_per_byte
+
+group: deu_math_bpb
+task:
+  - deu_minerva_math_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German Minerva Math BPB suite - mathematical reasoning"

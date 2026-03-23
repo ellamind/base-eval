@@ -1,0 +1,22 @@
+group: deu_mmlu_pro_rc
+task:
+  - deu_mmlu_pro_biology_rc
+  - deu_mmlu_pro_business_rc
+  - deu_mmlu_pro_chemistry_rc
+  - deu_mmlu_pro_computer_science_rc
+  - deu_mmlu_pro_economics_rc
+  - deu_mmlu_pro_engineering_rc
+  - deu_mmlu_pro_health_rc
+  - deu_mmlu_pro_history_rc
+  - deu_mmlu_pro_law_rc
+  - deu_mmlu_pro_math_rc
+  - deu_mmlu_pro_other_rc
+  - deu_mmlu_pro_philosophy_rc
+  - deu_mmlu_pro_physics_rc
+  - deu_mmlu_pro_psychology_rc
+aggregate_metric_list:
+  - aggregation: mean
+    metric: acc_norm
+    weight_by_size: true
+metadata:
+  version: 1.0

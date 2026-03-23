@@ -1,0 +1,13 @@
+include: _piqa_mc_template.yaml
+task: piqa_mc
+test_split: validation
+doc_to_text: "Goal: {{goal}}\n A. {{sol1}}\n B. {{sol2}}\nAnswer:"
+doc_to_target: "{{label}}"
+doc_to_choice: ["A", "B"]
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_piqa_mc_fewshot
+metadata:
+  version: 1.0
+  description: "PiQA physical intuition multiple choice"
+  fewshot_source: "OLMES:piqa"

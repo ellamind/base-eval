@@ -1,0 +1,18 @@
+# CoQA German BPB Template — 0-shot (matches English coqa_bpb)
+# Scores first turn only (not flattened), same as English implementation.
+# BPB = -log2 P(answer | passage + question) / bytes(answer)
+dataset_path: ellamind/coqa-multilingual
+dataset_name: deu
+validation_split: validation
+output_type: loglikelihood
+num_fewshot: 0
+doc_to_text: "Textabschnitt: {{story}}\n\nFrage: {{turns[0].question}}\nAntwort:"
+target_delimiter: ""
+doc_to_target: " {{turns[0].answer}}"
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0

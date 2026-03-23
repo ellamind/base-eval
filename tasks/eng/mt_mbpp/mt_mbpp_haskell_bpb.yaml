@@ -1,0 +1,6 @@
+include: _mt_mbpp_bpb_template.yaml
+task: mt_mbpp_haskell_bpb
+dataset_name: haskell
+metadata:
+  version: 1.0
+  description: "Multilingual MBPP - haskell - BPB evaluation"

@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_world_religions_rc
+dataset_name: world_religions
+description: "The following are questions (with answers) about world religions.\n\n"
+metadata:
+  version: 1.0

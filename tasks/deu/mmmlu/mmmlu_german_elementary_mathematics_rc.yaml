@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_elementary_mathematics_rc
+process_docs: !function utils.process_elementary_mathematics
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema elementare Mathematik.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_elementary_mathematics
+metadata:
+  version: 1.0

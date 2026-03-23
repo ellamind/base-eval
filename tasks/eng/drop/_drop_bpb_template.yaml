@@ -1,0 +1,21 @@
+# DROP BPB Template (answer-only, OLMES-style)
+# BPB = -log2 P(answer | context) / bytes(answer)
+
+dataset_path: EleutherAI/drop
+dataset_kwargs:
+  revision: refs/convert/parquet
+test_split: validation
+output_type: loglikelihood
+target_delimiter: ""
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_drop_fewshot
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  fewshot_source: "OLMES:drop_mc"

@@ -1,0 +1,9 @@
+include: _simpleqa_bpb_template.yaml
+task: deu_simpleqa_bpb
+process_docs: !function utils.process_docs
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_gen
+metadata:
+  version: 1.0
+  description: "SimpleQA Verified German — 5-shot BPB on gold answer"

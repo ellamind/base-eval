@@ -1,0 +1,40 @@
+include: _mbpp_template.yaml
+task: deu_mbpp_code
+unsafe_code: true
+output_type: generate_until
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+target_delimiter: ""
+fewshot_delimiter: "\n\n"
+generation_kwargs:
+  max_gen_toks: 512
+  until:
+    - "```"
+    - "\n\"\"\""
+    - "\nassert"
+    - "\n#"
+  do_sample: true
+  temperature: 0.6
+  top_p: 0.6
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_mbpp_fewshot
+  doc_to_text: !function utils.doc_to_text
+  doc_to_target: !function utils.doc_to_target_fewshot
+repeats: 32
+filter_list:
+  - name: "none"
+    filter:
+      - function: "custom"
+        filter_fn: !function utils.prepend_preamble
+metric_list:
+  - metric: !function utils.pass_at_k
+    aggregation: mean
+    higher_is_better: true
+    k: [1, 2, 4, 8, 16]
+metadata:
+  version: 1.0
+  description: "MBPP German - Code generation (3-shot, n=32, OLMES inloop_bpb base-model config)"
+  fewshot_source: "Original:MBPP"
+  pass_at_k: [1, 2, 4, 8, 16]
+  execution: "Sandboxed code execution via hf_evaluate code_eval"

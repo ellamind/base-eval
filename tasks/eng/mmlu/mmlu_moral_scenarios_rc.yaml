@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_moral_scenarios_rc
+dataset_name: moral_scenarios
+description: "The following are questions (with answers) about moral scenarios.\n\n"
+metadata:
+  version: 1.0

@@ -1,0 +1,9 @@
+include: _include_rc_template.yaml
+task: deu_include_stem_rc
+process_docs: !function utils.process_stem
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_stem
+metadata:
+  version: 1.0
+  description: "INCLUDE German STEM RC — 25 questions, 5-shot"

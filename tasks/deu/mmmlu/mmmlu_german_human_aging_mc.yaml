@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_human_aging_mc
+process_docs: !function utils.process_human_aging
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_human_aging
+metadata:
+  version: 1.0

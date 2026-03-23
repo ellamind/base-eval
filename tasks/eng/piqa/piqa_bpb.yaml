@@ -1,0 +1,6 @@
+include: _piqa_bpb_template.yaml
+task: piqa_bpb
+metadata:
+  version: 1.0
+  description: "PIQA - BPB evaluation"
+  fewshot_source: "OLMES:piqa"

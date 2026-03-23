@@ -1,0 +1,29 @@
+# MMMLU German RC (filtered, STEM) — 19 translation-safe STEM subjects
+group: deu_mmmlu_filtered_stem_rc
+task:
+  - deu_mmmlu_abstract_algebra_rc
+  - deu_mmmlu_college_mathematics_rc
+  - deu_mmmlu_elementary_mathematics_rc
+  - deu_mmmlu_high_school_mathematics_rc
+  - deu_mmmlu_high_school_statistics_rc
+  - deu_mmmlu_econometrics_rc
+  - deu_mmmlu_college_physics_rc
+  - deu_mmmlu_high_school_physics_rc
+  - deu_mmmlu_conceptual_physics_rc
+  - deu_mmmlu_college_chemistry_rc
+  - deu_mmmlu_high_school_chemistry_rc
+  - deu_mmmlu_college_biology_rc
+  - deu_mmmlu_high_school_biology_rc
+  - deu_mmmlu_astronomy_rc
+  - deu_mmmlu_electrical_engineering_rc
+  - deu_mmmlu_college_computer_science_rc
+  - deu_mmmlu_high_school_computer_science_rc
+  - deu_mmmlu_computer_security_rc
+  - deu_mmmlu_machine_learning_rc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

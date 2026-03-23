@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_professional_psychology_bpb
+dataset_name: professional_psychology
+description: "The following are questions (with answers) about professional psychology.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU Professional Psychology - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

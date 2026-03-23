@@ -1,0 +1,22 @@
+group: mmlu_pro_rc
+task:
+  - mmlu_pro_biology_rc
+  - mmlu_pro_business_rc
+  - mmlu_pro_chemistry_rc
+  - mmlu_pro_computer_science_rc
+  - mmlu_pro_economics_rc
+  - mmlu_pro_engineering_rc
+  - mmlu_pro_health_rc
+  - mmlu_pro_history_rc
+  - mmlu_pro_law_rc
+  - mmlu_pro_math_rc
+  - mmlu_pro_other_rc
+  - mmlu_pro_philosophy_rc
+  - mmlu_pro_physics_rc
+  - mmlu_pro_psychology_rc
+aggregate_metric_list:
+  - aggregation: mean
+    metric: acc_norm
+    weight_by_size: true
+metadata:
+  version: 1.0

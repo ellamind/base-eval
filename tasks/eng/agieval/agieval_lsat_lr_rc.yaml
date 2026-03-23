@@ -1,0 +1,9 @@
+include: _agieval_rc_template.yaml
+task: agieval_lsat_lr_rc
+dataset_path: hails/agieval-lsat-lr
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_lsat_lr
+metadata:
+  version: 1.0
+  description: "AGIEval LSAT Logical Reasoning - Rank Classification"

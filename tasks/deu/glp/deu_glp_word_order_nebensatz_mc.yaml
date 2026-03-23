@@ -1,0 +1,6 @@
+include: _default_mc_template.yaml
+task: deu_glp_word_order_nebensatz_mc
+process_docs: !function utils.filter_word_order_nebensatz
+metadata:
+  version: 1.0
+  description: "German word order Nebensatz errors (MC)"

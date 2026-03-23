@@ -1,0 +1,31 @@
+# QA Reading Comprehension Tasks
+#
+# Tasks: ARC, CSQA, SocialIQA, PiQA, WinoGrande, HellaSwag, MMMLU filtered, AGIEval
+# Format: Reading comprehension (likelihood-based)
+# Metric: Accuracy (standard and length-normalized)
+
+group: deu_qa_rc
+task:
+  - deu_arc_challenge_rc
+  - deu_arc_easy_rc
+  - deu_csqa_rc
+  - deu_csqa_easy_rc
+  - deu_siqa_rc
+  - deu_siqa_easy_rc
+  - deu_piqa_rc
+  - deu_piqa_easy_rc
+  - deu_winogrande_rc
+  - deu_hellaswag_rc
+  - deu_hellaswag_easy_rc
+  - deu_mmmlu_filtered_rc
+  - deu_agieval_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German QA Reading Comprehension suite - accuracy-based evaluation"

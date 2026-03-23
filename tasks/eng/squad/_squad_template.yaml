@@ -1,0 +1,6 @@
+# SQuAD Base Template
+# Note: squad_rc.yaml overrides dataset_path to use allenai/squad-gen2mc
+test_split: validation
+num_fewshot: 5
+metadata:
+  version: 1.0

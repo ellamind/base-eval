@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_high_school_statistics_rc
+process_docs: !function utils.process_high_school_statistics
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Statistik (Oberstufe).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_high_school_statistics
+metadata:
+  version: 1.0

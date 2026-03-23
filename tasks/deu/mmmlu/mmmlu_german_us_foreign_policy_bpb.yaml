@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_us_foreign_policy_bpb
+process_docs: !function utils.process_us_foreign_policy
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema US-Außenpolitik.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_us_foreign_policy
+metadata:
+  version: 1.0

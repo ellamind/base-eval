@@ -1,0 +1,14 @@
+include: _qasper_template.yaml
+task: qasper_yesno_bpb
+output_type: loglikelihood
+doc_to_text: "Title: {{title}}\n\nAbstract: {{abstract}}\n\nQuestion: {{question}}\nAnswer:"
+target_delimiter: ""
+doc_to_target: " {{answer | lower}}"
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "QASPER Yes/No - BPB evaluation"

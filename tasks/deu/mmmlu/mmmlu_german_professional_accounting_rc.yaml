@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_professional_accounting_rc
+process_docs: !function utils.process_professional_accounting
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Rechnungswesen.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_professional_accounting
+metadata:
+  version: 1.0

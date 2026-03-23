@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_astronomy_bpb
+dataset_name: astronomy
+description: "The following are questions (with answers) about astronomy.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU Astronomy - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

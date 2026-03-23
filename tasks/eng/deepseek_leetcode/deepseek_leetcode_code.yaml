@@ -1,0 +1,41 @@
+# DeepSeek LeetCode — mirrors OLMES deepseek_leetcode::olmo3:n32:v2
+# Source: davidheineman/deepseek-leetcode (180 problems)
+# Format: 0-shot code completion, n=32 sampling for pass@k
+task: deepseek_leetcode_code
+dataset_path: davidheineman/deepseek-leetcode
+test_split: test
+num_fewshot: 0
+unsafe_code: true
+output_type: generate_until
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+target_delimiter: ""
+generation_kwargs:
+  max_gen_toks: 512
+  until:
+    - "\nclass"
+    - "\nif"
+    - "\nprint"
+    - "\n#"
+    - "\n```"
+    - "\n```\n\n"
+    - "<|eot_id|>"
+  do_sample: true
+  temperature: 0.6
+  top_p: 0.6
+repeats: 32
+filter_list:
+  - name: "build_test"
+    filter:
+      - function: "custom"
+        filter_fn: !function utils.build_predictions
+metric_list:
+  - metric: !function utils.pass_at_k
+    aggregation: mean
+    higher_is_better: true
+    k: [1, 16]
+metadata:
+  version: 1.0
+  description: "DeepSeek LeetCode (0-shot, n=32 samples) — direct code completion"
+  pass_at_k: [1, 16]
+  execution: "Sandboxed code execution via hf_evaluate code_eval"

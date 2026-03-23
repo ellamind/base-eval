@@ -1,0 +1,24 @@
+# SocialIQA BPB Template (answer-only, OLMES-style)
+# BPB = -log2 P(answer | context) / bytes(answer)
+# Prompt matches OLMES: "Question: {context} {question}\nAnswer:"
+
+dataset_path: allenai/social_i_qa
+dataset_kwargs:
+  revision: refs/convert/parquet
+test_split: validation
+output_type: loglikelihood
+target_delimiter: ""
+doc_to_text: "Question: {{context}} {{question}}\nAnswer:"
+doc_to_target: " {{[answerA, answerB, answerC][label | int - 1]}}"
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_socialiqa_fewshot
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  fewshot_source: "OLMES:social_i_qa"

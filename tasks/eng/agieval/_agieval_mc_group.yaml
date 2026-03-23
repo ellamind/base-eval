@@ -1,0 +1,22 @@
+# English AGIEval — Multiple Choice (9 subsets)
+group: agieval_mc
+task:
+  - agieval_aqua_rat_mc
+  - agieval_gaokao_english_mc
+  - agieval_logiqa_en_mc
+  - agieval_lsat_ar_mc
+  - agieval_lsat_lr_mc
+  - agieval_lsat_rc_mc
+  - agieval_sat_en_mc
+  - agieval_sat_en_without_passage_mc
+  - agieval_sat_math_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "English AGIEval — Multiple Choice"

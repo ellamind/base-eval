@@ -1,0 +1,6 @@
+include: _mt_mbpp_bpb_template.yaml
+task: mt_mbpp_matlab_bpb
+dataset_name: matlab
+metadata:
+  version: 1.0
+  description: "Multilingual MBPP - matlab - BPB evaluation"

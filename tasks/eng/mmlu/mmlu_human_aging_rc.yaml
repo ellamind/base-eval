@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_human_aging_rc
+dataset_name: human_aging
+description: "The following are questions (with answers) about human aging.\n\n"
+metadata:
+  version: 1.0

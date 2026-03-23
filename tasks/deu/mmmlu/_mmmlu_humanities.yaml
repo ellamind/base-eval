@@ -1,0 +1,22 @@
+group: deu_mmmlu_humanities_mc
+task:
+  - deu_mmmlu_formal_logic_mc
+  - deu_mmmlu_high_school_european_history_mc
+  - deu_mmmlu_high_school_us_history_mc
+  - deu_mmmlu_high_school_world_history_mc
+  - deu_mmmlu_international_law_mc
+  - deu_mmmlu_jurisprudence_mc
+  - deu_mmmlu_logical_fallacies_mc
+  - deu_mmmlu_moral_disputes_mc
+  - deu_mmmlu_moral_scenarios_mc
+  - deu_mmmlu_philosophy_mc
+  - deu_mmmlu_prehistory_mc
+  - deu_mmmlu_professional_law_mc
+  - deu_mmmlu_world_religions_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

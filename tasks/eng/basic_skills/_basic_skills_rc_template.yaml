@@ -1,0 +1,18 @@
+# Basic Skills RC Template
+dataset_path: ellamind/basic-skills
+test_split: validation
+fewshot_split: validation
+output_type: multiple_choice
+doc_to_text: "Question: {{question}}"
+doc_to_target: 0
+doc_to_choice: "{{[answer] + wrong_answers[:3]}}"
+num_fewshot: 5
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

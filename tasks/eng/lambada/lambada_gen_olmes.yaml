@@ -1,0 +1,12 @@
+include: _lambada_template.yaml
+task: lambada_gen_olmes
+output_type: loglikelihood
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+metric_list:
+  - metric: acc # likely: lm-harness equivalent of OLMES greedy_acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "LAMBADA word prediction"

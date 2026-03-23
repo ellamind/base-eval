@@ -1,0 +1,5 @@
+include: _piqa_bpb_template.yaml
+task: deu_piqa_bpb
+metadata:
+  version: 1.0
+  description: "PiQA German - BPB evaluation"

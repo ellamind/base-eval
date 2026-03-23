@@ -1,0 +1,18 @@
+# LAB-Bench BPB Template (answer-only, OLMES-style)
+# BPB = -log2 P(answer | context) / bytes(answer)
+
+dataset_path: futurehouse/lab-bench
+test_split: train
+fewshot_split: train
+output_type: loglikelihood
+doc_to_text: "Question: {{question}}\nAnswer:"
+target_delimiter: ""
+doc_to_target: " {{ideal}}"
+num_fewshot: 3
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0

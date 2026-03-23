@@ -1,0 +1,5 @@
+include: _deepmind_math_gen_template.yaml
+task: deepmind_math_polynomials__evaluate_composed_gen
+process_docs: !function utils.filter_polynomials__evaluate_composed
+metadata:
+  version: 1.0

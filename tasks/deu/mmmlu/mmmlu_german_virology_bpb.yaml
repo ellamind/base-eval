@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_virology_bpb
+process_docs: !function utils.process_virology
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Virologie.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_virology
+metadata:
+  version: 1.0

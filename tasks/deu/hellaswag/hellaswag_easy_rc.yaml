@@ -1,0 +1,6 @@
+include: _hellaswag_rc_template.yaml
+task: deu_hellaswag_easy_rc
+process_docs: !function utils.prepare_easy
+metadata:
+  version: 1.0
+  description: "HellaSwag Easy German - Rank Choice formulation"

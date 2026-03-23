@@ -1,0 +1,9 @@
+include: _agieval_rc_template.yaml
+task: deu_agieval_logiqa_en_rc
+process_docs: !function utils.filter_logiqa_en
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_logiqa_en
+metadata:
+  version: 1.0
+  description: "AGIEval LogiQA German - Rank Classification"

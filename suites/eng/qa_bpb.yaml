@@ -1,0 +1,39 @@
+# QA BPB Tasks
+#
+# Tasks: ARC, MMLU, CSQA, HellaSwag, WinoGrande, SocialIQA, PiQA,
+#        CoQA, DROP, Jeopardy, NaturalQs, SQuAD, SciQ, Lambada,
+#        MedMCQA, MedQA, AGIEval, Basic Skills, LAB-Bench
+# Format: Bits-per-byte evaluation
+# Metric: bits_per_byte
+
+group: qa_bpb
+task:
+  - arc_easy_bpb
+  - arc_challenge_bpb
+  - mmlu_bpb
+  - csqa_bpb
+  - hellaswag_bpb
+  - winogrande_bpb
+  - socialiqa_bpb
+  - piqa_bpb
+  - coqa_bpb
+  - drop_bpb
+  - jeopardy_bpb
+  - naturalqs_bpb
+  - squad_bpb
+  - sciq_bpb
+  - lambada_bpb
+  - medmcqa_bpb
+  - medqa_bpb
+  - agieval_bpb
+  - basic_skills_bpb
+  # LAB-Bench - Biology Research QA
+  - lab_bench_dbqa_bpb
+  - lab_bench_protocolqa_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "QA BPB suite - bits-per-byte evaluation (includes LAB-Bench)"

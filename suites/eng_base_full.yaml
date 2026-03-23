@@ -1,0 +1,175 @@
+group: eng_base_full
+task:
+  # ── AGIEval (9 subsets × MC/RC/BPB) ──
+  - agieval_mc   # group: 9 subsets
+  - agieval_rc   # group: 9 subsets
+  - agieval_bpb  # group: 9 subsets
+
+  # ── ARC ──
+  - arc_easy_mc
+  - arc_easy_rc
+  - arc_easy_bpb
+  - arc_challenge_mc
+  - arc_challenge_rc
+  - arc_challenge_bpb
+
+  # ── BigBench Hard (27 tasks) ──
+  - bbh_cot            # group: 27 CoT tasks
+
+  # ── Basic Skills (7 skill areas) ──
+  - basic_skills_rc   # group: 6 skill areas
+  - basic_skills_bpb  # group: 6 skill areas
+
+  # ── CoQA ──
+  - coqa_gen
+  - coqa_mc
+  - coqa_rc
+  - coqa_bpb
+
+  # ── CommonsenseQA ──
+  - csqa_mc
+  - csqa_rc
+  - csqa_bpb
+
+  # ── DeepMind Math (56 categories) ──
+  - deepmind_math_gen  # group: 56 categories
+
+  # ── DeepSeek LeetCode ──
+  - deepseek_leetcode_code
+
+  # ── DROP ──
+  - drop_gen
+  - drop_mc
+  - drop_rc
+  - drop_bpb
+
+  # ── GPQA ──
+  - gpqa_main_mc
+  - gpqa_main_cot
+  - gpqa_diamond_mc
+  - gpqa_diamond_cot
+
+  # ── GSM8K ──
+  - gsm8k_gen
+
+  # ── GSM-Symbolic (main, p1, p2) ──
+  - gsm_symbolic_all  # group: main + p1 + p2
+  - gsm_symbolic_cot
+
+  # ── HellaSwag ──
+  - hellaswag_rc
+  - hellaswag_bpb
+
+  # ── HumanEval ──
+  - humaneval_code
+  - humaneval_bpb
+
+  # ── Jeopardy ──
+  - jeopardy_gen
+  - jeopardy_mc
+  - jeopardy_rc
+  - jeopardy_bpb
+
+  # ── Lab-Bench (2 domains) ──
+  - lab_bench_dbqa_bpb
+  - lab_bench_protocolqa_bpb
+
+  # ── LBPP ──
+  - lbpp_code
+
+  # ── LAMBADA ──
+  - lambada_gen
+  - lambada_gen_olmes
+  - lambada_rc
+  - lambada_bpb
+
+  # ── MBPP ──
+  - mbpp_code
+  - mbpp_bpb
+
+  # ── MedMCQA ──
+  - medmcqa_mc
+  - medmcqa_rc
+  - medmcqa_bpb
+
+  # ── MedQA ──
+  - medqa_mc
+  - medqa_rc
+  - medqa_bpb
+
+  # ── Minerva Math (7 categories each) ──
+  - minerva_math_gen  # group: 7 categories
+  - minerva_math_bpb  # group: 7 categories
+  - minerva_math_500_gen
+
+  # ── MMLU Pro (14 subjects) ──
+  - mmlu_pro_mc        # group: 14 subjects
+  - mmlu_pro_rc        # group: 14 subjects
+
+  # ── MMLU (57 subjects) ──
+  - mmlu_mc   # group: 4 domains → 57 subjects
+  - mmlu_rc   # group: 4 domains → 57 subjects
+  - mmlu_bpb  # group: 4 domains → 57 subjects
+
+  # ── MT-MBPP (17 languages) ──
+  - mt_mbpp_bpb          # group: 17 languages
+
+  # ── Natural Questions ──
+  - naturalqs_gen
+  - naturalqs_mc
+  - naturalqs_rc
+  - naturalqs_bpb
+
+  # ── PIQA ──
+  - piqa_mc
+  - piqa_rc
+  - piqa_bpb
+
+  # ── QASPER ──
+  - qasper_yesno_rc
+  - qasper_yesno_bpb
+
+  # ── SciQ ──
+  - sciq_mc
+  - sciq_rc
+  - sciq_bpb
+
+  # ── SciRIFF ──
+  - sciriff_yesno_rc
+  - sciriff_yesno_bpb
+
+  # ── Social IQA ──
+  - socialiqa_mc
+  - socialiqa_rc
+  - socialiqa_bpb
+
+  # ── SQuAD ──
+  - squad_gen
+  - squad_mc
+  - squad_rc
+  - squad_bpb
+
+  # ── WinoGrande ──
+  - winogrande_mc
+  - winogrande_rc
+  - winogrande_bpb
+
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+  - metric: pass@1
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "English Base Full evaluation suite - all tasks in all available formulations (MC, RC, BPB, gen, CoT, code)"

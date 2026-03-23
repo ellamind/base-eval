@@ -1,0 +1,7 @@
+include: _gpqa_mc_template.yaml
+task: gpqa_main_mc
+dataset_name: gpqa_main
+process_docs: !function utils.process_docs
+metadata:
+  version: 1.0
+  description: "GPQA English main — 0-shot MC, 448 questions"

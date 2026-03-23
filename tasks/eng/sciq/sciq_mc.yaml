@@ -1,0 +1,20 @@
+include: _sciq_template.yaml
+task: sciq_mc
+test_split: test
+output_type: multiple_choice
+process_docs: !function utils.process_sciq_docs
+doc_to_text: "Question: {{question}}\n A. {{choices[0]}}\n B. {{choices[1]}}\n C. {{choices[2]}}\n D. {{choices[3]}}\nAnswer:"
+doc_to_target: "{{gold}}"
+doc_to_choice: ["A", "B", "C", "D"]
+fewshot_split: train
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "SciQ science multiple choice"
+  fewshot_source: "OLMES-style shuffled"

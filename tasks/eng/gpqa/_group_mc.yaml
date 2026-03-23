@@ -1,0 +1,14 @@
+group: gpqa_mc
+task:
+  - gpqa_main_mc
+  - gpqa_diamond_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "GPQA English MC tasks (main + diamond)"

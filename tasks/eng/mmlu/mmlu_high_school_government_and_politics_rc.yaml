@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_high_school_government_and_politics_rc
+dataset_name: high_school_government_and_politics
+description: "The following are questions (with answers) about high school government and politics.\n\n"
+metadata:
+  version: 1.0

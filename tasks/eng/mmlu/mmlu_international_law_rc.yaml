@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_international_law_rc
+dataset_name: international_law
+description: "The following are questions (with answers) about international law.\n\n"
+metadata:
+  version: 1.0

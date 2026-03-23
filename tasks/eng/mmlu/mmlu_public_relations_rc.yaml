@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_public_relations_rc
+dataset_name: public_relations
+description: "The following are questions (with answers) about public relations.\n\n"
+metadata:
+  version: 1.0

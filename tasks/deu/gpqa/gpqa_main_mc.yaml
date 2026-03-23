@@ -1,0 +1,6 @@
+include: _gpqa_mc_template.yaml
+task: deu_gpqa_main_mc
+process_docs: !function utils.process_docs
+metadata:
+  version: 1.0
+  description: "GPQA German — 0-shot MC (flagged rows excluded)"

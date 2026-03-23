@@ -1,0 +1,20 @@
+# ARC German Rank Choice Template
+dataset_path: ellamind/arc-multilingual
+dataset_name: deu
+test_split: test
+output_type: multiple_choice
+doc_to_text: "Frage: {{question}}\nAntwort:"
+doc_to_target: "{{'ABCDE'.index(answer_key)}}"
+doc_to_choice: "{{choices}}"
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

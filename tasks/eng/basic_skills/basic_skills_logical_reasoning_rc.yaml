@@ -1,0 +1,6 @@
+include: _basic_skills_rc_template.yaml
+task: basic_skills_logical_reasoning_rc
+dataset_name: logical_reasoning
+metadata:
+  version: 1.0
+  description: "Basic Skills Logical Reasoning - multiple choice"

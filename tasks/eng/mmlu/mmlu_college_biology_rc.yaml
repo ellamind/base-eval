@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_college_biology_rc
+dataset_name: college_biology
+description: "The following are questions (with answers) about college biology.\n\n"
+metadata:
+  version: 1.0

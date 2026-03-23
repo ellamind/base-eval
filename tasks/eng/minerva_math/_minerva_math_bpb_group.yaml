@@ -1,0 +1,16 @@
+group: minerva_math_bpb
+task:
+  - minerva_math_algebra_bpb
+  - minerva_math_counting_and_probability_bpb
+  - minerva_math_geometry_bpb
+  - minerva_math_intermediate_algebra_bpb
+  - minerva_math_number_theory_bpb
+  - minerva_math_prealgebra_bpb
+  - minerva_math_precalculus_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Minerva Math (7 categories) - BPB evaluation"

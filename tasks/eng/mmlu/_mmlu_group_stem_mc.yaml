@@ -1,0 +1,36 @@
+# MMLU STEM Subjects - Multiple Choice
+# 18 STEM subjects from MMLU benchmark
+# Source: cais/mmlu
+# Metric: Accuracy (macro average across subjects)
+# Fewshot: 5-shot from dev split
+
+group: mmlu_stem_mc
+task:
+  - mmlu_stem_abstract_algebra_mc
+  - mmlu_stem_anatomy_mc
+  - mmlu_stem_astronomy_mc
+  - mmlu_stem_college_biology_mc
+  - mmlu_stem_college_chemistry_mc
+  - mmlu_stem_college_computer_science_mc
+  - mmlu_stem_college_mathematics_mc
+  - mmlu_stem_college_physics_mc
+  - mmlu_stem_computer_security_mc
+  - mmlu_stem_conceptual_physics_mc
+  - mmlu_stem_electrical_engineering_mc
+  - mmlu_stem_elementary_mathematics_mc
+  - mmlu_stem_high_school_biology_mc
+  - mmlu_stem_high_school_chemistry_mc
+  - mmlu_stem_high_school_computer_science_mc
+  - mmlu_stem_high_school_mathematics_mc
+  - mmlu_stem_high_school_physics_mc
+  - mmlu_stem_high_school_statistics_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU STEM subjects (18) - macro averaged"

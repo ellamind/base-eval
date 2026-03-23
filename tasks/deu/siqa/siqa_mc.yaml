@@ -1,0 +1,6 @@
+include: _siqa_mc_template.yaml
+task: deu_siqa_mc
+process_docs: !function utils.prepare_all
+metadata:
+  version: 1.0
+  description: "SocialIQA German - Multiple Choice formulation"

@@ -1,0 +1,6 @@
+include: _default_mc_template.yaml
+task: deu_glp_dass_das_mc
+process_docs: !function utils.filter_dass_das
+metadata:
+  version: 1.0
+  description: "German dass/das confusion errors (MC)"

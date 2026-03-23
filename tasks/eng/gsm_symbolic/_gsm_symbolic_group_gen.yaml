@@ -1,0 +1,15 @@
+# GSM-Symbolic All (Generative) - group of base + P1 + P2
+# OLMES task: gsm_symbolic_all::olmo3:n8:v2
+
+group: gsm_symbolic_all
+task:
+  - gsm_symbolic_gen
+  - gsm_symbolic_p1_gen
+  - gsm_symbolic_p2_gen
+aggregate_metric_list:
+  - metric: pass_at_1
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "GSM-Symbolic All (base + P1 + P2) - macro averaged, full chain-of-thought"

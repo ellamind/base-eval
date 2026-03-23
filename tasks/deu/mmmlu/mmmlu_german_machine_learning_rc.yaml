@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_machine_learning_rc
+process_docs: !function utils.process_machine_learning
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema maschinelles Lernen.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_machine_learning
+metadata:
+  version: 1.0

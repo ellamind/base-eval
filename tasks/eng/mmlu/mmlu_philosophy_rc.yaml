@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_philosophy_rc
+dataset_name: philosophy
+description: "The following are questions (with answers) about philosophy.\n\n"
+metadata:
+  version: 1.0

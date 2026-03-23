@@ -1,0 +1,27 @@
+# Heldout Tasks
+#
+# Tasks: LBPP, BBH (27 tasks), MMLU Pro (14 subjects), DeepMind Math (56 categories),
+#         GPQA (main + diamond)
+# These are held out from the main suite for periodic evaluation.
+
+group: heldout
+task:
+  - lbpp_code
+  - bbh_cot
+  - mmlu_pro_mc
+  - deepmind_math_gen
+  - gpqa_main_mc
+  - gpqa_diamond_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+  - metric: pass@1
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Heldout tasks for periodic evaluation (LBPP, BBH, MMLU Pro, DeepMind Math, GPQA)"

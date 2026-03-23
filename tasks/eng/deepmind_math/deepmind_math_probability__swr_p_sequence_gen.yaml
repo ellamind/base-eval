@@ -1,0 +1,5 @@
+include: _deepmind_math_gen_template.yaml
+task: deepmind_math_probability__swr_p_sequence_gen
+process_docs: !function utils.filter_probability__swr_p_sequence
+metadata:
+  version: 1.0

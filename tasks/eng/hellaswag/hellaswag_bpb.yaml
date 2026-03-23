@@ -1,0 +1,16 @@
+include: _hellaswag_template.yaml
+task: hellaswag_bpb
+output_type: loglikelihood
+process_docs: !function utils.process_hellaswag_docs
+doc_to_text: "{{activity_label}}: {{ctx_a}} {{ctx_b}}"
+target_delimiter: ""
+doc_to_target: " {{endings[label | int]}}"
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "HellaSwag - BPB evaluation"
+  fewshot_source: "OLMES:hellaswag"

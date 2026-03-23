@@ -1,0 +1,14 @@
+group: deu_gpqa_mc
+task:
+  - deu_gpqa_main_mc
+  - deu_gpqa_diamond_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "GPQA German MC tasks (main + diamond)"

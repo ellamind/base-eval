@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_marketing_bpb
+dataset_name: marketing
+description: "The following are questions (with answers) about marketing.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU Marketing - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

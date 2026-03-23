@@ -1,0 +1,9 @@
+include: _include_bpb_template.yaml
+task: deu_include_driving_license_bpb
+process_docs: !function utils.process_driving_license
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_driving_license
+metadata:
+  version: 1.0
+  description: "INCLUDE German Driving License BPB — 23 questions, 5-shot (from 'Other' validation domain)"

@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_college_computer_science_rc
+dataset_name: college_computer_science
+description: "The following are questions (with answers) about college computer science.\n\n"
+metadata:
+  version: 1.0

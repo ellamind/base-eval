@@ -1,0 +1,11 @@
+include: _arc_mc_template.yaml
+task: arc_challenge_mc
+test_split: test
+dataset_name: ARC-Challenge
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_arc_challenge_mc_fewshot
+metadata:
+  version: 1.0
+  description: "ARC Challenge multiple choice"
+  fewshot_source: "OLMES:ARC-Challenge"

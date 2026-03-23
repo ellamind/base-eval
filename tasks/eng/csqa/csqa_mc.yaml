@@ -1,0 +1,9 @@
+include: _csqa_mc_template.yaml
+task: csqa_mc
+doc_to_text: "Question: {{question}}\n A. {{choices.text[0]}}\n B. {{choices.text[1]}}\n C. {{choices.text[2]}}\n D. {{choices.text[3]}}\n E. {{choices.text[4]}}\nAnswer:"
+doc_to_target: "{{choices.label.index(answerKey)}}"
+doc_to_choice: ["A", "B", "C", "D", "E"]
+metadata:
+  version: 1.0
+  description: "CommonsenseQA multiple choice"
+  fewshot_source: "OLMES:commonsense_qa"

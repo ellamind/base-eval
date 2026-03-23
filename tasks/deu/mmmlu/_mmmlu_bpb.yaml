@@ -1,0 +1,11 @@
+group: deu_mmmlu_bpb
+task:
+  - deu_mmmlu_stem_bpb
+  - deu_mmmlu_humanities_bpb
+  - deu_mmmlu_social_sciences_bpb
+  - deu_mmmlu_other_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

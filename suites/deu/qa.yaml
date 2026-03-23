@@ -1,0 +1,32 @@
+# QA Tasks (RC + MC)
+#
+# Tasks: ARC, CSQA, SocialIQA, PiQA, WinoGrande, HellaSwag, MMMLU
+# Format: Reading comprehension (RC) + Multiple choice (MC for MMMLU)
+# Metric: Accuracy (standard and length-normalized)
+
+group: deu_qa
+task:
+  # Knowledge & Reasoning (RC)
+  - deu_arc_challenge_rc
+  - deu_arc_easy_rc
+  - deu_csqa_rc
+  - deu_csqa_easy_rc
+  - deu_siqa_rc
+  - deu_siqa_easy_rc
+  - deu_piqa_rc
+  - deu_piqa_easy_rc
+  - deu_winogrande_rc
+  - deu_hellaswag_rc
+  - deu_hellaswag_easy_rc
+  # Knowledge & Reasoning (MC, 32 translation-safe subjects)
+  - deu_mmmlu_filtered
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German QA tasks - Knowledge & Reasoning (RC + MC)"

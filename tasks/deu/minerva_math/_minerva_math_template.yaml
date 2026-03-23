@@ -1,0 +1,14 @@
+# Minerva Math German — shared template for CoT and BPB
+# Source: ellamind/hendrycks-math-multilingual
+# Format: 4-shot, German prompts (Aufgabe/Lösung)
+dataset_path: ellamind/hendrycks-math-multilingual
+dataset_name: deu
+test_split: test
+process_docs: !function utils.process_docs
+num_fewshot: 4
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_samples
+  doc_to_target: " {{solution}}"
+metadata:
+  version: 1.0

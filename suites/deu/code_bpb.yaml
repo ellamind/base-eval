@@ -1,0 +1,17 @@
+# Code BPB Tasks
+#
+# Tasks: HumanEval, MBPP
+# Format: Bits-per-byte evaluation
+# Metric: bits_per_byte
+
+group: deu_code_bpb
+task:
+  - deu_humaneval_bpb
+  - deu_mbpp_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German Code BPB suite - programming tasks"

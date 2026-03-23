@@ -1,0 +1,7 @@
+# Jeopardy Base Template
+# Note: jeopardy_rc.yaml overrides dataset_path to use allenai/jeopardy-gen2mc
+# gen2mc dataset only has test split
+test_split: test
+num_fewshot: 5
+metadata:
+  version: 1.0

@@ -1,0 +1,25 @@
+# MMLU Humanities Subjects - Bits Per Byte
+# 13 Humanities subjects from MMLU benchmark
+
+group: mmlu_humanities_bpb
+task:
+  - mmlu_formal_logic_bpb
+  - mmlu_high_school_european_history_bpb
+  - mmlu_high_school_us_history_bpb
+  - mmlu_high_school_world_history_bpb
+  - mmlu_international_law_bpb
+  - mmlu_jurisprudence_bpb
+  - mmlu_logical_fallacies_bpb
+  - mmlu_moral_disputes_bpb
+  - mmlu_moral_scenarios_bpb
+  - mmlu_philosophy_bpb
+  - mmlu_prehistory_bpb
+  - mmlu_professional_law_bpb
+  - mmlu_world_religions_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU Humanities subjects (13) BPB - macro averaged"

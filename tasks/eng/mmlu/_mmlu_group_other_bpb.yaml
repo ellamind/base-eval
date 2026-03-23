@@ -1,0 +1,26 @@
+# MMLU Other Subjects - Bits Per Byte
+# 14 Other subjects from MMLU benchmark
+
+group: mmlu_other_bpb
+task:
+  - mmlu_business_ethics_bpb
+  - mmlu_clinical_knowledge_bpb
+  - mmlu_college_medicine_bpb
+  - mmlu_global_facts_bpb
+  - mmlu_human_aging_bpb
+  - mmlu_management_bpb
+  - mmlu_marketing_bpb
+  - mmlu_medical_genetics_bpb
+  - mmlu_miscellaneous_bpb
+  - mmlu_nutrition_bpb
+  - mmlu_professional_accounting_bpb
+  - mmlu_professional_medicine_bpb
+  - mmlu_us_foreign_policy_bpb
+  - mmlu_virology_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU Other subjects (14) BPB - macro averaged"

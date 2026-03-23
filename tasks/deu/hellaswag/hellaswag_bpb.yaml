@@ -1,0 +1,5 @@
+include: _hellaswag_bpb_template.yaml
+task: deu_hellaswag_bpb
+metadata:
+  version: 1.0
+  description: "HellaSwag German - BPB evaluation"

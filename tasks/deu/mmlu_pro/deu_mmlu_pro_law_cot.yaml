@@ -1,0 +1,6 @@
+description: "Multiple-Choice-Fragen und Antworten zum Thema Recht mit Schritt-für-Schritt-Lösungen.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: deu_mmlu_pro_law_cot
+process_docs: !function utils.process_law
+metadata:
+  version: 1.0

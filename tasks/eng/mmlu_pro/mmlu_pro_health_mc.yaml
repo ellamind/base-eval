@@ -1,0 +1,5 @@
+include: _mmlu_pro_mc_template.yaml
+task: mmlu_pro_health_mc
+process_docs: !function utils.process_health
+metadata:
+  version: 1.0

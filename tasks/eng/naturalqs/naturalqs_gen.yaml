@@ -1,0 +1,32 @@
+include: _naturalqs_template.yaml
+task: naturalqs_gen
+# Use nq_open dataset (matches OLMES)
+dataset_path: google-research-datasets/nq_open
+test_split: validation
+output_type: generate_until
+doc_to_text: "Question: {{question}}\nAnswer:"
+doc_to_target: "{{answer[0] if answer else ''}}"
+# olmes has "limit": 10000; but val split only 3.61k so ok.
+generation_kwargs:
+  max_gen_toks: 50
+  until:
+    - "\n\n"
+    - "Question:"
+    - "Q:"
+  do_sample: false
+  temperature: 0.0
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_naturalqs_gen_fewshot
+process_results: !function utils.process_results_naturalqs
+metric_list:
+  - metric: em
+    aggregation: mean
+    higher_is_better: true
+  - metric: f1
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "Natural Questions open domain QA (generative with token F1)"

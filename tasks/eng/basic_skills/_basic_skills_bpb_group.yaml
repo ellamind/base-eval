@@ -1,0 +1,16 @@
+# Basic Skills BPB — all skill areas
+group: basic_skills_bpb
+task:
+  - basic_skills_arithmetic_bpb
+  - basic_skills_coding_bpb
+  - basic_skills_common_knowledge_bpb
+  - basic_skills_logical_reasoning_bpb
+  - basic_skills_pattern_bpb
+  - basic_skills_string_operations_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Basic Skills BPB - all skill areas with macro averaging"

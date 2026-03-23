@@ -1,0 +1,21 @@
+group: deu_mmmlu_social_sciences_mc
+task:
+  - deu_mmmlu_econometrics_mc
+  - deu_mmmlu_high_school_geography_mc
+  - deu_mmmlu_high_school_government_and_politics_mc
+  - deu_mmmlu_high_school_macroeconomics_mc
+  - deu_mmmlu_high_school_microeconomics_mc
+  - deu_mmmlu_high_school_psychology_mc
+  - deu_mmmlu_human_sexuality_mc
+  - deu_mmmlu_professional_psychology_mc
+  - deu_mmmlu_public_relations_mc
+  - deu_mmmlu_security_studies_mc
+  - deu_mmmlu_sociology_mc
+  - deu_mmmlu_us_foreign_policy_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

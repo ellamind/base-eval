@@ -1,0 +1,34 @@
+# German Non-STEM Multiple Choice Tasks
+#
+# Mirrors ENG nonstem_qa_mc.yaml structure:
+#   ENG mmlu_humanities_mc       → deu_mmmlu_filtered_nonstem_mc (13 filtered subjects)
+#   ENG mmlu_social_sciences_mc  ↗
+#   ENG mmlu_other_mc            ↗
+#   ENG csqa_mc                  → deu_csqa_mc
+#   ENG piqa_mc                  → deu_piqa_mc
+#   ENG socialiqa_mc             → deu_siqa_mc
+#   ENG drop_mc                  — not available in DEU
+#   ENG jeopardy_mc              — not available in DEU
+#   ENG naturalqs_mc             — not available in DEU
+#   ENG squad_mc                 — not available in DEU
+#   ENG coqa_mc                  — not available in DEU
+#
+# Format: Multiple choice with 2-5 options
+# Metric: Accuracy (standard and length-normalized)
+
+group: deu_nonstem_qa_mc
+task:
+  - deu_mmmlu_filtered_nonstem_mc
+  - deu_csqa_mc
+  - deu_piqa_mc
+  - deu_siqa_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German non-STEM multiple choice QA tasks"

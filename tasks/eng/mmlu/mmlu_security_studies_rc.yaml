@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_security_studies_rc
+dataset_name: security_studies
+description: "The following are questions (with answers) about security studies.\n\n"
+metadata:
+  version: 1.0

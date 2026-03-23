@@ -1,0 +1,12 @@
+group: deu_include_bpb
+task:
+  - deu_include_stem_bpb
+  - deu_include_social_science_bpb
+  - deu_include_driving_license_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
+  description: "INCLUDE German BPB — regional knowledge benchmark (3 domains, 139 questions)"

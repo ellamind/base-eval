@@ -1,0 +1,21 @@
+include: _squad_template.yaml
+task: squad_bpb
+dataset_path: allenai/squad
+dataset_kwargs:
+  revision: refs/convert/parquet
+output_type: loglikelihood
+doc_to_text: "Context: {{context}}\n\nQuestion: {{question}}\nAnswer:"
+target_delimiter: ""
+doc_to_target: " {{answers.text[0]}}"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_squad_fewshot
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "SQuAD - BPB evaluation"
+  fewshot_source: "OLMES:squad_mc"

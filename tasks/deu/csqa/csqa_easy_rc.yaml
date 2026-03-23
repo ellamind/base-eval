@@ -1,0 +1,6 @@
+include: _csqa_rc_template.yaml
+task: deu_csqa_easy_rc
+process_docs: !function utils.prepare_easy
+metadata:
+  version: 1.0
+  description: "CommonsenseQA German Easy - Rank Choice formulation"

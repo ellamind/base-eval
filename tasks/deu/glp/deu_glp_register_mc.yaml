@@ -1,0 +1,6 @@
+include: _default_mc_template.yaml
+task: deu_glp_register_mc
+process_docs: !function utils.filter_register
+metadata:
+  version: 1.0
+  description: "German register errors (MC)"

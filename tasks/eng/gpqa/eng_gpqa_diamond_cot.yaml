@@ -1,0 +1,7 @@
+include: _gpqa_cot_template.yaml
+task: gpqa_diamond_cot
+dataset_name: gpqa_diamond
+process_docs: !function utils.process_docs
+metadata:
+  version: 1.0
+  description: "GPQA English diamond — 5-shot COT, 198 hardest questions"

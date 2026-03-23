@@ -1,0 +1,20 @@
+# German Language Proficiency (GLP) Multiple Choice Template
+dataset_path: ellamind/german-language-proficiency
+validation_split: train
+fewshot_split: train
+fewshot_config:
+  sampler: first_n
+output_type: multiple_choice
+doc_to_text: "{{ctx}}\n{% for i in range(endings|length) %} {{'AB'[i]}}.{{endings[i]}}\n{% endfor %}Antwort:"
+doc_to_target: "{{label}}"
+doc_to_choice: "{{'AB'[:endings|length] | list}}"
+num_fewshot: 5
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

@@ -1,0 +1,6 @@
+include: _mmlu_mc_template.yaml
+task: mmlu_stem_high_school_physics_mc
+dataset_name: high_school_physics
+description: "The following are multiple choice questions (with answers) about high school physics.\n\n"
+metadata:
+  version: 1.0

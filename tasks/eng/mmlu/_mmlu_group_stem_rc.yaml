@@ -1,0 +1,33 @@
+# MMLU STEM Subjects - Rank Classification
+# 18 STEM subjects from MMLU benchmark
+
+group: mmlu_stem_rc
+task:
+  - mmlu_abstract_algebra_rc
+  - mmlu_anatomy_rc
+  - mmlu_astronomy_rc
+  - mmlu_college_biology_rc
+  - mmlu_college_chemistry_rc
+  - mmlu_college_computer_science_rc
+  - mmlu_college_mathematics_rc
+  - mmlu_college_physics_rc
+  - mmlu_computer_security_rc
+  - mmlu_conceptual_physics_rc
+  - mmlu_electrical_engineering_rc
+  - mmlu_elementary_mathematics_rc
+  - mmlu_high_school_biology_rc
+  - mmlu_high_school_chemistry_rc
+  - mmlu_high_school_computer_science_rc
+  - mmlu_high_school_mathematics_rc
+  - mmlu_high_school_physics_rc
+  - mmlu_high_school_statistics_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU STEM subjects (18) RC - macro averaged"

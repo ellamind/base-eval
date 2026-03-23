@@ -1,0 +1,36 @@
+# DROP Generative Template (OLMES-aligned)
+dataset_path: EleutherAI/drop
+test_split: validation
+task: drop_gen
+output_type: generate_until
+description: "The following are reading comprehension questions, where the answer\
+  \ to each question is either a segment of text from the corresponding passage, a\
+  \ number, or a date (containing any of the date, month, and/or year components).\
+  \ Some questions may require you to pull together information pieces from the passage\
+  \ and reason over them.\n\n"
+doc_to_text: "Passage: {{passage}}\nQuestion: {{question}}\nAnswer:"
+doc_to_target: " {% if answer.spans %}{{answer.spans[0]}}{% elif answer.number %}{{answer.number}}{% else %}{{[answer.date.day, answer.date.month, answer.date.year]|select|join(' ')}}{% endif %}"
+generation_kwargs:
+  max_gen_toks: 100
+  until:
+    - "\n\n"
+    - "Question:"
+    - "Passage:"
+  do_sample: false
+  temperature: 0.0
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_drop_gen_fewshot_gen
+process_results: !function utils.process_results_drop_gen
+metric_list:
+  - metric: em
+    aggregation: mean
+    higher_is_better: true
+  - metric: f1
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "DROP discrete reasoning (generative, OLMES-aligned)"
+  fewshot_source: "OLMES:drop"

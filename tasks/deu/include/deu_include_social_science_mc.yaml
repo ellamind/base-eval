@@ -1,0 +1,9 @@
+include: _include_mc_template.yaml
+task: deu_include_social_science_mc
+process_docs: !function utils.process_social_science
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_social_science
+metadata:
+  version: 1.0
+  description: "INCLUDE German Social Science MC — 91 questions, 5-shot"

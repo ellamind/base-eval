@@ -1,0 +1,6 @@
+include: _default_rc_template.yaml
+task: deu_glp_capitalization_rc
+process_docs: !function utils.filter_capitalization
+metadata:
+  version: 1.0
+  description: "German capitalization errors"

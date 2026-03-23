@@ -1,0 +1,6 @@
+include: _default_rc_template.yaml
+task: deu_glp_als_wie_rc
+process_docs: !function utils.filter_als_wie
+metadata:
+  version: 1.0
+  description: "German als/wie comparison errors"

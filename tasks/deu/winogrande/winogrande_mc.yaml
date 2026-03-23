@@ -1,0 +1,27 @@
+# Winogrande German MC (coreference resolution / multiple-choice with letter labels)
+# Source: ellamind/winogrande-multilingual
+# Format: sentence with blank + letter-labeled options
+task: deu_winogrande_mc
+dataset_path: ellamind/winogrande-multilingual
+dataset_name: deu
+validation_split: validation
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_samples
+num_fewshot: 5
+output_type: multiple_choice
+doc_to_text: "{{sentence}}\nA. {{option1}}\nB. {{option2}}\nAntwort:"
+doc_to_target: "{{answer|int - 1}}"
+doc_to_choice:
+  - A
+  - B
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "Winogrande German - Multiple Choice formulation"

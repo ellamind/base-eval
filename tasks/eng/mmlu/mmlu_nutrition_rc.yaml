@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_nutrition_rc
+dataset_name: nutrition
+description: "The following are questions (with answers) about nutrition.\n\n"
+metadata:
+  version: 1.0

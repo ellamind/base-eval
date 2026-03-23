@@ -1,0 +1,7 @@
+include: _gpqa_mc_template.yaml
+task: gpqa_diamond_mc
+dataset_name: gpqa_diamond
+process_docs: !function utils.process_docs
+metadata:
+  version: 1.0
+  description: "GPQA English diamond — 0-shot MC, 198 hardest questions"

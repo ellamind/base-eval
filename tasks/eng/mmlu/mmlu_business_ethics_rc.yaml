@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_business_ethics_rc
+dataset_name: business_ethics
+description: "The following are questions (with answers) about business ethics.\n\n"
+metadata:
+  version: 1.0

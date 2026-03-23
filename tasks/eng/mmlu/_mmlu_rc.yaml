@@ -1,0 +1,17 @@
+# MMLU RC — all 57 subjects via domain subgroups
+group: mmlu_rc
+task:
+  - mmlu_stem_rc
+  - mmlu_humanities_rc
+  - mmlu_social_sciences_rc
+  - mmlu_other_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU RC - 57 subjects with macro averaging"

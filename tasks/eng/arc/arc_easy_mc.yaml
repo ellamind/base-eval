@@ -1,0 +1,11 @@
+include: _arc_mc_template.yaml
+task: arc_easy_mc
+test_split: test
+dataset_name: ARC-Easy
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_arc_easy_mc_fewshot
+metadata:
+  version: 1.0
+  description: "ARC Easy multiple choice"
+  fewshot_source: "OLMES:ARC-Easy"

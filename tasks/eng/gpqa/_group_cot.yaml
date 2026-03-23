@@ -1,0 +1,12 @@
+group: gpqa_cot
+task:
+  - gpqa_main_cot
+  - gpqa_diamond_cot
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+    filter_list: flexible-extract
+metadata:
+  version: 1.0
+  description: "GPQA English COT tasks (main + diamond)"

@@ -1,0 +1,7 @@
+include: _gpqa_cot_template.yaml
+task: deu_gpqa_main_cot
+process_docs: !function utils.process_docs
+metadata:
+  version: 1.0
+  description: "GPQA German — 5-shot COT (flagged rows excluded)"
+  fewshot_source: "Original:GPQA (English, format guidance)"

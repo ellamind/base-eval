@@ -1,0 +1,6 @@
+include: _basic_skills_bpb_template.yaml
+task: basic_skills_pattern_bpb
+dataset_name: pattern
+metadata:
+  version: 1.0
+  description: "Basic Skills Pattern - BPB evaluation"

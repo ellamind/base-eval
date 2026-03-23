@@ -1,0 +1,25 @@
+# QA BPB Tasks
+#
+# Tasks: ARC, CSQA, SocialIQA, PiQA, WinoGrande, HellaSwag, MMMLU filtered, AGIEval, CoQA
+# Format: Bits-per-byte evaluation
+# Metric: bits_per_byte
+
+group: deu_qa_bpb
+task:
+  - deu_arc_challenge_bpb
+  - deu_arc_easy_bpb
+  - deu_csqa_bpb
+  - deu_siqa_bpb
+  - deu_piqa_bpb
+  - deu_winogrande_bpb
+  - deu_hellaswag_bpb
+  - deu_mmmlu_filtered_bpb
+  - deu_agieval_bpb
+  - deu_coqa_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German QA BPB suite - bits-per-byte evaluation"

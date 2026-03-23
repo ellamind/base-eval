@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_professional_law_rc
+dataset_name: professional_law
+description: "The following are questions (with answers) about professional law.\n\n"
+metadata:
+  version: 1.0

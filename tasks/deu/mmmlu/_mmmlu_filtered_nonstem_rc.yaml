@@ -1,0 +1,23 @@
+# MMMLU German RC (filtered, non-STEM) — 13 translation-safe non-STEM subjects
+group: deu_mmmlu_filtered_nonstem_rc
+task:
+  - deu_mmmlu_formal_logic_rc
+  - deu_mmmlu_logical_fallacies_rc
+  - deu_mmmlu_high_school_macroeconomics_rc
+  - deu_mmmlu_high_school_microeconomics_rc
+  - deu_mmmlu_professional_accounting_rc
+  - deu_mmmlu_anatomy_rc
+  - deu_mmmlu_clinical_knowledge_rc
+  - deu_mmmlu_college_medicine_rc
+  - deu_mmmlu_professional_medicine_rc
+  - deu_mmmlu_medical_genetics_rc
+  - deu_mmmlu_virology_rc
+  - deu_mmmlu_nutrition_rc
+  - deu_mmmlu_human_aging_rc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

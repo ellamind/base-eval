@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_prehistory_rc
+dataset_name: prehistory
+description: "The following are questions (with answers) about prehistory.\n\n"
+metadata:
+  version: 1.0

@@ -1,0 +1,17 @@
+include: _medqa_template.yaml
+task: medqa_rc
+dataset_path: davidheineman/medqa-en
+output_type: multiple_choice
+doc_to_text: "Question: {{question}}\nAnswer:"
+doc_to_target: "{{answer_idx}}"
+doc_to_choice: "{{choices}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "MedQA USMLE - US medical licensing exam questions (reading comprehension)"

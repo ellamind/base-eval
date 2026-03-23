@@ -1,0 +1,6 @@
+description: "Multiple-Choice-Fragen und Antworten zum Thema Mathematik mit Schritt-für-Schritt-Lösungen.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: deu_mmlu_pro_math_cot
+process_docs: !function utils.process_math
+metadata:
+  version: 1.0

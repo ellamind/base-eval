@@ -1,0 +1,10 @@
+include: _agieval_mc_template.yaml
+task: deu_agieval_aqua_rat_mc
+num_fewshot: 5
+process_docs: !function utils.filter_aqua_rat
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_aqua_rat
+metadata:
+  version: 1.0
+  description: "AGIEval AQUA-RAT German - Multiple Choice"

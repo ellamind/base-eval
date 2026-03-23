@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_jurisprudence_rc
+dataset_name: jurisprudence
+description: "The following are questions (with answers) about jurisprudence.\n\n"
+metadata:
+  version: 1.0

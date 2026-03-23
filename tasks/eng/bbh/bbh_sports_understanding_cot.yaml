@@ -1,0 +1,18 @@
+include: _bbh_cot_template.yaml
+task: bbh_sports_understanding_cot
+dataset_name: sports_understanding
+description: 'Determine whether an artificially constructed sentence relating to sports is plausible or not.
+
+
+  '
+fewshot_config:
+  sampler: first_n
+  samples:
+  - input: Is the following sentence plausible? "Bam Adebayo scored a reverse layup in the Western Conference Finals."
+    target: Bam Adebayo is an American basketball player. Scoring a reverse layup in the Western Conference Finals is part of the NBA Finals. So the answer is yes.
+  - input: Is the following sentence plausible? "Santi Cazorla scored a touchdown."
+    target: Santi Cazorla is a soccer player. Touchdown is part of American football and rugby. So the answer is no.
+  - input: Is the following sentence plausible? "DeMar DeRozan was called for the goal tend."
+    target: DeMar DeRozan is an American basketball player. Goal tending is part of basketball. So the answer is yes.
+metadata:
+  version: 1.0

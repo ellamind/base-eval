@@ -1,0 +1,9 @@
+include: _arc_mc_template.yaml
+task: deu_arc_easy_mc
+process_docs: !function utils.filter_easy
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_easy
+metadata:
+  version: 1.0
+  description: "ARC Easy German - Multiple Choice formulation"

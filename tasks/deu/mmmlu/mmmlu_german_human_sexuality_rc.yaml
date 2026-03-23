@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_human_sexuality_rc
+process_docs: !function utils.process_human_sexuality
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema menschliche Sexualität.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_human_sexuality
+metadata:
+  version: 1.0

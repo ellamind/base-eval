@@ -1,0 +1,6 @@
+include: _default_rc_template.yaml
+task: deu_glp_pronoun_case_rc
+process_docs: !function utils.filter_pronoun_case
+metadata:
+  version: 1.0
+  description: "German pronoun case errors"

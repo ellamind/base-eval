@@ -1,0 +1,6 @@
+include: _basic_skills_bpb_template.yaml
+task: basic_skills_common_knowledge_bpb
+dataset_name: common_knowledge
+metadata:
+  version: 1.0
+  description: "Basic Skills Common Knowledge - BPB evaluation"

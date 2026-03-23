@@ -1,0 +1,21 @@
+# AGIEval English Rank Choice Template
+# Following OLMES :rc format — no choices in prompt, target is full choice text.
+dataset_path: null
+test_split: test
+output_type: multiple_choice
+process_docs: !function utils.prepare
+doc_to_text: "Question: {{clean_query}}\nAnswer:"
+doc_to_target: "{{answer_idx}}"
+doc_to_choice: "{{clean_choices}}"
+num_fewshot: 3
+fewshot_config:
+  sampler: first_n
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

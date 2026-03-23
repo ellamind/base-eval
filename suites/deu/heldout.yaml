@@ -1,0 +1,30 @@
+# Heldout Tasks (German)
+#
+# Tasks: MMLU Pro (14 subjects), GPQA (main + diamond, MC + CoT), HLE MC,
+#         INCLUDE (3 domains)
+# These are held out from the main suite for periodic evaluation.
+# Mirrors eng/heldout.yaml where German equivalents are available.
+
+group: deu_heldout
+task:
+  - deu_mmlu_pro_mc
+  - deu_gpqa_main_mc
+  - deu_gpqa_diamond_mc
+  - deu_gpqa_main_cot
+  - deu_gpqa_diamond_cot
+  - deu_hle_mc
+  - deu_include_mc
+  - deu_simpleqa_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Heldout tasks for periodic evaluation (MMLU Pro, GPQA, HLE, INCLUDE, SimpleQA MC)"

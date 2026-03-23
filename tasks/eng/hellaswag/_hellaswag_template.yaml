@@ -1,0 +1,10 @@
+# HellaSwag Base Template
+dataset_path: allenai/hellaswag
+test_split: validation
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_hellaswag_fewshot
+metadata:
+  version: 1.0
+  fewshot_source: "OLMES:hellaswag"

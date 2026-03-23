@@ -1,0 +1,6 @@
+description: "Multiple-Choice-Fragen und Antworten zum Thema Sonstiges mit Schritt-für-Schritt-Lösungen.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: deu_mmlu_pro_other_cot
+process_docs: !function utils.process_other
+metadata:
+  version: 1.0

@@ -1,0 +1,6 @@
+include: _lab_bench_template.yaml
+task: lab_bench_dbqa_bpb
+dataset_name: DbQA
+metadata:
+  version: 1.0
+  description: "LAB-Bench DBQA - Database Question Answering for Biology Research - BPB evaluation"

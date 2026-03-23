@@ -1,0 +1,6 @@
+include: _default_mc_template.yaml
+task: deu_glp_prose_quality_mc
+process_docs: !function utils.filter_prose_quality
+metadata:
+  version: 1.0
+  description: "German prose quality fluency errors (MC)"

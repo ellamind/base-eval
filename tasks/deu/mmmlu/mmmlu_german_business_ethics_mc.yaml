@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_business_ethics_mc
+process_docs: !function utils.process_business_ethics
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_business_ethics
+metadata:
+  version: 1.0

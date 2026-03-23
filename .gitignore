@@ -1,0 +1,21 @@
+
+# pixi environments
+.pixi
+*.egg-info
+
+# Python cache
+__pycache__/
+*.pyc
+
+containers/
+models/
+output/
+results/
+mmlu_fewshot/
+
+*.pid
+*.log
+*.parquet
+
+CLAUDE.md
+AGENTS.md

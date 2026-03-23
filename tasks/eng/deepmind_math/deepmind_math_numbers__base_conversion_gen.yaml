@@ -1,0 +1,5 @@
+include: _deepmind_math_gen_template.yaml
+task: deepmind_math_numbers__base_conversion_gen
+process_docs: !function utils.filter_numbers__base_conversion
+metadata:
+  version: 1.0

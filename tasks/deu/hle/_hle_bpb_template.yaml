@@ -1,0 +1,21 @@
+# HLE German BPB Template — 5-shot
+# Dataset: ellamind/hle-multilingual (deu subset)
+# Scores only the gold answer via loglikelihood, converts to bits-per-byte.
+# BPB = -log2 P(answer | context) / bytes(answer)
+dataset_path: ellamind/hle-multilingual
+dataset_name: deu
+test_split: test
+output_type: loglikelihood
+target_delimiter: ""
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target_bpb
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0

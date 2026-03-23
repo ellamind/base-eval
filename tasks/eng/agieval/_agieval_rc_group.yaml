@@ -1,0 +1,22 @@
+# English AGIEval — Rank Classification (9 subsets)
+group: agieval_rc
+task:
+  - agieval_aqua_rat_rc
+  - agieval_gaokao_english_rc
+  - agieval_logiqa_en_rc
+  - agieval_lsat_ar_rc
+  - agieval_lsat_lr_rc
+  - agieval_lsat_rc_rc
+  - agieval_sat_en_rc
+  - agieval_sat_en_without_passage_rc
+  - agieval_sat_math_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "English AGIEval — Rank Classification"

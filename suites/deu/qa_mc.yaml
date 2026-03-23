@@ -1,0 +1,26 @@
+# QA Multiple Choice Tasks
+#
+# Tasks: ARC, CSQA, SocialIQA, PiQA, WinoGrande, HellaSwag, MMMLU
+# Format: Multiple choice (letter-labeled options)
+# Metric: Accuracy (standard and length-normalized)
+
+group: deu_qa_mc
+task:
+  - deu_arc_challenge_mc
+  - deu_arc_easy_mc
+  - deu_csqa_mc
+  - deu_hellaswag_mc
+  - deu_piqa_mc
+  - deu_siqa_mc
+  - deu_winogrande_mc
+  - deu_mmmlu_filtered
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German QA Multiple Choice suite - accuracy-based evaluation"

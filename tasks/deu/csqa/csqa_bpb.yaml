@@ -1,0 +1,5 @@
+include: _csqa_bpb_template.yaml
+task: deu_csqa_bpb
+metadata:
+  version: 1.0
+  description: "CommonsenseQA German - BPB formulation"

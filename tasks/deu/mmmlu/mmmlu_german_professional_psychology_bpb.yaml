@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_professional_psychology_bpb
+process_docs: !function utils.process_professional_psychology
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Psychologie (Fachgebiet).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_professional_psychology
+metadata:
+  version: 1.0

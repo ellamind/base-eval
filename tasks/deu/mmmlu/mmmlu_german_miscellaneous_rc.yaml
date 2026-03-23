@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_miscellaneous_rc
+process_docs: !function utils.process_miscellaneous
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Verschiedenes.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_miscellaneous
+metadata:
+  version: 1.0

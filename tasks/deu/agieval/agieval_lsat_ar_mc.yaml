@@ -1,0 +1,9 @@
+include: _agieval_mc_template.yaml
+task: deu_agieval_lsat_ar_mc
+process_docs: !function utils.filter_lsat_ar
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_lsat_ar
+metadata:
+  version: 1.0
+  description: "AGIEval LSAT Analytical Reasoning German - Multiple Choice"

@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_human_sexuality_mc
+process_docs: !function utils.process_human_sexuality
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_human_sexuality
+metadata:
+  version: 1.0

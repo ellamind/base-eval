@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_high_school_us_history_bpb
+process_docs: !function utils.process_high_school_us_history
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema US-Geschichte (Oberstufe).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_high_school_us_history
+metadata:
+  version: 1.0

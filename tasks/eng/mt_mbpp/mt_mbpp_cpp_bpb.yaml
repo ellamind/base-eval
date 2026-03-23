@@ -1,0 +1,6 @@
+include: _mt_mbpp_bpb_template.yaml
+task: mt_mbpp_cpp_bpb
+dataset_name: cpp
+metadata:
+  version: 1.0
+  description: "Multilingual MBPP - cpp - BPB evaluation"

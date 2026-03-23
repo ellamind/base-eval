@@ -1,0 +1,6 @@
+include: _basic_skills_bpb_template.yaml
+task: basic_skills_string_operations_bpb
+dataset_name: string_operations
+metadata:
+  version: 1.0
+  description: "Basic Skills String Operations - BPB evaluation"

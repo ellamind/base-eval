@@ -1,0 +1,21 @@
+include: _squad_template.yaml
+task: squad_rc
+dataset_path: allenai/squad-gen2mc
+output_type: multiple_choice
+doc_to_text: "Title: {{title_original}}\nPassage: {{context_original}}\nQuestion: {{question_original}}\nAnswer:"
+doc_to_target: "{{ ['A', 'B', 'C', 'D', 'E'].index(answerKey) }}"
+doc_to_choice: "{{choices.text}}"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_squad_rc_fewshot
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "SQuAD - reading comprehension (gen2mc multiple choice)"
+  fewshot_source: "OLMES:squad_mc"

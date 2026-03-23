@@ -1,0 +1,21 @@
+# German Language Proficiency (GLP) Rank Choice Template
+dataset_path: ellamind/german-language-proficiency
+validation_split: train
+fewshot_split: train
+fewshot_config:
+  sampler: first_n
+output_type: multiple_choice
+target_delimiter: ""
+doc_to_text: "{{ctx}}"
+doc_to_target: "{{label}}"
+doc_to_choice: "{{endings}}"
+num_fewshot: 0
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_nutrition_bpb
+process_docs: !function utils.process_nutrition
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Ernährung.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_nutrition
+metadata:
+  version: 1.0

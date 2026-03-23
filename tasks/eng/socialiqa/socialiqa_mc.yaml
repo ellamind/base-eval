@@ -1,0 +1,22 @@
+include: _socialiqa_mc_template.yaml
+output_type: multiple_choice
+test_split: validation
+task: socialiqa_mc
+doc_to_text: "Question: {{context}} {{question}}\n A. {{answerA}}\n B. {{answerB}}\n C. {{answerC}}\nAnswer:"
+doc_to_target: "{{label | int - 1}}"
+doc_to_choice: ["A", "B", "C"]
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_socialiqa_mc_fewshot
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm # olmes primary metric
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "SocialIQA social reasoning multiple choice"
+  fewshot_source: "OLMES:social_i_qa"

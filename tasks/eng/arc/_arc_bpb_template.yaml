@@ -1,0 +1,19 @@
+# ARC BPB Template (answer-only, OLMES-style)
+# BPB = -log2 P(answer | context) / bytes(answer)
+
+dataset_path: allenai/ai2_arc
+test_split: test
+output_type: loglikelihood
+target_delimiter: ""
+doc_to_text: "Question: {{question}}\nAnswer:"
+doc_to_target: " {{choices.text[choices.label.index(answerKey)]}}"
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0

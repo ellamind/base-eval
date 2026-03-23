@@ -1,0 +1,21 @@
+# MMMLU German BPB (filtered, non-STEM) — 13 translation-safe non-STEM subjects
+group: deu_mmmlu_filtered_nonstem_bpb
+task:
+  - deu_mmmlu_formal_logic_bpb
+  - deu_mmmlu_logical_fallacies_bpb
+  - deu_mmmlu_high_school_macroeconomics_bpb
+  - deu_mmmlu_high_school_microeconomics_bpb
+  - deu_mmmlu_professional_accounting_bpb
+  - deu_mmmlu_anatomy_bpb
+  - deu_mmmlu_clinical_knowledge_bpb
+  - deu_mmmlu_college_medicine_bpb
+  - deu_mmmlu_professional_medicine_bpb
+  - deu_mmmlu_medical_genetics_bpb
+  - deu_mmmlu_virology_bpb
+  - deu_mmmlu_nutrition_bpb
+  - deu_mmmlu_human_aging_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

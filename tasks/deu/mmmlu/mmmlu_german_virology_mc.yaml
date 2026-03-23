@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_virology_mc
+process_docs: !function utils.process_virology
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_virology
+metadata:
+  version: 1.0

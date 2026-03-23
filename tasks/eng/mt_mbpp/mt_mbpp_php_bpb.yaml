@@ -1,0 +1,6 @@
+include: _mt_mbpp_bpb_template.yaml
+task: mt_mbpp_php_bpb
+dataset_name: php
+metadata:
+  version: 1.0
+  description: "Multilingual MBPP - php - BPB evaluation"

@@ -1,0 +1,6 @@
+include: _csqa_bpb_template.yaml
+task: csqa_bpb
+metadata:
+  version: 1.0
+  description: "CommonsenseQA - BPB evaluation"
+  fewshot_source: "OLMES:commonsense_qa"

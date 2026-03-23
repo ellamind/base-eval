@@ -1,0 +1,30 @@
+# MMLU Other Subjects - Multiple Choice
+# 14 Other subjects from MMLU benchmark
+# Source: cais/mmlu
+
+group: mmlu_other_mc
+task:
+  - mmlu_other_business_ethics_mc
+  - mmlu_other_clinical_knowledge_mc
+  - mmlu_other_college_medicine_mc
+  - mmlu_other_global_facts_mc
+  - mmlu_other_human_aging_mc
+  - mmlu_other_management_mc
+  - mmlu_other_marketing_mc
+  - mmlu_other_medical_genetics_mc
+  - mmlu_other_miscellaneous_mc
+  - mmlu_other_nutrition_mc
+  - mmlu_other_professional_accounting_mc
+  - mmlu_other_professional_medicine_mc
+  - mmlu_other_us_foreign_policy_mc
+  - mmlu_other_virology_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU Other subjects (14) - macro averaged"

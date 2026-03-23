@@ -1,0 +1,9 @@
+include: _agieval_bpb_template.yaml
+task: deu_agieval_gaokao_english_bpb
+process_docs: !function utils.filter_gaokao_english
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_gaokao_english
+metadata:
+  version: 1.0
+  description: "AGIEval Gaokao English German - Bits Per Byte"

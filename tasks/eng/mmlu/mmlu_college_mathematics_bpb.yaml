@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_college_mathematics_bpb
+dataset_name: college_mathematics
+description: "The following are questions (with answers) about college mathematics.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU College Mathematics - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

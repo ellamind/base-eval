@@ -1,0 +1,6 @@
+include: _default_mc_template.yaml
+task: deu_glp_word_order_v2_mc
+process_docs: !function utils.filter_word_order_v2
+metadata:
+  version: 1.0
+  description: "German word order V2 errors (MC)"

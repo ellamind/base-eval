@@ -1,0 +1,25 @@
+# STEM Multiple Choice Tasks
+#
+# Tasks: ARC (Easy + Challenge), MMLU-STEM (18 subjects), MedMCQA, MedQA, SciQ
+# Format: Multiple choice with 4-5 options
+# Metric: Accuracy (standard and length-normalized)
+# Fewshot: 5-shot from OLMES curated examples
+
+group: stem_qa_mc
+task:
+  - arc_easy_mc
+  - arc_challenge_mc
+  - mmlu_stem_mc
+  - medmcqa_mc
+  - medqa_mc
+  - sciq_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "STEM multiple choice QA tasks"

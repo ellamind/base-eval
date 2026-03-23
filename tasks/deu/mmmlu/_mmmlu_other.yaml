@@ -1,0 +1,22 @@
+group: deu_mmmlu_other_mc
+task:
+  - deu_mmmlu_business_ethics_mc
+  - deu_mmmlu_clinical_knowledge_mc
+  - deu_mmmlu_college_medicine_mc
+  - deu_mmmlu_global_facts_mc
+  - deu_mmmlu_human_aging_mc
+  - deu_mmmlu_management_mc
+  - deu_mmmlu_marketing_mc
+  - deu_mmmlu_medical_genetics_mc
+  - deu_mmmlu_miscellaneous_mc
+  - deu_mmmlu_nutrition_mc
+  - deu_mmmlu_professional_accounting_mc
+  - deu_mmmlu_professional_medicine_mc
+  - deu_mmmlu_virology_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

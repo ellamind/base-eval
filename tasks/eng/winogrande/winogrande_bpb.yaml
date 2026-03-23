@@ -1,0 +1,22 @@
+# Winogrande BPB (answer-only, OLMES-style)
+# BPB = -log2 P(continuation | prefix + correct_option) / bytes(continuation)
+
+task: winogrande_bpb
+dataset_path: allenai/winogrande
+dataset_kwargs:
+  revision: refs/convert/parquet
+validation_split: validation
+fewshot_split: train
+output_type: loglikelihood
+target_delimiter: ""
+doc_to_text: !function utils.doc_to_text_bpb
+doc_to_target: !function utils.doc_to_target
+num_fewshot: 5
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "Winogrande - BPB evaluation"

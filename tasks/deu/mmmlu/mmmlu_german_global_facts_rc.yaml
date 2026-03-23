@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_global_facts_rc
+process_docs: !function utils.process_global_facts
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema globale Fakten.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_global_facts
+metadata:
+  version: 1.0

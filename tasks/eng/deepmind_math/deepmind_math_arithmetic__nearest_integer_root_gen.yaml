@@ -1,0 +1,5 @@
+include: _deepmind_math_gen_template.yaml
+task: deepmind_math_arithmetic__nearest_integer_root_gen
+process_docs: !function utils.filter_arithmetic__nearest_integer_root
+metadata:
+  version: 1.0

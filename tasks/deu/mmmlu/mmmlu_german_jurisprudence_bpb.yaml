@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_jurisprudence_bpb
+process_docs: !function utils.process_jurisprudence
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Rechtswissenschaft.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_jurisprudence
+metadata:
+  version: 1.0

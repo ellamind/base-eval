@@ -1,0 +1,29 @@
+group: eng_base_main
+task:
+  # Math Reasoning (9 tasks)
+  - math
+  # Code Generation (2 tasks)
+  - code
+  # STEM Multiple Choice (23 tasks)
+  - stem_qa_mc
+  # Non-STEM Multiple Choice (46 tasks)
+  - nonstem_qa_mc
+  # AGIEval Multiple Choice (9 subsets)
+  - agieval_mc
+  # Generative Tasks (9 tasks)
+  - gen
+  # Heldout
+  - heldout
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "English base main evaluation suite"

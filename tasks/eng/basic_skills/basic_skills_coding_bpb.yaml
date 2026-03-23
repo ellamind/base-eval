@@ -1,0 +1,6 @@
+include: _basic_skills_bpb_template.yaml
+task: basic_skills_coding_bpb
+dataset_name: coding
+metadata:
+  version: 1.0
+  description: "Basic Skills Coding - BPB evaluation"

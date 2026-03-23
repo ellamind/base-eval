@@ -1,0 +1,6 @@
+include: _coqa_gen_template.yaml
+task: deu_coqa_gen
+process_docs: !function utils.process_docs
+metadata:
+  version: 1.0
+  description: "CoQA German — 0-shot generative conversational QA, token F1 + EM (OLMES-aligned)"

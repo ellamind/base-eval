@@ -1,0 +1,31 @@
+# SimpleQA Verified German Generative Template — 5-shot
+# Dataset: ellamind/simpleqa-verified-multilingual (deu subset)
+# Short-form factual QA testing parametric knowledge.
+# Scoring: exact_match against answer + answer_aliases (case/punct insensitive)
+dataset_path: ellamind/simpleqa-verified-multilingual
+dataset_name: deu
+test_split: eval
+output_type: generate_until
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target_gen
+process_results: !function utils.process_results_gen
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+fewshot_delimiter: "\n\n"
+target_delimiter: " "
+generation_kwargs:
+  max_gen_toks: 64
+  until:
+    - "Frage:"
+    - "\n\n"
+    - "</s>"
+    - "<|im_end|>"
+  do_sample: false
+  temperature: 0.0
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

@@ -1,0 +1,9 @@
+include: _socialiqa_mc_template.yaml
+task: socialiqa_rc
+doc_to_text: "Question: {{context}} {{question}}\nAnswer:"
+doc_to_target: "{{label | int - 1}}"
+doc_to_choice: "{{[answerA, answerB, answerC]}}"
+metadata:
+  version: 1.0
+  description: "Social IQA social commonsense reasoning"
+  fewshot_source: "OLMES:social_i_qa"

@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_logical_fallacies_bpb
+dataset_name: logical_fallacies
+description: "The following are questions (with answers) about logical fallacies.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU Logical Fallacies - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

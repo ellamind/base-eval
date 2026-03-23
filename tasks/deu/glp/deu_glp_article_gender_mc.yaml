@@ -1,0 +1,6 @@
+include: _default_mc_template.yaml
+task: deu_glp_article_gender_mc
+process_docs: !function utils.filter_article_gender
+metadata:
+  version: 1.0
+  description: "German article gender errors (MC)"

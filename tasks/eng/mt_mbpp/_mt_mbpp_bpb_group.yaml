@@ -1,0 +1,27 @@
+# MT-MBPP BPB — all 17 programming languages
+group: mt_mbpp_bpb
+task:
+  - mt_mbpp_bash_bpb
+  - mt_mbpp_c_bpb
+  - mt_mbpp_cpp_bpb
+  - mt_mbpp_csharp_bpb
+  - mt_mbpp_go_bpb
+  - mt_mbpp_haskell_bpb
+  - mt_mbpp_java_bpb
+  - mt_mbpp_javascript_bpb
+  - mt_mbpp_matlab_bpb
+  - mt_mbpp_php_bpb
+  - mt_mbpp_python_bpb
+  - mt_mbpp_r_bpb
+  - mt_mbpp_ruby_bpb
+  - mt_mbpp_rust_bpb
+  - mt_mbpp_scala_bpb
+  - mt_mbpp_swift_bpb
+  - mt_mbpp_typescript_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MT-MBPP BPB - 17 languages with macro averaging"

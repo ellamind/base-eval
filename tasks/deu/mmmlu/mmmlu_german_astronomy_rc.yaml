@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_astronomy_rc
+process_docs: !function utils.process_astronomy
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Astronomie.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_astronomy
+metadata:
+  version: 1.0

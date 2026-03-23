@@ -1,0 +1,7 @@
+# German MBPP Template
+dataset_path: ellamind/mbpp-multilingual
+dataset_name: deu
+test_split: test
+num_fewshot: 3
+metadata:
+  version: 1.0

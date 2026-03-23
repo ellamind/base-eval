@@ -1,0 +1,43 @@
+# LBPP (Less Basic Python Programming) — mirrors OLMES default base-model config
+# Source: ellamind/lbpp (162 Python problems, converted from CohereLabs/lbpp)
+# Format: 0-shot code completion, n=32 sampling for pass@k
+# Prompt: instruction + signature, with assistant prefix to prime code generation
+task: lbpp_code
+dataset_path: ellamind/lbpp
+test_split: test
+num_fewshot: 0
+unsafe_code: true
+output_type: generate_until
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+target_delimiter: ""
+generation_kwargs:
+  max_gen_toks: 1024
+  until:
+    - "\nclass"
+    - "\nassert"
+    - "\n\"\"\""
+    - "\nprint"
+    - "\nif"
+    - "\n```"
+    - "\n#"
+    - "\n<|/"
+  do_sample: true
+  temperature: 0.6
+  top_p: 0.6
+repeats: 32
+filter_list:
+  - name: "build_test"
+    filter:
+      - function: "custom"
+        filter_fn: !function utils.build_predictions
+metric_list:
+  - metric: !function utils.pass_at_k
+    aggregation: mean
+    higher_is_better: true
+    k: [1, 16]
+metadata:
+  version: 1.0
+  description: "LBPP (0-shot, n=32 samples) — mirrors OLMES default base-model config"
+  pass_at_k: [1, 16]
+  execution: "Sandboxed code execution via hf_evaluate code_eval"

@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_computer_security_bpb
+process_docs: !function utils.process_computer_security
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Computersicherheit.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_computer_security
+metadata:
+  version: 1.0

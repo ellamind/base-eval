@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_conceptual_physics_mc
+process_docs: !function utils.process_conceptual_physics
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_conceptual_physics
+metadata:
+  version: 1.0

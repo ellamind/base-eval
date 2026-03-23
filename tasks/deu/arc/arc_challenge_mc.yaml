@@ -1,0 +1,9 @@
+include: _arc_mc_template.yaml
+task: deu_arc_challenge_mc
+process_docs: !function utils.filter_challenge
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_challenge
+metadata:
+  version: 1.0
+  description: "ARC Challenge German - Multiple Choice formulation"

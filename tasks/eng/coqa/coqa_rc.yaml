@@ -1,0 +1,18 @@
+include: _coqa_template.yaml
+task: coqa_rc
+# Use gen2mc dataset with pre-generated multiple choice options (matches OLMES)
+dataset_path: allenai/coqa-gen2mc
+output_type: multiple_choice
+doc_to_text: "{{query_original}}"
+doc_to_target: "{{ ['A', 'B', 'C', 'D', 'E'].index(answerKey) }}"
+doc_to_choice: "{{choices.text}}"
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "CoQA - conversational question answering (gen2mc multiple choice)"

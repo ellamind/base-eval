@@ -1,0 +1,10 @@
+include: _arc_rc_template.yaml
+task: arc_challenge_rc
+dataset_name: ARC-Challenge
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_arc_challenge_fewshot
+metadata:
+  version: 1.0
+  description: "ARC Challenge reading comprehension"
+  fewshot_source: "OLMES:ARC-Challenge"

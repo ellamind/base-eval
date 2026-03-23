@@ -1,0 +1,6 @@
+include: _mmlu_mc_template.yaml
+task: mmlu_stem_elementary_mathematics_mc
+dataset_name: elementary_mathematics
+description: "The following are multiple choice questions (with answers) about elementary mathematics.\n\n"
+metadata:
+  version: 1.0

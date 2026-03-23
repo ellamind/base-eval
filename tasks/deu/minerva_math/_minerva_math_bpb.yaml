@@ -1,0 +1,16 @@
+group: deu_minerva_math_bpb
+task:
+  - deu_minerva_math_algebra_bpb
+  - deu_minerva_math_counting_and_probability_bpb
+  - deu_minerva_math_geometry_bpb
+  - deu_minerva_math_intermediate_algebra_bpb
+  - deu_minerva_math_number_theory_bpb
+  - deu_minerva_math_prealgebra_bpb
+  - deu_minerva_math_precalculus_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Minerva Math German BPB (7 categories) - macro averaged"

@@ -1,0 +1,31 @@
+# Non-STEM Multiple Choice Tasks
+#
+# Tasks: MMLU (Humanities, Social Sciences, Other), CommonsenseQA, PiQA, SocialIQA,
+#        DROP, Jeopardy, NaturalQs, SQuAD, CoQA (MC variants)
+# Format: Multiple choice with 2-5 options
+# Metric: Accuracy (standard and length-normalized)
+# Fewshot: 5-shot from OLMES curated examples
+
+group: nonstem_qa_mc
+task:
+  - mmlu_humanities_mc
+  - mmlu_social_sciences_mc
+  - mmlu_other_mc
+  - csqa_mc
+  - piqa_mc
+  - socialiqa_mc
+  - coqa_mc
+  - drop_mc
+  - jeopardy_mc
+  - naturalqs_mc
+  - squad_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Non-STEM multiple choice QA tasks"

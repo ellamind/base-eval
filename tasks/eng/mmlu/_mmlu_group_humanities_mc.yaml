@@ -1,0 +1,29 @@
+# MMLU Humanities Subjects - Multiple Choice
+# 13 Humanities subjects from MMLU benchmark
+# Source: cais/mmlu
+
+group: mmlu_humanities_mc
+task:
+  - mmlu_hum_formal_logic_mc
+  - mmlu_hum_high_school_european_history_mc
+  - mmlu_hum_high_school_us_history_mc
+  - mmlu_hum_high_school_world_history_mc
+  - mmlu_hum_international_law_mc
+  - mmlu_hum_jurisprudence_mc
+  - mmlu_hum_logical_fallacies_mc
+  - mmlu_hum_moral_disputes_mc
+  - mmlu_hum_moral_scenarios_mc
+  - mmlu_hum_philosophy_mc
+  - mmlu_hum_prehistory_mc
+  - mmlu_hum_professional_law_mc
+  - mmlu_hum_world_religions_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU Humanities subjects (13) - macro averaged"

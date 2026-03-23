@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_college_physics_mc
+process_docs: !function utils.process_college_physics
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_college_physics
+metadata:
+  version: 1.0

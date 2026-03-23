@@ -1,0 +1,52 @@
+# GSM8K Platinum German Chain-of-Thought Template — 8-shot COT
+# Dataset: ellamind/gsm8k-platinum-multilingual (deu subset)
+# Convention: 8-shot COT matches lm-eval-harness / OLMES standard for GSM8K
+dataset_path: ellamind/gsm8k-platinum-multilingual
+dataset_name: deu
+test_split: test
+output_type: generate_until
+doc_to_text: !function utils.doc_to_text
+doc_to_target: "{{final_answer if final_answer is defined else target}}"
+num_fewshot: 8
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_samples
+fewshot_delimiter: "\n\n"
+target_delimiter: " "
+generation_kwargs:
+  max_gen_toks: 512
+  until:
+    - "Frage:"
+    - "Q:"
+    - "</s>"
+    - "<|im_end|>"
+  do_sample: false
+  temperature: 0.0
+filter_list:
+  - name: "strict-match"
+    filter:
+      - function: "regex"
+        regex_pattern: "(?:Die Antwort ist|The answer is) (\\-?[0-9\\.\\,]+)"
+      - function: "take_first"
+  - name: "flexible-extract"
+    filter:
+      - function: "regex"
+        group_select: -1
+        regex_pattern: "(-?[€$0-9.,]{2,})|(-?[0-9]+)"
+      - function: "take_first"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: false
+    regexes_to_ignore:
+      - ","
+      - "\\$"
+      - "€"
+      - "\\.$"
+repeats: 1
+metadata:
+  version: 1.0
+  description: "GSM8K Platinum German — 8-shot COT, grade-school math problems (flagged rows excluded)"
+  fewshot_source: "STD:GSM8k (German translation of canonical 8 examples)"

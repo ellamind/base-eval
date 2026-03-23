@@ -1,0 +1,6 @@
+include: _default_rc_template.yaml
+task: deu_glp_ss_eszett_rc
+process_docs: !function utils.filter_ss_eszett
+metadata:
+  version: 1.0
+  description: "German ss/ß (Eszett) errors"

@@ -1,0 +1,6 @@
+include: _hellaswag_mc_template.yaml
+task: deu_hellaswag_mc
+process_docs: !function utils.prepare_all
+metadata:
+  version: 1.0
+  description: "HellaSwag German - Multiple Choice formulation"

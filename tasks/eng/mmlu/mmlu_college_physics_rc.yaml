@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_college_physics_rc
+dataset_name: college_physics
+description: "The following are questions (with answers) about college physics.\n\n"
+metadata:
+  version: 1.0

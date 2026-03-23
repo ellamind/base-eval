@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: deu_mmmlu_moral_scenarios_rc
+process_docs: !function utils.process_moral_scenarios
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema moralische Szenarien.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_moral_scenarios
+metadata:
+  version: 1.0

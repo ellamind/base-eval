@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_management_rc
+dataset_name: management
+description: "The following are questions (with answers) about management.\n\n"
+metadata:
+  version: 1.0

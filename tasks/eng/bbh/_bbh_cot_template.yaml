@@ -1,0 +1,30 @@
+# BigBench Hard CoT Template — mirrors OLMES olmo3:heldout
+# Dataset: lukaemon/bbh (27 tasks)
+# Format: 3-shot CoT with sampling, exact_match via "the answer is" regex
+dataset_path: lukaemon/bbh
+output_type: generate_until
+test_split: test
+doc_to_text: "Q: {{input}}\nA: Let's think step by step.\n"
+doc_to_target: "{{target}}"
+target_delimiter: ""
+num_fewshot: 3
+generation_kwargs:
+  max_gen_toks: 512
+  do_sample: true
+  temperature: 0.6
+  top_p: 0.6
+  until:
+    - "Q:"
+    - "\n\n"
+filter_list:
+  - name: "get-answer"
+    filter:
+      - function: "regex"
+        regex_pattern: "(?<=the answer is )(.*)(?=.)"
+      - function: "take_first"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

@@ -1,0 +1,6 @@
+include: _piqa_rc_template.yaml
+task: deu_piqa_easy_rc
+process_docs: !function utils.prepare_easy
+metadata:
+  version: 1.0
+  description: "PiQA German Easy - physical intuition QA (2 choices, easy distractor only)"

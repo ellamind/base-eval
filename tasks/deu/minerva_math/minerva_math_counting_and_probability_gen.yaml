@@ -1,0 +1,5 @@
+include: _minerva_math_gen_template.yaml
+task: deu_minerva_math_counting_and_probability_gen
+process_docs: !function utils.process_counting_and_probability
+metadata:
+  version: 1.0

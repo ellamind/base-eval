@@ -1,0 +1,36 @@
+# German Generative / Reading Comprehension Tasks
+#
+# Mirrors ENG gen.yaml structure:
+#   ENG hellaswag_rc   → deu_hellaswag_rc (HellaSwag German equivalent)
+#   ENG winogrande_rc  → deu_winogrande_rc (WinoGrande German equivalent)
+#   ENG lambada_gen_olmes   — not available in DEU
+#   ENG drop_gen            — not available in DEU
+#   ENG jeopardy_gen        — not available in DEU
+#   ENG naturalqs_gen       — not available in DEU
+#   ENG squad_gen           — not available in DEU
+#   ENG coqa_gen            → deu_coqa_gen (CoQA German equivalent)
+#
+# Format: Reading comprehension (likelihood-based) + generative QA
+# Metric: Accuracy (standard and length-normalized), F1, EM
+
+group: deu_gen
+task:
+  - deu_hellaswag_rc
+  - deu_winogrande_rc
+  - deu_coqa_gen
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: f1
+    aggregation: mean
+    weight_by_size: false
+  - metric: em
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German generative and reading comprehension tasks"

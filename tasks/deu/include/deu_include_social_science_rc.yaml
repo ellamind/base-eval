@@ -1,0 +1,9 @@
+include: _include_rc_template.yaml
+task: deu_include_social_science_rc
+process_docs: !function utils.process_social_science
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_social_science
+metadata:
+  version: 1.0
+  description: "INCLUDE German Social Science RC — 91 questions, 5-shot"

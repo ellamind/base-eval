@@ -1,0 +1,7 @@
+include: _minerva_math_gen.yaml
+task: minerva_math_number_theory_gen
+dataset_name: number_theory
+metadata:
+  version: 1.0
+  description: "Minerva Math number theory (4-shot, n=4 samples)"
+  fewshot_source: "Minerva:MATH:fixed"

@@ -1,0 +1,14 @@
+include: _sciriff_template.yaml
+task: sciriff_yesno_bpb
+output_type: loglikelihood
+doc_to_text: "{{context}}\nQuestion: {{question}}\nAnswer:"
+target_delimiter: ""
+doc_to_target: " {{['Yes', 'No'][gold]}}"
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "SciRIFF Yes/No - BPB evaluation"

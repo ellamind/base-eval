@@ -1,0 +1,5 @@
+include: _deepmind_math_gen_template.yaml
+task: deepmind_math_algebra__linear_1d_gen
+process_docs: !function utils.filter_algebra__linear_1d
+metadata:
+  version: 1.0

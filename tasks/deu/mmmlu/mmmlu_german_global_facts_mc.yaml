@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_global_facts_mc
+process_docs: !function utils.process_global_facts
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_global_facts
+metadata:
+  version: 1.0

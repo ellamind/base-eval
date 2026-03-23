@@ -1,0 +1,64 @@
+group: deepmind_math_gen
+task:
+  - deepmind_math_algebra__linear_1d_gen
+  - deepmind_math_algebra__linear_1d_composed_gen
+  - deepmind_math_algebra__linear_2d_gen
+  - deepmind_math_algebra__linear_2d_composed_gen
+  - deepmind_math_algebra__polynomial_roots_gen
+  - deepmind_math_algebra__polynomial_roots_composed_gen
+  - deepmind_math_algebra__sequence_next_term_gen
+  - deepmind_math_algebra__sequence_nth_term_gen
+  - deepmind_math_arithmetic__add_or_sub_gen
+  - deepmind_math_arithmetic__add_or_sub_in_base_gen
+  - deepmind_math_arithmetic__add_sub_multiple_gen
+  - deepmind_math_arithmetic__div_gen
+  - deepmind_math_arithmetic__mixed_gen
+  - deepmind_math_arithmetic__mul_gen
+  - deepmind_math_arithmetic__mul_div_multiple_gen
+  - deepmind_math_arithmetic__nearest_integer_root_gen
+  - deepmind_math_arithmetic__simplify_surd_gen
+  - deepmind_math_calculus__differentiate_gen
+  - deepmind_math_calculus__differentiate_composed_gen
+  - deepmind_math_comparison__closest_gen
+  - deepmind_math_comparison__closest_composed_gen
+  - deepmind_math_comparison__kth_biggest_gen
+  - deepmind_math_comparison__kth_biggest_composed_gen
+  - deepmind_math_comparison__pair_gen
+  - deepmind_math_comparison__pair_composed_gen
+  - deepmind_math_comparison__sort_gen
+  - deepmind_math_comparison__sort_composed_gen
+  - deepmind_math_measurement__conversion_gen
+  - deepmind_math_measurement__time_gen
+  - deepmind_math_numbers__base_conversion_gen
+  - deepmind_math_numbers__div_remainder_gen
+  - deepmind_math_numbers__div_remainder_composed_gen
+  - deepmind_math_numbers__gcd_gen
+  - deepmind_math_numbers__gcd_composed_gen
+  - deepmind_math_numbers__is_factor_gen
+  - deepmind_math_numbers__is_factor_composed_gen
+  - deepmind_math_numbers__is_prime_gen
+  - deepmind_math_numbers__is_prime_composed_gen
+  - deepmind_math_numbers__lcm_gen
+  - deepmind_math_numbers__lcm_composed_gen
+  - deepmind_math_numbers__list_prime_factors_gen
+  - deepmind_math_numbers__list_prime_factors_composed_gen
+  - deepmind_math_numbers__place_value_gen
+  - deepmind_math_numbers__place_value_composed_gen
+  - deepmind_math_numbers__round_number_gen
+  - deepmind_math_numbers__round_number_composed_gen
+  - deepmind_math_polynomials__add_gen
+  - deepmind_math_polynomials__coefficient_named_gen
+  - deepmind_math_polynomials__collect_gen
+  - deepmind_math_polynomials__compose_gen
+  - deepmind_math_polynomials__evaluate_gen
+  - deepmind_math_polynomials__evaluate_composed_gen
+  - deepmind_math_polynomials__expand_gen
+  - deepmind_math_polynomials__simplify_power_gen
+  - deepmind_math_probability__swr_p_level_set_gen
+  - deepmind_math_probability__swr_p_sequence_gen
+aggregate_metric_list:
+  - aggregation: mean
+    metric: exact_match
+    weight_by_size: true
+metadata:
+  version: 1.0

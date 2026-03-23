@@ -1,0 +1,15 @@
+include: _minerva_math_template.yaml
+task: deu_minerva_math_number_theory_bpb
+process_docs: !function utils.process_number_theory
+output_type: loglikelihood
+doc_to_text: "Aufgabe:\n{{problem}}\n\nLösung:"
+target_delimiter: ""
+doc_to_target: " {{solution}}"
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  fewshot_source: "Minerva:MATH:fixed (German translation)"

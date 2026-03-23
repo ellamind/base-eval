@@ -1,0 +1,6 @@
+# Natural Questions Base Template
+# Note: naturalqs_rc.yaml overrides dataset_path to use allenai/nq-gen2mc
+test_split: validation
+num_fewshot: 5
+metadata:
+  version: 1.0

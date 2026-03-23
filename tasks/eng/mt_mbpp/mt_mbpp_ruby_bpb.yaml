@@ -1,0 +1,6 @@
+include: _mt_mbpp_bpb_template.yaml
+task: mt_mbpp_ruby_bpb
+dataset_name: ruby
+metadata:
+  version: 1.0
+  description: "Multilingual MBPP - ruby - BPB evaluation"

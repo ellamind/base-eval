@@ -1,0 +1,15 @@
+group: deu_include_mc
+task:
+  - deu_include_stem_mc
+  - deu_include_social_science_mc
+  - deu_include_driving_license_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
+  description: "INCLUDE German — regional knowledge MCQ benchmark (3 domains, 139 questions)"

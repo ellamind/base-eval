@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_college_chemistry_rc
+dataset_name: college_chemistry
+description: "The following are questions (with answers) about college chemistry.\n\n"
+metadata:
+  version: 1.0

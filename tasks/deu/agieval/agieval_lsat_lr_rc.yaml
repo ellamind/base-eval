@@ -1,0 +1,9 @@
+include: _agieval_rc_template.yaml
+task: deu_agieval_lsat_lr_rc
+process_docs: !function utils.filter_lsat_lr
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_lsat_lr
+metadata:
+  version: 1.0
+  description: "AGIEval LSAT Logical Reasoning German - Rank Classification"

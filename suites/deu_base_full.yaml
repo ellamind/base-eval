@@ -1,0 +1,131 @@
+group: deu_base_full
+task:
+  # ── AGIEval (9 subsets × MC/RC/BPB) ──
+  - deu_agieval_mc   # group: 9 subsets
+  - deu_agieval_rc   # group: 9 subsets
+  - deu_agieval_bpb  # group: 9 subsets
+
+  # ── ARC ──
+  - deu_arc_challenge_mc
+  - deu_arc_challenge_rc
+  - deu_arc_challenge_bpb
+  - deu_arc_easy_mc
+  - deu_arc_easy_rc
+  - deu_arc_easy_bpb
+
+  # ── CoQA ──
+  - deu_coqa_gen
+  - deu_coqa_bpb
+
+  # ── CommonsenseQA ──
+  - deu_csqa_mc
+  - deu_csqa_rc
+  - deu_csqa_easy_rc
+  - deu_csqa_bpb
+
+  # ── GLP — German Language Proficiency (22 subtopics each) ──
+  - deu_glp       # RC
+  - deu_glp_mc    # MC
+
+  # ── GPQA ──
+  - deu_gpqa_main_mc
+  - deu_gpqa_main_cot
+  - deu_gpqa_diamond_mc
+  - deu_gpqa_diamond_cot
+
+  # ── GSM8K Platinum ──
+  - deu_gsm8k_platinum_cot
+
+  # ── HellaSwag ──
+  - deu_hellaswag_mc
+  - deu_hellaswag_rc
+  - deu_hellaswag_easy_rc
+  - deu_hellaswag_bpb
+
+  # ── HLE ──
+  - deu_hle_mc
+  - deu_hle_rc
+  - deu_hle_bpb
+
+  # ── HumanEval ──
+  - deu_humaneval_code
+  - deu_humaneval_bpb
+
+  # ── INCLUDE (3 domains × 3 formulations) ──
+  - deu_include_mc
+  - deu_include_rc
+  - deu_include_bpb
+
+  # ── MBPP ──
+  - deu_mbpp_code
+  - deu_mbpp_bpb
+
+  # ── Minerva Math (7 categories each) ──
+  - deu_minerva_math_gen
+  - deu_minerva_math_bpb
+
+  # ── MMLU Pro (14 subjects) ──
+  - deu_mmlu_pro_mc
+  - deu_mmlu_pro_rc
+  - deu_mmlu_pro_cot
+
+  # ── MMMLU — full (all 57 subjects) ──
+  - deu_mmmlu_mc             # MC (57 subjects via stem/humanities/social_sciences/other)
+  - deu_mmmlu_rc            # RC (57 subjects via stem_rc/humanities_rc/social_sciences_rc/other_rc)
+  - deu_mmmlu_bpb           # BPB (57 subjects via stem_bpb/humanities_bpb/social_sciences_bpb/other_bpb)
+
+  # ── MMMLU — filtered (32 translation-safe subjects) ──
+  # NOTE: Run separately to avoid overlap with full MMMLU above:
+  #   lm_eval --tasks deu_mmmlu_filtered,deu_mmmlu_filtered_rc,deu_mmmlu_filtered_bpb ...
+  # - deu_mmmlu_filtered_mc   # MC
+  # - deu_mmmlu_filtered_rc   # RC
+  # - deu_mmmlu_filtered_bpb  # BPB
+
+  # ── PIQA ──
+  - deu_piqa_mc
+  - deu_piqa_rc
+  - deu_piqa_easy_rc
+  - deu_piqa_bpb
+
+  # ── SIQA ──
+  - deu_siqa_mc
+  - deu_siqa_rc
+  - deu_siqa_easy_rc
+  - deu_siqa_bpb
+
+  # ── SimpleQA ──
+  - deu_simpleqa_gen
+  - deu_simpleqa_mc
+  - deu_simpleqa_rc
+  - deu_simpleqa_bpb
+
+  # ── WinoGrande ──
+  - deu_winogrande_mc
+  - deu_winogrande_rc
+  - deu_winogrande_bpb
+
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+  - metric: f1
+    aggregation: mean
+    weight_by_size: false
+  - metric: em
+    aggregation: mean
+    weight_by_size: false
+  - metric: pass@1
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German Base Full evaluation suite - all tasks in all available formulations (MC, RC, BPB, gen, CoT, code)"

@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_logical_fallacies_rc
+dataset_name: logical_fallacies
+description: "The following are questions (with answers) about logical fallacies.\n\n"
+metadata:
+  version: 1.0

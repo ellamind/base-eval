@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_medical_genetics_rc
+dataset_name: medical_genetics
+description: "The following are questions (with answers) about medical genetics.\n\n"
+metadata:
+  version: 1.0

@@ -1,0 +1,6 @@
+include: _default_rc_template.yaml
+task: deu_glp_n_deklination_rc
+process_docs: !function utils.filter_n_deklination
+metadata:
+  version: 1.0
+  description: "German n-declension errors"

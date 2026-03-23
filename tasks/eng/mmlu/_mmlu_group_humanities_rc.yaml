@@ -1,0 +1,28 @@
+# MMLU Humanities Subjects - Rank Classification
+# 13 Humanities subjects from MMLU benchmark
+
+group: mmlu_humanities_rc
+task:
+  - mmlu_formal_logic_rc
+  - mmlu_high_school_european_history_rc
+  - mmlu_high_school_us_history_rc
+  - mmlu_high_school_world_history_rc
+  - mmlu_international_law_rc
+  - mmlu_jurisprudence_rc
+  - mmlu_logical_fallacies_rc
+  - mmlu_moral_disputes_rc
+  - mmlu_moral_scenarios_rc
+  - mmlu_philosophy_rc
+  - mmlu_prehistory_rc
+  - mmlu_professional_law_rc
+  - mmlu_world_religions_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU Humanities subjects (13) RC - macro averaged"

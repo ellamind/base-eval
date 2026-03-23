@@ -1,0 +1,6 @@
+include: _gpqa_mc_template.yaml
+task: deu_gpqa_diamond_mc
+process_docs: !function utils.process_docs_diamond
+metadata:
+  version: 1.0
+  description: "GPQA Diamond German — 0-shot MC (flagged rows excluded)"

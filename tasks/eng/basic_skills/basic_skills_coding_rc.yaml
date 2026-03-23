@@ -1,0 +1,6 @@
+include: _basic_skills_rc_template.yaml
+task: basic_skills_coding_rc
+dataset_name: coding
+metadata:
+  version: 1.0
+  description: "Basic Skills Coding - multiple choice"

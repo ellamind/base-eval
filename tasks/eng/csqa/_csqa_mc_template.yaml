@@ -1,0 +1,18 @@
+# CommonsenseQA Multiple Choice Template
+dataset_path: tau/commonsense_qa
+test_split: validation
+output_type: multiple_choice
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_csqa_fewshot
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  fewshot_source: "OLMES:commonsense_qa"

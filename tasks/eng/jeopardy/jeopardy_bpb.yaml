@@ -1,0 +1,21 @@
+include: _jeopardy_template.yaml
+task: jeopardy_bpb
+dataset_path: soldni/jeopardy
+dataset_name: mosaicml_gauntlet
+test_split: train
+output_type: loglikelihood
+doc_to_text: "Category: {{context.split(': ', 1)[0]}}\nClue: {{context.split(': ', 1)[1]}}\nAnswer:"
+target_delimiter: ""
+doc_to_target: " {{continuation}}"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_jeopardy_bpb_fewshot
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "Jeopardy - BPB evaluation"
+  fewshot_source: "OLMES:jeopardy_mc"

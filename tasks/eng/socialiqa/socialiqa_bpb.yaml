@@ -1,0 +1,6 @@
+include: _socialiqa_bpb_template.yaml
+task: socialiqa_bpb
+metadata:
+  version: 1.0
+  description: "Social IQA - BPB evaluation"
+  fewshot_source: "OLMES:social_i_qa"

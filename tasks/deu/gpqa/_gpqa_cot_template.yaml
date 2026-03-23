@@ -1,0 +1,41 @@
+# GPQA German Chain-of-Thought Template — 5-shot COT
+# Dataset: ellamind/gpqa-multilingual (deu subset)
+# Convention: 5-shot COT matches Qwen3 evaluation protocol for GPQA
+dataset_path: ellamind/gpqa-multilingual
+dataset_name: deu
+test_split: train
+output_type: generate_until
+doc_to_text: !function utils.doc_to_text_cot
+doc_to_target: !function utils.doc_to_target_cot
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_cot
+  doc_to_target: !function utils.doc_to_target_cot_fewshot
+fewshot_delimiter: "\n\n"
+target_delimiter: "\n"
+generation_kwargs:
+  max_gen_toks: 1024
+  until:
+    - "</s>"
+    - "Question:"
+    - "<|im_end|>"
+  do_sample: false
+  temperature: 0.0
+filter_list:
+  - name: "flexible-extract"
+    filter:
+      - function: "multi_choice_regex"
+        group_select: -1
+        ignore_case: true
+        ignore_punctuation: true
+        regex_pattern: "(\\([A-D]\\))"
+      - function: "take_first"
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+metadata:
+  version: 1.0

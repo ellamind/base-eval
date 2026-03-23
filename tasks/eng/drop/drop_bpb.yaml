@@ -1,0 +1,8 @@
+include: _drop_bpb_template.yaml
+task: drop_bpb
+doc_to_text: "Passage: {{passage}}\nQuestion: {{question}}\nAnswer:"
+doc_to_target: " {% if answer.spans %}{{answer.spans[0]}}{% elif answer.number %}{{answer.number}}{% else %}{{answer.date.day}} {{answer.date.month}} {{answer.date.year}}{% endif %}"
+metadata:
+  version: 1.0
+  description: "DROP - BPB evaluation"
+  fewshot_source: "OLMES:drop_mc"

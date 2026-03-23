@@ -1,0 +1,23 @@
+group: eng_base_easy
+task:
+  # Math BPB (7 tasks)
+  - math_bpb
+  # Code BPB (19 tasks)
+  - code_bpb
+  # QA Reading Comprehension (19 entries)
+  - qa_rc
+  # QA BPB (21 entries)
+  - qa_bpb
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "English base easy evaluation suite - BPB and RC tasks"

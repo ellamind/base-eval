@@ -1,0 +1,36 @@
+group: deu_base_main
+task:
+  # STEM Multiple Choice (3 entries, ~21 tasks: ARC + MMMLU filtered STEM 19 subjects)
+  - deu_stem_qa_mc
+  # Non-STEM Multiple Choice (4 entries, ~16 tasks: MMMLU filtered non-STEM 13 subjects + CSQA + PiQA + SocialIQA)
+  - deu_nonstem_qa_mc
+  # AGIEval Multiple Choice (9 subsets)
+  - deu_agieval_mc
+  # Generative / RC (3 tasks)
+  - deu_gen
+  # Math Reasoning (2 entries, ~8 tasks)
+  - deu_math
+  # Code Generation (2 tasks)
+  - deu_code
+  # Grammar & Fluency RC (22 subtasks) — German-only
+  - deu_glp
+  # Grammar & Fluency MC (22 subtasks) — German-only
+  - deu_glp_mc
+  # Heldout
+  - deu_heldout
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+  - metric: pass@1
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "German base main evaluation suite"

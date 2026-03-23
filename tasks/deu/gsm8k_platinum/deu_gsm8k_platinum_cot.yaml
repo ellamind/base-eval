@@ -1,0 +1,6 @@
+include: _gsm8k_platinum_cot_template.yaml
+task: deu_gsm8k_platinum_cot
+process_docs: !function utils.process_docs
+metadata:
+  version: 1.0
+  description: "GSM8K Platinum German — 8-shot COT, grade-school math problems (flagged rows excluded)"

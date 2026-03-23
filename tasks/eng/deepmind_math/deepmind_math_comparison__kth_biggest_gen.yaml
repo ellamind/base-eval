@@ -1,0 +1,5 @@
+include: _deepmind_math_gen_template.yaml
+task: deepmind_math_comparison__kth_biggest_gen
+process_docs: !function utils.filter_comparison__kth_biggest
+metadata:
+  version: 1.0

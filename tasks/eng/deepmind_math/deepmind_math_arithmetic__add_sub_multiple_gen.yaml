@@ -1,0 +1,5 @@
+include: _deepmind_math_gen_template.yaml
+task: deepmind_math_arithmetic__add_sub_multiple_gen
+process_docs: !function utils.filter_arithmetic__add_sub_multiple
+metadata:
+  version: 1.0

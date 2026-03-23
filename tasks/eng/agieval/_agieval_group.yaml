@@ -1,0 +1,19 @@
+# English AGIEval — all formulations (top-level umbrella group)
+group: agieval
+task:
+  - agieval_mc
+  - agieval_rc
+  - agieval_bpb
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "English AGIEval — all subsets in MC, RC, and BPB formulations"

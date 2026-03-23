@@ -1,0 +1,19 @@
+# English AGIEval — Bits Per Byte (9 subsets)
+group: agieval_bpb
+task:
+  - agieval_aqua_rat_bpb
+  - agieval_gaokao_english_bpb
+  - agieval_logiqa_en_bpb
+  - agieval_lsat_ar_bpb
+  - agieval_lsat_lr_bpb
+  - agieval_lsat_rc_bpb
+  - agieval_sat_en_bpb
+  - agieval_sat_en_without_passage_bpb
+  - agieval_sat_math_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "English AGIEval — Bits Per Byte"

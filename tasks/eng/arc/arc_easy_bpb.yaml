@@ -1,0 +1,10 @@
+include: _arc_bpb_template.yaml
+task: arc_easy_bpb
+dataset_name: ARC-Easy
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_arc_easy_fewshot
+metadata:
+  version: 1.0
+  description: "ARC Easy - BPB evaluation"
+  fewshot_source: "OLMES:ARC-Easy"

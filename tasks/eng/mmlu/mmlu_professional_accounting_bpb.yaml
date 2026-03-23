@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_professional_accounting_bpb
+dataset_name: professional_accounting
+description: "The following are questions (with answers) about professional accounting.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU Professional Accounting - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

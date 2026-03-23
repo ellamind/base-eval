@@ -1,0 +1,9 @@
+include: _hle_bpb_template.yaml
+task: deu_hle_bpb
+process_docs: !function utils.process_docs
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_bpb
+metadata:
+  version: 1.0
+  description: "HLE German — 5-shot BPB on gold answer (flagged rows excluded)"

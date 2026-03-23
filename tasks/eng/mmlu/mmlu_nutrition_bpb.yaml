@@ -1,0 +1,8 @@
+include: _mmlu_bpb_template.yaml
+task: mmlu_nutrition_bpb
+dataset_name: nutrition
+description: "The following are questions (with answers) about nutrition.\n\n"
+metadata:
+  version: 1.0
+  description: "MMLU Nutrition - BPB evaluation"
+  fewshot_source: "MMLU dev split (first 5 examples)"

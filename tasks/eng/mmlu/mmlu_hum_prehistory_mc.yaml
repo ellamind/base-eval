@@ -1,0 +1,6 @@
+include: _mmlu_mc_template.yaml
+task: mmlu_hum_prehistory_mc
+dataset_name: prehistory
+description: "The following are multiple choice questions (with answers) about prehistory.\n\n"
+metadata:
+  version: 1.0

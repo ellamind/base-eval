@@ -1,0 +1,21 @@
+# AGIEval English Multiple Choice Template
+# Following OLMES :mc format — choices shown as " A. text", target is letter label.
+dataset_path: null
+test_split: test
+output_type: multiple_choice
+process_docs: !function utils.prepare
+doc_to_text: "Question: {{clean_query}}\n{% for i in range(clean_choices|length) %} {{'ABCDE'[i]}}. {{clean_choices[i]}}\n{% endfor %}Answer:"
+doc_to_target: "{{answer_idx}}"
+doc_to_choice: "{{'ABCDE'[:clean_choices|length] | list}}"
+num_fewshot: 3
+fewshot_config:
+  sampler: first_n
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0

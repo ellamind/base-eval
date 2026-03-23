@@ -1,0 +1,12 @@
+include: _piqa_mc_template.yaml
+task: piqa_rc
+doc_to_text: "Goal: {{goal}}\nAnswer:"
+doc_to_target: "{{label}}"
+doc_to_choice: "{{[sol1, sol2]}}"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_piqa_fewshot
+metadata:
+  version: 1.0
+  description: "PIQA physical intuition QA"
+  fewshot_source: "OLMES:piqa"

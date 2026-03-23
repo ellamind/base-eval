@@ -1,0 +1,6 @@
+include: _basic_skills_rc_template.yaml
+task: basic_skills_string_operations_rc
+dataset_name: string_operations
+metadata:
+  version: 1.0
+  description: "Basic Skills String Operations - multiple choice"

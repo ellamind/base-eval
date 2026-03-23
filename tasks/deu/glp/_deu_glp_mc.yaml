@@ -1,0 +1,33 @@
+group: deu_glp_mc
+task:
+  - deu_glp_adjective_ending_mc
+  - deu_glp_als_wie_mc
+  - deu_glp_article_case_mc
+  - deu_glp_article_gender_mc
+  - deu_glp_capitalization_mc
+  - deu_glp_collocation_mc
+  - deu_glp_connector_mc
+  - deu_glp_dass_das_mc
+  - deu_glp_discourse_mc
+  - deu_glp_punctuation_mc
+  - deu_glp_konjunktiv_mc
+  - deu_glp_naturalness_mc
+  - deu_glp_n_deklination_mc
+  - deu_glp_perfect_aux_mc
+  - deu_glp_pronoun_case_mc
+  - deu_glp_prose_quality_mc
+  - deu_glp_register_mc
+  - deu_glp_seit_seid_mc
+  - deu_glp_ss_eszett_mc
+  - deu_glp_verb_conjugation_mc
+  - deu_glp_word_order_nebensatz_mc
+  - deu_glp_word_order_v2_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0

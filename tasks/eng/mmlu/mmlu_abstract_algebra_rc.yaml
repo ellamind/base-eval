@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_abstract_algebra_rc
+dataset_name: abstract_algebra
+description: "The following are questions (with answers) about abstract algebra.\n\n"
+metadata:
+  version: 1.0

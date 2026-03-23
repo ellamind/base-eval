@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_computer_security_rc
+dataset_name: computer_security
+description: "The following are questions (with answers) about computer security.\n\n"
+metadata:
+  version: 1.0

@@ -1,0 +1,5 @@
+include: _minerva_math_gen_template.yaml
+task: deu_minerva_math_intermediate_algebra_gen
+process_docs: !function utils.process_intermediate_algebra
+metadata:
+  version: 1.0

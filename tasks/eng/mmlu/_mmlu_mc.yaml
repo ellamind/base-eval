@@ -1,0 +1,17 @@
+# MMLU MC — all 57 subjects via 4 domain groups
+group: mmlu_mc
+task:
+  - mmlu_stem_mc
+  - mmlu_humanities_mc
+  - mmlu_social_sciences_mc
+  - mmlu_other_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "MMLU MC - all 57 subjects, macro averaged across 4 domains"

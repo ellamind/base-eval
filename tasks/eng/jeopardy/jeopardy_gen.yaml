@@ -1,0 +1,36 @@
+include: _jeopardy_template.yaml
+task: jeopardy_gen
+# Use soldni/jeopardy with all_questions config (matches OLMES)
+dataset_path: soldni/jeopardy
+dataset_name: all_questions
+test_split: train
+process_docs: !function utils.cap_dataset
+output_type: generate_until
+# context field format: "CATEGORY: question text"
+# Parse and format like OLMES: Category: {cat}\nQuestion: {q}\nAnswer:
+doc_to_text: "Category: {{context.split(': ', 1)[0]}}\nQuestion: {{context.split(': ', 1)[1]}}\nAnswer:"
+doc_to_target: "{{continuation}}"
+generation_kwargs:
+  max_gen_toks: 50
+  until:
+    - "\n\n"
+    - "Question:"
+    - "Category:"
+  do_sample: false
+  temperature: 0.0
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_jeopardy_gen_fewshot_gen
+process_results: !function utils.process_results_jeopardy_gen
+metric_list:
+  - metric: em
+    aggregation: mean
+    higher_is_better: true
+  - metric: f1
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "Jeopardy trivia QA (generative, OLMES-aligned)"
+  fewshot_source: "OLMES:jeopardy"

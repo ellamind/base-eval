@@ -1,0 +1,19 @@
+# AGIEval English BPB Template (answer-only, OLMES-style)
+# BPB = -log2 P(answer | context) / bytes(answer)
+dataset_path: null
+test_split: test
+output_type: loglikelihood
+target_delimiter: ""
+process_docs: !function utils.prepare
+doc_to_text: "Question: {{clean_query}}\nAnswer:"
+doc_to_target: " {{correct_answer}}"
+num_fewshot: 3
+fewshot_config:
+  sampler: first_n
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0

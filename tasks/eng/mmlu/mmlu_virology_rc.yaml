@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_virology_rc
+dataset_name: virology
+description: "The following are questions (with answers) about virology.\n\n"
+metadata:
+  version: 1.0

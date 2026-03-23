@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_high_school_world_history_rc
+dataset_name: high_school_world_history
+description: "The following are questions (with answers) about high school world history.\n\n"
+metadata:
+  version: 1.0

@@ -1,0 +1,6 @@
+include: mmlu_rc_template.yaml
+task: mmlu_electrical_engineering_rc
+dataset_name: electrical_engineering
+description: "The following are questions (with answers) about electrical engineering.\n\n"
+metadata:
+  version: 1.0

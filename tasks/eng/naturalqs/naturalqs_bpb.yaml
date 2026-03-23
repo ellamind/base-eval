@@ -1,0 +1,19 @@
+include: _naturalqs_template.yaml
+task: naturalqs_bpb
+dataset_path: google-research-datasets/nq_open
+output_type: loglikelihood
+doc_to_text: "Question: {{question}}\nAnswer:"
+target_delimiter: ""
+doc_to_target: " {{answer[0]}}"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_naturalqs_fewshot
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0
+  description: "Natural Questions - BPB evaluation"
+  fewshot_source: "OLMES:naturalqs_mc"

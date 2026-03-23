@@ -1,0 +1,5 @@
+include: _mmlu_pro_rc_template.yaml
+task: mmlu_pro_law_rc
+process_docs: !function utils.process_law
+metadata:
+  version: 1.0

@@ -1,0 +1,19 @@
+include: _medqa_template.yaml
+task: medqa_mc
+dataset_path: davidheineman/medqa-en
+output_type: multiple_choice
+#doc_to_text: "Question: {{question}}\nA. {{options.A}}\nB. {{options.B}}\nC. {{options.C}}\nD. {{options.D}}\nE. {{options.E}}\nAnswer:"
+doc_to_text: "Question: {{question}}\n A. {{choices[0]}}\n B. {{choices[1]}}\n C. {{choices[2]}}\n D. {{choices[3]}}\nE. {{choices[4]}}\nAnswer:"
+doc_to_target: "{{['A', 'B', 'C', 'D', 'E'][answer_idx]}}"
+doc_to_choice: ["A", "B", "C", "D", "E"]
+fewshot_split: train
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm # is acc_per_char of olmes
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "MedQA USMLE-style medical licensing questions"

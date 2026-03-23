@@ -1,0 +1,20 @@
+# Math Reasoning Tasks
+#
+# Tasks: GSM8K (grade school math), GSM-Symbolic, Minerva Math
+# Format: Chain-of-thought generation with answer extraction
+# Metric: Exact match (after answer extraction)
+# Sampling: pass@k with n samples (8 for GSM, 4 for Minerva)
+
+group: math
+task:
+  - gsm8k_gen
+  - gsm_symbolic_all # group
+  - minerva_math_gen # group
+  - minerva_math_500_gen
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Math reasoning with chain-of-thought"

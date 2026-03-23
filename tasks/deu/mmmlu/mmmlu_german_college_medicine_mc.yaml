@@ -1,0 +1,8 @@
+include: mmmlu_mc_template.yaml
+task: deu_mmmlu_college_medicine_mc
+process_docs: !function utils.process_college_medicine
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_college_medicine
+metadata:
+  version: 1.0

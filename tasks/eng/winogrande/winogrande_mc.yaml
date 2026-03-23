@@ -1,0 +1,26 @@
+task: winogrande_mc
+dataset_path: allenai/winogrande
+dataset_kwargs:
+  revision: refs/convert/parquet
+test_split: validation
+output_type: multiple_choice
+doc_to_text: "Fill in the blank: {{sentence | replace('_', '___')}}\n A. {{option1}}\n B. {{option2}}\nAnswer:"
+doc_to_target: "{{{'1': 0, '2': 1}[answer]}}"
+doc_to_choice: "['A', 'B']"
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.get_winogrande_mc_fewshot
+should_decontaminate: true
+doc_to_decontamination_query: sentence
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
+  description: "Winogrande - coreference resolution (MC)"
+  fewshot_source: "OLMES:winogrande"

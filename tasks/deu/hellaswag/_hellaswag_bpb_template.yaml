@@ -1,0 +1,21 @@
+# HellaSwag German BPB Template (answer-only, OLMES-style)
+# BPB = -log2 P(ending | context) / bytes(ending)
+
+dataset_path: ellamind/hellaswag-multilingual
+dataset_name: deu
+validation_split: validation
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_samples
+output_type: loglikelihood
+target_delimiter: ""
+doc_to_text: "{{context}}"
+doc_to_target: " {{correct_ending}}"
+num_fewshot: 5
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0

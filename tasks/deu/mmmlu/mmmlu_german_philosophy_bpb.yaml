@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: deu_mmmlu_philosophy_bpb
+process_docs: !function utils.process_philosophy
+description: "Die folgenden Aufgaben sind Fragen (mit Antworten) zum Thema Philosophie.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_philosophy
+metadata:
+  version: 1.0
