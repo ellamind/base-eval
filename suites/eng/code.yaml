@@ -2,8 +2,8 @@
 #
 # Tasks: HumanEval, MBPP (Python code generation)
 # Format: Generate code completion, evaluate with code execution
-# Metric: pass@k (k=1, 10, 100)
-# Sampling: n=32 samples per problem
+# Metric: pass@1
+# Sampling: n=10 samples per problem
 #
 # LIMITATION: Only HumanEval and MBPP are included. BigCodeBench, DS1000,
 # MultiPL-E, and DeepSeek LeetCode require external AWS Lambda execution
@@ -15,9 +15,6 @@ task:
   - mbpp_code
 aggregate_metric_list:
   - metric: pass@1
-    aggregation: mean
-    weight_by_size: false
-  - metric: pass@10
     aggregation: mean
     weight_by_size: false
 metadata:

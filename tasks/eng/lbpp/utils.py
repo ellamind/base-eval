@@ -82,6 +82,6 @@ def pass_at_k(references, predictions, k=None):
         predictions=predictions,
         k=k,
         num_workers=4,
-        timeout=10.0,
+        timeout=5.0,
     )
     return res[0]

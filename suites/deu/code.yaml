@@ -12,9 +12,6 @@ aggregate_metric_list:
   - metric: pass@1
     aggregation: mean
     weight_by_size: false
-  - metric: pass@10
-    aggregation: mean
-    weight_by_size: false
 metadata:
   version: 1.0
   description: "German code generation tasks (HumanEval, MBPP)"

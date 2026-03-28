@@ -55,7 +55,7 @@ def pass_at_k(references: list[str], predictions: list[list[str]], k: list[int] 
         predictions=predictions,
         k=k,
         num_workers=4,
-        timeout=10.0,
+        timeout=5.0,
     )
     return res[0]
 

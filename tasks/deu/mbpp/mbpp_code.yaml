@@ -21,7 +21,7 @@ fewshot_config:
   samples: !function utils.get_mbpp_fewshot
   doc_to_text: !function utils.doc_to_text
   doc_to_target: !function utils.doc_to_target_fewshot
-repeats: 32
+repeats: 10
 filter_list:
   - name: "none"
     filter:
@@ -31,10 +31,10 @@ metric_list:
   - metric: !function utils.pass_at_k
     aggregation: mean
     higher_is_better: true
-    k: [1, 2, 4, 8, 16]
+    k: [1]
 metadata:
   version: 1.0
-  description: "MBPP German - Code generation (3-shot, n=32, OLMES inloop_bpb base-model config)"
+  description: "MBPP German - Code generation (3-shot, n=10, OLMES inloop_bpb base-model config)"
   fewshot_source: "Original:MBPP"
-  pass_at_k: [1, 2, 4, 8, 16]
+  pass_at_k: [1]
   execution: "Sandboxed code execution via hf_evaluate code_eval"

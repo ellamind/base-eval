@@ -24,12 +24,12 @@ generation_kwargs:
   do_sample: true
   temperature: 0.6
   top_p: 0.6
-repeats: 32
+repeats: 10
 metric_list:
   - metric: !function utils.pass_at_k
     aggregation: mean
     higher_is_better: true
-    k: [1, 16]
+    k: [1]
 filter_list:
   - name: "create_test"
     filter:
@@ -37,7 +37,7 @@ filter_list:
         filter_fn: !function utils.build_predictions_olmo
 metadata:
   version: 1.0
-  description: "HumanEval Python code generation (3-shot, n=32, olmo3 variant)"
+  description: "HumanEval Python code generation (3-shot, n=10, olmo3 variant)"
   fewshot_source: "OLMES:random from test split"
-  pass_at_k: [1, 16]
+  pass_at_k: [1]
   execution: "Sandboxed code execution via hf_evaluate code_eval"
