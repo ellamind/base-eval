@@ -66,12 +66,12 @@ def process_results_jeopardy(doc: dict, results: List[str]) -> dict:
     reference = doc.get("continuation", "")
 
     if not reference:
-        return {"em": 0.0, "f1": 0.0}
+        return {"em": 0.0, "token_f1": 0.0}
 
     em = _compute_exact_match(prediction, reference)
     f1 = _compute_f1(prediction, reference)
 
-    return {"em": em, "f1": f1}
+    return {"em": em, "token_f1": f1}
 
 
 def get_jeopardy_gen_fewshot_v2() -> List[Dict]:
@@ -301,12 +301,12 @@ def process_results_jeopardy_gen(doc: dict, results: List[str]) -> dict:
     reference = doc.get("continuation", "")
 
     if not reference:
-        return {"em": 0.0, "f1": 0.0}
+        return {"em": 0.0, "token_f1": 0.0}
 
     em = _compute_exact_match(prediction, reference)
     f1 = _compute_f1(prediction, reference)
 
-    return {"em": em, "f1": f1}
+    return {"em": em, "token_f1": f1}
 
 
 def get_jeopardy_gen_fewshot_gen() -> List[Dict]:

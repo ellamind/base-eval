@@ -23,7 +23,7 @@ metric_list:
   - metric: em
     aggregation: mean
     higher_is_better: true
-  - metric: f1 # olmes primary metric
+  - metric: token_f1 # olmes primary metric (renamed from f1 to avoid lm_eval built-in collision)
     aggregation: mean
     higher_is_better: true
 metadata:
