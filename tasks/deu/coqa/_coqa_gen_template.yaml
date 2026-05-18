@@ -1,7 +1,7 @@
 # CoQA German Generative Template — 0-shot (matches OLMES coqa::olmes)
 # Dataset: ellamind/coqa-multilingual (deu subset)
 # Conversational QA: passage + multi-turn history + question → answer
-# Scoring: token-level F1 + exact match (SQuAD-style, primary metric: f1)
+# Scoring: token-level F1 + exact match (SQuAD-style, primary metric: token_f1)
 dataset_path: ellamind/coqa-multilingual
 dataset_name: deu
 validation_split: validation
