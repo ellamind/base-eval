@@ -5,7 +5,7 @@ dataset_path: google-research-datasets/nq_open
 test_split: validation
 output_type: generate_until
 doc_to_text: "Question: {{question}}\nAnswer:"
-doc_to_target: "{{answer[0] if answer else ''}}"
+doc_to_target: " {{answer[0] if answer else ''}}"
 # olmes has "limit": 10000; but val split only 3.61k so ok.
 generation_kwargs:
   max_gen_toks: 50
