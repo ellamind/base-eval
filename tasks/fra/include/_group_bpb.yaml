@@ -1,0 +1,14 @@
+group: fra_include_bpb
+task:
+  - fra_include_arts_humanities_bpb
+  - fra_include_driving_license_bpb
+  - fra_include_health_education_bpb
+  - fra_include_stem_bpb
+  - fra_include_social_science_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
+  description: "INCLUDE French BPB — regional knowledge benchmark (5 domains, 419 questions)"

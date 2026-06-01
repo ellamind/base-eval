@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: fra_mmmlu_college_medicine_rc
+process_docs: !function utils.process_college_medicine
+description: "Les questions suivantes sont des questions (avec réponses) sur la médecine (université).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_college_medicine
+metadata:
+  version: 1.0

@@ -1,0 +1,9 @@
+include: _include_mc_template.yaml
+task: ita_include_applied_science_mc
+process_docs: !function utils.process_applied_science
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_applied_science
+metadata:
+  version: 1.0
+  description: "INCLUDE Italian Applied Science MC — 35 questions, 5-shot"

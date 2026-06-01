@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: fra_mmmlu_high_school_world_history_bpb
+process_docs: !function utils.process_high_school_world_history
+description: "Les questions suivantes sont des questions (avec réponses) sur l'histoire mondiale (lycée).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_high_school_world_history
+metadata:
+  version: 1.0

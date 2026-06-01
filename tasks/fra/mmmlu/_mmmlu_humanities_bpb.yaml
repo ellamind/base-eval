@@ -1,0 +1,20 @@
+group: fra_mmmlu_humanities_bpb
+task:
+  - fra_mmmlu_formal_logic_bpb
+  - fra_mmmlu_high_school_european_history_bpb
+  - fra_mmmlu_high_school_us_history_bpb
+  - fra_mmmlu_high_school_world_history_bpb
+  - fra_mmmlu_international_law_bpb
+  - fra_mmmlu_jurisprudence_bpb
+  - fra_mmmlu_logical_fallacies_bpb
+  - fra_mmmlu_moral_disputes_bpb
+  - fra_mmmlu_moral_scenarios_bpb
+  - fra_mmmlu_philosophy_bpb
+  - fra_mmmlu_prehistory_bpb
+  - fra_mmmlu_professional_law_bpb
+  - fra_mmmlu_world_religions_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

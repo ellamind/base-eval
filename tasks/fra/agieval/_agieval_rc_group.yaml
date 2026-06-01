@@ -1,0 +1,22 @@
+# French AGIEval — Rank Classification (9 subsets)
+group: fra_agieval_rc
+task:
+  - fra_agieval_aqua_rat_rc
+  - fra_agieval_gaokao_english_rc
+  - fra_agieval_logiqa_en_rc
+  - fra_agieval_lsat_ar_rc
+  - fra_agieval_lsat_lr_rc
+  - fra_agieval_lsat_rc_rc
+  - fra_agieval_sat_en_rc
+  - fra_agieval_sat_en_without_passage_rc
+  - fra_agieval_sat_math_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French AGIEval — Rank Classification"

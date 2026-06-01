@@ -1,0 +1,6 @@
+description: "Questions et réponses à choix multiples sur l'informatique avec solutions étape par étape.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: fra_mmlu_pro_computer_science_cot
+process_docs: !function utils.process_computer_science
+metadata:
+  version: 1.0

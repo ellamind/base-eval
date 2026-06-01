@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: fra_mmmlu_abstract_algebra_bpb
+process_docs: !function utils.process_abstract_algebra
+description: "Les questions suivantes sont des questions (avec réponses) sur l'algèbre abstraite.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_abstract_algebra
+metadata:
+  version: 1.0

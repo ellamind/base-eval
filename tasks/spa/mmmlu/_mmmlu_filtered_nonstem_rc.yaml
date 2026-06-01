@@ -1,0 +1,23 @@
+# MMMLU Spanish RC (filtered, non-STEM) — 13 translation-safe non-STEM subjects
+group: spa_mmmlu_filtered_nonstem_rc
+task:
+  - spa_mmmlu_formal_logic_rc
+  - spa_mmmlu_logical_fallacies_rc
+  - spa_mmmlu_high_school_macroeconomics_rc
+  - spa_mmmlu_high_school_microeconomics_rc
+  - spa_mmmlu_professional_accounting_rc
+  - spa_mmmlu_anatomy_rc
+  - spa_mmmlu_clinical_knowledge_rc
+  - spa_mmmlu_college_medicine_rc
+  - spa_mmmlu_professional_medicine_rc
+  - spa_mmmlu_medical_genetics_rc
+  - spa_mmmlu_virology_rc
+  - spa_mmmlu_nutrition_rc
+  - spa_mmmlu_human_aging_rc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

@@ -1,0 +1,20 @@
+group: fra_mmmlu_other_bpb
+task:
+  - fra_mmmlu_business_ethics_bpb
+  - fra_mmmlu_clinical_knowledge_bpb
+  - fra_mmmlu_college_medicine_bpb
+  - fra_mmmlu_global_facts_bpb
+  - fra_mmmlu_human_aging_bpb
+  - fra_mmmlu_management_bpb
+  - fra_mmmlu_marketing_bpb
+  - fra_mmmlu_medical_genetics_bpb
+  - fra_mmmlu_miscellaneous_bpb
+  - fra_mmmlu_nutrition_bpb
+  - fra_mmmlu_professional_accounting_bpb
+  - fra_mmmlu_professional_medicine_bpb
+  - fra_mmmlu_virology_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

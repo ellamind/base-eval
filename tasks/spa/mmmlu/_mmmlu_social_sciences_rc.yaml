@@ -1,0 +1,21 @@
+group: spa_mmmlu_social_sciences_rc
+task:
+  - spa_mmmlu_econometrics_rc
+  - spa_mmmlu_high_school_geography_rc
+  - spa_mmmlu_high_school_government_and_politics_rc
+  - spa_mmmlu_high_school_macroeconomics_rc
+  - spa_mmmlu_high_school_microeconomics_rc
+  - spa_mmmlu_high_school_psychology_rc
+  - spa_mmmlu_human_sexuality_rc
+  - spa_mmmlu_professional_psychology_rc
+  - spa_mmmlu_public_relations_rc
+  - spa_mmmlu_security_studies_rc
+  - spa_mmmlu_sociology_rc
+  - spa_mmmlu_us_foreign_policy_rc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

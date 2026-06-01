@@ -1,0 +1,23 @@
+group: fra_mmlu_pro_cot
+task:
+  - fra_mmlu_pro_biology_cot
+  - fra_mmlu_pro_business_cot
+  - fra_mmlu_pro_chemistry_cot
+  - fra_mmlu_pro_computer_science_cot
+  - fra_mmlu_pro_economics_cot
+  - fra_mmlu_pro_engineering_cot
+  - fra_mmlu_pro_health_cot
+  - fra_mmlu_pro_history_cot
+  - fra_mmlu_pro_law_cot
+  - fra_mmlu_pro_math_cot
+  - fra_mmlu_pro_other_cot
+  - fra_mmlu_pro_philosophy_cot
+  - fra_mmlu_pro_physics_cot
+  - fra_mmlu_pro_psychology_cot
+aggregate_metric_list:
+  - aggregation: mean
+    metric: exact_match
+    weight_by_size: true
+    filter_list: strict-match
+metadata:
+  version: 1.0

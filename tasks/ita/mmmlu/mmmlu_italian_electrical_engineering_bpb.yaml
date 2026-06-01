@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: ita_mmmlu_electrical_engineering_bpb
+process_docs: !function utils.process_electrical_engineering
+description: "Le seguenti domande sono domande (con risposte) su ingegneria elettrica.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_electrical_engineering
+metadata:
+  version: 1.0

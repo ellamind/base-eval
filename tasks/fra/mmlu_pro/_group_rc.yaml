@@ -1,0 +1,22 @@
+group: fra_mmlu_pro_rc
+task:
+  - fra_mmlu_pro_biology_rc
+  - fra_mmlu_pro_business_rc
+  - fra_mmlu_pro_chemistry_rc
+  - fra_mmlu_pro_computer_science_rc
+  - fra_mmlu_pro_economics_rc
+  - fra_mmlu_pro_engineering_rc
+  - fra_mmlu_pro_health_rc
+  - fra_mmlu_pro_history_rc
+  - fra_mmlu_pro_law_rc
+  - fra_mmlu_pro_math_rc
+  - fra_mmlu_pro_other_rc
+  - fra_mmlu_pro_philosophy_rc
+  - fra_mmlu_pro_physics_rc
+  - fra_mmlu_pro_psychology_rc
+aggregate_metric_list:
+  - aggregation: mean
+    metric: acc_norm
+    weight_by_size: true
+metadata:
+  version: 1.0

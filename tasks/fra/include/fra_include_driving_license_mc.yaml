@@ -1,0 +1,9 @@
+include: _include_mc_template.yaml
+task: fra_include_driving_license_mc
+process_docs: !function utils.process_driving_license
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_driving_license
+metadata:
+  version: 1.0
+  description: "INCLUDE French Driving License MC — 47 questions, 5-shot (from 'Other' validation domain)"

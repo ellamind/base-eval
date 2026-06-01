@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: spa_mmmlu_high_school_biology_bpb
+process_docs: !function utils.process_high_school_biology
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre biología (secundaria).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_high_school_biology
+metadata:
+  version: 1.0

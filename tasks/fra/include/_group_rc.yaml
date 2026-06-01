@@ -1,0 +1,17 @@
+group: fra_include_rc
+task:
+  - fra_include_arts_humanities_rc
+  - fra_include_driving_license_rc
+  - fra_include_health_education_rc
+  - fra_include_stem_rc
+  - fra_include_social_science_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
+  description: "INCLUDE French RC — regional knowledge benchmark (5 domains, 419 questions)"

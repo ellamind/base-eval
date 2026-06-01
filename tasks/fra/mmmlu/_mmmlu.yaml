@@ -1,0 +1,13 @@
+group: fra_mmmlu_mc
+task:
+  - fra_mmmlu_stem_mc
+  - fra_mmmlu_humanities_mc
+  - fra_mmmlu_social_sciences_mc
+  - fra_mmmlu_other_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

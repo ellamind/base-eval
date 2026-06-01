@@ -1,0 +1,19 @@
+# French AGIEval — Bits Per Byte (9 subsets)
+group: fra_agieval_bpb
+task:
+  - fra_agieval_aqua_rat_bpb
+  - fra_agieval_gaokao_english_bpb
+  - fra_agieval_logiqa_en_bpb
+  - fra_agieval_lsat_ar_bpb
+  - fra_agieval_lsat_lr_bpb
+  - fra_agieval_lsat_rc_bpb
+  - fra_agieval_sat_en_bpb
+  - fra_agieval_sat_en_without_passage_bpb
+  - fra_agieval_sat_math_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French AGIEval — Bits Per Byte"

@@ -1,0 +1,6 @@
+description: "Preguntas y respuestas de opción múltiple sobre física con soluciones paso a paso.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: spa_mmlu_pro_physics_cot
+process_docs: !function utils.process_physics
+metadata:
+  version: 1.0

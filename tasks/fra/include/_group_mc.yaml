@@ -1,0 +1,17 @@
+group: fra_include_mc
+task:
+  - fra_include_arts_humanities_mc
+  - fra_include_driving_license_mc
+  - fra_include_health_education_mc
+  - fra_include_stem_mc
+  - fra_include_social_science_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
+  description: "INCLUDE French — regional knowledge MCQ benchmark (5 domains, 419 questions)"

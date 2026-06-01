@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: spa_mmmlu_professional_psychology_rc
+process_docs: !function utils.process_professional_psychology
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre psicología profesional.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_professional_psychology
+metadata:
+  version: 1.0

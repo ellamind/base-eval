@@ -1,0 +1,29 @@
+# MMMLU French RC (filtered, STEM) — 19 translation-safe STEM subjects
+group: fra_mmmlu_filtered_stem_rc
+task:
+  - fra_mmmlu_abstract_algebra_rc
+  - fra_mmmlu_college_mathematics_rc
+  - fra_mmmlu_elementary_mathematics_rc
+  - fra_mmmlu_high_school_mathematics_rc
+  - fra_mmmlu_high_school_statistics_rc
+  - fra_mmmlu_econometrics_rc
+  - fra_mmmlu_college_physics_rc
+  - fra_mmmlu_high_school_physics_rc
+  - fra_mmmlu_conceptual_physics_rc
+  - fra_mmmlu_college_chemistry_rc
+  - fra_mmmlu_high_school_chemistry_rc
+  - fra_mmmlu_college_biology_rc
+  - fra_mmmlu_high_school_biology_rc
+  - fra_mmmlu_astronomy_rc
+  - fra_mmmlu_electrical_engineering_rc
+  - fra_mmmlu_college_computer_science_rc
+  - fra_mmmlu_high_school_computer_science_rc
+  - fra_mmmlu_computer_security_rc
+  - fra_mmmlu_machine_learning_rc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

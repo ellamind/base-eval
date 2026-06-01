@@ -1,0 +1,6 @@
+description: "Domande e risposte a scelta multipla su argomenti vari con soluzioni passo dopo passo.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: ita_mmlu_pro_other_cot
+process_docs: !function utils.process_other
+metadata:
+  version: 1.0

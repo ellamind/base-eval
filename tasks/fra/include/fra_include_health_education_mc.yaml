@@ -1,0 +1,9 @@
+include: _include_mc_template.yaml
+task: fra_include_health_education_mc
+process_docs: !function utils.process_health_education
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_health_education
+metadata:
+  version: 1.0
+  description: "INCLUDE French Health oriented education MC — 16 questions, 5-shot"

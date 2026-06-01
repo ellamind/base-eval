@@ -1,0 +1,22 @@
+group: ita_mmlu_pro_rc
+task:
+  - ita_mmlu_pro_biology_rc
+  - ita_mmlu_pro_business_rc
+  - ita_mmlu_pro_chemistry_rc
+  - ita_mmlu_pro_computer_science_rc
+  - ita_mmlu_pro_economics_rc
+  - ita_mmlu_pro_engineering_rc
+  - ita_mmlu_pro_health_rc
+  - ita_mmlu_pro_history_rc
+  - ita_mmlu_pro_law_rc
+  - ita_mmlu_pro_math_rc
+  - ita_mmlu_pro_other_rc
+  - ita_mmlu_pro_philosophy_rc
+  - ita_mmlu_pro_physics_rc
+  - ita_mmlu_pro_psychology_rc
+aggregate_metric_list:
+  - aggregation: mean
+    metric: acc_norm
+    weight_by_size: true
+metadata:
+  version: 1.0

@@ -1,0 +1,6 @@
+description: "Preguntas y respuestas de opción múltiple sobre informática con soluciones paso a paso.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: spa_mmlu_pro_computer_science_cot
+process_docs: !function utils.process_computer_science
+metadata:
+  version: 1.0

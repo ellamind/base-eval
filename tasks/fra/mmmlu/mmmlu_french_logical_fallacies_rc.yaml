@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: fra_mmmlu_logical_fallacies_rc
+process_docs: !function utils.process_logical_fallacies
+description: "Les questions suivantes sont des questions (avec réponses) sur les sophismes logiques.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_logical_fallacies
+metadata:
+  version: 1.0

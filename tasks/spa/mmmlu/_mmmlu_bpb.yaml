@@ -1,0 +1,11 @@
+group: spa_mmmlu_bpb
+task:
+  - spa_mmmlu_stem_bpb
+  - spa_mmmlu_humanities_bpb
+  - spa_mmmlu_social_sciences_bpb
+  - spa_mmmlu_other_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

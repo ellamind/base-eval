@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: spa_mmmlu_computer_security_rc
+process_docs: !function utils.process_computer_security
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre seguridad informática.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_computer_security
+metadata:
+  version: 1.0

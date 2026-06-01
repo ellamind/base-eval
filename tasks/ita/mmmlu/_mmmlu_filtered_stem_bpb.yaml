@@ -1,0 +1,27 @@
+# MMMLU Italian BPB (filtered, STEM) — 19 translation-safe STEM subjects
+group: ita_mmmlu_filtered_stem_bpb
+task:
+  - ita_mmmlu_abstract_algebra_bpb
+  - ita_mmmlu_college_mathematics_bpb
+  - ita_mmmlu_elementary_mathematics_bpb
+  - ita_mmmlu_high_school_mathematics_bpb
+  - ita_mmmlu_high_school_statistics_bpb
+  - ita_mmmlu_econometrics_bpb
+  - ita_mmmlu_college_physics_bpb
+  - ita_mmmlu_high_school_physics_bpb
+  - ita_mmmlu_conceptual_physics_bpb
+  - ita_mmmlu_college_chemistry_bpb
+  - ita_mmmlu_high_school_chemistry_bpb
+  - ita_mmmlu_college_biology_bpb
+  - ita_mmmlu_high_school_biology_bpb
+  - ita_mmmlu_astronomy_bpb
+  - ita_mmmlu_electrical_engineering_bpb
+  - ita_mmmlu_college_computer_science_bpb
+  - ita_mmmlu_high_school_computer_science_bpb
+  - ita_mmmlu_computer_security_bpb
+  - ita_mmmlu_machine_learning_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

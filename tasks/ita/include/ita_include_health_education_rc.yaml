@@ -1,0 +1,9 @@
+include: _include_rc_template.yaml
+task: ita_include_health_education_rc
+process_docs: !function utils.process_health_education
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_health_education
+metadata:
+  version: 1.0
+  description: "INCLUDE Italian Health oriented education RC — 12 questions, 5-shot"

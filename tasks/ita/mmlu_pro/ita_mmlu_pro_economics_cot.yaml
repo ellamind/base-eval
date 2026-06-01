@@ -1,0 +1,6 @@
+description: "Domande e risposte a scelta multipla sull'economia con soluzioni passo dopo passo.\n\n"
+include: _mmlu_pro_cot_template.yaml
+task: ita_mmlu_pro_economics_cot
+process_docs: !function utils.process_economics
+metadata:
+  version: 1.0

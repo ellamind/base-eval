@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: fra_mmmlu_professional_medicine_bpb
+process_docs: !function utils.process_professional_medicine
+description: "Les questions suivantes sont des questions (avec réponses) sur la médecine professionnelle.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_professional_medicine
+metadata:
+  version: 1.0

@@ -1,0 +1,15 @@
+group: ita_include_bpb
+task:
+  - ita_include_applied_science_bpb
+  - ita_include_arts_humanities_bpb
+  - ita_include_health_education_bpb
+  - ita_include_professional_certification_bpb
+  - ita_include_stem_bpb
+  - ita_include_social_science_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
+  description: "INCLUDE Italian BPB — regional knowledge benchmark (6 domains, 548 questions)"

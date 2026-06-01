@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: spa_mmmlu_world_religions_rc
+process_docs: !function utils.process_world_religions
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre religiones del mundo.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_world_religions
+metadata:
+  version: 1.0

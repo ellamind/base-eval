@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: ita_mmmlu_prehistory_bpb
+process_docs: !function utils.process_prehistory
+description: "Le seguenti domande sono domande (con risposte) su preistoria.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_prehistory
+metadata:
+  version: 1.0

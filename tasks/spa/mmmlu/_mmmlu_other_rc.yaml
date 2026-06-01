@@ -1,0 +1,22 @@
+group: spa_mmmlu_other_rc
+task:
+  - spa_mmmlu_business_ethics_rc
+  - spa_mmmlu_clinical_knowledge_rc
+  - spa_mmmlu_college_medicine_rc
+  - spa_mmmlu_global_facts_rc
+  - spa_mmmlu_human_aging_rc
+  - spa_mmmlu_management_rc
+  - spa_mmmlu_marketing_rc
+  - spa_mmmlu_medical_genetics_rc
+  - spa_mmmlu_miscellaneous_rc
+  - spa_mmmlu_nutrition_rc
+  - spa_mmmlu_professional_accounting_rc
+  - spa_mmmlu_professional_medicine_rc
+  - spa_mmmlu_virology_rc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

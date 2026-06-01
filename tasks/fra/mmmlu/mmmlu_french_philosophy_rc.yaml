@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: fra_mmmlu_philosophy_rc
+process_docs: !function utils.process_philosophy
+description: "Les questions suivantes sont des questions (avec réponses) sur la philosophie.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_philosophy
+metadata:
+  version: 1.0

@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: ita_mmmlu_elementary_mathematics_bpb
+process_docs: !function utils.process_elementary_mathematics
+description: "Le seguenti domande sono domande (con risposte) su matematica elementare.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_elementary_mathematics
+metadata:
+  version: 1.0

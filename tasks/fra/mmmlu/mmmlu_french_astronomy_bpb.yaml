@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: fra_mmmlu_astronomy_bpb
+process_docs: !function utils.process_astronomy
+description: "Les questions suivantes sont des questions (avec réponses) sur l'astronomie.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_astronomy
+metadata:
+  version: 1.0

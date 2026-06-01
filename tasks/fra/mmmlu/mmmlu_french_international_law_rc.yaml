@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: fra_mmmlu_international_law_rc
+process_docs: !function utils.process_international_law
+description: "Les questions suivantes sont des questions (avec réponses) sur le droit international.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_international_law
+metadata:
+  version: 1.0

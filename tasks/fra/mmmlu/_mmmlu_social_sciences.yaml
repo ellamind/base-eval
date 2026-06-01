@@ -1,0 +1,21 @@
+group: fra_mmmlu_social_sciences_mc
+task:
+  - fra_mmmlu_econometrics_mc
+  - fra_mmmlu_high_school_geography_mc
+  - fra_mmmlu_high_school_government_and_politics_mc
+  - fra_mmmlu_high_school_macroeconomics_mc
+  - fra_mmmlu_high_school_microeconomics_mc
+  - fra_mmmlu_high_school_psychology_mc
+  - fra_mmmlu_human_sexuality_mc
+  - fra_mmmlu_professional_psychology_mc
+  - fra_mmmlu_public_relations_mc
+  - fra_mmmlu_security_studies_mc
+  - fra_mmmlu_sociology_mc
+  - fra_mmmlu_us_foreign_policy_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

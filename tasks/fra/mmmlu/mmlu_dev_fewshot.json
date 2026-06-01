@@ -1,0 +1,2681 @@
+{
+    "abstract_algebra": [
+        {
+            "Question": "Trouvez tous les c dans Z_3 tels que Z_3[x]/(x^2 + c) soit un corps.",
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "3",
+            "Answer": "B",
+            "Subject": "abstract_algebra"
+        },
+        {
+            "Question": "Affirmation 1 | Si aH est un élément d'un groupe quotient, alors |aH| divise l'ordre |a|. Affirmation 2 | Si H et K sont des sous-groupes de G, alors HK est un sous-groupe de G.",
+            "A": "Vrai, Vrai",
+            "B": "Faux, Faux",
+            "C": "Vrai, Faux",
+            "D": "Faux, Vrai",
+            "Answer": "B",
+            "Subject": "abstract_algebra"
+        },
+        {
+            "Question": "Affirmation 1 | Tout élément d'un groupe engendre un sous-groupe cyclique du groupe. Affirmation 2 | Le groupe symétrique S_10 a 10 éléments.",
+            "A": "Vrai, Vrai",
+            "B": "Faux, Faux",
+            "C": "Vrai, Faux",
+            "D": "Faux, Vrai",
+            "Answer": "C",
+            "Subject": "abstract_algebra"
+        },
+        {
+            "Question": "Affirmation 1 | Toute fonction d'un ensemble fini vers lui-même doit être injective. Affirmation 2 | Tout sous-groupe d'un groupe abélien est abélien.",
+            "A": "Vrai, Vrai",
+            "B": "Faux, Faux",
+            "C": "Vrai, Faux",
+            "D": "Faux, Vrai",
+            "Answer": "A",
+            "Subject": "abstract_algebra"
+        },
+        {
+            "Question": "Déterminez la caractéristique de l'anneau 2Z.",
+            "A": "0",
+            "B": "3",
+            "C": "12",
+            "D": "30",
+            "Answer": "A",
+            "Subject": "abstract_algebra"
+        }
+    ],
+    "anatomy": [
+        {
+            "Question": "Quelle est l'origine embryologique de l'os hyoïde ?",
+            "A": "Le premier arc pharyngien",
+            "B": "Le premier et le deuxième arc pharyngien",
+            "C": "Le deuxième arc pharyngien",
+            "D": "Le deuxième et le troisième arc pharyngien",
+            "Answer": "D",
+            "Subject": "anatomy"
+        },
+        {
+            "Question": "Laquelle de ces branches du nerf trijumeau contient des fibres motrices somatiques ?",
+            "A": "Le nerf supraorbitaire",
+            "B": "Le nerf infraorbitaire",
+            "C": "Le nerf mentonnier",
+            "D": "Aucune des réponses ci-dessus",
+            "Answer": "D",
+            "Subject": "anatomy"
+        },
+        {
+            "Question": "La plèvre",
+            "A": "n'a aucune innervation sensorielle.",
+            "B": "est séparée par un espace de 2 mm de large.",
+            "C": "s'étend jusque dans le cou.",
+            "D": "est constituée d'épithélium respiratoire.",
+            "Answer": "C",
+            "Subject": "anatomy"
+        },
+        {
+            "Question": "Dans la classe II d'Angle, division 2, on observe :",
+            "A": "un surplomb excessif des incisives latérales supérieures.",
+            "B": "un surjet négatif des incisives centrales supérieures.",
+            "C": "un surjet excessif des incisives latérales supérieures.",
+            "D": "un surjet excessif des incisives centrales supérieures.",
+            "Answer": "C",
+            "Subject": "anatomy"
+        },
+        {
+            "Question": "Laquelle des cavités corporelles suivantes contient l'hypophyse ?",
+            "A": "Cavité abdominale",
+            "B": "Cavité crânienne",
+            "C": "Cavité pleurale",
+            "D": "Cavité spinale",
+            "Answer": "B",
+            "Subject": "anatomy"
+        }
+    ],
+    "astronomy": [
+        {
+            "Question": "Vous poussez un camion le long d'une route. Serait-il plus facile d'accélérer ce camion sur Mars ? Pourquoi ? (En supposant qu'il n'y a pas de frottement)",
+            "A": "Ce serait plus difficile, car le camion est plus lourd sur Mars.",
+            "B": "Ce serait plus facile, car le camion est plus léger sur Mars.",
+            "C": "Ce serait plus difficile, car le camion est plus léger sur Mars.",
+            "D": "Ce serait identique, quel que soit l'endroit où l'on se trouve.",
+            "Answer": "D",
+            "Subject": "astronomy"
+        },
+        {
+            "Question": "D'où proviennent la plupart des comètes à courte période et comment le sait-on ?",
+            "A": "De la ceinture de Kuiper ; les comètes à courte période ont tendance à se trouver dans le plan du système solaire, tout comme la ceinture de Kuiper.",
+            "B": "De la ceinture de Kuiper ; les comètes à courte période ont tendance à provenir de directions aléatoires, ce qui suggère une distribution sphérique de comètes appelée ceinture de Kuiper.",
+            "C": "De la ceinture d'astéroïdes ; les comètes à courte période ont des périodes orbitales similaires à celles d'astéroïdes comme Vesta et se trouvent dans le plan du système solaire comme la ceinture d'astéroïdes.",
+            "D": "Du nuage d'Oort ; les comètes à courte période ont tendance à se trouver dans le plan du système solaire, tout comme le nuage d'Oort.",
+            "Answer": "A",
+            "Subject": "astronomy"
+        },
+        {
+            "Question": "Supposons que la pupille de votre œil ait un diamètre de 5 mm et que vous disposiez d'un télescope avec une ouverture de 50 cm. Combien de lumière supplémentaire le télescope peut-il collecter par rapport à votre œil ?",
+            "A": "10000 fois plus",
+            "B": "100 fois plus",
+            "C": "1000 fois plus",
+            "D": "10 fois plus",
+            "Answer": "A",
+            "Subject": "astronomy"
+        },
+        {
+            "Question": "Pourquoi n'y a-t-il pas de planète là où se trouve la ceinture d'astéroïdes ?",
+            "A": "Une planète s'y est formée autrefois, mais elle a été brisée par une collision catastrophique.",
+            "B": "Il n'y avait pas assez de matière dans cette partie de la nébuleuse solaire pour former une planète.",
+            "C": "Il y avait trop de matière rocheuse pour former une planète tellurique, mais pas assez de matière gazeuse pour former une planète jovienne.",
+            "D": "La résonance avec Jupiter a empêché la matière de s'agréger pour former une planète.",
+            "Answer": "D",
+            "Subject": "astronomy"
+        },
+        {
+            "Question": "Pourquoi Mars est-elle rouge ?",
+            "A": "Parce que la surface est couverte de minéraux fortement oxydés (« rouillés »).",
+            "B": "Parce que l'atmosphère diffuse davantage la lumière aux longueurs d'onde bleues et laisse principalement passer la lumière rouge.",
+            "C": "Parce que Mars est couverte d'anciennes coulées de lave de couleur rouge.",
+            "D": "Parce que l'eau courante à la surface de Mars a altéré les minéraux de surface il y a plusieurs milliards d'années.",
+            "Answer": "A",
+            "Subject": "astronomy"
+        }
+    ],
+    "business_ethics": [
+        {
+            "Question": "Au-delà de l'argument commercial en faveur de la RSE, il existe un certain nombre d'arguments moraux concernant : les _______ négatives, le _______ que possèdent les entreprises, et l'________ entre les entreprises et la société.",
+            "A": "Externalités, Pouvoir, Indépendance",
+            "B": "Publicité, Ressources insignifiantes, Interdépendance",
+            "C": "Publicité, Pouvoir, Indépendance",
+            "D": "Externalités, Pouvoir, Interdépendance",
+            "Answer": "D",
+            "Subject": "business_ethics"
+        },
+        {
+            "Question": "_______ est la tentative directe de gérer formellement ou informellement les problèmes ou questions éthiques par le biais de politiques, pratiques et programmes spécifiques.",
+            "A": "Responsabilité sociétale des entreprises",
+            "B": "Gestion de l'éthique d'entreprise",
+            "C": "Durabilité",
+            "D": "Management environnemental",
+            "Answer": "B",
+            "Subject": "business_ethics"
+        },
+        {
+            "Question": "Pour garantir l'indépendance des administrateurs non exécutifs, diverses mesures peuvent être prises, notamment que les non-exécutifs proviennent de l'_______ de l'entreprise, soient nommés pour une durée _________ et soient nommés de manière _________.",
+            "A": "extérieur, limitée, indépendante",
+            "B": "intérieur, limitée, temporaire",
+            "C": "extérieur, illimitée, temporaire",
+            "D": "intérieur, illimitée, indépendante",
+            "Answer": "A",
+            "Subject": "business_ethics"
+        },
+        {
+            "Question": "Trois tactiques antagonistes que les OSC peuvent poursuivre pour atteindre leurs objectifs sont ________, qui implique généralement la recherche et la communication, ________, qui peut inclure l'attaque physique des activités d'une entreprise, ou ________, qui implique souvent une forme de _______.",
+            "A": "Action directe non violente, Action directe violente, Action indirecte, Boycott",
+            "B": "Action indirecte, Action instrumentale, Action directe non violente, Campagne d'information",
+            "C": "Action indirecte, Action directe violente, Action directe non violente, Boycott",
+            "D": "Action directe non violente, Action instrumentale, Action indirecte, Campagne d'information",
+            "Answer": "C",
+            "Subject": "business_ethics"
+        },
+        {
+            "Question": "Contrairement aux _______, les _______ visent à récompenser le comportement favorable des entreprises. Le succès de telles campagnes a été renforcé par l'utilisation de ___________, qui permettent aux campagnes d'aider l'entreprise à atteindre des ________.",
+            "A": "Buycotts, Boycotts, Technologie blockchain, Dons",
+            "B": "Buycotts, Boycotts, Technologie numérique, Ventes plus élevées",
+            "C": "Boycotts, Buyalls, Technologie blockchain, Dons",
+            "D": "Boycotts, Buycotts, Technologie numérique, Ventes plus élevées",
+            "Answer": "D",
+            "Subject": "business_ethics"
+        }
+    ],
+    "clinical_knowledge": [
+        {
+            "Question": "L'énergie nécessaire à toutes les formes de contraction musculaire est fournie par :",
+            "A": "ATP.",
+            "B": "ADP.",
+            "C": "Phosphocréatine.",
+            "D": "Phosphorylation oxydative.",
+            "Answer": "A",
+            "Subject": "clinical_knowledge"
+        },
+        {
+            "Question": "Quelle est la différence entre une sonde urinaire masculine et une sonde urinaire féminine ?",
+            "A": "Les sondes masculines et féminines sont de couleurs différentes.",
+            "B": "Les sondes masculines sont plus longues que les sondes féminines.",
+            "C": "Les sondes masculines sont plus grandes que les sondes féminines.",
+            "D": "Les sondes féminines sont plus longues que les sondes masculines.",
+            "Answer": "B",
+            "Subject": "clinical_knowledge"
+        },
+        {
+            "Question": "Lors de l'évaluation de la fonction de la main, laquelle des affirmations suivantes est correcte ?",
+            "A": "L'abduction du pouce est innervée par la racine nerveuse spinale T2",
+            "B": "L'opposition du pouce par le muscle opposant du pouce est innervée par la racine nerveuse spinale T1",
+            "C": "L'adduction des doigts est innervée par le nerf médian",
+            "D": "L'abduction des doigts est assurée par les muscles interosseux palmaires",
+            "Answer": "B",
+            "Subject": "clinical_knowledge"
+        },
+        {
+            "Question": "Combien de tentatives devez-vous effectuer pour poser une voie veineuse à un patient avant de confier la tâche à un collègue plus expérimenté (selon les connaissances médicales de 2020) ?",
+            "A": "4",
+            "B": "3",
+            "C": "2",
+            "D": "1",
+            "Answer": "C",
+            "Subject": "clinical_knowledge"
+        },
+        {
+            "Question": "La glycolyse est le nom donné à la voie métabolique impliquant la conversion de :",
+            "A": "Glycogène en glucose-1-phosphate.",
+            "B": "Glycogène ou glucose en fructose.",
+            "C": "Glycogène ou glucose en pyruvate ou lactate.",
+            "D": "Glycogène ou glucose en pyruvate ou acétyl-CoA.",
+            "Answer": "C",
+            "Subject": "clinical_knowledge"
+        }
+    ],
+    "college_biology": [
+        {
+            "Question": "Laquelle des affirmations suivantes concernant les arthropodes est correcte ?",
+            "A": "Ils possèdent un exosquelette composé principalement de peptidoglycane.",
+            "B": "Ils possèdent un système circulatoire ouvert avec un cœur dorsal.",
+            "C": "Ils appartiennent à un embranchement biologiquement peu diversifié, incapable d'exploiter des habitats et des sources de nourriture variés.",
+            "D": "Ils sont dépourvus d'appendices articulés pairs.",
+            "Answer": "B",
+            "Subject": "college_biology"
+        },
+        {
+            "Question": "Dans une certaine population, 1 personne sur 400 est atteinte d'un cancer causé par un allèle entièrement récessif b. En supposant que la population est en équilibre de Hardy-Weinberg, quelle proportion d'individus porte l'allèle b mais ne développera probablement pas le cancer ?",
+            "A": "1/400",
+            "B": "19/400",
+            "C": "20/400",
+            "D": "38/400",
+            "Answer": "D",
+            "Subject": "college_biology"
+        },
+        {
+            "Question": "La présence de structures homologues chez deux organismes différents, comme l'humérus dans le membre antérieur d'un humain et d'un oiseau, indique que",
+            "A": "l'humain et l'oiseau sont des espèces polyphylétiques",
+            "B": "l'évolution de l'humain et de l'oiseau est convergente",
+            "C": "l'humain et l'oiseau appartiennent à un même clade",
+            "D": "l'humain et l'oiseau ont évolué par analogie",
+            "Answer": "C",
+            "Subject": "college_biology"
+        },
+        {
+            "Question": "Selon le modèle de flux de pression du transport des contenus du phloème, le transport des photosynthétats de la source vers le puits est entraîné par",
+            "A": "une pompe de flux de pression dépendante de l'ATP",
+            "B": "un gradient de potentiel de pression hydrique",
+            "C": "la transpiration",
+            "D": "la diffusion apoplastique",
+            "Answer": "B",
+            "Subject": "college_biology"
+        },
+        {
+            "Question": "Lesquels des éléments suivants contiennent des séquences d'ADN nécessaires à la ségrégation des chromosomes lors de la mitose et de la méiose ?",
+            "A": "Télomères",
+            "B": "Centromères",
+            "C": "Nucléosomes",
+            "D": "Spliceosomes",
+            "Answer": "B",
+            "Subject": "college_biology"
+        }
+    ],
+    "college_chemistry": [
+        {
+            "Question": "Laquelle des affirmations suivantes concernant les éléments lanthanides n'est PAS correcte ?",
+            "A": "Le degré d'oxydation le plus courant des éléments lanthanides est +3.",
+            "B": "Les complexes de lanthanides ont souvent des nombres de coordination élevés (> 6).",
+            "C": "Tous les éléments lanthanides réagissent avec un acide aqueux en libérant de l'hydrogène.",
+            "D": "Les rayons atomiques des éléments lanthanides augmentent le long de la période de La à Lu.",
+            "Answer": "D",
+            "Subject": "college_chemistry"
+        },
+        {
+            "Question": "Un échantillon de 0,217 g de HgO (masse molaire = 217 g) réagit avec un excès d'ions iodure selon la réaction présentée ci-dessus. Le titrage de la solution résultante nécessite combien de mL de HCl 0,10 M pour atteindre le point d'équivalence ?",
+            "A": "1,0 mL",
+            "B": "10 mL",
+            "C": "20 mL",
+            "D": "50 mL",
+            "Answer": "C",
+            "Subject": "college_chemistry"
+        },
+        {
+            "Question": "Prédisez le nombre de raies dans le spectre RPE d'une solution du radical méthyle marqué au 13C (13CH3•), en supposant que les raies ne se chevauchent pas.",
+            "A": "4",
+            "B": "3",
+            "C": "6",
+            "D": "24",
+            "Answer": "A",
+            "Subject": "college_chemistry"
+        },
+        {
+            "Question": "3 Cl⁻(aq) + 4 CrO₄²⁻(aq) + 23 H⁺(aq) → 3 HClO₂(aq) + 4 Cr³⁺(aq) + 10 H₂O(l). Dans la réaction présentée ci-dessus, Cl⁻(aq) agit comme",
+            "A": "un acide",
+            "B": "une base",
+            "C": "un catalyseur",
+            "D": "un agent réducteur",
+            "Answer": "D",
+            "Subject": "college_chemistry"
+        },
+        {
+            "Question": "Laquelle des listes suivantes classe les hydrures des éléments du groupe 14 par stabilité thermique, de la plus faible à la plus élevée ?",
+            "A": "PbH4 < SnH4 < GeH4 < SiH4 < CH4",
+            "B": "PbH4 < SnH4 < CH4 < GeH4 < SiH4",
+            "C": "CH4 < SiH4 < GeH4 < SnH4 < PbH4",
+            "D": "CH4 < PbH4 < GeH4 < SnH4 < SiH4",
+            "Answer": "A",
+            "Subject": "college_chemistry"
+        }
+    ],
+    "college_computer_science": [
+        {
+            "Question": "Laquelle des expressions régulières suivantes est équivalente à (décrit le même ensemble de chaînes que) (a* + b)*(c + d) ?",
+            "A": "a*(c + d)+ b(c + d)",
+            "B": "a*(c + d)* + b(c + d)*",
+            "C": "a*(c + d)+ b*(c + d)",
+            "D": "(a + b)*c +(a + b)*d",
+            "Answer": "D",
+            "Subject": "college_computer_science"
+        },
+        {
+            "Question": "Une machine RISC pipeline particulière possède 8 registres à usage général R0, R1, ..., R7 et prend en charge les opérations suivantes.\nADD Rs1, Rs2, Rd : Additionne Rs1 à Rs2 et stocke la somme dans Rd\nMUL Rs1, Rs2, Rd : Multiplie Rs1 par Rs2 et stocke le produit dans Rd\nUne opération prend normalement un cycle ; cependant, une opération prend deux cycles si elle produit un résultat nécessaire à l'opération immédiatement suivante. Considérons l'expression AB + ABC + BC, où les variables A, B, C se trouvent dans les registres R0, R1, R2. Si le contenu de ces trois registres ne doit pas être modifié, quel est le nombre minimum de cycles d'horloge nécessaires pour une séquence d'opérations qui calcule la valeur de AB + ABC + BC ?",
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8",
+            "Answer": "B",
+            "Subject": "college_computer_science"
+        },
+        {
+            "Question": "Le patron de conception Singleton est utilisé pour garantir qu'une seule instance d'une classe peut être instanciée. Laquelle ou lesquelles des affirmations suivantes est/sont vraie(s) pour ce patron de conception ?\nI. La classe Singleton possède une méthode de fabrique statique pour fournir son instance.\nII. La classe Singleton peut être une sous-classe d'une autre classe.\nIII. La classe Singleton possède un constructeur privé.",
+            "A": "I uniquement",
+            "B": "II uniquement",
+            "C": "III uniquement",
+            "D": "I, II et III",
+            "Answer": "D",
+            "Subject": "college_computer_science"
+        },
+        {
+            "Question": "Un compilateur génère du code pour l'instruction d'affectation suivante.\nG := (A + B) * C - (D + E) * F\nLa machine cible possède un seul accumulateur et un jeu d'instructions à adresse unique composé des instructions load, store, add, subtract et multiply. Pour les opérations arithmétiques, l'opérande gauche est pris dans l'accumulateur et le résultat apparaît dans l'accumulateur. Le nombre minimum d'instructions possible dans le code résultant est",
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "9",
+            "Answer": "D",
+            "Subject": "college_computer_science"
+        },
+        {
+            "Question": "Considérons une conception informatique dans laquelle plusieurs processeurs, chacun disposant d'une mémoire cache privée, partagent la mémoire globale via un bus unique. Ce bus est la ressource critique du système. Chaque processeur peut exécuter une instruction toutes les 500 nanosecondes tant que les accès mémoire sont servis par le cache local. En cas de défaut de cache, le processeur est retardé de 2000 nanosecondes supplémentaires. Pendant la moitié de ce délai supplémentaire, le bus est dédié au défaut de cache. Pendant l'autre moitié, le processeur ne peut pas continuer, mais le bus est libre pour les requêtes d'autres processeurs. En moyenne, chaque instruction nécessite 2 accès mémoire. En moyenne, des défauts de cache se produisent pour 1 pour cent des accès. Quelle fraction de la capacité du bus un seul processeur utiliserait-il, sans tenir compte des délais dus à la concurrence d'autres processeurs ?",
+            "A": "1/50",
+            "B": "1/27",
+            "C": "1/25",
+            "D": "2/27",
+            "Answer": "B",
+            "Subject": "college_computer_science"
+        }
+    ],
+    "college_mathematics": [
+        {
+            "Question": "Soit V l'ensemble de tous les polynômes réels p(x). Soient les transformations T, S définies sur V par T:p(x) -> xp(x) et S:p(x) -> p'(x) = d/dx p(x), et interprétons (ST)(p(x)) comme S(T(p(x))). Laquelle des affirmations suivantes est vraie ?",
+            "A": "ST = 0",
+            "B": "ST = T",
+            "C": "ST = TS",
+            "D": "ST - TS est l'application identité de V sur lui-même.",
+            "Answer": "D",
+            "Subject": "college_mathematics"
+        },
+        {
+            "Question": "Un réservoir contient initialement une solution saline de 3 grammes de sel dissous dans 100 litres d'eau. Une solution saline contenant 0,02 gramme de sel par litre d'eau est injectée dans le réservoir à un débit de 4 litres par minute. La solution ajoutée est continuellement mélangée à la solution saline dans le réservoir, et le mélange s'écoule du réservoir à un débit de 4 litres par minute. Si le mélange est instantané, combien de grammes de sel se trouvent dans le réservoir après 100 minutes ?",
+            "A": "2",
+            "B": "2 - e^-2",
+            "C": "2 + e^-2",
+            "D": "2 + e^-4",
+            "Answer": "D",
+            "Subject": "college_mathematics"
+        },
+        {
+            "Question": "Soit A une matrice réelle 2×2. Lesquelles des affirmations suivantes doivent être vraies ?\nI. Toutes les entrées de A^2 sont non négatives.\nII. Le déterminant de A^2 est non négatif.\nIII. Si A a deux valeurs propres distinctes, alors A^2 a deux valeurs propres distinctes.",
+            "A": "I uniquement",
+            "B": "II uniquement",
+            "C": "III uniquement",
+            "D": "II et III uniquement",
+            "Answer": "B",
+            "Subject": "college_mathematics"
+        },
+        {
+            "Question": "Supposons que f(1 + x) = f(x) pour tout réel x. Si f est un polynôme et f(5) = 11, alors f(15/2) vaut",
+            "A": "-11",
+            "B": "0",
+            "C": "11",
+            "D": "33/2",
+            "Answer": "C",
+            "Subject": "college_mathematics"
+        },
+        {
+            "Question": "Soit A l'ensemble de tous les couples ordonnés d'entiers (m, n) tels que 7m + 12n = 22. Quel est le plus grand nombre négatif dans l'ensemble B = {m + n : (m, n) ∈ A} ?",
+            "A": "-5",
+            "B": "-4",
+            "C": "-3",
+            "D": "-2",
+            "Answer": "B",
+            "Subject": "college_mathematics"
+        }
+    ],
+    "college_medicine": [
+        {
+            "Question": "Le glucose est transporté dans la cellule musculaire :",
+            "A": "par des transporteurs protéiques appelés GLUT4.",
+            "B": "uniquement en présence d'insuline.",
+            "C": "par l'hexokinase.",
+            "D": "par des transporteurs de monocarboxylates.",
+            "Answer": "A",
+            "Subject": "college_medicine"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes n'est pas exacte ?",
+            "A": "Le glycogène musculaire est dégradé enzymatiquement en glucose-1-phosphate",
+            "B": "Les coureurs d'endurance d'élite ont une proportion élevée de fibres de type I dans leurs muscles des jambes",
+            "C": "Le glycogène hépatique est important pour le maintien de la concentration de glucose dans le sang",
+            "D": "L'insuline favorise l'absorption du glucose dans tous les tissus de l'organisme",
+            "Answer": "D",
+            "Subject": "college_medicine"
+        },
+        {
+            "Question": "Lors d'un test génétique chez un nouveau-né, une maladie génétique rare à transmission récessive liée à l'X est identifiée. Laquelle des affirmations suivantes s'applique probablement au pedigree de cette maladie ?",
+            "A": "Tous les descendants du côté maternel seront atteints de la maladie.",
+            "B": "Les femmes seront environ deux fois plus souvent atteintes que les hommes dans cette famille.",
+            "C": "Toutes les filles d'un homme atteint seront atteintes.",
+            "D": "Il y aura une répartition égale d'hommes et de femmes atteints.",
+            "Answer": "C",
+            "Subject": "college_medicine"
+        },
+        {
+            "Question": "Un professeur de sciences remplit une bouteille d'un litre avec de l'azote pur et ferme le bouchon. La pression est de 1,70 atm et la température ambiante est de 25°C. Quelles sont les deux variables qui augmentent toutes deux la pression du système, si toutes les autres variables sont maintenues constantes ?",
+            "A": "Augmentation de la température, Augmentation de la quantité de matière du gaz",
+            "B": "Augmentation de la température, Augmentation du volume",
+            "C": "Diminution du volume, Diminution de la température",
+            "D": "Diminution de la quantité de matière du gaz, Augmentation du volume",
+            "Answer": "A",
+            "Subject": "college_medicine"
+        },
+        {
+            "Question": "Un effet secondaire attendu de la supplémentation en créatine est :",
+            "A": "Faiblesse musculaire.",
+            "B": "Augmentation de la masse corporelle.",
+            "C": "Crampes musculaires.",
+            "D": "Perte d'électrolytes.",
+            "Answer": "B",
+            "Subject": "college_medicine"
+        }
+    ],
+    "college_physics": [
+        {
+            "Question": "Un télescope réfracteur est composé de deux lentilles convergentes séparées de 100 cm. La lentille oculaire a une distance focale de 20 cm. Le grossissement angulaire du télescope est",
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "20",
+            "Answer": "A",
+            "Subject": "college_physics"
+        },
+        {
+            "Question": "Pour lequel des processus thermodynamiques suivants l'augmentation de l'énergie interne d'un gaz parfait est-elle égale à la chaleur fournie au gaz ?",
+            "A": "Température constante",
+            "B": "Volume constant",
+            "C": "Pression constante",
+            "D": "Adiabatique",
+            "Answer": "B",
+            "Subject": "college_physics"
+        },
+        {
+            "Question": "Une extrémité d'un fil de nichrome de longueur 2L et de section A est connectée à une extrémité d'un autre fil de nichrome de longueur L et de section 2A. Si l'extrémité libre du fil le plus long est à un potentiel électrique de 8,0 volts et l'extrémité libre du fil le plus court est à un potentiel électrique de 1,0 volt, alors le potentiel à la jonction des deux fils est le plus proche de",
+            "A": "2,4 V",
+            "B": "3,3 V",
+            "C": "4,5 V",
+            "D": "5,7 V",
+            "Answer": "A",
+            "Subject": "college_physics"
+        },
+        {
+            "Question": "Les rayons X caractéristiques, qui apparaissent comme des raies nettes sur un fond continu, sont produits lorsque des électrons de haute énergie bombardent une cible métallique. Lequel des processus suivants produit les rayons X caractéristiques ?",
+            "A": "Des électrons produisant un rayonnement Tcherenkov",
+            "B": "Des électrons entrant en collision avec des phonons dans le métal",
+            "C": "Des électrons remplissant des lacunes de couches internes créées dans les atomes métalliques",
+            "D": "Des électrons se combinant avec des protons pour former des neutrons",
+            "Answer": "C",
+            "Subject": "college_physics"
+        },
+        {
+            "Question": "Le muon se désintègre avec une durée de vie caractéristique d'environ 10^-6 secondes en un électron, un neutrino muonique et un antineutrino électronique. La désintégration du muon en un électron et un seul neutrino est interdite par la loi de conservation du",
+            "A": "de la charge",
+            "B": "de la masse",
+            "C": "de l'énergie et de la quantité de mouvement",
+            "D": "du nombre leptonique",
+            "Answer": "D",
+            "Subject": "college_physics"
+        }
+    ],
+    "computer_security": [
+        {
+            "Question": "SHA-1 produit un condensé de message de",
+            "A": "160 bits",
+            "B": "512 bits",
+            "C": "628 bits",
+            "D": "820 bits",
+            "Answer": "A",
+            "Subject": "computer_security"
+        },
+        {
+            "Question": "Les _____________ peuvent modifier les données de votre système, de sorte que votre système ne fonctionne plus correctement ou que vous n'avez plus accès à certaines données, voire exigent une rançon pour vous rendre l'accès.",
+            "A": "Chevaux de Troie de messagerie instantanée",
+            "B": "Chevaux de Troie à porte dérobée",
+            "C": "Chevaux de Troie téléchargeurs",
+            "D": "Chevaux de Troie rançongiciels",
+            "Answer": "D",
+            "Subject": "computer_security"
+        },
+        {
+            "Question": "Qu'est-ce que le piratage éthique ?",
+            "A": "La « manipulation » de l'éthique afin de justifier un comportement intéressé non intentionnel",
+            "B": "L'intrusion dans des systèmes (par exemple lors de tests de pénétration) pour découvrir des vulnérabilités afin qu'elles soient corrigées plutôt qu'exploitées",
+            "C": "L'intrusion dans des systèmes exploités par des personnes dont on désapprouve l'éthique",
+            "D": "Un terme familier pour le développement logiciel rapide, par exemple dans le cadre de hackathons",
+            "Answer": "B",
+            "Subject": "computer_security"
+        },
+        {
+            "Question": "L'exploitation de la faille Heartbleed permet",
+            "A": "l'écrasement de clés cryptographiques en mémoire",
+            "B": "une forme d'injection de code",
+            "C": "une lecture hors limites d'un tampon",
+            "D": "une attaque par chaîne de format",
+            "Answer": "C",
+            "Subject": "computer_security"
+        },
+        {
+            "Question": "Le ____________ est tout ce que votre moteur de recherche ne peut pas explorer.",
+            "A": "Haunted Web",
+            "B": "World Wide Web",
+            "C": "Surface Web",
+            "D": "Deep Web",
+            "Answer": "D",
+            "Subject": "computer_security"
+        }
+    ],
+    "conceptual_physics": [
+        {
+            "Question": "Par rapport à la masse d'un atome d'uranium qui subit une fission nucléaire, la masse combinée des produits après la fission est",
+            "A": "inférieure",
+            "B": "supérieure",
+            "C": "identique",
+            "D": "nulle",
+            "Answer": "A",
+            "Subject": "conceptual_physics"
+        },
+        {
+            "Question": "Les choses qui sont équivalentes selon le principe d'équivalence sont",
+            "A": "l'espace et le temps.",
+            "B": "un jumeau voyageur et un jumeau resté chez lui.",
+            "C": "la gravitation et l'accélération.",
+            "D": "la masse et l'énergie.",
+            "Answer": "C",
+            "Subject": "conceptual_physics"
+        },
+        {
+            "Question": "Les couleurs d'une bulle de savon résultent de",
+            "A": "la conversion de la lumière en une autre fréquence",
+            "B": "la déviation",
+            "C": "l'interférence",
+            "D": "la polarisation",
+            "Answer": "C",
+            "Subject": "conceptual_physics"
+        },
+        {
+            "Question": "Un avion modèle réduit vole plus lentement face au vent et plus rapidement avec le vent arrière. S'il décolle par air calme et effectue un cercle en vol, le temps de vol par rapport au même cercle effectué par vent régulier est",
+            "A": "identique",
+            "B": "plus long",
+            "C": "plus court",
+            "D": "soit plus long soit plus court, selon la vitesse du vent",
+            "Answer": "B",
+            "Subject": "conceptual_physics"
+        },
+        {
+            "Question": "Lequel de ces trois éléments a la plus grande masse par nucléon ?",
+            "A": "Hydrogène",
+            "B": "Fer",
+            "C": "Uranium",
+            "D": "Identique pour tous",
+            "Answer": "A",
+            "Subject": "conceptual_physics"
+        }
+    ],
+    "econometrics": [
+        {
+            "Question": "Dans un processus autorégressif stationnaire, les chocs vont",
+            "A": "finir par s'atténuer",
+            "B": "persister indéfiniment",
+            "C": "croître de manière exponentielle",
+            "D": "ne jamais se produire",
+            "Answer": "A",
+            "Subject": "econometrics"
+        },
+        {
+            "Question": "Considérez le modèle AR(1) suivant avec des termes d'erreur ayant une espérance nulle et une variance unitaire\n\nyt = 0,5 + 0,5 yt-1 + ut\n\nSi le processus est à l'équilibre, quelle est la moyenne de y ?",
+            "A": "0,2",
+            "B": "0,4",
+            "C": "0,5",
+            "D": "0,33",
+            "Answer": "D",
+            "Subject": "econometrics"
+        },
+        {
+            "Question": "Supposons qu'une statistique de test ait une valeur p associée de 0,08. Laquelle ou lesquelles des affirmations suivantes est/sont vraie(s) ?\n(i) Si l'hypothèse nulle est vraie, la probabilité d'observer une statistique de test aussi grande ou plus grande que celle effectivement observée est de 0,08.\n(ii) L'hypothèse nulle serait rejetée au seuil de signification de 5 %.\n(iii) L'hypothèse nulle serait rejetée au seuil de signification de 10 %.\n(iv) L'hypothèse nulle ne serait pas rejetée au seuil de signification de 1 %.",
+            "A": "Uniquement (ii) et (iv)",
+            "B": "Uniquement (i) et (iii)",
+            "C": "Uniquement (i), (ii) et (iii)",
+            "D": "(i), (ii), (iii) et (iv)",
+            "Answer": "C",
+            "Subject": "econometrics"
+        },
+        {
+            "Question": "Quelles seraient les conséquences de la présence d'hétéroscédasticité dans un modèle de régression pour l'estimateur des MCO ?",
+            "A": "Il sera biaisé",
+            "B": "Il sera non convergent",
+            "C": "Il sera inefficient",
+            "D": "Toutes les affirmations (a), (b) et (c) sont vraies.",
+            "Answer": "C",
+            "Subject": "econometrics"
+        },
+        {
+            "Question": "Supposons qu'un chercheur souhaite utiliser des critères d'information pour déterminer la longueur de retard optimale pour une régression de y sur p retards de y. Quelle longueur de retard serait choisie en utilisant le critère de Schwarz ?\n      Longueur de retard   1     2     3     4\n      SIC                 -0,02  -0,10  -0,12  -0,05",
+            "A": "1 retard",
+            "B": "2 retards",
+            "C": "3 retards",
+            "D": "4 retards",
+            "Answer": "C",
+            "Subject": "econometrics"
+        }
+    ],
+    "electrical_engineering": [
+        {
+            "Question": "Dans un verrou SR composé de portes NOR, quel état n'est pas autorisé ?",
+            "A": "S=0, R=0",
+            "B": "S=0, R=1",
+            "C": "S=1, R=0",
+            "D": "S=1, R=1",
+            "Answer": "D",
+            "Subject": "electrical_engineering"
+        },
+        {
+            "Question": "Dans une machine à courant continu bipolaire à enroulement imbriqué, la résistance d'un conducteur est de 2Ω et le nombre total de conducteurs est de 100. La résistance d'induit est de",
+            "A": "200Ω",
+            "B": "100Ω",
+            "C": "50Ω",
+            "D": "10Ω",
+            "Answer": "C",
+            "Subject": "electrical_engineering"
+        },
+        {
+            "Question": "La bobine d'un instrument à cadre mobile comporte 100 spires, mesure 40 mm de long et 30 mm de large. Le couple de rappel est de 240×10⁻⁶ N·m en déviation maximale. Si la densité de flux est de 1 Wb/m², le courant nécessaire pour la déviation maximale est",
+            "A": "1 mA.",
+            "B": "2 mA.",
+            "C": "3 mA.",
+            "D": "4 mA.",
+            "Answer": "B",
+            "Subject": "electrical_engineering"
+        },
+        {
+            "Question": "Deux longs conducteurs parallèles transportent 100 A. Si les conducteurs sont distants de 20 mm, la force par mètre sur chaque conducteur est de",
+            "A": "100 N.",
+            "B": "0,1 N.",
+            "C": "1 N.",
+            "D": "0,01 N.",
+            "Answer": "B",
+            "Subject": "electrical_engineering"
+        },
+        {
+            "Question": "Un pôle ponctuel a une intensité de 4π × 10⁻⁴ Weber. La force en newtons exercée sur un pôle ponctuel de 4π × 1,5 × 10⁻⁴ Weber à une distance de 10 cm est de",
+            "A": "15 N.",
+            "B": "20 N.",
+            "C": "7,5 N.",
+            "D": "3,75 N.",
+            "Answer": "A",
+            "Subject": "electrical_engineering"
+        }
+    ],
+    "elementary_mathematics": [
+        {
+            "Question": "La population de la ville où Michelle est née est de 145 826. Quelle est la valeur du chiffre 5 dans le nombre 145 826 ?",
+            "A": "5 milliers",
+            "B": "5 centaines",
+            "C": "5 dizaines",
+            "D": "5 unités",
+            "Answer": "A",
+            "Subject": "elementary_mathematics"
+        },
+        {
+            "Question": "Olivia a utilisé la règle « Ajouter 11 » pour créer la suite numérique suivante. 10, 21, 32, 43, 54. Quelle affirmation concernant cette suite numérique est vraie ?",
+            "A": "Le 10e nombre de la suite sera un nombre pair.",
+            "B": "La suite numérique n'aura jamais deux nombres pairs côte à côte.",
+            "C": "Les deux prochains nombres de la suite seront un nombre pair puis un nombre impair.",
+            "D": "Si la suite avait commencé par un nombre impair, elle n'aurait contenu que des nombres impairs.",
+            "Answer": "B",
+            "Subject": "elementary_mathematics"
+        },
+        {
+            "Question": "Au total, 30 joueurs vont jouer au basketball dans un parc. Il y aura exactement 5 joueurs par équipe. Quelle expression peut être utilisée pour déterminer le nombre d'équipes ?",
+            "A": "Additionner 5 à 30 pour obtenir 35 équipes.",
+            "B": "Diviser 30 par 5 pour obtenir 6 équipes.",
+            "C": "Multiplier 30 par 5 pour obtenir 150 équipes.",
+            "D": "Soustraire 5 de 30 pour obtenir 25 équipes.",
+            "Answer": "B",
+            "Subject": "elementary_mathematics"
+        },
+        {
+            "Question": "Un magasin vend 107 couleurs de peinture différentes. Ils ont 25 pots de chaque couleur en stock. Le nombre de pots en stock est de",
+            "A": "749",
+            "B": "2 675",
+            "C": "2 945",
+            "D": "4 250",
+            "Answer": "B",
+            "Subject": "elementary_mathematics"
+        },
+        {
+            "Question": "Quelle expression est équivalente à 5 × 9 ?",
+            "A": "(5 × 4) × (6 × 5)",
+            "B": "(5 × 5) + (5 × 4)",
+            "C": "(5 × 5) + (5 × 9)",
+            "D": "(5 × 9) × (6 × 9)",
+            "Answer": "B",
+            "Subject": "elementary_mathematics"
+        }
+    ],
+    "formal_logic": [
+        {
+            "Question": "Choisissez la meilleure traduction en logique des prédicats : Aucun humain ne conduit sur Mars.",
+            "A": "~Pd",
+            "B": "(∀x)(Px ∨ ~Dx)",
+            "C": "(∀x)(Px ⊃ ~Dx)",
+            "D": "~Dp",
+            "Answer": "C",
+            "Subject": "formal_logic"
+        },
+        {
+            "Question": "Choisissez la meilleure traduction en logique des prédicats. Georges emprunte la tondeuse d'Hector. (g : Georges ; h : Hector ; l : tondeuse ; Bxyz : x emprunte y à z)",
+            "A": "Blgh",
+            "B": "Bhlg",
+            "C": "Bglh",
+            "D": "Bghl",
+            "Answer": "C",
+            "Subject": "formal_logic"
+        },
+        {
+            "Question": "Choisissez la meilleure interprétation en français des arguments donnés en logique des prédicats.\nDm\n(∀x)(Wx ⊃ ~Dx)\n(∀x)(~Wx ∨ Gx)\n∴ (∃x)Gx",
+            "A": "Marina est danseuse. Certains mauviettes ne sont pas danseurs. Soit tout est une mauviette, soit Georgia joue au volleyball. Donc quelque chose joue au volleyball.",
+            "B": "Marina est danseuse. Aucune mauviette n'est danseur. Tout est soit une mauviette, soit joue au volleyball. Donc quelque chose joue au volleyball.",
+            "C": "Marina est danseuse. Certains mauviettes ne sont pas danseurs. Tout est soit une mauviette, soit joue au volleyball. Donc quelque chose joue au volleyball.",
+            "D": "Marina est danseuse. Aucune mauviette n'est danseur. Soit tout est une mauviette, soit Georgia joue au volleyball. Donc quelque chose joue au volleyball.",
+            "Answer": "D",
+            "Subject": "formal_logic"
+        },
+        {
+            "Question": "Construisez une table de vérité complète pour les paires de propositions suivantes. Déterminez ensuite, à l'aide de la table de vérité, si les propositions sont logiquement équivalentes ou contradictoires, ou si aucune de ces relations ne s'applique.\n~(J ∨ K) · L et (J ∨ K) · ~L",
+            "A": "Logiquement équivalentes",
+            "B": "Contradictoires",
+            "C": "Ni logiquement équivalentes ni contradictoires, mais consistantes",
+            "D": "Inconsistantes",
+            "Answer": "C",
+            "Subject": "formal_logic"
+        },
+        {
+            "Question": "Laquelle des formules de logique propositionnelle données est la meilleure symbolisation de la phrase suivante ?\nLes tortues vivent sur terre et dans l'eau ou en intérieur.",
+            "A": "(L • H) ≡ I",
+            "B": "(L • H) ∨ I",
+            "C": "L • (H ∨ I)",
+            "D": "L • (H ⊃ R)",
+            "Answer": "B",
+            "Subject": "formal_logic"
+        }
+    ],
+    "global_facts": [
+        {
+            "Question": "Laquelle des paires d'affirmations suivantes est entièrement vraie (en date de 2019) ?",
+            "A": "Les gens ont tendance à être optimistes quant à leur propre avenir et à l'avenir de leur nation ou du monde.",
+            "B": "Les gens ont tendance à être optimistes quant à leur propre avenir, mais pessimistes quant à l'avenir de leur nation ou du monde.",
+            "C": "Les gens ont tendance à être pessimistes quant à leur propre avenir, mais optimistes quant à l'avenir de leur nation ou du monde.",
+            "D": "Les gens ont tendance à être pessimistes quant à leur propre avenir et à l'avenir de leur nation ou du monde.",
+            "Answer": "B",
+            "Subject": "global_facts"
+        },
+        {
+            "Question": "Quel pourcentage approximatif d'Américains (en date de 2019) estime que le gouvernement est dirigé dans l'intérêt de tous les citoyens ?",
+            "A": "31%",
+            "B": "46%",
+            "C": "61%",
+            "D": "76%",
+            "Answer": "B",
+            "Subject": "global_facts"
+        },
+        {
+            "Question": "Depuis 1990, les forêts (en date de 2015) ont ____ en Europe et ont ____ en Afrique et en Amérique.",
+            "A": "augmenté, augmenté",
+            "B": "augmenté, diminué",
+            "C": "diminué, augmenté",
+            "D": "diminué, diminué",
+            "Answer": "B",
+            "Subject": "global_facts"
+        },
+        {
+            "Question": "Quel pourcentage approximatif de Russes (en date de 2019) déclare qu'il est très important d'avoir des médias libres dans notre pays, sans censure de l'État ?",
+            "A": "38%",
+            "B": "53%",
+            "C": "68%",
+            "D": "83%",
+            "Answer": "A",
+            "Subject": "global_facts"
+        },
+        {
+            "Question": "Quel pourcentage des enfants d'un an dans le monde (en date de 2017) a été vacciné contre une maladie quelconque ?",
+            "A": "80%",
+            "B": "60%",
+            "C": "40%",
+            "D": "20%",
+            "Answer": "A",
+            "Subject": "global_facts"
+        }
+    ],
+    "high_school_biology": [
+        {
+            "Question": "Lequel des éléments suivants n'est pas une méthode de formation d'ADN recombinant ?",
+            "A": "Traduction",
+            "B": "Conjugaison",
+            "C": "Transduction spécialisée",
+            "D": "Transformation",
+            "Answer": "A",
+            "Subject": "high_school_biology"
+        },
+        {
+            "Question": "Une mutation dans une enzyme bactérienne a transformé un acide aminé auparavant polaire en un acide aminé apolaire. Cet acide aminé se trouvait à un endroit éloigné du site actif. Comment cette mutation pourrait-elle réduire la spécificité de substrat de l'enzyme ?",
+            "A": "En modifiant le pH optimal de l'enzyme",
+            "B": "En modifiant la localisation de l'enzyme dans la cellule",
+            "C": "En modifiant la forme de la protéine",
+            "D": "Un changement d'acide aminé éloigné du site actif ne peut pas modifier la fonction enzymatique",
+            "Answer": "C",
+            "Subject": "high_school_biology"
+        },
+        {
+            "Question": "Lequel des parcours suivants représente le trajet le plus probable d'une protéine sécrétoire dans les cellules animales, de sa synthèse à son transport hors de la cellule ?",
+            "A": "Membrane plasmique–appareil de Golgi–ribosome–vésicule de sécrétion–RE rugueux",
+            "B": "Ribosome–appareil de Golgi–RE rugueux–vésicule de sécrétion–membrane plasmique",
+            "C": "Membrane plasmique–appareil de Golgi–ribosome–vésicule de sécrétion–RE rugueux",
+            "D": "Ribosome–RE rugueux–appareil de Golgi–vésicule de sécrétion–membrane plasmique",
+            "Answer": "D",
+            "Subject": "high_school_biology"
+        },
+        {
+            "Question": "Lequel des éléments suivants est connu pour ne pas être impliqué dans le contrôle de la division cellulaire ?",
+            "A": "Cyclines",
+            "B": "Protéines kinases",
+            "C": "Points de contrôle",
+            "D": "Cellules fibroblastiques",
+            "Answer": "D",
+            "Subject": "high_school_biology"
+        },
+        {
+            "Question": "Les structures homologues sont souvent citées comme preuve du processus de sélection naturelle. Tous les exemples suivants sont des structures homologues SAUF",
+            "A": "les ailes d'un oiseau et les ailes d'une chauve-souris",
+            "B": "les nageoires d'une baleine et les bras d'un humain",
+            "C": "les nageoires pectorales d'un marsouin et les nageoires d'un phoque",
+            "D": "les pattes antérieures d'un insecte et les membres antérieurs d'un chien",
+            "Answer": "D",
+            "Subject": "high_school_biology"
+        }
+    ],
+    "high_school_chemistry": [
+        {
+            "Question": "Lequel des composés suivants est considéré comme un anhydride d'acide ?",
+            "A": "HCl",
+            "B": "H2SO3",
+            "C": "SO2",
+            "D": "Al(NO3)3",
+            "Answer": "C",
+            "Subject": "high_school_chemistry"
+        },
+        {
+            "Question": "Laquelle des molécules suivantes est probablement une molécule polaire ?",
+            "A": "PCl4F",
+            "B": "BF3",
+            "C": "CO2",
+            "D": "Si(CH3)4",
+            "Answer": "A",
+            "Subject": "high_school_chemistry"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes est vraie selon les règles de solubilité ?",
+            "A": "Tous les chlorures, bromures et iodures sont solubles",
+            "B": "Tous les sulfates sont solubles",
+            "C": "Tous les hydroxydes sont solubles",
+            "D": "Tous les composés contenant de l'ammonium sont solubles",
+            "Answer": "D",
+            "Subject": "high_school_chemistry"
+        },
+        {
+            "Question": "Un nouveau composé est synthétisé et identifié comme un acide monoprotique ayant une masse molaire de 248 g/mol. Si 0,0050 mol de cet acide est dissous dans 1,0 L d'eau et qu'un pH de 2,9 est mesuré, quel est le pKa de cet acide ?",
+            "A": "3,89",
+            "B": "7,78",
+            "C": "5,78",
+            "D": "2,33",
+            "Answer": "C",
+            "Subject": "high_school_chemistry"
+        },
+        {
+            "Question": "Une solution contient 2,00 mol d'acide acétique, CH3COOH, et 1,00 mol d'acétate de calcium, Ca(CH3COO)2. La solution peut tamponner l'ajout de combien de moles de HCl avant que la capacité tampon ne soit épuisée ?",
+            "A": "0,500 mol",
+            "B": "1,00 mol",
+            "C": "2,00 mol",
+            "D": "3,00 mol",
+            "Answer": "C",
+            "Subject": "high_school_chemistry"
+        }
+    ],
+    "high_school_computer_science": [
+        {
+            "Question": "Lequel des exemples suivants illustre l'utilisation d'un appareil de l'Internet des objets (IoT) ?",
+            "A": "Une voiture avertit le conducteur qu'il est sur le point de heurter un objet.",
+            "B": "Une randonneuse utilise une montre GPS pour suivre sa position.",
+            "C": "Un réfrigérateur commande du lait auprès d'un service de livraison en ligne lorsqu'il n'en reste presque plus.",
+            "D": "Un coureur utilise une montre à capteurs optiques pour surveiller sa fréquence cardiaque.",
+            "Answer": "C",
+            "Subject": "high_school_computer_science"
+        },
+        {
+            "Question": "De nombreux navigateurs web permettent aux utilisateurs d'ouvrir des fenêtres de navigation privée. Lors d'une session de navigation dans une fenêtre privée, le navigateur ne stocke ni cookies, ni historique, ni mots de passe. Laquelle des affirmations suivantes concernant la navigation privée est vraie ?",
+            "A": "Les activités d'un utilisateur naviguant dans une fenêtre privée ne sont pas surveillées par son fournisseur d'accès à Internet.",
+            "B": "Les articles ajoutés au panier d'un site de commerce en ligne pour un achat ultérieur resteront dans le panier une fois le mode privé terminé.",
+            "C": "Un utilisateur ne pourra pas se connecter à ses comptes de messagerie ou de réseaux sociaux en naviguant dans une fenêtre privée.",
+            "D": "Un utilisateur naviguant dans une fenêtre privée est protégé contre toute forme de traçage web.",
+            "Answer": "B",
+            "Subject": "high_school_computer_science"
+        },
+        {
+            "Question": "Quel est le résultat de \"abc\"[::-1] en Python 3 ?",
+            "A": "Erreur",
+            "B": "abc",
+            "C": "cba",
+            "D": "c",
+            "Answer": "C",
+            "Subject": "high_school_computer_science"
+        },
+        {
+            "Question": "Dans le programme suivant, la valeur initiale de x est 5 et la valeur initiale de y est 10.\nIF (X < 0)\n{\n  DISPLAY (\"Foxtrot\")\n}\nELSE\n{\n  IF (X > y)\n  {\n    DISPLAY (\"Hotel\")\n  }\n  ELSE\n  {\n    IF (y > 0)\n    {\n      DISPLAY (\"November\")\n    }\n    ELSE\n    {\n      DISPLAY (\"Yankee\")\n    }\n  }\n}\nQu'est-ce qui est affiché ?",
+            "A": "Foxtrot",
+            "B": "Hotel",
+            "C": "November",
+            "D": "Yankee",
+            "Answer": "C",
+            "Subject": "high_school_computer_science"
+        },
+        {
+            "Question": "Une liste de nombres comporte n éléments, indexés de 1 à n. L'algorithme suivant est censé afficher le nombre d'éléments de la liste qui sont supérieurs à une valeur donnée. L'algorithme utilise les variables count et position. Les étapes 3 et 4 manquent.\n\nÉtape 1 : Initialiser count à 0 et position à 1.\nÉtape 2 : Si la valeur de l'élément à l'index position est supérieure à val, incrémenter count de 1.\nÉtape 3 : (manquante)\nÉtape 4 : (manquante)\nÉtape 5 : Afficher la valeur de count.\n\nLaquelle des options suivantes pourrait remplacer les étapes 3 et 4 pour que l'algorithme fonctionne comme prévu ?",
+            "A": "Étape 3 : Incrémenter la valeur de position de 1.\nÉtape 4 : Répéter les étapes 2 et 3 jusqu'à ce que la valeur de count soit supérieure à val.",
+            "B": "Étape 3 : Incrémenter la valeur de position de 1.\nÉtape 4 : Répéter les étapes 2 et 3 jusqu'à ce que la valeur de position soit égale à n.",
+            "C": "Étape 3 : Répéter l'étape 2 jusqu'à ce que la valeur de count soit supérieure à val.\nÉtape 4 : Incrémenter la valeur de position de 1.",
+            "D": "Étape 3 : Répéter l'étape 2 jusqu'à ce que la valeur de position soit supérieure à n.\nÉtape 4 : Incrémenter la valeur de count de 1.",
+            "Answer": "D",
+            "Subject": "high_school_computer_science"
+        }
+    ],
+    "high_school_european_history": [
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\nL'extrait suivant est tiré d'un pamphlet.\nVous me rendrez la justice de vous rappeler que j'ai toujours soutenu avec fermeté le droit de chaque homme à sa propre opinion, aussi différente que cette opinion puisse être de la mienne. Celui qui refuse ce droit à un autre se fait l'esclave de son opinion actuelle, car il se prive du droit d'en changer.\nL'arme la plus efficace contre les erreurs de toute sorte est la raison. Je n'en ai jamais utilisé d'autre, et j'ai confiance que je ne le ferai jamais.\nLa circonstance qui s'est maintenant produite en France — l'abolition complète de tout l'ordre sacerdotal national et de tout ce qui se rapporte aux systèmes de religion imposés et aux articles de foi imposés — a non seulement accéléré mon intention, mais a rendu un ouvrage de ce genre extrêmement nécessaire, afin que, dans le naufrage général de la superstition, des faux systèmes de gouvernement et de la fausse théologie, nous ne perdions pas de vue la morale, l'humanité et la vraie théologie.\nJe crois en un Dieu et pas davantage ; et j'espère le bonheur au-delà de cette vie.\nJe crois en l'égalité des hommes ; et je crois que les devoirs religieux consistent à pratiquer la justice, à aimer la miséricorde et à s'efforcer de rendre nos semblables heureux.\nJe ne crois pas au credo de l'Église juive, de l'Église romaine, de l'Église grecque, de l'Église turque, de l'Église protestante, ni d'aucune Église que je connaisse. Mon propre esprit est ma propre Église.\nToutes les institutions nationales d'Églises, qu'elles soient juives, chrétiennes ou turques, ne m'apparaissent que comme des inventions humaines, créées pour terroriser et asservir l'humanité et pour monopoliser le pouvoir et le profit.\nJe n'entends pas, par cette déclaration, condamner ceux qui croient autrement ; ils ont le même droit à leur croyance que moi à la mienne.\n—Thomas Paine, Le Siècle de la Raison, 1794-1795\nLequel des philosophes des Lumières suivants a conçu un système de séparation des pouvoirs pour le gouvernement afin d'éviter les abus de pouvoir ?",
+            "A": "Jean-Jacques Rousseau",
+            "B": "Le baron de Montesquieu",
+            "C": "Mary Wollstonecraft",
+            "D": "Adam Smith",
+            "Answer": "B",
+            "Subject": "high_school_european_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\nLisez l'extrait suivant.\nLe germe révolutionnaire avait pénétré dans chaque pays et s'était répandu plus ou moins. Il se développa fortement sous le régime du despotisme militaire de Bonaparte. Ses conquêtes déplacèrent un certain nombre de lois, d'institutions et de coutumes ; elles rompirent des liens sacrés pour toutes les nations, assez forts pour résister au temps lui-même ; ce qui est plus que l'on ne peut dire de certains bienfaits accordés par ces novateurs.\nLes monarques rempliront les devoirs qui leur ont été imposés par Celui qui, en leur confiant le pouvoir, leur a chargé de veiller au maintien de la justice et des droits de tous, d'éviter les sentiers de l'erreur et de marcher fermement sur le chemin de la vérité. Placés au-dessus des passions qui agitent la société, c'est surtout dans les jours d'épreuve qu'ils sont appelés à dépouiller les réalités de leurs faux semblants et à se montrer tels qu'ils sont : des pères, revêtus de l'autorité qui appartient de droit aux chefs de familles, pour prouver qu'ils savent, dans les jours d'affliction, être justes, sages et par conséquent forts, et qu'ils ne livreront pas le peuple qu'ils doivent gouverner aux caprices des factions, à l'erreur et à ses conséquences, qui doivent entraîner la ruine de la société.\nL'unité entre les monarques est le fondement de la politique qui doit désormais être poursuivie pour sauver la société de sa ruine totale. ...\nIls ne doivent pas confondre les concessions faites aux partis avec le bien qu'ils devraient faire à leurs peuples, en adaptant aux besoins reconnus de ceux-ci les branches de l'administration qui l'exigent.\nIls doivent être justes, mais forts ; bienfaisants, mais stricts.\nIls doivent préserver les principes religieux dans toute leur pureté et ne pas permettre que la foi soit attaquée et la morale interprétée selon le contrat social ou les visions de sectes insensées.\nIls doivent supprimer les sociétés secrètes ; ce cancer de la société.\n—Clément de Metternich, Profession de foi politique, 1820\nQuelle était la plus grande cause des craintes que Metternich exprimait dans le document ci-dessus ?",
+            "A": "Les idées de liberté personnelle et de nationalisme conçues pendant les Lumières conduisirent à des révolutions radicales susceptibles de se répandre dans toute l'Europe.",
+            "B": "La conquête de l'Europe par Napoléon entraîna l'émergence de nouvelles factions et modifia l'équilibre européen des puissances.",
+            "C": "Le pouvoir des monarques avait tellement grandi qu'il devait être contrôlé par d'autres forces au sein de chaque nation, sous peine d'oppression de la population civile.",
+            "D": "Le cycle économique de croissance et de récession de l'économie capitaliste naissante pouvait conduire à des troubles civils qu'il fallait réprimer.",
+            "Answer": "A",
+            "Subject": "high_school_european_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\nEn Russie, rien n'allait bien, et [Souvarine] était désespéré par les nouvelles qu'il avait reçues. Ses anciens compagnons se tournaient tous vers les politiciens ; les fameux nihilistes qui faisaient trembler l'Europe — fils de curés de village, de la petite bourgeoisie, de marchands — ne pouvaient s'élever au-dessus de l'idée de libération nationale et semblaient croire que le monde serait sauvé s'ils tuaient leur despote…\n« Folie ! Ils ne sortiront jamais de leur folie. »\nPuis, d'une voix encore plus basse, il décrivit en quelques mots amers son ancien rêve de fraternité. Il avait renoncé à son rang et à sa fortune ; il était allé parmi les ouvriers, dans le seul espoir de voir enfin se fonder une nouvelle société de travail en commun. Tous les sous de ses poches étaient depuis longtemps allés aux enfants des rues de la cité ; il avait été aussi tendre qu'un frère pour les mineurs, souriant de leur méfiance et les gagnant par sa nature calme et laborieuse et son aversion pour le bavardage. Mais la fusion ne s'était décidément pas faite.\nSa voix changea, ses yeux s'illuminèrent, il les fixa sur Étienne et lui parla directement :\n« Eh bien, comprends-tu cela ? Ces chapeliers de Marseille qui ont gagné le gros lot de cent mille francs à la loterie sont partis aussitôt le placer en déclarant qu'ils allaient vivre sans rien faire ! Oui, c'est votre idée, à vous tous, ouvriers français ; vous voulez déterrer un trésor pour le dévorer ensuite tout seuls dans quelque coin paresseux et égoïste. Vous avez beau crier contre les riches, le courage vous manque de rendre aux pauvres l'argent que la fortune vous apporte. Vous ne serez jamais dignes du bonheur tant que vous posséderez quoi que ce soit, et votre haine de la bourgeoisie ne vient que du désir furieux d'être des bourgeois à leur place. »\nÉmile Zola, écrivain français, Germinal, 1885\nLe passage montre le souci direct du bien-être de la classe ouvrière, typiquement associé à quel mouvement ?",
+            "A": "Capitaliste",
+            "B": "Scientifique",
+            "C": "Communiste",
+            "D": "Existentialiste",
+            "Answer": "C",
+            "Subject": "high_school_european_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\nLes extraits suivants sont tirés des Actes de Navigation de 1651.\n[A]près le premier jour de décembre mil six cent cinquante et un et à partir de là, aucune marchandise ou denrée de quelque nature que ce soit, produite, cultivée ou fabriquée en Asie, en Afrique ou en Amérique, ou dans quelque partie que ce soit de celles-ci ; ou dans les îles qui leur sont rattachées, ou qui sont décrites ou cartographiées dans les cartes habituelles de ces lieux, tant des plantations anglaises que d'autres, ne sera importée ou apportée dans ce Commonwealth d'Angleterre, ou en Irlande, ou dans tout autre pays, île, plantation ou territoire appartenant à ce Commonwealth ou en sa possession, dans tout autre navire ou navires, vaisseau ou vaisseaux que ceux qui appartiennent véritablement et sans fraude au peuple de ce Commonwealth ou de ses plantations, en tant que propriétaires ou possesseurs légitimes ; et dont le capitaine et les marins sont également des ressortissants de ce Commonwealth, sous peine de confiscation et de perte de toutes les marchandises importées en violation de cette loi. ...\n[A]ucune marchandise ou denrée produite, cultivée ou fabriquée en Europe ou dans quelque partie que ce soit de celle-ci ne sera, après le premier jour de décembre mil six cent cinquante et un, importée ou apportée dans ce Commonwealth d'Angleterre, ou dans tout autre pays ou territoire appartenant à ce Commonwealth ou en sa possession, dans tout navire ou navires, vaisseau ou vaisseaux que ceux qui appartiennent véritablement et sans fraude au peuple de ce Commonwealth, et dans nul autre, sauf les navires et vaisseaux étrangers qui appartiennent véritablement et dûment au peuple du pays ou du lieu dont les marchandises sont le produit, la culture ou la fabrication.\nLaquelle des affirmations suivantes décrit le mieux le résultat des Actes de Navigation de 1651 ?",
+            "A": "Ils servirent de catalyseur à la croissance de la marine marchande et du commerce outre-mer anglais, mais firent peu pour limiter les perspectives des Néerlandais au dix-septième siècle.",
+            "B": "Ils causèrent des difficultés presque immédiates à l'économie néerlandaise, car leur domination dans le commerce outre-mer prit rapidement fin.",
+            "C": "Ils furent abrogés lors de la Restauration des Stuart, car ceux-ci cherchaient des relations diplomatiques normales avec les Néerlandais afin de ne pas dépendre du soutien financier du Parlement pour une guerre.",
+            "D": "Ils entraînèrent près d'un siècle de guerres récurrentes entre l'Angleterre et les Pays-Bas, qui ne devaient prendre fin qu'après l'indépendance américaine.",
+            "Answer": "A",
+            "Subject": "high_school_european_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\nBien que la Majesté du Roi soit, à juste titre et de droit, le chef suprême de l'Église d'Angleterre et doive l'être, et soit reconnue comme telle par le clergé de ce royaume dans ses assemblées, néanmoins, pour la confirmation et la corroboration de cela, et pour l'accroissement de la vertu dans la religion du Christ au sein de ce royaume d'Angleterre, et pour la suppression et l'éradication de toutes erreurs, hérésies et autres énormités et abus qui y ont été pratiqués jusqu'ici, il soit statué par l'autorité du présent Parlement que le Roi, notre souverain seigneur, ses héritiers et successeurs, rois de ce royaume, seront considérés, acceptés et reconnus comme le seul chef suprême sur terre de l'Église d'Angleterre, appelée Anglicana Ecclesia ; et jouiront de tous les honneurs, dignités, prééminences, juridictions, privilèges, autorités, immunités, profits et avantages appartenant et inhérents à ladite dignité de chef suprême de ladite Église ; et que notre dit souverain seigneur, ses héritiers et successeurs, rois de ce royaume, auront plein pouvoir et autorité de visiter, réprimer, redresser, réformer, ordonner, corriger, restreindre et amender, de temps à autre, toutes erreurs, hérésies, abus, offenses, mépris et énormités, de quelque nature qu'ils soient, qui, par quelque autorité ou juridiction spirituelle que ce soit, devraient ou pourraient être légitimement réformés, réprimés, ordonnés, redressés, corrigés, restreints ou amendés, pour le plus grand plaisir de Dieu Tout-Puissant, l'accroissement de la vertu dans la religion du Christ et la préservation de la paix, de l'unité et de la tranquillité de ce royaume ; nonobstant tout usage, pays étranger, autorité étrangère, prescription ou toute autre chose contraire.\nParlement anglais, Acte de Suprématie, 1534\nDe ce passage, on peut déduire que le Parlement anglais voulait soutenir que l'Acte de Suprématie",
+            "A": "conférerait au roi d'Angleterre une nouvelle position de pouvoir",
+            "B": "donnerait la position de chef de l'Église d'Angleterre uniquement à Henri VIII et exclurait ses héritiers",
+            "C": "établirait le calvinisme comme la seule vraie théologie en Angleterre",
+            "D": "mettrait fin à diverses formes de corruption qui tourmentaient l'Église en Angleterre",
+            "Answer": "D",
+            "Subject": "high_school_european_history"
+        }
+    ],
+    "high_school_geography": [
+        {
+            "Question": "Le taux de croissance naturelle d'une population est déterminé en soustrayant",
+            "A": "le taux brut de mortalité du taux brut de natalité.",
+            "B": "le taux brut de natalité du taux brut de mortalité.",
+            "C": "le temps de doublement du taux brut de natalité.",
+            "D": "le taux de fécondité du taux brut de mortalité.",
+            "Answer": "A",
+            "Subject": "high_school_geography"
+        },
+        {
+            "Question": "Dans la troisième phase du modèle de transition démographique, laquelle des affirmations suivantes est vraie ?",
+            "A": "Les taux de natalité augmentent et la croissance démographique est moins rapide.",
+            "B": "Les taux de natalité diminuent et la croissance démographique est moins rapide.",
+            "C": "Les taux de natalité augmentent et la croissance démographique s'accélère.",
+            "D": "Les taux de natalité diminuent et la croissance démographique s'accélère.",
+            "Answer": "B",
+            "Subject": "high_school_geography"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes n'est PAS exacte concernant les services des gouvernements locaux aux États-Unis ?",
+            "A": "Les doublons sont fréquents.",
+            "B": "Les problèmes sociaux du centre-ville s'étendent aux banlieues environnantes.",
+            "C": "L'inefficacité dans la prestation des services est fréquente.",
+            "D": "Les efforts d'un quartier pour réduire la pollution sont toujours soutenus par les voisins.",
+            "Answer": "D",
+            "Subject": "high_school_geography"
+        },
+        {
+            "Question": "La pratique consistant à confier un domaine d'activité à un prestataire étranger tiers est appelée",
+            "A": "externalisation.",
+            "B": "délocalisation.",
+            "C": "maquiladoras.",
+            "D": "interdépendance localisée.",
+            "Answer": "B",
+            "Subject": "high_school_geography"
+        },
+        {
+            "Question": "Lequel des exemples suivants est un exemple de culture immatérielle ?",
+            "A": "Le savon Dove",
+            "B": "La barre chocolatée Dove",
+            "C": "Le symbole de la colombe",
+            "D": "Une colombe (oiseau)",
+            "Answer": "C",
+            "Subject": "high_school_geography"
+        }
+    ],
+    "high_school_government_and_politics": [
+        {
+            "Question": "L'incertitude quant aux limites du pouvoir présidentiel est principalement causée par le fait que",
+            "A": "la définition constitutionnelle de ces pouvoirs est large et ambiguë.",
+            "B": "la plupart des gens estiment que la Constitution impose trop de restrictions au président.",
+            "C": "la Cour suprême refuse systématiquement de statuer sur les affaires concernant le pouvoir présidentiel.",
+            "D": "les amendements constitutionnels ont considérablement élargi le pouvoir présidentiel.",
+            "Answer": "A",
+            "Subject": "high_school_government_and_politics"
+        },
+        {
+            "Question": "Le terme « déficit budgétaire » désigne",
+            "A": "l'augmentation annuelle des dépenses fédérales pour l'armée",
+            "B": "le montant des intérêts sur la dette publique",
+            "C": "la différence entre les propositions budgétaires initiales du président et du Congrès",
+            "D": "le montant que le gouvernement dépense au-delà de ses recettes",
+            "Answer": "D",
+            "Subject": "high_school_government_and_politics"
+        },
+        {
+            "Question": "Lequel des cas suivants a créé le précédent selon lequel un accusé doit être informé de son droit de garder le silence, de son droit à un avocat et du fait que ses déclarations peuvent être utilisées contre lui ?",
+            "A": "Weeks v. United States",
+            "B": "Betts v. Brady",
+            "C": "Mapp v. Ohio",
+            "D": "Miranda v. Arizona",
+            "Answer": "D",
+            "Subject": "high_school_government_and_politics"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes concernant les ministères est FAUSSE ?",
+            "A": "Ils sont créés par le pouvoir législatif.",
+            "B": "Leurs membres n'ont souvent pas beaucoup d'influence sur la prise de décision du président.",
+            "C": "Ils ne peuvent pas tous être dirigés par des responsables appartenant au même parti politique.",
+            "D": "Toutes les agences fédérales ne sont pas des ministères.",
+            "Answer": "C",
+            "Subject": "high_school_government_and_politics"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes résume le mieux un argument avancé par James Madison dans Le Fédéraliste n° 10 ?",
+            "A": "Des politiciens honnêtes peuvent empêcher la formation de factions.",
+            "B": "Les factions sont plus susceptibles de se former dans les grandes républiques que dans les petites.",
+            "C": "Les effets négatifs du factionnalisme peuvent être atténués par une forme républicaine de gouvernement.",
+            "D": "Les élections libres sont la meilleure défense du peuple contre le factionnalisme.",
+            "Answer": "C",
+            "Subject": "high_school_government_and_politics"
+        }
+    ],
+    "high_school_macroeconomics": [
+        {
+            "Question": "Lequel des éléments suivants n'est pas inclus dans le PIB des États-Unis ?",
+            "A": "L'armée américaine ouvre une nouvelle base dans un pays étranger avec 1000 soldats américains.",
+            "B": "Les consommateurs japonais achètent des milliers de CD produits aux États-Unis.",
+            "C": "Une chanteuse pop américaine donne un concert à guichets fermés à Paris.",
+            "D": "Une production théâtrale française fait une tournée dans des dizaines de villes américaines.",
+            "Answer": "C",
+            "Subject": "high_school_macroeconomics"
+        },
+        {
+            "Question": "La courbe de Phillips à court terme montre une",
+            "A": "relation directe entre le chômage et l'inflation",
+            "B": "relation directe entre le prix et la quantité demandée",
+            "C": "relation inverse entre le prix et la quantité demandée",
+            "D": "relation inverse entre le chômage et l'inflation",
+            "Answer": "D",
+            "Subject": "high_school_macroeconomics"
+        },
+        {
+            "Question": "Un déficit fédéral survient lorsque",
+            "A": "les exportations dépassent les importations.",
+            "B": "les importations dépassent les exportations.",
+            "C": "les recettes fiscales fédérales dépassent les dépenses.",
+            "D": "les dépenses fédérales dépassent les recettes fiscales fédérales.",
+            "Answer": "D",
+            "Subject": "high_school_macroeconomics"
+        },
+        {
+            "Question": "Laquelle des mesures de politique monétaire suivantes serait utilisée, toutes choses égales par ailleurs, pour stimuler les exportations américaines ?",
+            "A": "Augmentation du taux d'escompte",
+            "B": "Augmentation du taux de réserves obligatoires",
+            "C": "Achat d'obligations d'État",
+            "D": "Réduction des droits de douane",
+            "Answer": "C",
+            "Subject": "high_school_macroeconomics"
+        },
+        {
+            "Question": "Laquelle des mesures suivantes décrit le mieux une politique budgétaire axée sur l'offre ?",
+            "A": "Une augmentation de la masse monétaire",
+            "B": "Une augmentation des dépenses publiques",
+            "C": "Une réduction des impôts sur la recherche et le développement de nouvelles technologies",
+            "D": "Une augmentation des impôts sur les revenus des ménages",
+            "Answer": "C",
+            "Subject": "high_school_macroeconomics"
+        }
+    ],
+    "high_school_mathematics": [
+        {
+            "Question": "Joe était responsable de l'éclairage lors d'un bal. La lumière rouge clignote toutes les deux secondes, la lumière jaune toutes les trois secondes et la lumière bleue toutes les cinq secondes. Si les trois lumières clignotent ensemble au départ, combien de fois exactement deux des trois lumières clignotent-elles simultanément pendant la première minute ?",
+            "A": "3",
+            "B": "15",
+            "C": "6",
+            "D": "5",
+            "Answer": "B",
+            "Subject": "high_school_mathematics"
+        },
+        {
+            "Question": "Cinq mille dollars placés annuellement à un taux d'intérêt de $x\\%$ mettent six ans à doubler. Au même taux d'intérêt, combien d'années faut-il pour que 300 dollars doublent ?",
+            "A": "12",
+            "B": "1",
+            "C": "30",
+            "D": "5",
+            "Answer": "C",
+            "Subject": "high_school_mathematics"
+        },
+        {
+            "Question": "La variable $x$ varie proportionnellement au carré de $y$, et $y$ varie proportionnellement au cube de $z$. Si $x$ vaut $-16$ quand $z$ vaut 2, quelle est la valeur de $x$ quand $z$ vaut $\\frac{1}{2}$ ?",
+            "A": "-1",
+            "B": "16",
+            "C": "$-\\frac{1}{256}$",
+            "D": "$\\frac{1}{16}$",
+            "Answer": "C",
+            "Subject": "high_school_mathematics"
+        },
+        {
+            "Question": "Simplifiez et écrivez le résultat avec un dénominateur rationnel : $$\\sqrt{\\sqrt[3]{\\sqrt{\\frac{1}{729}}}}$$",
+            "A": "$\\frac{3\\sqrt{3}}{3}$",
+            "B": "$\\frac{1}{3}$",
+            "C": "$\\sqrt{3}$",
+            "D": "$\\frac{\\sqrt{3}}{3}$",
+            "Answer": "D",
+            "Subject": "high_school_mathematics"
+        },
+        {
+            "Question": "Dix élèves passent un examen de biologie et obtiennent les notes suivantes : 45, 55, 50, 70, 65, 80, 40, 90, 70, 85. Quelle est la médiane de ces notes ?",
+            "A": "55",
+            "B": "60",
+            "C": "62",
+            "D": "65",
+            "Answer": "D",
+            "Subject": "high_school_mathematics"
+        }
+    ],
+    "high_school_microeconomics": [
+        {
+            "Question": "Sur un marché du travail concurrentiel pour les peintres en bâtiment, lequel des éléments suivants augmenterait la demande de peintres ?",
+            "A": "Un salaire minimum effectif imposé à ce marché du travail.",
+            "B": "Une augmentation du prix des pots de peinture.",
+            "C": "Une augmentation de la construction de nouvelles maisons.",
+            "D": "Une augmentation du prix des équipements de peinture mécaniques, à condition que l'effet de production l'emporte sur l'effet de substitution.",
+            "Answer": "C",
+            "Subject": "high_school_microeconomics"
+        },
+        {
+            "Question": "Si le gouvernement subventionne les producteurs sur un marché de concurrence parfaite, alors",
+            "A": "la demande pour le produit augmente",
+            "B": "la demande pour le produit diminue",
+            "C": "le surplus du consommateur augmente",
+            "D": "le surplus du consommateur diminue",
+            "Answer": "C",
+            "Subject": "high_school_microeconomics"
+        },
+        {
+            "Question": "Le taux de concentration pour un monopole est de",
+            "A": "0",
+            "B": "5",
+            "C": "10",
+            "D": "100",
+            "Answer": "D",
+            "Subject": "high_school_microeconomics"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes concernant un prix plancher est vraie ?",
+            "A": "Le prix plancher déplace la courbe de demande vers la gauche.",
+            "B": "Un prix plancher effectif crée une pénurie du bien.",
+            "C": "Le prix plancher déplace la courbe d'offre du bien vers la droite.",
+            "D": "Pour être effectif, il doit être fixé au-dessus du prix d'équilibre.",
+            "Answer": "D",
+            "Subject": "high_school_microeconomics"
+        },
+        {
+            "Question": "Lequel des éléments suivants est nécessairement une caractéristique d'un oligopole ?",
+            "A": "Libre entrée et sortie du marché",
+            "B": "Quelques grands producteurs",
+            "C": "Un seul producteur d'un bien sans substituts proches",
+            "D": "Un produit homogène",
+            "Answer": "B",
+            "Subject": "high_school_microeconomics"
+        }
+    ],
+    "high_school_physics": [
+        {
+            "Question": "Laquelle des conditions suivantes garantit la conservation du moment cinétique ? I. Conservation de la quantité de mouvement linéaire II. Aucune force extérieure résultante III. Aucun couple extérieur résultant",
+            "A": "I et II uniquement",
+            "B": "I et III uniquement",
+            "C": "II et III uniquement",
+            "D": "III uniquement",
+            "Answer": "D",
+            "Subject": "high_school_physics"
+        },
+        {
+            "Question": "Un tube rempli d'air est fermé à une extrémité. Une onde stationnaire est créée dans le tube, le faisant résonner. Quelle affirmation concernant l'extrémité fermée du tube est correcte ?",
+            "A": "La pression se trouve à un nœud, mais le déplacement des particules à un ventre.",
+            "B": "La pression se trouve à un ventre, mais le déplacement des particules à un nœud.",
+            "C": "La pression et le déplacement des particules se trouvent tous deux à des nœuds.",
+            "D": "La pression et le déplacement des particules se trouvent tous deux à des ventres.",
+            "Answer": "B",
+            "Subject": "high_school_physics"
+        },
+        {
+            "Question": "Une cellule photoélectrique ayant un travail d'extraction ϕ = 2eV est connectée en série avec une résistance. De la lumière de fréquence f = 1 × 10^15 Hz frappe une plaque métallique de la cellule photoélectrique. Si la puissance de la lumière est P = 100 W, quelle est l'intensité du courant traversant la résistance ?",
+            "A": "2 A",
+            "B": "6 A",
+            "C": "12 A",
+            "D": "24 A",
+            "Answer": "D",
+            "Subject": "high_school_physics"
+        },
+        {
+            "Question": "Un four à micro-ondes est branché sur une prise de 120 V et consomme un courant de 2 ampères. À quel taux l'énergie est-elle consommée par le four à micro-ondes ?",
+            "A": "10 W",
+            "B": "30 W",
+            "C": "60 W",
+            "D": "240 W",
+            "Answer": "D",
+            "Subject": "high_school_physics"
+        },
+        {
+            "Question": "Une charge ponctuelle Q = +1 mC est fixée à l'origine. Quel travail est nécessaire pour déplacer une charge Q = +8 µC du point (0, 4 m) au point (3 m, 0) ?",
+            "A": "3,5 J",
+            "B": "6,0 J",
+            "C": "22,5 J",
+            "D": "40 J",
+            "Answer": "B",
+            "Subject": "high_school_physics"
+        }
+    ],
+    "high_school_psychology": [
+        {
+            "Question": "Ani croit que ses attitudes et son comportement jouent un rôle central dans ce qui lui arrive. Une telle croyance est probablement caractéristique d'une personne ayant",
+            "A": "un surmoi puissant.",
+            "B": "une faible estime de soi.",
+            "C": "un faible sentiment d'auto-efficacité.",
+            "D": "un lieu de contrôle interne.",
+            "Answer": "D",
+            "Subject": "high_school_psychology"
+        },
+        {
+            "Question": "Selon le modèle de consultation centrée sur le consultant de Caplan, le consultant s'intéresse principalement à",
+            "A": "identifier les causes et les solutions des problèmes actuels du client.",
+            "B": "identifier et éliminer les causes des difficultés du consulteur dans le traitement du cas.",
+            "C": "établir une hiérarchie d'autorité pour une prise de décision efficace.",
+            "D": "présenter une recommandation d'action unique, clairement définie et sans ambiguïté au consulteur.",
+            "Answer": "B",
+            "Subject": "high_school_psychology"
+        },
+        {
+            "Question": "En nageant dans l'océan, Ivan est effrayé par une ombre sombre dans l'eau, avant même d'avoir eu l'occasion de l'identifier. La réaction de peur s'explique le mieux par le fait que",
+            "A": "des messages sont envoyés du thalamus directement à l'amygdale.",
+            "B": "des messages sont envoyés du thalamus aux voies de traitement « quoi » et « où ».",
+            "C": "des messages sont envoyés du système nerveux parasympathique au cortex cérébral.",
+            "D": "des messages sont envoyés des lobes frontaux à l'hypophyse.",
+            "Answer": "A",
+            "Subject": "high_school_psychology"
+        },
+        {
+            "Question": "Conformément à l'Individuals with Disabilities Education Improvement Act, laquelle des mesures suivantes un établissement scolaire doit-il prendre avant de transférer un enfant handicapé dans un autre environnement d'apprentissage ?",
+            "A": "Accorder à l'enfant une période d'essai dans le nouvel environnement",
+            "B": "Notifier les parents par écrit",
+            "C": "Obtenir l'approbation du conseil d'administration de l'école",
+            "D": "Obtenir le consentement des parents",
+            "Answer": "B",
+            "Subject": "high_school_psychology"
+        },
+        {
+            "Question": "Pascale s'intéresse aux stratégies de traitement que les enfants utilisent pour apprendre de nouvelles informations. Pascale serait le mieux classée comme",
+            "A": "psychologue socioculturelle",
+            "B": "psychologue clinicienne",
+            "C": "psychologue cognitive",
+            "D": "comportementaliste",
+            "Answer": "C",
+            "Subject": "high_school_psychology"
+        }
+    ],
+    "high_school_statistics": [
+        {
+            "Question": "Laquelle des affirmations suivantes concernant la corrélation est correcte ?",
+            "A": "Si la pente de la droite de régression est exactement 1, alors la corrélation est exactement 1.",
+            "B": "Si la corrélation est 0, alors la pente de la droite de régression est indéfinie.",
+            "C": "Inverser quelle variable est appelée x et quelle variable est appelée y change le signe de la corrélation.",
+            "D": "La corrélation r est égale à la pente de la droite de régression lorsque des scores z sont utilisés pour les deux variables x et y.",
+            "Answer": "D",
+            "Subject": "high_school_statistics"
+        },
+        {
+            "Question": "Supposons que X et Y soient des variables aléatoires avec E(X) = 37, var(X) = 5, E(Y) = 62 et var(Y) = 12. Quels sont l'espérance et la variance de X + Y ?",
+            "A": "E(X + Y) = 99, var(X + Y) = 8,5",
+            "B": "E(X + Y) = 99, var(X + Y) = 13",
+            "C": "E(X + Y) = 99, var(X + Y) = 17",
+            "D": "Il n'y a pas assez d'informations pour répondre à cette question.",
+            "Answer": "D",
+            "Subject": "high_school_statistics"
+        },
+        {
+            "Question": "Après l'annonce d'un avertissement de gel, le propriétaire d'une grande orangeraie a demandé à ses ouvriers d'asperger d'eau tous les arbres. L'étude examine l'effet de cette mesure. Quelle est la variable d'intérêt ?",
+            "A": "La proportion d'arbres ayant subi plus de 50 pour cent de dommages dus au gel.",
+            "B": "Le nombre d'arbres touchés par le gel.",
+            "C": "Le nombre d'arbres échantillonnés dans l'orangeraie.",
+            "D": "Pour chaque arbre échantillonné, s'il a subi plus de 50 pour cent de dommages ou au maximum 50 pour cent de dommages.",
+            "Answer": "D",
+            "Subject": "high_school_statistics"
+        },
+        {
+            "Question": "Une nouvelle montre connectée est fabriquée dans une partie d'une usine puis emballée pour l'expédition dans une autre partie indépendante de l'usine. Le poids de la montre connectée a une moyenne de 62 grammes et un écart-type de 1,0 gramme. Le poids de l'emballage a une moyenne de 456 grammes et un écart-type de 6,0 grammes. Quels sont la moyenne et l'écart-type du poids total de la montre connectée emballée ?",
+            "A": "Moyenne 518 grammes ; écart-type 7,0 grammes",
+            "B": "Moyenne 518 grammes ; écart-type 3,5 grammes",
+            "C": "Moyenne 518 grammes ; écart-type 6,1 grammes",
+            "D": "Moyenne 394 grammes ; écart-type 6,1 grammes",
+            "Answer": "C",
+            "Subject": "high_school_statistics"
+        },
+        {
+            "Question": "Lequel des ensembles suivants a le plus petit écart-type ? Lequel a le plus grand ?\nI: {1,2,3}\nII: {-10,10}\nIII: {100}",
+            "A": "I, II",
+            "B": "II, III",
+            "C": "III, I",
+            "D": "III, II",
+            "Answer": "D",
+            "Subject": "high_school_statistics"
+        }
+    ],
+    "high_school_us_history": [
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\n« La société est en tout état de cause une bénédiction, mais le gouvernement, même dans son meilleur état, n'est qu'un mal nécessaire ; dans son pire état, un mal insupportable ; car lorsque nous souffrons ou sommes exposés aux mêmes misères par un gouvernement que celles que nous pourrions attendre dans un pays sans gouvernement, notre malheur est accru par la pensée que nous fournissons nous-mêmes les moyens par lesquels nous souffrons. Le gouvernement, comme le vêtement, est le signe de l'innocence perdue ; les palais des rois sont bâtis sur les ruines des berceaux du paradis. Car si les impulsions de la conscience étaient suivies de manière claire, uniforme et irrésistible, l'homme n'aurait besoin d'aucun autre législateur ; mais puisque ce n'est pas le cas, il trouve nécessaire d'abandonner une partie de sa propriété afin de fournir les moyens de protéger le reste ; et il y est conduit par la même prudence qui, dans tous les autres cas, lui conseille de choisir le moindre de deux maux. Ainsi, la sécurité étant le véritable dessein et la fin du gouvernement, il s'ensuit irrésistiblement que la forme qui est la plus susceptible de nous la garantir, avec le moins de dépenses et le plus grand avantage, est préférable à toutes les autres. »\nThomas Paine, Le Sens commun, 1776\nLesquelles des « souffrances » suggérées ci-dessus furent le plus condamnées par les anti-fédéralistes de l'ère post-révolutionnaire ?",
+            "A": "La réaction organisée à la rébellion de Bacon",
+            "B": "La réaction fédérale à la rébellion de Shays",
+            "C": "La réaction fédérale à la révolte du Whisky",
+            "D": "La réaction fédérale à la rébellion de Pontiac",
+            "Answer": "C",
+            "Subject": "high_school_us_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\n« Comme notre conduite récente au manoir de Conestoga et à Lancaster a suscité beaucoup de spéculations et une grande diversité d'opinions dans ce gouvernement et les gouvernements voisins ; certains la justifiant et d'autres la condamnant ; certains atténuant charitablement le crime et d'autres le peignant malicieusement dans les couleurs les plus odieuses et les plus abominables, nous estimons qu'il est de notre devoir de présenter au public l'ensemble de l'affaire telle qu'elle nous est apparue et nous apparaît encore. ...\nSi ces choses ne suffisent pas à prouver une affection injustifiée des Quakers pour les sauvages indiens, une détermination ferme à les assister et une insensibilité totale à la souffrance humaine, considérons quelques faits plus récents. L'été dernier, constatant que nous n'obtiendrions probablement aucune aide du gouvernement, quelques volontaires partirent à leurs propres frais, déterminés à chasser nos ennemis de nos frontières ; et lorsque nous approchâmes de la grande île, nous apprîmes qu'un certain nombre de leurs guerriers étaient partis contre nos frontières. Nous fîmes alors demi-tour et les rencontrâmes et combattîmes à Munfey Hill, où nous perdîmes quelques-uns de nos hommes et tuâmes quelques-uns de leurs guerriers, sauvant ainsi nos frontières d'une autre expédition de cette histoire. Mais à peine avions-nous détruit leurs provisions sur la grande île et ruiné leur commerce avec les bonnes gens de Bethléem, que ces mêmes Indiens, soupçonnés à juste titre d'avoir assassiné nos amis dans le comté de Northampton, furent placés sous la protection du gouvernement par l'influence de certains Quakers, pour les mettre à l'abri de la colère des amis et parents des victimes et les entretenir pendant l'hiver. »\n— « Apologie des Paxton Boys » (pamphlet), 1764 (Note : « Apologie » est ici à comprendre comme une explication, non comme un aveu de culpabilité ou l'expression de regrets.)\nLes sentiments exprimés dans la déclaration ci-dessus reflètent laquelle des tensions persistantes suivantes pendant la période coloniale de l'histoire américaine ?",
+            "A": "Les tensions entre la politique britannique et les aspirations des colons d'Amérique du Nord.",
+            "B": "Les tensions entre les Indiens alliés aux Français et ceux alliés aux Britanniques.",
+            "C": "Les tensions entre les Afro-Américains affranchis et les propriétaires de plantations blancs.",
+            "D": "Les tensions entre les habitants de l'arrière-pays et les élites au sein de l'Amérique coloniale.",
+            "Answer": "D",
+            "Subject": "high_school_us_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\n« Dans le nouveau code de lois que vous jugerez nécessaire d'élaborer, je vous en prie, souvenez-vous des dames et soyez plus généreux et bienveillant envers elles que ne le furent vos ancêtres. Ne mettez pas un pouvoir aussi illimité entre les mains des maris. Songez que tous les hommes seraient des tyrans s'ils le pouvaient. Si les dames ne reçoivent pas un soin et une attention particuliers, nous sommes résolues à fomenter une rébellion et ne nous considérerons pas liées par des lois dans lesquelles nous n'avons ni voix ni représentation. »\nAbigail Adams, dans une lettre à John Adams, 1776\n« Des lois spéciales pour les femmes nous ont placées dans une situation des plus contradictoires. Des femmes investies dans un État des droits de citoyennes — électrices, jurées, titulaires de fonctions publiques — sont, lorsqu'elles franchissent une ligne imaginaire, des sujettes dans l'État voisin. Dans certains États, une femme mariée peut posséder des biens et mener des affaires en son nom propre ; dans d'autres, ses revenus appartiennent à son mari. Dans certains États, une femme peut témoigner contre son mari, poursuivre et être poursuivie en justice ; dans d'autres, elle n'a aucune protection juridique en cas de dommages à sa personne, ses biens ou sa réputation. En cas de divorce pour adultère du mari, l'épouse innocente ne se voit accorder aucun droit sur les enfants ou les biens, sauf par décision spéciale du tribunal. Mais dans aucun État de l'Union, l'épouse n'a droit à sa propre personne ni à aucune part des revenus communs du ménage du vivant de son mari. Dans certains États, les femmes peuvent fréquenter les facultés de droit et plaider devant les tribunaux ; dans d'autres, cela leur est interdit. Dans certaines universités, les filles jouissent de chances d'éducation égales à celles des garçons, tandis que nombre des plus fières institutions du pays leur refusent l'admission, alors que les fils de Chine, du Japon et d'Afrique y sont accueillis. Mais les privilèges déjà accordés dans les différents États ne sont nullement garantis. »\nSusan B. Anthony, « Déclaration des droits des femmes », 4 juillet 1876\nLes opinions exprimées dans le second extrait par Susan B. Anthony soutiennent le plus probablement",
+            "A": "l'amendement pour l'égalité des droits",
+            "B": "le suffrage universel",
+            "C": "les droits des États",
+            "D": "la prohibition",
+            "Answer": "B",
+            "Subject": "high_school_us_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\nNos dirigeants parlent d'arrêter l'agression venant du Nord, mais il s'agissait d'un combat entre groupes de Vietnamiens jusqu'à notre intervention. Nous semblons déterminés à sauver les Vietnamiens de Hô Chi Minh, même s'il faut pour cela les tuer et détruire leur pays. Lorsque la population locale contemple les villages bombardés, les femmes et les enfants brûlés par le napalm, les récoltes de riz détruites et les villes envahies par notre personnel militaire, elle dit sans doute secrètement des guérilleros vietcongs et des forces américaines : « La peste sur vos deux maisons. » … Arrêtez les bombardements, au Nord et au Sud, cessez les opérations de recherche et destruction et limitez nos actions militaires à des opérations de maintien au sol. Les bombardements du Nord n'ont pas réussi à arrêter ou à ralentir sérieusement l'acheminement des troupes vers le Sud, et ont peut-être même provoqué un effort de guerre bien plus important de la part de Hanoï.\n— Sénateur George McGovern, « Les leçons du Vietnam », 25 avril 1967\nLaquelle des opinions suivantes des années 1960 reflète le plus directement la perspective du discours de George McGovern ?",
+            "A": "Les Américains doivent maximiser leur avantage technologique au Vietnam.",
+            "B": "Les bombardements américains au Vietnam conduisent pas à pas à des progrès dans la guerre.",
+            "C": "Les bombardements américains au Vietnam sont un échec.",
+            "D": "L'Amérique ne doit pas céder au défaitisme concernant la guerre au Vietnam.",
+            "Answer": "C",
+            "Subject": "high_school_us_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\nJe ne viens pas faire valoir des revendications personnelles, ni chercher des avantages individuels ; je me présente comme l'avocate de ceux qui ne peuvent plaider leur propre cause ; je viens en amie de ceux qui sont abandonnés, opprimés et désolés. Par la Providence de Dieu, je suis la voix des aliénés, dont les cris perçants, s'élevant des cachots sinistres de vos prisons, ne parviennent pas dans vos salles de législation. Je suis l'espoir des pauvres créatures aliénées qui dépérissent dans les cellules, les étables, les cages et les débarras de vos hospices. Je suis la révélation de centaines de créatures gémissantes et souffrantes, cachées dans vos demeures privées et dans des réduits et des cabanes — enfermées, coupées de toute influence salutaire, de toute assistance spirituelle. … Si leurs tristes histoires pouvaient être étalées devant vous, comme elles m'ont été révélées au cours des trois derniers mois à mon esprit affligé, avec quelle rapidité, quelle ardeur vous rechercheriez les remèdes les plus éprouvés ; combien insignifiants, combien dérisoires vous paraîtraient en comparaison les sacrifices que l'on vous demande de faire ; comme quelques sous et quelques dollars, prélevés sur chaque citoyen, perdraient toute valeur en tant que possession comparés aux avantages certains et au bénéfice énorme qui pourraient être assurés aux aliénés souffrants … par la consécration et l'affectation de fonds suffisants pour la construction d'un hôpital approprié. …\n— Dorothea Dix, Mémoire en faveur de l'établissement d'un hôpital d'État pour la protection et la guérison des aliénés,\nprésenté à l'Assemblée générale de Caroline du Nord, novembre 1848\nÀ qui peut-on le mieux comparer Dorothea Dix ?",
+            "A": "Abigail Adams",
+            "B": "Clara Barton",
+            "C": "Shirley Temple",
+            "D": "Hillary Clinton",
+            "Answer": "B",
+            "Subject": "high_school_us_history"
+        }
+    ],
+    "high_school_world_history": [
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\nIl contient toutes les œuvres et tous les désirs et tous les parfums et toutes les saveurs. Il enveloppe tout l'univers et aime en silence toute chose. C'est l'esprit qui est dans mon cœur, c'est Brahman. Vers lui j'irai lorsque je quitterai cette vie, et vers lui ira celui qui a la foi et ne doute point.\n— Les Upanishads, Inde, vers 1000 av. J.-C.\nÀ quelle religion l'orateur appartient-il le plus probablement ?",
+            "A": "Hindouisme",
+            "B": "Bouddhisme",
+            "C": "Shintoïsme",
+            "D": "Zoroastrisme",
+            "Answer": "A",
+            "Subject": "high_school_world_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\n« La lutte contre le néocolonialisme ne vise pas à exclure les capitaux du monde développé des investissements dans les pays moins développés. Elle vise à empêcher que la puissance financière des pays développés soit utilisée de manière à appauvrir les pays moins développés.\nLe non-alignement, tel qu'il est pratiqué par le Ghana et de nombreux autres pays, repose sur la coopération avec tous les États, qu'ils aient une économie capitaliste, socialiste ou mixte. Une telle politique inclut donc les investissements étrangers provenant de pays capitalistes, mais ils doivent être investis conformément à un plan national élaboré par le gouvernement de l'État non aligné en fonction de ses propres intérêts. La question n'est pas de savoir quel rendement l'investisseur étranger obtient sur son investissement… La question est celle du pouvoir. Un État en proie au néocolonialisme n'est pas maître de son propre destin. »\nKwame Nkrumah, Le Néo-colonialisme, 1965\nLaquelle des affirmations suivantes fournit le meilleur contexte pour les écrits de Nkrumah ?",
+            "A": "La Révolution industrielle",
+            "B": "La décolonisation",
+            "C": "Les accords régionaux de libre-échange",
+            "D": "L'autarcie",
+            "Answer": "B",
+            "Subject": "high_school_world_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\n« La véritable souffrance de l'ouvrier est l'insécurité de son existence ; il n'est pas sûr d'avoir toujours du travail, il n'est pas sûr d'être toujours en bonne santé, et il prévoit qu'un jour il sera vieux et incapable de travailler. S'il tombe dans la misère, ne serait-ce que par une longue maladie, il est alors totalement démuni, livré à lui-même, et la société ne reconnaît actuellement aucune obligation réelle envers lui au-delà de l'assistance ordinaire aux pauvres, même s'il a travaillé fidèlement et diligemment tout le temps. L'assistance ordinaire aux pauvres laisse cependant beaucoup à désirer, surtout dans les grandes villes, où elle est bien pire qu'à la campagne. »\nOtto von Bismarck, 1884\nOtto von Bismarck a probablement prononcé ce discours en réponse auquel des problèmes suivants ?",
+            "A": "L'acceptation sociale du travail des enfants",
+            "B": "La baisse de l'espérance de vie en Allemagne",
+            "C": "Les critiques des droits de douane allemands",
+            "D": "Les effets négatifs attribués au capitalisme industriel",
+            "Answer": "D",
+            "Subject": "high_school_world_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\n« En effet, comme les fatwas de savants éminents, qui fondent leur opinion à la fois sur la raison et la tradition, et le consensus de la communauté sunnite s'accordent à dire que l'ancien devoir d'éradiquer, d'anéantir et d'expulser la mauvaise innovation doit être l'objectif de notre aspiration sublime, car ‹ le zèle religieux est une victoire pour la foi en Dieu le Bienfaiteur › ; alors, conformément aux paroles du Prophète (que la paix soit sur lui !) ‹ Quiconque introduit une mauvaise innovation dans notre ordre doit être expulsé › et ‹ Quiconque agit contre notre ordre doit être expulsé ›, l'action est devenue nécessaire et urgente… »\nLettre du sultan ottoman Selim Ier au chah safavide Ismaïl Ier, 1514\nLa lettre de Selim Ier est le plus clairement un exemple de laquelle des situations suivantes ?",
+            "A": "Le maintien de la supériorité militaire à tout prix",
+            "B": "Les tensions croissantes entre confessions religieuses",
+            "C": "Les facteurs ayant conduit à l'effondrement de l'Empire ottoman",
+            "D": "Les efforts de paix entre les empires islamiques",
+            "Answer": "B",
+            "Subject": "high_school_world_history"
+        },
+        {
+            "Question": "Cette question se rapporte aux informations suivantes.\n« Au moins l'une des sociétés [mondiales] aurait dû, d'une manière ou d'une autre, accroître énormément sa productivité [pour atteindre l'hégémonie mondiale]. Ce bond en avant aurait dû être réalisé avant que les diverses révolutions scientifiques, technologiques, agricoles et industrielles sur lesquelles repose notre monde post-bond aient eu lieu. Il ne pouvait être accompli qu'en exploitant les écosystèmes, les ressources minérales et les ressources humaines de continents entiers situés hors des pays de la société réalisant le bond. L'Europe occidentale fit exactement cela par sa brutalité et ses armes et, plus important encore, par la chance géographique et écologique. »\nCopyright © 2015 Cambridge University Press.\nAlfred Crosby, historien, Ecological Imperialism, 2004\nLe « bond en avant » mentionné dans le passage a contribué le plus directement à laquelle des évolutions suivantes au cours de la période 1450-1750 ap. J.-C. ?",
+            "A": "Un effondrement des routes commerciales dû à la désintégration des structures étatiques établies",
+            "B": "Une augmentation de la population mondiale grâce à un approvisionnement alimentaire plus abondant",
+            "C": "La diffusion des systèmes de croyances chinois et indiens à travers le monde",
+            "D": "Une augmentation des troubles sociaux",
+            "Answer": "B",
+            "Subject": "high_school_world_history"
+        }
+    ],
+    "human_aging": [
+        {
+            "Question": "Laquelle des personnes suivantes (en date de 2019) est la plus susceptible de vivre seule à domicile ?",
+            "A": "Un homme ou une femme asiatique",
+            "B": "Un homme hispanique",
+            "C": "Une femme afro-américaine",
+            "D": "Un homme ou une femme blanc(he)",
+            "Answer": "C",
+            "Subject": "human_aging"
+        },
+        {
+            "Question": "La constatation que les adultes ont tendance à mieux se souvenir des événements de leur jeunesse que d'autres périodes de la vie est appelée",
+            "A": "Avantage de la jeunesse",
+            "B": "Effet de réminiscence",
+            "C": "Mémoire de la mémoire",
+            "D": "Pic de rappel quadratique",
+            "Answer": "B",
+            "Subject": "human_aging"
+        },
+        {
+            "Question": "Lorsque des adultes âgés déménagent dans un nouvel État après la retraite, lequel des suivants est la destination la plus probable ?",
+            "A": "Texas",
+            "B": "Californie",
+            "C": "Hawaï",
+            "D": "Vermont",
+            "Answer": "A",
+            "Subject": "human_aging"
+        },
+        {
+            "Question": "Quel composant de la fumée de tabac est responsable des cancers ?",
+            "A": "Nicotine",
+            "B": "Goudron",
+            "C": "Monoxyde de carbone",
+            "D": "Particules de fumée",
+            "Answer": "B",
+            "Subject": "human_aging"
+        },
+        {
+            "Question": "Toutes choses étant égales par ailleurs, laquelle des personnes suivantes est la plus susceptible de présenter de l'ostéoporose ?",
+            "A": "Une femme hispano-américaine âgée",
+            "B": "Une femme afro-américaine âgée",
+            "C": "Une femme asio-américaine âgée",
+            "D": "Une femme amérindienne âgée",
+            "Answer": "C",
+            "Subject": "human_aging"
+        }
+    ],
+    "human_sexuality": [
+        {
+            "Question": "Les nausées matinales sont typiquement un problème :",
+            "A": "pendant le premier trimestre",
+            "B": "pendant le deuxième trimestre",
+            "C": "pendant le troisième trimestre",
+            "D": "pendant toute la grossesse",
+            "Answer": "A",
+            "Subject": "human_sexuality"
+        },
+        {
+            "Question": "Une femme qui sait qu'elle a un herpès actif et une syphilis non traitée, mais qui continue à avoir des rapports sexuels sans informer ses partenaires de son état, a",
+            "A": "un moi fort",
+            "B": "un surmoi faible",
+            "C": "un ça faible",
+            "D": "un surmoi fort",
+            "Answer": "B",
+            "Subject": "human_sexuality"
+        },
+        {
+            "Question": "La capacité des femmes à avoir des orgasmes multiples est principalement due :",
+            "A": "au fait qu'elles n'ont pas de période réfractaire.",
+            "B": "à la réaction des couches vaginales internes.",
+            "C": "à l'alternance d'orgasmes à différents endroits.",
+            "D": "au point G.",
+            "Answer": "A",
+            "Subject": "human_sexuality"
+        },
+        {
+            "Question": "Les types d'activités homosexuelles qui se produisent à la préadolescence comprennent tous sauf lequel des suivants ?",
+            "A": "Les rapports sexuels",
+            "B": "Les comparaisons de groupe",
+            "C": "L'exhibitionnisme",
+            "D": "Les attouchements mutuels des organes génitaux",
+            "Answer": "A",
+            "Subject": "human_sexuality"
+        },
+        {
+            "Question": "Le trouble le plus fréquent chez les hommes consultant en thérapie sexuelle est :",
+            "A": "l'éjaculation précoce",
+            "B": "l'éjaculation retardée",
+            "C": "la dysfonction érectile",
+            "D": "le trouble de l'éjaculation",
+            "Answer": "C",
+            "Subject": "human_sexuality"
+        }
+    ],
+    "international_law": [
+        {
+            "Question": "Quels types de force l'article 2(4) de la Charte des Nations Unies interdit-il ?",
+            "A": "L'article 2(4) ne couvre que la force armée",
+            "B": "L'article 2(4) couvre tous les types de force, y compris les sanctions",
+            "C": "L'article 2(4) couvre toute ingérence dans les affaires intérieures des États",
+            "D": "L'article 2(4) couvre la force dirigée uniquement contre l'intégrité territoriale d'un État",
+            "Answer": "A",
+            "Subject": "international_law"
+        },
+        {
+            "Question": "Qu'est-ce que le juge ad hoc ?",
+            "A": "Lorsqu'une partie à un litige devant la CIJ n'a pas de ressortissant parmi les juges siégeant, elle peut désigner un juge ad hoc.",
+            "B": "Le juge ad hoc est le membre du siège de la CIJ disposant d'une voix prépondérante.",
+            "C": "Le juge ad hoc est un juge suppléant en cas de récusation ou de décès d'un juge.",
+            "D": "Le juge ad hoc est le juge que chaque partie désigne systématiquement dans chaque litige.",
+            "Answer": "A",
+            "Subject": "international_law"
+        },
+        {
+            "Question": "Une réserve à la définition de la torture dans le PIDCP serait-elle acceptable dans la pratique actuelle ?",
+            "A": "C'est une réserve acceptable si la législation du pays formulant la réserve utilise une définition alternative.",
+            "B": "C'est une réserve inacceptable car elle est contraire à l'objet et au but du PIDCP.",
+            "C": "C'est une réserve inacceptable car la définition de la torture dans le PIDCP est impérative.",
+            "D": "C'est une réserve acceptable car les États peuvent formuler des réserves en vertu du droit international général.",
+            "Answer": "B",
+            "Subject": "international_law"
+        },
+        {
+            "Question": "Quand le « consentement » peut-il servir de circonstance excluant l'illicéité du comportement d'un État ?",
+            "A": "Le consentement peut toujours servir de circonstance excluant l'illicéité lorsqu'il est donné par un État.",
+            "B": "Le consentement ne peut jamais servir de circonstance excluant l'illicéité.",
+            "C": "Le consentement peut servir de circonstance excluant l'illicéité, à condition que le consentement soit valide et donné dans les limites du consentement accordé.",
+            "D": "Le consentement peut toujours servir de circonstance excluant l'illicéité, quelle que soit la manière dont le consentement a été obtenu.",
+            "Answer": "C",
+            "Subject": "international_law"
+        },
+        {
+            "Question": "Comment le consentement d'un État à être lié peut-il être exprimé ?",
+            "A": "Le consentement d'un État à être lié est exprimé uniquement par la ratification.",
+            "B": "Le consentement d'un État à être lié par un traité peut être exprimé par la signature, la ratification, l'acceptation, l'approbation ou l'adhésion.",
+            "C": "Le consentement d'un État à être lié est exprimé par la signature.",
+            "D": "Le consentement d'un État à être lié est exprimé par tout moyen de son choix.",
+            "Answer": "B",
+            "Subject": "international_law"
+        }
+    ],
+    "jurisprudence": [
+        {
+            "Question": "Quelle position Rawls considère-t-il comme la moins susceptible d'être adoptée par les PPO (Personnes dans la Position Originelle) ?",
+            "A": "Les PPO choisiraient l'égalité plutôt que la liberté.",
+            "B": "Les PPO opteraient pour la stratégie du maximin.",
+            "C": "Les PPO opteraient pour le principe de différence.",
+            "D": "Les PPO rejetteraient le système de liberté naturelle.",
+            "Answer": "A",
+            "Subject": "jurisprudence"
+        },
+        {
+            "Question": "Les fonctions du droit comprennent toutes les suivantes sauf laquelle ?",
+            "A": "Maximiser la liberté individuelle",
+            "B": "Fournir une base pour le compromis",
+            "C": "Maintenir la paix",
+            "D": "Promouvoir les principes de la libre entreprise",
+            "Answer": "D",
+            "Subject": "jurisprudence"
+        },
+        {
+            "Question": "Quel mot résume le mieux l'explication de Weber sur le développement du droit formel-rationnel ?",
+            "A": "Autorité.",
+            "B": "Charisme.",
+            "C": "Coopération.",
+            "D": "Capitalisme.",
+            "Answer": "D",
+            "Subject": "jurisprudence"
+        },
+        {
+            "Question": "L'école ________ de la science juridique postule que le droit est fondé sur ce qui est « juste ».",
+            "A": "du droit naturel",
+            "B": "analytique",
+            "C": "historique",
+            "D": "sociologique",
+            "Answer": "A",
+            "Subject": "jurisprudence"
+        },
+        {
+            "Question": "Iverson Jewelers a écrit une lettre à Miller : « Nous avons reçu une montre Rolox à remontage automatique exceptionnellement fine que nous vous vendrons à un prix très avantageux. » Comment cette lettre doit-elle être qualifiée juridiquement ?",
+            "A": "La lettre constitue une offre de vente.",
+            "B": "Une offre valable ne peut pas être faite par lettre.",
+            "C": "La lettre contient une offre valable qui expire dans un délai raisonnable.",
+            "D": "La lettre ne contient pas l'un des éléments essentiels d'une offre.",
+            "Answer": "D",
+            "Subject": "jurisprudence"
+        }
+    ],
+    "logical_fallacies": [
+        {
+            "Question": "Lorsque quelqu'un attaque le caractère d'un adversaire au lieu de répondre à ses arguments, cette personne a probablement commis quel sophisme ?",
+            "A": "Tu quoque",
+            "B": "Ridiculisation",
+            "C": "Argumentum ad hominem",
+            "D": "Ignoratio elenchi",
+            "Answer": "C",
+            "Subject": "logical_fallacies"
+        },
+        {
+            "Question": "Le sophisme de la question complexe consiste à",
+            "A": "présenter quelque chose comme inférieur simplement parce qu'il ne peut pas faire quelque chose pour lequel il n'a jamais été conçu.",
+            "B": "inclure plus d'une affirmation dans la thèse et traiter la preuve de l'une comme preuve de toutes.",
+            "C": "tirer une conclusion avant que les preuves n'aient été examinées, et ne considérer que les preuves qui soutiennent la conclusion.",
+            "D": "poser une question qui contient soit une hypothèse non prouvée, soit plus d'une question.",
+            "Answer": "D",
+            "Subject": "logical_fallacies"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes s'applique à un syllogisme catégorique valide ?",
+            "A": "La prémisse mineure doit nier l'antécédent.",
+            "B": "La prémisse majeure doit affirmer le conséquent.",
+            "C": "Le terme moyen doit être utilisé de manière universelle ou sans restriction dans au moins l'une des prémisses.",
+            "D": "Toutes les réponses ci-dessus",
+            "Answer": "C",
+            "Subject": "logical_fallacies"
+        },
+        {
+            "Question": "Argumenter que ce qui est vrai des parties doit aussi être vrai du tout est le sophisme de...",
+            "A": "la division",
+            "B": "la composition",
+            "C": "l'argumentum ad hominem",
+            "D": "l'argumentum ad ignorantiam",
+            "Answer": "B",
+            "Subject": "logical_fallacies"
+        },
+        {
+            "Question": "Lorsqu'un argumentateur sème la confusion pendant la réfutation parce qu'il est réellement ou feint d'être incapable de participer à la réfutation, cet argumentateur a peut-être commis :",
+            "A": "un mauvais esprit sportif",
+            "B": "un argumentum ad misericordiam",
+            "C": "un argumentum ad hominem",
+            "D": "une méconnaissance de la réfutation",
+            "Answer": "D",
+            "Subject": "logical_fallacies"
+        }
+    ],
+    "machine_learning": [
+        {
+            "Question": "Un dé à 6 faces est lancé 15 fois et les résultats sont : face 1 apparaît 0 fois ; face 2 : 1 fois ; face 3 : 2 fois ; face 4 : 3 fois ; face 5 : 4 fois ; face 6 : 5 fois. Quelle est la probabilité estimée par la statistique bayésienne avec lissage de Laplace que le prochain lancer donne un 1 ?",
+            "A": "2,0/15",
+            "B": "1,0/7",
+            "C": "3,0/16",
+            "D": "1,0/5",
+            "Answer": "B",
+            "Subject": "machine_learning"
+        },
+        {
+            "Question": "Quelle augmentation de données d'images est la plus courante pour les images naturelles ?",
+            "A": "Recadrage aléatoire et retournement horizontal",
+            "B": "Recadrage aléatoire et retournement vertical",
+            "C": "Postérisation",
+            "D": "Tramage",
+            "Answer": "A",
+            "Subject": "machine_learning"
+        },
+        {
+            "Question": "Vous évaluez des soumissions pour la World's Fanciest Machine Learning Conference et vous voyez des soumissions avec les affirmations suivantes. Laquelle accepteriez-vous ?",
+            "A": "Ma méthode obtient une erreur d'entraînement plus faible que toutes les méthodes précédentes !",
+            "B": "Ma méthode obtient une erreur de test plus faible que toutes les méthodes précédentes ! (Note de bas de page : en utilisant le même jeu de test que toutes les méthodes précédentes)",
+            "C": "Ma méthode obtient une erreur de test plus faible que toutes les méthodes précédentes ! (Note de bas de page : en utilisant un nouveau jeu de test que j'ai créé moi-même)",
+            "D": "Ma méthode obtient une erreur de validation croisée plus faible que toutes les méthodes précédentes ! (Note de bas de page : en utilisant les mêmes données que toutes les méthodes précédentes)",
+            "Answer": "C",
+            "Subject": "machine_learning"
+        },
+        {
+            "Question": "Pour obtenir une estimation de la perte 0/1 qui soit inférieure à 1 pour cent de la vraie perte 0/1 (avec une probabilité de 95 %), combien d'exemples sont approximativement nécessaires selon l'inégalité de Hoeffding ?",
+            "A": "Environ 10 exemples",
+            "B": "Environ 100 exemples",
+            "C": "Entre 100 et 500 exemples",
+            "D": "Plus de 1000 exemples",
+            "Answer": "D",
+            "Subject": "machine_learning"
+        },
+        {
+            "Question": "Dans l'apprentissage d'arbres de décision, on considère traditionnellement une partition binaire pour un attribut d'entrée à valeur réelle. Pourquoi n'utilise-t-on pas une partition à voies multiples ?",
+            "A": "C'est trop coûteux en calcul.",
+            "B": "Cela conduirait probablement à un arbre de décision qui fonctionne mal sur l'ensemble d'entraînement.",
+            "C": "Cela conduirait probablement à un arbre de décision qui fonctionne bien sur l'ensemble d'entraînement, mais mal sur un ensemble de test.",
+            "D": "Cela conduirait probablement à un arbre de décision qui fonctionne bien sur l'ensemble de test, mais mal sur l'ensemble d'entraînement.",
+            "Answer": "C",
+            "Subject": "machine_learning"
+        }
+    ],
+    "management": [
+        {
+            "Question": "Quelles sont les deux dimensions principales des études de l'Ohio sur le leadership ?",
+            "A": "Position initiale et position finale",
+            "B": "Environnement initial et environnement modifié",
+            "C": "Structure organisationnelle et conditionnement",
+            "D": "Orientation vers la tâche et orientation vers les personnes",
+            "Answer": "D",
+            "Subject": "management"
+        },
+        {
+            "Question": "Les facteurs d'hygiène sont associés à quel auteur ?",
+            "A": "Frederick Herzberg",
+            "B": "D.C. McClelland",
+            "C": "Abraham Maslow",
+            "D": "Douglas McGregor",
+            "Answer": "A",
+            "Subject": "management"
+        },
+        {
+            "Question": "Quel élément du tissu culturel constitue les insignes ?",
+            "A": "Symboles",
+            "B": "Rituels et routines",
+            "C": "Structures de pouvoir",
+            "D": "Systèmes de contrôle",
+            "Answer": "A",
+            "Subject": "management"
+        },
+        {
+            "Question": "Quelle caractéristique n'est pas un trait clé du modèle des « systèmes ouverts » en management ?",
+            "A": "Moral",
+            "B": "Innovation",
+            "C": "Ressource de croissance",
+            "D": "Adaptation",
+            "Answer": "A",
+            "Subject": "management"
+        },
+        {
+            "Question": "Comment peut-on décrire les structures organisationnelles caractérisées par des styles de leadership démocratiques et inclusifs ?",
+            "A": "Hiérarchiques",
+            "B": "Bureaucratiques",
+            "C": "Plates",
+            "D": "Fonctionnelles",
+            "Answer": "C",
+            "Subject": "management"
+        }
+    ],
+    "marketing": [
+        {
+            "Question": "_____________ est un résultat naturel de la combinaison de variables démographiques et géographiques.",
+            "A": "Géodémographie",
+            "B": "Différenciation des produits.",
+            "C": "Matrice ANSOFF.",
+            "D": "Gestion de marque.",
+            "Answer": "A",
+            "Subject": "marketing"
+        },
+        {
+            "Question": "Dans une organisation, le groupe de personnes chargées des décisions d'achat est appelé _______________.",
+            "A": "Unité d'externalisation.",
+            "B": "Centre d'approvisionnement.",
+            "C": "Unité de direction.",
+            "D": "Unité de décision.",
+            "Answer": "D",
+            "Subject": "marketing"
+        },
+        {
+            "Question": "Laquelle des propositions suivantes est une hypothèse de la hiérarchie des besoins de Maslow ?",
+            "A": "Les besoins dépendent de la culture et aussi de la classe sociale.",
+            "B": "Les besoins de niveau inférieur doivent être au moins partiellement satisfaits avant que les besoins supérieurs puissent influencer l'action.",
+            "C": "Les besoins ne sont pas hiérarchisés ni classés dans un ordre particulier.",
+            "D": "Les besoins satisfaits sont des motivateurs, et de nouveaux besoins apparaissent lorsque les besoins actuels restent insatisfaits.",
+            "Answer": "B",
+            "Subject": "marketing"
+        },
+        {
+            "Question": "Le groupe le plus vulnérable à l'influence des groupes de référence au sein de la société est :",
+            "A": "Le consommateur âgé qui se sent quelque peu exclu.",
+            "B": "Les femmes mariées, dont beaucoup ressentent un besoin de stabilité dans leur vie.",
+            "C": "Les nouveaux immigrants qui souhaitent vraiment s'intégrer dans leur nouvelle culture.",
+            "D": "Les enfants, qui fondent la plupart de leurs décisions d'achat sur des influences extérieures.",
+            "Answer": "D",
+            "Subject": "marketing"
+        },
+        {
+            "Question": "Bien que le contenu et la qualité puissent être contrôlés de la même manière que pour le publipostage, les taux de réponse de ce média sont plus faibles en raison de l'absence d'adressage personnel. De quel média s'agit-il ?",
+            "A": "Lignes de service.",
+            "B": "Publipostage.",
+            "C": "Encarts.",
+            "D": "Distribution en porte-à-porte.",
+            "Answer": "D",
+            "Subject": "marketing"
+        }
+    ],
+    "medical_genetics": [
+        {
+            "Question": "Les grandes expansions de répétitions trinucléotidiques peuvent être détectées par :",
+            "A": "Réaction en chaîne par polymérase.",
+            "B": "Analyse du polymorphisme de conformation des simples brins.",
+            "C": "Southern Blot.",
+            "D": "Western Blot.",
+            "Answer": "C",
+            "Subject": "medical_genetics"
+        },
+        {
+            "Question": "L'ADN ligase est",
+            "A": "une enzyme qui relie les fragments lors de la réplication normale de l'ADN",
+            "B": "une enzyme d'origine bactérienne qui coupe l'ADN à des séquences de bases définies",
+            "C": "une enzyme qui facilite la transcription de certains gènes",
+            "D": "une enzyme qui limite le niveau auquel un certain nutriment peut s'élever",
+            "Answer": "A",
+            "Subject": "medical_genetics"
+        },
+        {
+            "Question": "Un gène présentant une codominance",
+            "A": "a ses deux allèles exprimés indépendamment l'un de l'autre chez l'hétérozygote",
+            "B": "a un allèle qui domine l'autre",
+            "C": "a des allèles étroitement liés sur le même chromosome",
+            "D": "a des allèles qui sont exprimés simultanément au cours du développement",
+            "Answer": "A",
+            "Subject": "medical_genetics"
+        },
+        {
+            "Question": "Laquelle des maladies suivantes ne présente pas d'hérédité multifactorielle ?",
+            "A": "Sténose du pylore",
+            "B": "Schizophrénie",
+            "C": "Spina bifida (anomalies du tube neural)",
+            "D": "Syndrome de Marfan",
+            "Answer": "D",
+            "Subject": "medical_genetics"
+        },
+        {
+            "Question": "Le stade de la méiose au cours duquel les chromosomes s'apparient et se recombinent est :",
+            "A": "Prophase I",
+            "B": "Métaphase I",
+            "C": "Prophase II",
+            "D": "Métaphase II",
+            "Answer": "A",
+            "Subject": "medical_genetics"
+        }
+    ],
+    "miscellaneous": [
+        {
+            "Question": "Combien d'essieux possède une automobile standard ?",
+            "A": "un",
+            "B": "deux",
+            "C": "quatre",
+            "D": "huit",
+            "Answer": "B",
+            "Subject": "miscellaneous"
+        },
+        {
+            "Question": "Quel lieu est mentionné dans le titre de l'album live de 1979 des légendes du rock Cheap Trick ?",
+            "A": "Budapest",
+            "B": "Budokan",
+            "C": "Bhoutan",
+            "D": "Bretagne",
+            "Answer": "B",
+            "Subject": "miscellaneous"
+        },
+        {
+            "Question": "Qui est le plus petit joueur à avoir jamais remporté un concours de dunks NBA ?",
+            "A": "Anthony 'Spud' Webb",
+            "B": "Michael 'Air' Jordan",
+            "C": "Tyrone 'Muggsy' Bogues",
+            "D": "Julius 'Dr J' Erving",
+            "Answer": "A",
+            "Subject": "miscellaneous"
+        },
+        {
+            "Question": "Qu'est-ce qui est produit lors de la photosynthèse ?",
+            "A": "Hydrogène",
+            "B": "Nylon",
+            "C": "Oxygène",
+            "D": "Lumière",
+            "Answer": "C",
+            "Subject": "miscellaneous"
+        },
+        {
+            "Question": "Laquelle de ces chansons a été un succès du Top 10 pour le groupe de rock The Police ?",
+            "A": "'Radio Ga-Ga'",
+            "B": "'Ob-la-di Ob-la-da'",
+            "C": "'De Do Do Do De Da Da Da'",
+            "D": "'In-a-Gadda-Da-Vida'",
+            "Answer": "C",
+            "Subject": "miscellaneous"
+        }
+    ],
+    "moral_disputes": [
+        {
+            "Question": "Selon Metz, qu'est-ce qui ne va pas dans les arguments conséquentialistes contre la peine de mort fondés sur les valeurs africaines ?",
+            "A": "Il n'est pas encore clair si la peine de mort dissuade les préjudices envers la communauté.",
+            "B": "Il n'est pas encore clair si la peine de mort dissuade les préjudices envers un individu.",
+            "C": "Le conséquentialisme n'est pas soutenu par les valeurs africaines.",
+            "D": "Même si le conséquentialisme est soutenu par les valeurs africaines, aucun argument conséquentialiste ne contient de valeurs africaines.",
+            "Answer": "A",
+            "Subject": "moral_disputes"
+        },
+        {
+            "Question": "Un ovule fécondé est également appelé",
+            "A": "zygote.",
+            "B": "embryon.",
+            "C": "viabilité.",
+            "D": "blastocyste.",
+            "Answer": "A",
+            "Subject": "moral_disputes"
+        },
+        {
+            "Question": "Lequel des éléments suivants est, selon Singer, un bien intrinsèque ?",
+            "A": "Appartenir à la classe supérieure",
+            "B": "La capacité d'apprendre et de résoudre des problèmes",
+            "C": "Être plus beau que la majorité de la population",
+            "D": "Être plus petit que la moyenne",
+            "Answer": "B",
+            "Subject": "moral_disputes"
+        },
+        {
+            "Question": "Pence compare six cas différents de reproduction, de la gémellité naturelle au TNCS. Quelle conclusion tire-t-il de cette comparaison ?",
+            "A": "Le TNCS n'est pas un autre type de reproduction, car il n'y a pas de différences moralement pertinentes.",
+            "B": "Puisque le risque de préjudice est faible dans la gémellité naturelle, il sera également faible dans le TNCS.",
+            "C": "A et B",
+            "D": "Ni A ni B",
+            "Answer": "A",
+            "Subject": "moral_disputes"
+        },
+        {
+            "Question": "Baron admet que les versions de l'hypothétique de la bombe à retardement qu'elle discute sont « d'une stupidité stupéfiante », mais affirme que cela constitue en fait une preuve de",
+            "A": "la stupidité de la plupart des exemples philosophiques traditionnels.",
+            "B": "un manque général d'intelligence chez les personnes titulaires de diplômes supérieurs.",
+            "C": "l'illégitimité de la torture.",
+            "D": "la disposition de nombreuses personnes intelligentes à considérer la torture comme la meilleure option dans certaines situations.",
+            "Answer": "D",
+            "Subject": "moral_disputes"
+        }
+    ],
+    "moral_scenarios": [
+        {
+            "Question": "Pour lequel de ces deux scénarios le personnage principal (qui utilise je/me/mon) fait-il quelque chose de clairement moralement répréhensible selon les normes morales ordinaires aux États-Unis en 2020 ? Scénario 1 | J'ai lancé une pierre à la tête de mon ami pour le réveiller. Scénario 2 | J'avais l'intention de brosser les dents de mon chien.",
+            "A": "Répréhensible, Répréhensible",
+            "B": "Répréhensible, Non répréhensible",
+            "C": "Non répréhensible, Répréhensible",
+            "D": "Non répréhensible, Non répréhensible",
+            "Answer": "C",
+            "Subject": "moral_scenarios"
+        },
+        {
+            "Question": "Pour lequel de ces deux scénarios le personnage principal (qui utilise je/me/mon) fait-il quelque chose de clairement moralement répréhensible selon les normes morales ordinaires aux États-Unis en 2020 ? Scénario 1 | J'ai donné le reste de ma nourriture à l'homme qui m'a demandé de l'argent sur le parking. Scénario 2 | Quand mon ami m'a dit qu'il voulait se réconcilier avec sa petite amie, je l'ai aidé à la suivre en secret.",
+            "A": "Répréhensible, Répréhensible",
+            "B": "Répréhensible, Non répréhensible",
+            "C": "Non répréhensible, Répréhensible",
+            "D": "Non répréhensible, Non répréhensible",
+            "Answer": "C",
+            "Subject": "moral_scenarios"
+        },
+        {
+            "Question": "Pour lequel de ces deux scénarios le personnage principal (qui utilise je/me/mon) fait-il quelque chose de clairement moralement répréhensible selon les normes morales ordinaires aux États-Unis en 2020 ? Scénario 1 | J'ai donné au caissier du supermarché le montant correct pour mes achats. Scénario 2 | J'ai quitté le patient aux urgences parce que mon service était terminé.",
+            "A": "Répréhensible, Répréhensible",
+            "B": "Répréhensible, Non répréhensible",
+            "C": "Non répréhensible, Répréhensible",
+            "D": "Non répréhensible, Non répréhensible",
+            "Answer": "D",
+            "Subject": "moral_scenarios"
+        },
+        {
+            "Question": "Pour lequel de ces deux scénarios le personnage principal (qui utilise je/me/mon) fait-il quelque chose de clairement moralement répréhensible selon les normes morales ordinaires aux États-Unis en 2020 ? Scénario 1 | Je me suis promené la nuit sur une propriété privée. Scénario 2 | Je voulais rendre le sourire de ma fille plus éclatant, alors je lui ai brossé les dents avec du dentifrice.",
+            "A": "Répréhensible, Répréhensible",
+            "B": "Répréhensible, Non répréhensible",
+            "C": "Non répréhensible, Répréhensible",
+            "D": "Non répréhensible, Non répréhensible",
+            "Answer": "B",
+            "Subject": "moral_scenarios"
+        },
+        {
+            "Question": "Pour lequel de ces deux scénarios le personnage principal (qui utilise je/me/mon) fait-il quelque chose de clairement moralement répréhensible selon les normes morales ordinaires aux États-Unis en 2020 ? Scénario 1 | J'ai donné un coup de pied au chat de mon voisin quand il est venu sur mon terrain. Scénario 2 | J'ai commandé une pizza puis j'ai claqué la porte au nez du livreur.",
+            "A": "Répréhensible, Répréhensible",
+            "B": "Répréhensible, Non répréhensible",
+            "C": "Non répréhensible, Répréhensible",
+            "D": "Non répréhensible, Non répréhensible",
+            "Answer": "A",
+            "Subject": "moral_scenarios"
+        }
+    ],
+    "nutrition": [
+        {
+            "Question": "Dans une étude de cohorte, le rapport de risque pour le développement du diabète était de 0,86 en comparant les consommateurs de thé (le groupe exposé) à ceux qui ne buvaient pas de thé (le groupe non exposé). Laquelle des affirmations suivantes est correcte ?",
+            "A": "Les buveurs de thé ont un risque plus faible de développer le diabète.",
+            "B": "Les buveurs de thé ont un risque plus élevé de développer le diabète.",
+            "C": "Avec les informations données, nous ne pouvons pas déterminer si la différence observée dans le risque de maladie était due au hasard.",
+            "D": "Le rapport de risque est proche de 1, il n'y a donc pas de différence dans le risque de maladie.",
+            "Answer": "C",
+            "Subject": "nutrition"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes est correcte (selon les connaissances de 2020) ?",
+            "A": "Les consommateurs atteints de phénylcétonurie doivent éviter la consommation de l'édulcorant aspartame.",
+            "B": "Les consommateurs atteints de phénylcétonurie doivent éviter la consommation de l'édulcorant saccharine.",
+            "C": "Les consommateurs atteints de phénylcétonurie doivent éviter la consommation de l'édulcorant sucralose.",
+            "D": "Les consommateurs atteints de phénylcétonurie doivent éviter la consommation de l'édulcorant acésulfame-K.",
+            "Answer": "A",
+            "Subject": "nutrition"
+        },
+        {
+            "Question": "Laquelle des propositions suivantes est l'explication la plus plausible de l'effet protecteur des fibres alimentaires contre le cancer du côlon (en date de 2020) ?",
+            "A": "L'acide propionique, produit par la fermentation des fibres dans le côlon, inhibe la synthèse des acides gras dans le foie.",
+            "B": "L'acide butyrique, produit par la fermentation des fibres dans le côlon, stimule l'extinction des oncogènes.",
+            "C": "Aucune de ces options n'est correcte.",
+            "D": "L'acide butyrique, produit par la fermentation des fibres dans le côlon, stimule les défenses antioxydantes.",
+            "Answer": "D",
+            "Subject": "nutrition"
+        },
+        {
+            "Question": "Laquelle des affirmations suivantes concernant l'iode est correcte (en date de 2020) ?",
+            "A": "50% des adultes consomment de l'iode en dessous de l'ANC.",
+            "B": "Les produits laitiers sont une mauvaise source d'iode.",
+            "C": "La teneur en iode du lait biologique est généralement inférieure à celle du lait conventionnel.",
+            "D": "Les valeurs de référence britanniques recommandent une augmentation de l'apport en iode pendant la grossesse.",
+            "Answer": "C",
+            "Subject": "nutrition"
+        },
+        {
+            "Question": "Quel est le médicament de première intention pour les patients atteints de diabète de type 2 et d'obésité (en date de 2020) ?",
+            "A": "Acarbose",
+            "B": "Metformine",
+            "C": "Sulfonylurées",
+            "D": "Insuline",
+            "Answer": "B",
+            "Subject": "nutrition"
+        }
+    ],
+    "philosophy": [
+        {
+            "Question": "L'égoïsme psychologique est :",
+            "A": "une théorie éthique sur la façon dont nous devrions nous comporter.",
+            "B": "une généralisation sur la manière dont les gens ont tendance à se comporter.",
+            "C": "une affirmation sur la nature humaine et les comportements dont les êtres humains sont capables.",
+            "D": "aucune des réponses ci-dessus.",
+            "Answer": "C",
+            "Subject": "philosophy"
+        },
+        {
+            "Question": "Selon l'« utilitarisme idéal » de Moore, l'action juste est celle qui produit la plus grande quantité de :",
+            "A": "plaisir.",
+            "B": "bonheur.",
+            "C": "bien.",
+            "D": "vertu.",
+            "Answer": "C",
+            "Subject": "philosophy"
+        },
+        {
+            "Question": "Selon d'Holbach, les êtres humains agissent toujours conformément à _____.",
+            "A": "des choix libres",
+            "B": "des directives de l'âme",
+            "C": "des lois nécessaires de la nature",
+            "D": "une volonté indéterminée",
+            "Answer": "C",
+            "Subject": "philosophy"
+        },
+        {
+            "Question": "Avant la conversion chrétienne de Tolstoï, quelle était sa perspective sur le sens de la vie ?",
+            "A": "Optimiste",
+            "B": "Satisfait",
+            "C": "Nominalement religieux",
+            "D": "Pessimiste",
+            "Answer": "D",
+            "Subject": "philosophy"
+        },
+        {
+            "Question": "L'étude de la réalité au sens le plus large, une investigation de la nature élémentaire de l'univers et des choses qui s'y trouvent, est connue sous le nom de _____.",
+            "A": "métaphysique",
+            "B": "épistémologie",
+            "C": "physique quantique",
+            "D": "axiologie",
+            "Answer": "A",
+            "Subject": "philosophy"
+        }
+    ],
+    "prehistory": [
+        {
+            "Question": "Le grand roi maya Pacal a construit des temples dans la ville de Palenque pour :",
+            "A": "satisfaire les puissants prêtres-astronomes mayas.",
+            "B": "montrer sa générosité envers le peuple, car celui-ci était autorisé à vivre dans les temples.",
+            "C": "dissuader les ennemis, en particulier les Espagnols.",
+            "D": "légitimer sa royauté, car son père n'était pas de sang royal.",
+            "Answer": "D",
+            "Subject": "prehistory"
+        },
+        {
+            "Question": "Selon Timothy Pauketat, les indices de stratification sociale et de pouvoir politique à Cahokia suggèrent :",
+            "A": "un centre de la culture mississippienne présentant des conditions similaires à l'émergence des premiers États.",
+            "B": "les limites de l'autorité dans une société amérindienne égalitaire de chasseurs-cueilleurs.",
+            "C": "une chefferie simple, voire une chefferie complexe, s'était développée vers 1500 ap. J.-C.",
+            "D": "un centre de la culture mississippienne présentant des conditions similaires aux sociétés de la côte nord-ouest du Pacifique.",
+            "Answer": "A",
+            "Subject": "prehistory"
+        },
+        {
+            "Question": "Les chercheurs pensent aujourd'hui que le déclin des Mayas a été principalement causé par :",
+            "A": "un cataclysme de quelque nature, comme un tremblement de terre, un volcan ou un tsunami.",
+            "B": "la dégradation écologique due aux techniques de culture sur brûlis.",
+            "C": "des guerres incessantes entre cités-États mayas voisines.",
+            "D": "des pratiques de consanguinité entraînant une forte augmentation des maladies congénitales.",
+            "Answer": "B",
+            "Subject": "prehistory"
+        },
+        {
+            "Question": "Les recherches récentes sur les espèces d'hominidés du Pliocène moyen suggèrent qu'il y avait (en 2020) :",
+            "A": "une grande diversité d'espèces ou une seule espèce présentant une grande variation morphologique.",
+            "B": "très peu de diversité d'espèces pendant cette période et très peu d'hominidés.",
+            "C": "une diversité d'espèces décroissante en raison d'une longue période glaciaire suivie d'une sécheresse sévère.",
+            "D": "une diversité d'espèces décroissante, mais un nombre croissant de percuteurs et d'éclats.",
+            "Answer": "A",
+            "Subject": "prehistory"
+        },
+        {
+            "Question": "Quelle est la capacité crânienne moyenne approximative d'Homo erectus ?",
+            "A": "inférieure à 650 cm³",
+            "B": "environ 800 cm³",
+            "C": "juste en dessous de 1000 cm³",
+            "D": "1200 cm³",
+            "Answer": "C",
+            "Subject": "prehistory"
+        }
+    ],
+    "professional_accounting": [
+        {
+            "Question": "Box, une organisation à but non lucratif non gouvernementale, a eu les transactions suivantes au cours de l'année : produits de la vente d'investissements 80 000 $, achat d'immobilisations corporelles 10 000 $, produits de la vente d'immobilisations corporelles 20 000 $, achat d'investissements 90 000 $. Quel était le flux de trésorerie net de Box provenant des activités d'investissement ?",
+            "A": "70 000 $",
+            "B": "75 000 $",
+            "C": "80 000 $",
+            "D": "100 000 $",
+            "Answer": "D",
+            "Subject": "professional_accounting"
+        },
+        {
+            "Question": "Il y a cent ans, votre arrière-arrière-grand-mère a investi 100 $ à un taux d'intérêt annuel de 5%. Quelle est la valeur de l'investissement aujourd'hui ?",
+            "A": "13 000 $",
+            "B": "600 $",
+            "C": "15 000 $",
+            "D": "28 000 $",
+            "Answer": "A",
+            "Subject": "professional_accounting"
+        },
+        {
+            "Question": "Krete est un contribuable célibataire dont les revenus proviennent exclusivement de salaires. Au 31 décembre de l'année 1, l'employeur de Krete a retenu 16 000 $ d'impôt fédéral sur le revenu. Krete n'a effectué aucun paiement d'impôt estimé. La déclaration d'impôt sur le revenu de Krete pour l'année 1 fait apparaître un impôt dû de 12 000 $. Quelle pénalité Krete doit-il payer pour insuffisance d'acomptes provisionnels ?",
+            "A": "0 $",
+            "B": "500 $",
+            "C": "1 650 $",
+            "D": "16 500 $",
+            "Answer": "A",
+            "Subject": "professional_accounting"
+        },
+        {
+            "Question": "Le 1er janvier de l'année 1, Alpha Co. a conclu un contrat de maintenance annuel avec un fournisseur de logiciels pour 15 000 $, la période de maintenance commençant le 1er mars de l'année 1. Alpha a également payé 5 000 $ supplémentaires pour des frais d'installation uniques. Quel était le montant total des dépenses logicielles d'Alpha pour l'exercice clos le 31 décembre de l'année 1 ?",
+            "A": "5 000 $",
+            "B": "13 500 $",
+            "C": "16 000 $",
+            "D": "20 000 $",
+            "Answer": "B",
+            "Subject": "professional_accounting"
+        },
+        {
+            "Question": "Un auditeur retrace les numéros de série d'équipements jusqu'à un grand livre auxiliaire d'un non-émetteur. Laquelle des assertions de la direction suivantes est le mieux étayée par cette procédure d'audit ?",
+            "A": "Évaluation et imputation",
+            "B": "Exhaustivité",
+            "C": "Droits et obligations",
+            "D": "Présentation et divulgation",
+            "Answer": "B",
+            "Subject": "professional_accounting"
+        }
+    ],
+    "professional_law": [
+        {
+            "Question": "Un parlement régional a récemment adopté une loi érigeant en délit le fait d'insulter un agent de police dans l'exercice de ses fonctions ou d'utiliser à son égard ou à son sujet un langage offensant ou injurieux. Un étudiant d'une université publique a organisé une manifestation sur le campus pour protester contre la guerre. Cinquante étudiants ont participé au rassemblement, criant des slogans anti-guerre aux voitures qui passaient. Pour montrer son mépris envers les États-Unis, l'étudiant a cousu le drapeau américain au fond de son jean. Lorsqu'un agent de police a vu le drapeau cousu sur le jean de l'étudiant, il s'est approché et lui a dit de retirer le drapeau sous peine d'arrestation. L'étudiant s'est mis en colère et a crié à l'agent : « Écoutez, espèce de salaud, je porterai ce chiffon où bon me semble. » L'étudiant a alors été arrêté et inculpé de violation de la loi régionale. L'étudiant intente ensuite une action devant le tribunal régional et conteste la constitutionnalité de la loi. L'argument constitutionnel le plus solide en faveur de l'étudiant est que",
+            "A": "la loi est nulle pour cause d'imprécision en vertu de la clause de procédure régulière du Quatorzième Amendement.",
+            "B": "la loi est invalide parce qu'elle viole la liberté d'expression du demandeur garantie par le Premier Amendement.",
+            "C": "la loi constitue une restriction à la liberté d'expression en vertu du Premier Amendement, car des moyens moins restrictifs sont disponibles pour atteindre le même objectif.",
+            "D": "la loi est trop large et par conséquent invalide en vertu du Premier et du Quatorzième Amendement.",
+            "Answer": "D",
+            "Subject": "professional_law"
+        },
+        {
+            "Question": "Un État fédéré a récemment adopté une loi interdisant l'élimination de tout déchet nucléaire sur son territoire. Cette loi ne contredit ni n'entre en conflit avec aucune loi fédérale. Un homme exploite une entreprise dans l'État spécialisée dans l'élimination de déchets nucléaires. Après l'adoption de la loi de l'État, l'homme, qui ne connaissait pas encore la nouvelle loi, a conclu des contrats avec de nombreuses entreprises situées hors de l'État pour éliminer leurs déchets nucléaires dans l'État. En raison de cette nouvelle loi, l'homme ne pourra cependant pas exécuter ces contrats. En supposant que l'homme a qualité pour contester cette loi de l'État, lequel des arguments suivants constitue ses motifs constitutionnels les plus solides pour contester la loi de l'État interdisant l'élimination de déchets nucléaires sur son territoire ?",
+            "A": "La clause de commerce.",
+            "B": "La clause d'égale protection du Quatorzième Amendement.",
+            "C": "La clause de privilèges et immunités de l'article IV, section 2.",
+            "D": "La clause contractuelle.",
+            "Answer": "A",
+            "Subject": "professional_law"
+        },
+        {
+            "Question": "Un juge a pris connaissance d'office de certains faits au début du procès. Lequel des éléments suivants n'est pas un type de fait approprié pour la connaissance d'office ?",
+            "A": "Des faits incontestables.",
+            "B": "Des faits allégués par des organisations politiques particulières.",
+            "C": "Des faits reconnus comme vrais par le savoir commun.",
+            "D": "Des faits susceptibles de vérification scientifique.",
+            "Answer": "B",
+            "Subject": "professional_law"
+        },
+        {
+            "Question": "Le 1er octobre 1980, un promoteur immobilier, propriétaire de plusieurs centaines d'hectares dans une zone rurale, a élaboré un plan d'aménagement général du secteur. Le plan, dûment enregistré, établissait des restrictions et des limitations étendues sur les terrains du plan, destinés à être développés en zone résidentielle. Les restrictions devaient s'appliquer à toute personne acquérant l'un des lots, ainsi qu'à leurs héritiers, ayants droit et locataires. En outre, il était prévu que tous les propriétaires ultérieurs seraient réputés avoir eu connaissance des restrictions. Parmi les restrictions du plan général figuraient les suivantes : (22) Un droit de concession est créé sur une bande de 10 pieds de large le long de l'arrière de chaque lot pour l'utilisation par les entreprises de services publics avec droit d'accès et de sortie. (23) Aucune maison ni construction d'aucune sorte ne pourra être érigée sur ladite bande de terrain traversant lesdits îlots. En 2000, un retraité a acquis l'un des lots, construit une maison et érigé une clôture à l'arrière de son terrain dans la zone soumise à restriction. En 2004, un enseignant a acheté un lot adjacent à celui du retraité et y a construit une nouvelle maison. Deux ans plus tard, un bibliothécaire a acheté le lot adjacent à celui de l'enseignant. Les trois actes de propriété de ces lots contenaient chacun des références au registre foncier dans lequel le plan général était inscrit. En 2008, le bibliothécaire a commencé la construction d'une clôture en poteaux et lisses de sept pieds de haut le long de la limite entre son terrain et celui de l'enseignant et le long du milieu de la zone grevée par le droit de concession. Bien que l'enseignant se soit opposé à la construction, la clôture a été achevée. Si l'enseignant demande une injonction pour le retrait de la clôture du bibliothécaire, le tribunal",
+            "A": "fera droit à la demande, parce que la clôture viole la restriction de la servitude.",
+            "B": "fera droit à la demande, parce que l'empiétement de la clôture a violé la restriction du plan original.",
+            "C": "rejettera la demande, parce que l'enseignant n'a pas fait valoir la restriction à l'encontre du retraité.",
+            "D": "rejettera la demande, parce que la clôture ne serait pas qualifiée de « construction » au sens de la restriction.",
+            "Answer": "B",
+            "Subject": "professional_law"
+        },
+        {
+            "Question": "Un fils devait 5 000 $ à un créancier. Le père du fils a contacté le créancier et lui a fait savoir qu'il souhaitait payer la dette de son fils. Le père a signé un document dans lequel il s'engageait à payer la dette du fils en versements de 500 $ par mois pendant 10 mois. Le créancier n'a pris aucun engagement, écrit ou oral, de renoncer à poursuivre le fils pour le recouvrement de la dette de 5 000 $, et le père n'a formulé aucune demande, orale ou écrite, en ce sens. Au cours des cinq mois suivants, le père a effectué les paiements mensuels convenus de 500 $, que le créancier a acceptés. Pendant cette période, le créancier s'est effectivement abstenu d'engager des poursuites judiciaires contre le fils. Le père a cependant ensuite informé le créancier qu'il ne ferait plus aucun paiement sur la dette. Lequel des arguments suivants est le plus convaincant pour soutenir que le père est redevable envers le créancier selon les termes de leur accord ?",
+            "A": "La promesse du père et la confiance que le créancier y a placée établissent, si elles sont prouvées, un droit valable du créancier contre le père sur le fondement de la doctrine du promissory estoppel.",
+            "B": "Puisqu'il était prévisible que la promesse du père conduirait le créancier à ne pas agir contre le fils, une telle abstention constituait de plein droit une contrepartie négociée en échange de la promesse du père.",
+            "C": "Les cinq paiements du père au créancier, totalisant 2 500 $, ont démontré une intention sérieuse du père d'être contractuellement lié, et une telle manifestation de volonté est généralement reconnue comme un substitut efficace à une contrepartie.",
+            "D": "En assumant l'obligation préexistante de dette du fils envers le créancier, le père est devenu caution, et sa promesse au créancier était exécutoire car elle était écrite et soutenue par une contrepartie suffisante.",
+            "Answer": "A",
+            "Subject": "professional_law"
+        }
+    ],
+    "professional_medicine": [
+        {
+            "Question": "Un homme de 42 ans se présente au cabinet pour une évaluation préopératoire avant une surrénalectomie prévue dans 2 semaines. Il y a un mois, il a été traité aux urgences pour des douleurs au flanc droit à la suite d'un accident de la route. À ce moment-là, la pression artérielle était de 160/100 mmHg et un scanner abdominal a révélé fortuitement une masse surrénalienne gauche de 10 cm. Les résultats de laboratoire, incluant la numération formule sanguine complète, les concentrations sériques d'électrolytes et les tests de la fonction hépatique, étaient dans les valeurs de référence. Le patient était par ailleurs en bonne santé et on ne lui avait jamais dit qu'il avait une pression artérielle élevée. Il ne prend aucun médicament. Un suivi au cabinet il y a 2 semaines a révélé des concentrations urinaires élevées de normétanéphrine et de métanéphrine ainsi que des concentrations plasmatiques élevées d'aldostérone. Le patient a été adressé à un chirurgien qui a recommandé la surrénalectomie. Aujourd'hui, les signes vitaux sont : température 36,6°C, pouls 100/min, fréquence respiratoire 14/min et pression artérielle 170/95 mmHg. L'examen physique ne révèle aucune anomalie. La préparation préopératoire initiale devrait inclure un traitement par lequel des médicaments suivants ?",
+            "A": "Labétalol",
+            "B": "Une dose de charge de chlorure de potassium",
+            "C": "Nifédipine",
+            "D": "Phénoxybenzamine",
+            "Answer": "D",
+            "Subject": "professional_medicine"
+        },
+        {
+            "Question": "Un homme de 36 ans se présente au cabinet avec des lombalgies évoluant depuis 3 semaines. Il nie tout traumatisme récent, mais indique qu'il monte et descend quotidiennement de son camion de nombreuses fois pour son travail. L'examen du patient en décubitus ventral révèle un sillon sacré profond à gauche, un angle inféro-latéral postérieur à droite et une jonction lombo-sacrée qui rebondit librement à la compression. Le diagnostic le plus probable est",
+            "A": "Torsion sacrée gauche sur gauche",
+            "B": "Torsion sacrée gauche sur droite",
+            "C": "Flexion sacrée unilatérale droite",
+            "D": "Torsion sacrée droite sur droite",
+            "Answer": "D",
+            "Subject": "professional_medicine"
+        },
+        {
+            "Question": "Une femme de 32 ans, auparavant en bonne santé, consulte son médecin 8 mois après le décès de son mari dans un accident de voiture. Depuis lors, elle a un appétit diminué et des difficultés à s'endormir. Elle déclare être souvent triste et pleurer fréquemment. Elle a commencé à vérifier la serrure de la porte cinq fois avant de quitter la maison et doit compter exactement cinq feuilles de papier toilette avant de les utiliser. Elle dit avoir toujours été perfectionniste, mais ces compulsions et rituels sont nouveaux. La pharmacothérapie devrait cibler lequel des neurotransmetteurs suivants ?",
+            "A": "Dopamine",
+            "B": "Glutamate",
+            "C": "Noradrénaline",
+            "D": "Sérotonine",
+            "Answer": "D",
+            "Subject": "professional_medicine"
+        },
+        {
+            "Question": "Un homme de 44 ans se présente au cabinet pour des maux de gorge, une toux non productive, un écoulement nasal et des céphalées frontales évoluant depuis 3 jours. Il dit que les céphalées sont plus intenses le matin et que l'ibuprofène le soulage quelque peu. Il n'a pas eu de dyspnée. Ses antécédents médicaux sont sans particularité. Il ne prend aucun médicament à l'exception de l'ibuprofène pour la douleur. Les signes vitaux sont : température 37,4°C, pouls 88/min, fréquence respiratoire 18/min et pression artérielle 120/84 mmHg. L'examen des fosses nasales montre des muqueuses érythémateuses. L'examen du pharynx montre un érythème et une hyperplasie lymphoïde folliculaire de l'oropharynx postérieur. Il n'y a pas d'adénopathie cervicale palpable. Les poumons sont clairs à l'auscultation. Laquelle des causes suivantes est la plus probable pour les symptômes de ce patient ?",
+            "A": "Rhinite allergique",
+            "B": "Virus d'Epstein-Barr",
+            "C": "Mycoplasma pneumoniae",
+            "D": "Rhinovirus",
+            "Answer": "D",
+            "Subject": "professional_medicine"
+        },
+        {
+            "Question": "Un marathonien de 22 ans se présente au cabinet avec des douleurs costales droites lors de courses de longue distance. L'examen physique montre des résultats cardiaques et pulmonaires normaux et une dysfonction expiratoire des côtes 4-5 à droite. Lequel des muscles ou groupes musculaires suivants sera le plus utile pour corriger cette dysfonction par une méthode directe ?",
+            "A": "Muscle scalène antérieur",
+            "B": "Muscle grand dorsal",
+            "C": "Muscle petit pectoral",
+            "D": "Muscle carré des lombes",
+            "Answer": "C",
+            "Subject": "professional_medicine"
+        }
+    ],
+    "professional_psychology": [
+        {
+            "Question": "Un de vos clients en thérapie vous demande conseil sur un bon programme de perte de poids. Vous avez étudié les programmes disponibles dans la communauté et vous êtes vous-même inscrit à l'un d'entre eux. Le comportement éthiquement correct serait de",
+            "A": "donner à votre client les avantages et les inconvénients de chaque programme que vous connaissez, sauf celui auquel vous êtes inscrit.",
+            "B": "recommander à votre client le programme auquel vous êtes inscrit et expliquer la réduction financière que vous recevez pour la recommandation.",
+            "C": "recommander à votre client le programme auquel vous êtes inscrit et proposer de l'accompagner aux réunions.",
+            "D": "donner à votre client les avantages et les inconvénients de chaque programme que vous connaissez, mais ne faire aucune recommandation spécifique.",
+            "Answer": "D",
+            "Subject": "professional_psychology"
+        },
+        {
+            "Question": "Il existe trois mesures de tendance centrale : la moyenne, la médiane et le mode. Qu'est-ce que le mode ?",
+            "A": "moins sensible aux valeurs extrêmes que la moyenne",
+            "B": "plus utile pour les distributions asymétriques",
+            "C": "sensible aux valeurs extrêmes et aux distributions fortement asymétriques",
+            "D": "le nombre qui apparaît le plus fréquemment",
+            "Answer": "D",
+            "Subject": "professional_psychology"
+        },
+        {
+            "Question": "En ce qui concerne les cinq dimensions culturelles de Hofstede (1980), les États-Unis obtiennent le score le plus élevé sur l'échelle de :",
+            "A": "l'individualisme.",
+            "B": "l'individualisme et la distance hiérarchique.",
+            "C": "la distance hiérarchique et la masculinité.",
+            "D": "l'évitement de l'incertitude.",
+            "Answer": "A",
+            "Subject": "professional_psychology"
+        },
+        {
+            "Question": "Carl Jung croyait que le transfert d'un client :",
+            "A": "est un fantasme qui détourne le client de la réalité.",
+            "B": "représente des « sentiments mitigés » envers le thérapeute.",
+            "C": "est une forme de « passage à l'acte ».",
+            "D": "reflète l'inconscient personnel et collectif du client.",
+            "Answer": "D",
+            "Subject": "professional_psychology"
+        },
+        {
+            "Question": "Lors de la construction d'une équation de régression multiple à des fins prédictives, la combinaison optimale de mesures est celle où les prédicteurs",
+            "A": "ne sont pas corrélés entre eux mais sont modérément corrélés avec le critère.",
+            "B": "présentent de faibles corrélations entre eux et de faibles corrélations avec le critère.",
+            "C": "sont fortement intercorrélés entre eux et modérément corrélés avec le critère.",
+            "D": "présentent de faibles corrélations avec le critère mais des corrélations modérées entre eux.",
+            "Answer": "A",
+            "Subject": "professional_psychology"
+        }
+    ],
+    "public_relations": [
+        {
+            "Question": "Que devrait faire un professionnel des relations publiques lorsqu'il ne connaît pas la réponse à la question d'un journaliste ?",
+            "A": "Donner au journaliste d'autres informations dont il est sûr qu'elles sont correctes.",
+            "B": "Dire que l'information est confidentielle et sera diffusée ultérieurement.",
+            "C": "Dire « Je ne sais pas » et promettre de fournir l'information ultérieurement.",
+            "D": "Dire « Pas de commentaire » plutôt que de paraître mal informé.",
+            "Answer": "C",
+            "Subject": "public_relations"
+        },
+        {
+            "Question": "En gestion des enjeux, quelle est l'approche la plus proactive pour contrer les informations négatives ou trompeuses concernant votre organisation sur Internet ?",
+            "A": "Acheter des noms de domaine qui pourraient être utilisés par des groupes d'opposition.",
+            "B": "Publier des commentaires anonymes dans des blogs pour combattre ces informations.",
+            "C": "Préparer un communiqué de presse réfutant les informations inexactes.",
+            "D": "Procéder à des changements de politique pour répondre aux plaintes mises en avant sur ces sites.",
+            "Answer": "D",
+            "Subject": "public_relations"
+        },
+        {
+            "Question": "Laquelle de ces affirmations s'appliquait au Vatican en 2010, au moment des accusations de dissimulation d'abus sur des enfants ?",
+            "A": "Il y avait une réponse médiatique coordonnée.",
+            "B": "Des messages cohérents étaient communiqués.",
+            "C": "Les critiques étaient perçues comme des attaques contre l'Église catholique.",
+            "D": "La crédibilité du Vatican était maintenue.",
+            "Answer": "C",
+            "Subject": "public_relations"
+        },
+        {
+            "Question": "À quelle phase du processus de planification une analyse de situation est-elle réalisée ?",
+            "A": "Définition du programme",
+            "B": "Planification du programme",
+            "C": "Mise en œuvre des actions et des idées",
+            "D": "Évaluation du programme",
+            "Answer": "A",
+            "Subject": "public_relations"
+        },
+        {
+            "Question": "Earth Hour était une campagne lancée par quelle organisation ?",
+            "A": "Greenpeace",
+            "B": "L'ONU",
+            "C": "Oxfam",
+            "D": "World Wildlife Fund",
+            "Answer": "D",
+            "Subject": "public_relations"
+        }
+    ],
+    "security_studies": [
+        {
+            "Question": "Qu'est-ce qui distingue la diplomatie coercitive de la force militaire ?",
+            "A": "La coercition est un autre terme pour la diplomatie coercitive, mais couvrant un champ plus restreint.",
+            "B": "La diplomatie coercitive consiste à menacer d'un usage limité de la force pour amener l'adversaire à céder.",
+            "C": "La force militaire ou la menace de force militaire utilise la peur pour atteindre des objectifs stratégiques.",
+            "D": "La diplomatie coercitive est utilisée pour recourir à la force tout en limitant son impact sur la communauté internationale.",
+            "Answer": "B",
+            "Subject": "security_studies"
+        },
+        {
+            "Question": "Lequel des cadres d'analyse suivants est le meilleur pour examiner le rôle des enfants soldats ?",
+            "A": "Les enfants soldats sont des victimes du combat qui ont besoin de rééducation et de réhabilitation.",
+            "B": "Les enfants et leurs mères ne sont pas des sujets actifs dans la guerre et sont mieux considérés comme des victimes passives.",
+            "C": "Les enfants sont la plupart du temps des spectateurs innocents dans la guerre et servent au mieux d'indicateurs de la souffrance humaine.",
+            "D": "Les enfants ont une subjectivité politique qui est ignorée lorsqu'on les considère uniquement comme des victimes passives.",
+            "Answer": "D",
+            "Subject": "security_studies"
+        },
+        {
+            "Question": "Pour être sécuritisée, une menace doit être présentée de quelle manière ?",
+            "A": "Comme une menace existentielle nécessitant des mesures immédiates et extraordinaires et représentant un risque pour la souveraineté de l'État.",
+            "B": "Comme une menace nécessitant des mesures étatiques immédiates et extraordinaires et mettant en péril la survie de la société.",
+            "C": "Comme une menace urgente pour la survie de l'objet référent, si grave qu'elle justifie le recours à des mesures extraordinaires.",
+            "D": "Comme une menace urgente pour la survie de l'audience, nécessitant des mesures extraordinaires de la part de l'État.",
+            "Answer": "C",
+            "Subject": "security_studies"
+        },
+        {
+            "Question": "Comment la relation entre l'approche centrée sur l'État et le concept de sécurité humaine peut-elle être décrite le plus justement ?",
+            "A": "Il y a des divergences si importantes au sein du cadre de la sécurité humaine qu'aucune position claire ne peut être adoptée.",
+            "B": "En adoptant le cadre de la sécurité humaine, les limites de l'approche réaliste centrée sur l'État deviennent apparentes.",
+            "C": "L'approche sécuritaire centrée sur l'État est une composante de la sécurité humaine.",
+            "D": "L'approche sécuritaire centrée sur l'État et l'approche centrée sur l'humain sont mutuellement exclusives.",
+            "Answer": "B",
+            "Subject": "security_studies"
+        },
+        {
+            "Question": "Quels sont les cadres d'analyse dans lesquels le terrorisme a été considéré (en date de 2020) ?",
+            "A": "La compétition entre grandes nations a conduit certains pays à soutenir activement des organisations terroristes.",
+            "B": "La mondialisation a permis l'internationalisation des activités terroristes.",
+            "C": "Le terrorisme peut être considéré comme un problème à résoudre par des moyens militaires (guerre contre le terrorisme), comme un problème criminel ou comme un symptôme de griefs politiques plus profonds.",
+            "D": "Le terrorisme est considéré comme un problème criminel. La criminalisation du terrorisme a amélioré la coopération.",
+            "Answer": "C",
+            "Subject": "security_studies"
+        }
+    ],
+    "sociology": [
+        {
+            "Question": "Lequel des éléments suivants n'était pas un objectif de l'État-providence d'après-guerre de 1948 ?",
+            "A": "Des soins de santé et une éducation gratuits pour tous",
+            "B": "Un salaire minimum",
+            "C": "Le plein emploi",
+            "D": "La protection sociale universelle",
+            "Answer": "B",
+            "Subject": "sociology"
+        },
+        {
+            "Question": "Que décrit Berger (1963) comme métaphore de la réalité sociale ?",
+            "A": "Un manège de foire",
+            "B": "Un cirque",
+            "C": "Un théâtre de marionnettes",
+            "D": "Un ballet",
+            "Answer": "C",
+            "Subject": "sociology"
+        },
+        {
+            "Question": "Le passage de la « religion civile » à la « religion commune » signifie que :",
+            "A": "la bureaucratisation croissante de l'État a fait de la religion une partie marginale de la vie quotidienne.",
+            "B": "malgré l'affaiblissement de l'autorité traditionnelle, notre vie quotidienne et notre « sens commun » restent imprégnés de valeurs religieuses.",
+            "C": "la participation religieuse au culte collectif a peut-être diminué, mais les gens conservent encore des croyances religieuses.",
+            "D": "les gens sont beaucoup plus disposés à discuter de leurs croyances religieuses en public et de manière informelle.",
+            "Answer": "B",
+            "Subject": "sociology"
+        },
+        {
+            "Question": "Le terme « hégémonie » désigne :",
+            "A": "la tendance de la classe ouvrière à ne pas reconnaître ses propres intérêts",
+            "B": "une idéologie dominante qui légitime le pouvoir économique, politique et culturel",
+            "C": "une forme de double conscience, fondée sur l'idéologie et les expériences quotidiennes",
+            "D": "une forme de paiement pour un art horticole exceptionnel",
+            "Answer": "B",
+            "Subject": "sociology"
+        },
+        {
+            "Question": "Lequel des éléments suivants n'est pas un problème lié aux statistiques officielles sur les actions de grève ?",
+            "A": "La plupart des grèves ne sont pas remarquées par les employeurs et les médias de masse.",
+            "B": "Tous les conflits du travail ne sont pas déclarés par l'employeur.",
+            "C": "La définition des grèves exclut celles impliquant moins de dix travailleurs.",
+            "D": "Il est difficile de comparer des grèves qui ont été mesurées de manières différentes.",
+            "Answer": "A",
+            "Subject": "sociology"
+        }
+    ],
+    "us_foreign_policy": [
+        {
+            "Question": "Comment la crise financière de 2008 a-t-elle affecté la réputation internationale de l'Amérique ?",
+            "A": "Elle a porté atteinte au soutien pour le modèle américain d'économie politique et de capitalisme.",
+            "B": "Elle a suscité de la colère envers les États-Unis pour avoir exagéré la crise.",
+            "C": "Elle a renforcé le soutien au leadership mondial américain sous le président Obama.",
+            "D": "Elle a réduit l'utilisation mondiale du dollar américain.",
+            "Answer": "A",
+            "Subject": "us_foreign_policy"
+        },
+        {
+            "Question": "Comment le NSC-68 a-t-il modifié la stratégie américaine ?",
+            "A": "Il a mondialisé la politique d'endiguement.",
+            "B": "Il a militarisé la politique d'endiguement.",
+            "C": "Il a demandé le développement de la bombe à hydrogène.",
+            "D": "Toutes les réponses ci-dessus",
+            "Answer": "D",
+            "Subject": "us_foreign_policy"
+        },
+        {
+            "Question": "Le domaine des décisions politiques qui traite principalement des relations entre les États-Unis et le reste du monde est connu sous le nom de",
+            "A": "politique antiterroriste.",
+            "B": "politique économique.",
+            "C": "politique étrangère.",
+            "D": "politique internationale.",
+            "Answer": "C",
+            "Subject": "us_foreign_policy"
+        },
+        {
+            "Question": "Comment le réalisme défensif et le réalisme offensif diffèrent-ils dans leur explication du comportement des États ?",
+            "A": "Les réalistes défensifs accordent plus d'importance au rôle des institutions internationales.",
+            "B": "Les réalistes défensifs accordent moins d'importance aux facteurs géographiques.",
+            "C": "Les réalistes offensifs accordent une priorité plus élevée à l'intérêt national que les réalistes défensifs.",
+            "D": "Les réalistes défensifs croient que les États sont des maximisateurs de sécurité, tandis que les réalistes offensifs croient que les États sont des maximisateurs de puissance.",
+            "Answer": "D",
+            "Subject": "us_foreign_policy"
+        },
+        {
+            "Question": "Comment Donald Trump a-t-il attaqué la mondialisation lors de la campagne de 2016 ?",
+            "A": "La mondialisation avait rendu des hommes comme lui trop riches.",
+            "B": "La mondialisation n'avait profité qu'à certains États américains, comme New York.",
+            "C": "Les élites libérales avaient promu la mondialisation tandis que les « Américains ordinaires » perdaient des emplois et des revenus.",
+            "D": "La mondialisation avait favorisé des guerres commerciales néfastes.",
+            "Answer": "C",
+            "Subject": "us_foreign_policy"
+        }
+    ],
+    "virology": [
+        {
+            "Question": "Pourquoi les parvovirus sont-ils un parasite particulièrement efficace ?",
+            "A": "Parce qu'ils n'ont pas d'acide nucléique",
+            "B": "Ils nécessitent un virus auxiliaire",
+            "C": "Ils ne se répliquent que dans les cellules en division",
+            "D": "Ils peuvent s'intégrer dans les chromosomes de l'hôte",
+            "Answer": "A",
+            "Subject": "virology"
+        },
+        {
+            "Question": "Laquelle des propositions suivantes est une caractéristique morphologique des paramyxovirus ?",
+            "A": "Virus fragiles, souvent visualisés avec de l'ARN sortant de l'intérieur",
+            "B": "Virus allongés",
+            "C": "Virus icosaédriques enveloppés",
+            "D": "Virus de très grande taille",
+            "Answer": "A",
+            "Subject": "virology"
+        },
+        {
+            "Question": "Un facteur clé ayant permis l'application d'études cas-témoins emboîtées à partir du MACS était :",
+            "A": "La collecte de données",
+            "B": "La constitution d'un dépôt d'échantillons biologiques",
+            "C": "L'intérêt des participants",
+            "D": "L'administration du questionnaire par le personnel",
+            "Answer": "B",
+            "Subject": "virology"
+        },
+        {
+            "Question": "L'objectif le plus important d'une intervention comportementale est :",
+            "A": "Le changement de comportement",
+            "B": "Une couverture complète",
+            "C": "L'utilisation efficace de la théorie comportementale",
+            "D": "Un changement de comportement durable",
+            "Answer": "D",
+            "Subject": "virology"
+        },
+        {
+            "Question": "La durée médiane de survie jusqu'au SIDA et au décès a été déterminée par l'observation de :",
+            "A": "Personnes séroprévalentes infectées par le VIH",
+            "B": "Personnes séronégatives",
+            "C": "Séroconvertisseurs",
+            "D": "Personnes séronégatives à haut risque",
+            "Answer": "C",
+            "Subject": "virology"
+        }
+    ],
+    "world_religions": [
+        {
+            "Question": "Quel est le signe de l'Alliance pour les hommes juifs ?",
+            "A": "L'arc-en-ciel",
+            "B": "La circoncision",
+            "C": "Un fils",
+            "D": "La Bar Mitzvah",
+            "Answer": "B",
+            "Subject": "world_religions"
+        },
+        {
+            "Question": "Quel est le Deuxième Joyau dans le bouddhisme ?",
+            "A": "Le Dharma",
+            "B": "Le Sangha",
+            "C": "Le Bouddha",
+            "D": "Le Bodhisattva",
+            "Answer": "A",
+            "Subject": "world_religions"
+        },
+        {
+            "Question": "Sous quelle dynastie le « Mandat du Ciel » a-t-il été développé pour légitimer les nouveaux dirigeants ?",
+            "A": "Shang",
+            "B": "Zhou",
+            "C": "Han",
+            "D": "Xia",
+            "Answer": "B",
+            "Subject": "world_religions"
+        },
+        {
+            "Question": "Quel gouvernement japonais a promu une sorte de culte national fondé sur l'empereur et ses liens avec les kami ?",
+            "A": "Hōnen",
+            "B": "Tanaka",
+            "C": "Tokugawa",
+            "D": "Meiji",
+            "Answer": "D",
+            "Subject": "world_religions"
+        },
+        {
+            "Question": "Comment peut-on caractériser les Upanishads ?",
+            "A": "Textes rituels",
+            "B": "Textes philosophiques",
+            "C": "Hymnes",
+            "D": "Récits des origines",
+            "Answer": "B",
+            "Subject": "world_religions"
+        }
+    ]
+}

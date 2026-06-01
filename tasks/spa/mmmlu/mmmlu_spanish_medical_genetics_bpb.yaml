@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: spa_mmmlu_medical_genetics_bpb
+process_docs: !function utils.process_medical_genetics
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre genética médica.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_medical_genetics
+metadata:
+  version: 1.0

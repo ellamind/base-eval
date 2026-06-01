@@ -1,0 +1,20 @@
+group: spa_mmmlu_other_bpb
+task:
+  - spa_mmmlu_business_ethics_bpb
+  - spa_mmmlu_clinical_knowledge_bpb
+  - spa_mmmlu_college_medicine_bpb
+  - spa_mmmlu_global_facts_bpb
+  - spa_mmmlu_human_aging_bpb
+  - spa_mmmlu_management_bpb
+  - spa_mmmlu_marketing_bpb
+  - spa_mmmlu_medical_genetics_bpb
+  - spa_mmmlu_miscellaneous_bpb
+  - spa_mmmlu_nutrition_bpb
+  - spa_mmmlu_professional_accounting_bpb
+  - spa_mmmlu_professional_medicine_bpb
+  - spa_mmmlu_virology_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

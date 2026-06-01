@@ -1,0 +1,11 @@
+group: ita_mmmlu_bpb
+task:
+  - ita_mmmlu_stem_bpb
+  - ita_mmmlu_humanities_bpb
+  - ita_mmmlu_social_sciences_bpb
+  - ita_mmmlu_other_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

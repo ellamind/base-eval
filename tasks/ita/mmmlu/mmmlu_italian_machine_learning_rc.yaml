@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: ita_mmmlu_machine_learning_rc
+process_docs: !function utils.process_machine_learning
+description: "Le seguenti domande sono domande (con risposte) su apprendimento automatico.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_machine_learning
+metadata:
+  version: 1.0

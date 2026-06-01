@@ -1,0 +1,28 @@
+# MMMLU Italian MC (filtered, non-STEM) — 13 translation-safe non-STEM subjects
+# Subset of ita_mmmlu_filtered_mc: humanities + social sciences + other
+group: ita_mmmlu_filtered_nonstem_mc
+task:
+  # Humanities (2)
+  - ita_mmmlu_formal_logic_mc
+  - ita_mmmlu_logical_fallacies_mc
+  # Social sciences (3)
+  - ita_mmmlu_high_school_macroeconomics_mc
+  - ita_mmmlu_high_school_microeconomics_mc
+  - ita_mmmlu_professional_accounting_mc
+  # Medicine & health (6)
+  - ita_mmmlu_anatomy_mc
+  - ita_mmmlu_clinical_knowledge_mc
+  - ita_mmmlu_college_medicine_mc
+  - ita_mmmlu_professional_medicine_mc
+  - ita_mmmlu_medical_genetics_mc
+  - ita_mmmlu_virology_mc
+  # Other (2)
+  - ita_mmmlu_nutrition_mc
+  - ita_mmmlu_human_aging_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

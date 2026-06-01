@@ -1,0 +1,18 @@
+group: ita_include_mc
+task:
+  - ita_include_applied_science_mc
+  - ita_include_arts_humanities_mc
+  - ita_include_health_education_mc
+  - ita_include_professional_certification_mc
+  - ita_include_stem_mc
+  - ita_include_social_science_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
+  description: "INCLUDE Italian — regional knowledge MCQ benchmark (6 domains, 548 questions)"

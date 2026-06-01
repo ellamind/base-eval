@@ -1,0 +1,20 @@
+group: spa_mmmlu_humanities_bpb
+task:
+  - spa_mmmlu_formal_logic_bpb
+  - spa_mmmlu_high_school_european_history_bpb
+  - spa_mmmlu_high_school_us_history_bpb
+  - spa_mmmlu_high_school_world_history_bpb
+  - spa_mmmlu_international_law_bpb
+  - spa_mmmlu_jurisprudence_bpb
+  - spa_mmmlu_logical_fallacies_bpb
+  - spa_mmmlu_moral_disputes_bpb
+  - spa_mmmlu_moral_scenarios_bpb
+  - spa_mmmlu_philosophy_bpb
+  - spa_mmmlu_prehistory_bpb
+  - spa_mmmlu_professional_law_bpb
+  - spa_mmmlu_world_religions_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    weight_by_size: false
+metadata:
+  version: 1.0

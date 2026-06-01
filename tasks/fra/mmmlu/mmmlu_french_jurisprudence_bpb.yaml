@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: fra_mmmlu_jurisprudence_bpb
+process_docs: !function utils.process_jurisprudence
+description: "Les questions suivantes sont des questions (avec réponses) sur la jurisprudence.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_jurisprudence
+metadata:
+  version: 1.0

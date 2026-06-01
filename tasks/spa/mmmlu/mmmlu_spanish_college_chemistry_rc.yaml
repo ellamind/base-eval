@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: spa_mmmlu_college_chemistry_rc
+process_docs: !function utils.process_college_chemistry
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre química (universidad).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_college_chemistry
+metadata:
+  version: 1.0

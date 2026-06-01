@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: fra_mmmlu_human_sexuality_bpb
+process_docs: !function utils.process_human_sexuality
+description: "Les questions suivantes sont des questions (avec réponses) sur la sexualité humaine.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_human_sexuality
+metadata:
+  version: 1.0

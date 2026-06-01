@@ -1,0 +1,16 @@
+group: spa_include_mc
+task:
+  - spa_include_arts_humanities_mc
+  - spa_include_health_education_mc
+  - spa_include_stem_mc
+  - spa_include_social_science_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: true
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: true
+metadata:
+  version: 1.0
+  description: "INCLUDE Spanish — regional knowledge MCQ benchmark (4 domains, 550 questions)"

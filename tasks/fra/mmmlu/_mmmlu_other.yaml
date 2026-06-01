@@ -1,0 +1,22 @@
+group: fra_mmmlu_other_mc
+task:
+  - fra_mmmlu_business_ethics_mc
+  - fra_mmmlu_clinical_knowledge_mc
+  - fra_mmmlu_college_medicine_mc
+  - fra_mmmlu_global_facts_mc
+  - fra_mmmlu_human_aging_mc
+  - fra_mmmlu_management_mc
+  - fra_mmmlu_marketing_mc
+  - fra_mmmlu_medical_genetics_mc
+  - fra_mmmlu_miscellaneous_mc
+  - fra_mmmlu_nutrition_mc
+  - fra_mmmlu_professional_accounting_mc
+  - fra_mmmlu_professional_medicine_mc
+  - fra_mmmlu_virology_mc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

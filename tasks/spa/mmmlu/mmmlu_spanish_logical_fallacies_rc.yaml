@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: spa_mmmlu_logical_fallacies_rc
+process_docs: !function utils.process_logical_fallacies
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre falacias lógicas.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_logical_fallacies
+metadata:
+  version: 1.0

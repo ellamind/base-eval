@@ -1,0 +1,9 @@
+include: _include_rc_template.yaml
+task: spa_include_arts_humanities_rc
+process_docs: !function utils.process_arts_humanities
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_arts_humanities
+metadata:
+  version: 1.0
+  description: "INCLUDE Spanish Arts & Humanities RC — 250 questions, 5-shot"

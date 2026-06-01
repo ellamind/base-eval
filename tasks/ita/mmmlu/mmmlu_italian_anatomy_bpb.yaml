@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: ita_mmmlu_anatomy_bpb
+process_docs: !function utils.process_anatomy
+description: "Le seguenti domande sono domande (con risposte) su anatomia.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_anatomy
+metadata:
+  version: 1.0

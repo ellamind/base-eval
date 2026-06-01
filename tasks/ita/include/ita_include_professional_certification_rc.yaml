@@ -1,0 +1,9 @@
+include: _include_rc_template.yaml
+task: ita_include_professional_certification_rc
+process_docs: !function utils.process_professional_certification
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_professional_certification
+metadata:
+  version: 1.0
+  description: "INCLUDE Italian Professional certification RC — 155 questions, 5-shot"

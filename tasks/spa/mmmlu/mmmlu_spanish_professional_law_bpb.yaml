@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: spa_mmmlu_professional_law_bpb
+process_docs: !function utils.process_professional_law
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre derecho profesional.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_professional_law
+metadata:
+  version: 1.0

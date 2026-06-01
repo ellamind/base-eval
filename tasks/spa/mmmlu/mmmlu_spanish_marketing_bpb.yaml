@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: spa_mmmlu_marketing_bpb
+process_docs: !function utils.process_marketing
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre marketing.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_marketing
+metadata:
+  version: 1.0

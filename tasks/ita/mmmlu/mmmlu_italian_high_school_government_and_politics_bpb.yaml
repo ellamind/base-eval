@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: ita_mmmlu_high_school_government_and_politics_bpb
+process_docs: !function utils.process_high_school_government_and_politics
+description: "Le seguenti domande sono domande (con risposte) su politica e governo (liceo).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_high_school_government_and_politics
+metadata:
+  version: 1.0

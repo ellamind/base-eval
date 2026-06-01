@@ -1,0 +1,9 @@
+include: _include_mc_template.yaml
+task: fra_include_arts_humanities_mc
+process_docs: !function utils.process_arts_humanities
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_arts_humanities
+metadata:
+  version: 1.0
+  description: "INCLUDE French Arts & Humanities MC — 266 questions, 5-shot"

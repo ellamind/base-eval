@@ -1,0 +1,50 @@
+# MMMLU Italian RC (filtered) — 32 translation-safe subjects
+# Excludes culture/jurisdiction/language-specific subjects
+# See _mmmlu.yaml for the full 57-subject version
+group: ita_mmmlu_filtered_rc
+task:
+  # Math & formal reasoning (7)
+  - ita_mmmlu_abstract_algebra_rc
+  - ita_mmmlu_college_mathematics_rc
+  - ita_mmmlu_elementary_mathematics_rc
+  - ita_mmmlu_high_school_mathematics_rc
+  - ita_mmmlu_high_school_statistics_rc
+  - ita_mmmlu_formal_logic_rc
+  - ita_mmmlu_econometrics_rc
+  # Core STEM (9)
+  - ita_mmmlu_college_physics_rc
+  - ita_mmmlu_high_school_physics_rc
+  - ita_mmmlu_conceptual_physics_rc
+  - ita_mmmlu_college_chemistry_rc
+  - ita_mmmlu_high_school_chemistry_rc
+  - ita_mmmlu_college_biology_rc
+  - ita_mmmlu_high_school_biology_rc
+  - ita_mmmlu_astronomy_rc
+  - ita_mmmlu_electrical_engineering_rc
+  # Computer science (4)
+  - ita_mmmlu_college_computer_science_rc
+  - ita_mmmlu_high_school_computer_science_rc
+  - ita_mmmlu_computer_security_rc
+  - ita_mmmlu_machine_learning_rc
+  # Medicine & health (6)
+  - ita_mmmlu_anatomy_rc
+  - ita_mmmlu_clinical_knowledge_rc
+  - ita_mmmlu_college_medicine_rc
+  - ita_mmmlu_professional_medicine_rc
+  - ita_mmmlu_medical_genetics_rc
+  - ita_mmmlu_virology_rc
+  # Accounting / quantitative econ (3)
+  - ita_mmmlu_professional_accounting_rc
+  - ita_mmmlu_high_school_macroeconomics_rc
+  - ita_mmmlu_high_school_microeconomics_rc
+  # Borderline safe (3)
+  - ita_mmmlu_logical_fallacies_rc
+  - ita_mmmlu_nutrition_rc
+  - ita_mmmlu_human_aging_rc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

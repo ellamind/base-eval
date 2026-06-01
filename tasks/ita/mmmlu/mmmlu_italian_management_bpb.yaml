@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: ita_mmmlu_management_bpb
+process_docs: !function utils.process_management
+description: "Le seguenti domande sono domande (con risposte) su gestione aziendale.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_management
+metadata:
+  version: 1.0

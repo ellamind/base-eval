@@ -1,0 +1,28 @@
+group: ita_mmmlu_stem_rc
+task:
+  - ita_mmmlu_abstract_algebra_rc
+  - ita_mmmlu_anatomy_rc
+  - ita_mmmlu_astronomy_rc
+  - ita_mmmlu_college_biology_rc
+  - ita_mmmlu_college_chemistry_rc
+  - ita_mmmlu_college_computer_science_rc
+  - ita_mmmlu_college_mathematics_rc
+  - ita_mmmlu_college_physics_rc
+  - ita_mmmlu_computer_security_rc
+  - ita_mmmlu_conceptual_physics_rc
+  - ita_mmmlu_electrical_engineering_rc
+  - ita_mmmlu_elementary_mathematics_rc
+  - ita_mmmlu_high_school_biology_rc
+  - ita_mmmlu_high_school_chemistry_rc
+  - ita_mmmlu_high_school_computer_science_rc
+  - ita_mmmlu_high_school_mathematics_rc
+  - ita_mmmlu_high_school_physics_rc
+  - ita_mmmlu_high_school_statistics_rc
+  - ita_mmmlu_machine_learning_rc
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: false
+  - metric: acc_norm
+    weight_by_size: false
+metadata:
+  version: 1.0

@@ -1,0 +1,22 @@
+# French AGIEval — Multiple Choice (9 subsets)
+group: fra_agieval_mc
+task:
+  - fra_agieval_aqua_rat_mc
+  - fra_agieval_gaokao_english_mc
+  - fra_agieval_logiqa_en_mc
+  - fra_agieval_lsat_ar_mc
+  - fra_agieval_lsat_lr_mc
+  - fra_agieval_lsat_rc_mc
+  - fra_agieval_sat_en_mc
+  - fra_agieval_sat_en_without_passage_mc
+  - fra_agieval_sat_math_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French AGIEval — Multiple Choice"

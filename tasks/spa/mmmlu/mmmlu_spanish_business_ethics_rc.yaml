@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: spa_mmmlu_business_ethics_rc
+process_docs: !function utils.process_business_ethics
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre ética empresarial.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_business_ethics
+metadata:
+  version: 1.0

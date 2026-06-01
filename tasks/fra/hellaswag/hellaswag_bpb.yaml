@@ -1,0 +1,5 @@
+include: _hellaswag_bpb_template.yaml
+task: fra_hellaswag_bpb
+metadata:
+  version: 1.0
+  description: "HellaSwag French - BPB evaluation"

@@ -1,0 +1,9 @@
+include: _include_mc_template.yaml
+task: ita_include_professional_certification_mc
+process_docs: !function utils.process_professional_certification
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.list_fewshot_professional_certification
+metadata:
+  version: 1.0
+  description: "INCLUDE Italian Professional certification MC — 155 questions, 5-shot"

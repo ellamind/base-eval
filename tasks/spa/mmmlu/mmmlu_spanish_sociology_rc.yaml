@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: spa_mmmlu_sociology_rc
+process_docs: !function utils.process_sociology
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre sociología.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_sociology
+metadata:
+  version: 1.0

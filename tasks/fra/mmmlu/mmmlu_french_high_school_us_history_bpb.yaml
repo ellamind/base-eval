@@ -1,0 +1,9 @@
+include: mmmlu_bpb_template.yaml
+task: fra_mmmlu_high_school_us_history_bpb
+process_docs: !function utils.process_high_school_us_history
+description: "Les questions suivantes sont des questions (avec réponses) sur l'histoire des États-Unis (lycée).\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_high_school_us_history
+metadata:
+  version: 1.0

@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: ita_mmmlu_nutrition_rc
+process_docs: !function utils.process_nutrition
+description: "Le seguenti domande sono domande (con risposte) su nutrizione.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_nutrition
+metadata:
+  version: 1.0

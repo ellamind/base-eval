@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: fra_mmmlu_us_foreign_policy_rc
+process_docs: !function utils.process_us_foreign_policy
+description: "Les questions suivantes sont des questions (avec réponses) sur la politique étrangère des États-Unis.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_us_foreign_policy
+metadata:
+  version: 1.0

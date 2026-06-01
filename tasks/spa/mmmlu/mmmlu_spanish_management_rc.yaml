@@ -1,0 +1,9 @@
+include: mmmlu_rc_template.yaml
+task: spa_mmmlu_management_rc
+process_docs: !function utils.process_management
+description: "Las siguientes preguntas son preguntas (con respuestas) sobre gestión empresarial.\n\n"
+fewshot_config:
+  sampler: first_n
+  samples: !function utils.fewshot_management
+metadata:
+  version: 1.0
