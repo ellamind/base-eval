@@ -8,7 +8,7 @@ validation_split: validation
 output_type: generate_until
 description: "Nachfolgend ist ein Textabschnitt, gefolgt von einem bisherigen Gespräch, bei dem jede Runde eine Frage und eine Antwort enthält. Bitte beantworten Sie die letzte Frage unter Bezugnahme auf den Textabschnitt und die vorherigen Fragen.\n\n"
 doc_to_text: "{{query}}"
-doc_to_target: " {{answers[0]}}"
+doc_to_target: "{{answers[0]}}"
 num_fewshot: 0
 generation_kwargs:
   max_gen_toks: 50

@@ -9,7 +9,7 @@ description: "The following are reading comprehension questions, where the answe
   \ Some questions may require you to pull together information pieces from the passage\
   \ and reason over them.\n\n"
 doc_to_text: "Passage: {{passage}}\nQuestion: {{question}}\nAnswer:"
-doc_to_target: " {% if answer.spans %}{{answer.spans[0]}}{% elif answer.number %}{{answer.number}}{% else %}{{[answer.date.day, answer.date.month, answer.date.year]|select|join(' ')}}{% endif %}"
+doc_to_target: "{% if answer.spans %}{{answer.spans[0]}}{% elif answer.number %}{{answer.number}}{% else %}{{[answer.date.day, answer.date.month, answer.date.year]|select|join(' ')}}{% endif %}"
 generation_kwargs:
   max_gen_toks: 100
   until:

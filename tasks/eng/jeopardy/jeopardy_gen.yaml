@@ -9,7 +9,7 @@ output_type: generate_until
 # context field format: "CATEGORY: question text"
 # Parse and format like OLMES: Category: {cat}\nQuestion: {q}\nAnswer:
 doc_to_text: "Category: {{context.split(': ', 1)[0]}}\nQuestion: {{context.split(': ', 1)[1]}}\nAnswer:"
-doc_to_target: " {{continuation}}"
+doc_to_target: "{{continuation}}"
 generation_kwargs:
   max_gen_toks: 50
   until:

@@ -8,7 +8,7 @@ process_docs: !function utils.process_docs_coqa_gen
 output_type: generate_until
 description: "Below is a passage followed by a conversation so far, where each turn in the conversation contains a question and an answer. Please answer the final question by referring to the passage and the previous questions.\n\n"
 doc_to_text: "{{query}}"
-doc_to_target: " {{answers[0]}}"
+doc_to_target: "{{answers[0]}}"
 generation_kwargs:
   max_gen_toks: 50
   until:
