@@ -260,4 +260,4 @@ def process_results_bpb(doc, results):
     gold_idx = doc["choices"]["label"].index(doc["answerKey"])
     gold_text = doc["choices"]["text"][gold_idx]
     gold_bytes = len((" " + gold_text).encode("utf-8"))
-    return {"bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}
+    return {"answer_bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}

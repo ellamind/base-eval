@@ -235,4 +235,4 @@ def process_results_bpb(doc, results):
     # Target is the code body after the function signature
     _, _, body = doc["code"].partition(":")
     gold_bytes = len(body.encode("utf-8"))
-    return {"bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}
+    return {"answer_bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}

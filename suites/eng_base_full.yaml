@@ -161,6 +161,10 @@ aggregate_metric_list:
   - metric: acc_norm
     aggregation: mean
     weight_by_size: false
+  - metric: answer_bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+  # lambada_bpb (loglikelihood_rolling) reports the built-in `bits_per_byte`, not the answer-only one.
   - metric: bits_per_byte
     aggregation: mean
     weight_by_size: false

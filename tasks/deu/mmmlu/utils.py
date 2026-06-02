@@ -170,4 +170,4 @@ def process_results_bpb(doc, results):
     gold_text = doc[doc["Answer"]]
     # Include leading space to match doc_to_target " {answer_text}"
     gold_bytes = len((" " + gold_text).encode("utf-8"))
-    return {"bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}
+    return {"answer_bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}
