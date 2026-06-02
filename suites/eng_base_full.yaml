@@ -79,7 +79,6 @@ task:
 
   # ── LAMBADA ──
   - lambada_gen
-  - lambada_gen_olmes
   - lambada_rc
   - lambada_bpb
 

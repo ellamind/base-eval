@@ -7,12 +7,6 @@ def _normalize_answer(text: str) -> str:
     """Normalize answer for comparison - strip whitespace and lowercase."""
     return text.strip().lower()
 
-def doc_to_text(doc: dict):
-    return " ".join(doc["text"].split()[:-1])
-
-def doc_to_target(doc: dict):
-    return " " + doc["text"].split()[-1]
-
 def process_results_lambada(doc: dict, results: List[str]) -> dict:
     """Process results for LAMBADA generative task.
 
@@ -35,4 +29,4 @@ def process_results_lambada(doc: dict, results: List[str]) -> dict:
     # Exact match
     acc = 1.0 if pred_normalized == target_normalized else 0.0
 
-    return {"acc": acc}
+    return {"word_acc": acc}

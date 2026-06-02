@@ -11,7 +11,7 @@ group: gen
 task:
   - hellaswag_rc
   - winogrande_rc
-  - lambada_gen_olmes
+  - lambada_rc
   - basic_skills_rc
   - drop_gen
   - jeopardy_gen
