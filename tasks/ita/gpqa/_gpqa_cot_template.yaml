@@ -18,7 +18,7 @@ generation_kwargs:
   max_gen_toks: 1024
   until:
     - "</s>"
-    - "Question:"
+    - "Answer the following multiple choice question"
     - "<|im_end|>"
   do_sample: false
   temperature: 0.0
