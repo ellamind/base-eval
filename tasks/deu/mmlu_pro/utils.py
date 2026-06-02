@@ -60,7 +60,11 @@ def fewshot_to_text(doc):
     """Build fewshot example with processed CoT reasoning."""
     choices_text = _format_choices(_get_options(doc))
     cot = _process_cot(doc["cot_content"])
-    return f"Frage: {doc['question']}\n{choices_text}\nAntwort: {cot}"
+    # Trailing "\n\n" separates fewshot examples. lm-eval only emits
+    # fewshot_delimiter via a non-empty answer message, but this template uses
+    # an empty fewshot target (doc_to_target: ""), so we bake the delimiter into
+    # the example text here (matching upstream mmlu_pro's format_cot_example).
+    return f"Frage: {doc['question']}\n{choices_text}\nAntwort: {cot}\n\n"
 
 
 # --- MC format helpers ---
