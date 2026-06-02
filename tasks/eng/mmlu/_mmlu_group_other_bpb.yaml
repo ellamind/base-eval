@@ -18,7 +18,7 @@ task:
   - mmlu_us_foreign_policy_bpb
   - mmlu_virology_bpb
 aggregate_metric_list:
-  - metric: bits_per_byte
+  - metric: answer_bits_per_byte
     aggregation: mean
     weight_by_size: false
 metadata:

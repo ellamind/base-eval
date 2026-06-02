@@ -42,7 +42,7 @@ task:
   - ita_mmmlu_nutrition_bpb
   - ita_mmmlu_human_aging_bpb
 aggregate_metric_list:
-  - metric: bits_per_byte
+  - metric: answer_bits_per_byte
     weight_by_size: false
 metadata:
   version: 1.0

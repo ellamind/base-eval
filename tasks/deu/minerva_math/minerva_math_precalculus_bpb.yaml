@@ -7,7 +7,7 @@ target_delimiter: ""
 doc_to_target: " {{solution}}"
 process_results: !function utils.process_results_bpb
 metric_list:
-  - metric: bits_per_byte
+  - metric: answer_bits_per_byte
     aggregation: mean
     higher_is_better: false
 metadata:

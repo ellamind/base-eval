@@ -357,4 +357,4 @@ def process_results_bpb(doc, results):
     gold_text = doc["solution"]
     # Leading space is part of the scored target (matches doc_to_target " {{solution}}")
     gold_bytes = len((" " + gold_text).encode("utf-8"))
-    return {"bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}
+    return {"answer_bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}

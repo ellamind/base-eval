@@ -374,4 +374,4 @@ def process_results_bpb(doc, results):
         d = answer.get("date", {})
         gold_text = f"{d.get('day', '')} {d.get('month', '')} {d.get('year', '')}".strip()
     gold_bytes = len((" " + gold_text).encode("utf-8"))
-    return {"bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}
+    return {"answer_bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}

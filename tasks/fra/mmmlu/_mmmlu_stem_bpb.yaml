@@ -20,7 +20,7 @@ task:
   - fra_mmmlu_high_school_statistics_bpb
   - fra_mmmlu_machine_learning_bpb
 aggregate_metric_list:
-  - metric: bits_per_byte
+  - metric: answer_bits_per_byte
     weight_by_size: false
 metadata:
   version: 1.0

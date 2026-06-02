@@ -8,7 +8,7 @@ doc_to_text: !function utils.doc_to_text_bpb
 doc_to_target: !function utils.doc_to_target_bpb
 process_results: !function utils.process_results_bpb
 metric_list:
-  - metric: bits_per_byte
+  - metric: answer_bits_per_byte
     aggregation: mean
     higher_is_better: false
 metadata:
