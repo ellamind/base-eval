@@ -87,12 +87,12 @@ def process_results_drop(doc: dict, results: List[str]) -> dict:
     references = _extract_drop_answers(answers_spans)
 
     if not references:
-        return {"em": 0.0, "f1": 0.0}
+        return {"em": 0.0, "token_f1": 0.0}
 
     max_em = max(_compute_exact_match(prediction, ref) for ref in references)
     max_f1 = max(_compute_f1(prediction, ref) for ref in references)
 
-    return {"em": max_em, "f1": max_f1}
+    return {"em": max_em, "token_f1": max_f1}
 
 
 def get_drop_fewshot() -> List[Dict]:
@@ -304,12 +304,12 @@ def process_results_drop_gen(doc: dict, results: List[str]) -> dict:
     references = _extract_drop_answers_gen(answer)
 
     if not references:
-        return {"em": 0.0, "f1": 0.0}
+        return {"em": 0.0, "token_f1": 0.0}
 
     max_em = max(_compute_exact_match(prediction, ref) for ref in references)
     max_f1 = max(_compute_f1(prediction, ref) for ref in references)
 
-    return {"em": max_em, "f1": max_f1}
+    return {"em": max_em, "token_f1": max_f1}
 
 
 def get_drop_gen_fewshot_gen() -> List[Dict]:

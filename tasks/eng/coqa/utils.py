@@ -153,15 +153,15 @@ def process_results_coqa(doc: dict, results: List[str]) -> dict:
     prediction = results[0] if results else ""
     references = doc.get("answers", [])
     if not references:
-        return {"em": 0.0, "f1": 0.0}
- 
+        return {"em": 0.0, "token_f1": 0.0}
+
     #em = _compute_exact_match(prediction, reference)
     #f1 = _compute_f1(prediction, reference)
     best_f1 = max(_compute_f1(prediction, ref) for ref in references)
     best_em = max(_compute_exact_match(prediction, ref) for ref in references)
- 
-    #return {"em": em, "f1": f1}
-    return {"em": best_em, "f1": best_f1}
+
+    #return {"em": em, "token_f1": f1}
+    return {"em": best_em, "token_f1": best_f1}
 
 
 def process_results_bpb(doc, results):

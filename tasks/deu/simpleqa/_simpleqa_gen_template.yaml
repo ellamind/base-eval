@@ -13,7 +13,10 @@ num_fewshot: 5
 fewshot_config:
   sampler: first_n
 fewshot_delimiter: "\n\n"
-target_delimiter: " "
+# doc_to_target_gen returns " {answer}" (leading space) — kept so numeric answers
+# (e.g. years like "1952") aren't coerced to int and rejected on lm-eval 0.5+.
+# Delimiter must therefore be empty, else few-shot renders "Antwort:  …" (double space).
+target_delimiter: ""
 generation_kwargs:
   max_gen_toks: 64
   until:

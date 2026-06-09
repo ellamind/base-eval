@@ -76,12 +76,12 @@ def process_results_squad(doc: dict, results: List[str]) -> dict:
     references = answers.get("text", [])
 
     if not references:
-        return {"em": 0.0, "f1": 0.0}
+        return {"em": 0.0, "token_f1": 0.0}
 
     em = _max_over_references(_compute_exact_match, prediction, references)
     f1 = _max_over_references(_compute_f1, prediction, references)
 
-    return {"em": em, "f1": f1}
+    return {"em": em, "token_f1": f1}
 
 
 def squad_doc_to_target(doc: dict) -> str:

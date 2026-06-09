@@ -13,7 +13,7 @@ generation_kwargs:
   temperature: 0.0
 process_results: !function utils.process_results_lambada
 metric_list:
-  - metric: acc
+  - metric: word_acc # renamed from 'acc' to avoid lm_eval built-in collision (acc is loglikelihood/MC-only; rejected on generate_until in lm-eval 0.5+)
     aggregation: mean
     higher_is_better: true
 metadata:

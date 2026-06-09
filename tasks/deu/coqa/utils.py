@@ -136,12 +136,12 @@ def process_results_gen(doc: dict, results: list) -> dict:
     prediction = results[0] if results else ""
     references = doc.get("answers", [])
     if not references:
-        return {"em": 0.0, "f1": 0.0}
+        return {"em": 0.0, "token_f1": 0.0}
 
     best_f1 = max(_compute_f1(prediction, ref) for ref in references)
     best_em = max(_compute_exact_match(prediction, ref) for ref in references)
 
-    return {"em": best_em, "f1": best_f1}
+    return {"em": best_em, "token_f1": best_f1}
 
 
 # =============================================================================

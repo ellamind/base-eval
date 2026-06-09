@@ -4,6 +4,11 @@ include: _minerva_math_template.yaml
 output_type: generate_until
 doc_to_text: !function utils.doc_to_text
 doc_to_target: "{{answer}}"
+# Fewshot doc_to_target (" {{solution}}", from base template) already carries the
+# leading space, so the delimiter must be empty — otherwise few-shot renders
+# "Lösung:  …" (double space). Base template keeps the space for the bpb variant
+# (which sets target_delimiter: "").
+target_delimiter: ""
 generation_kwargs:
   max_gen_toks: 1024
   until:
