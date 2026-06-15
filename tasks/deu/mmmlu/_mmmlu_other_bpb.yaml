@@ -14,7 +14,7 @@ task:
   - deu_mmmlu_professional_medicine_bpb
   - deu_mmmlu_virology_bpb
 aggregate_metric_list:
-  - metric: bits_per_byte
+  - metric: answer_bits_per_byte
     weight_by_size: false
 metadata:
   version: 1.0

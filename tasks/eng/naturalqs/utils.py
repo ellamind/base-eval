@@ -272,4 +272,4 @@ def process_results_bpb(doc, results):
     ll, _ = results[0]
     gold_text = doc["answer"][0]
     gold_bytes = len((" " + gold_text).encode("utf-8"))
-    return {"bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}
+    return {"answer_bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}

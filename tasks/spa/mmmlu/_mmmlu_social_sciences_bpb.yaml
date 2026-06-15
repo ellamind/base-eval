@@ -13,7 +13,7 @@ task:
   - spa_mmmlu_sociology_bpb
   - spa_mmmlu_us_foreign_policy_bpb
 aggregate_metric_list:
-  - metric: bits_per_byte
+  - metric: answer_bits_per_byte
     weight_by_size: false
 metadata:
   version: 1.0

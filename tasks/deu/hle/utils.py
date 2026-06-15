@@ -198,4 +198,4 @@ def process_results_bpb(doc, results):
     ll, _is_greedy = results[0]
     gold_bytes = len(f" {doc['correct_answer']}".encode("utf-8"))
     bpb = -ll / (math.log(2) * max(gold_bytes, 1))
-    return {"bits_per_byte": bpb}
+    return {"answer_bits_per_byte": bpb}

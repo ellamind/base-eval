@@ -93,4 +93,4 @@ def process_results_bpb(doc, results):
     gold_text = doc["sentence"][idx:].strip()
     # Include leading space to match default target_delimiter " "
     gold_bytes = len((" " + gold_text).encode("utf-8"))
-    return {"bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}
+    return {"answer_bits_per_byte": -ll / (math.log(2) * max(gold_bytes, 1))}

@@ -9,7 +9,7 @@ fewshot_config:
 target_delimiter: ""
 process_results: !function utils.process_results_bpb
 metric_list:
-  - metric: bits_per_byte
+  - metric: answer_bits_per_byte
     aggregation: mean
     higher_is_better: false
 metadata:

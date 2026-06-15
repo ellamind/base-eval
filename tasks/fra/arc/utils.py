@@ -123,5 +123,5 @@ def process_results_bpb(doc, results):
     bpb = -ll / (math.log(2) * max(gold_bytes, 1))
 
     return {
-        "bits_per_byte": bpb,
+        "answer_bits_per_byte": bpb,
     }
