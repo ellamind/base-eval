@@ -18,7 +18,7 @@ tasks/
     └── ...
 ```
 
-Suite definitions live in `suites/` and compose tasks into evaluation groups.
+Suite definitions live in `tasks/suites/` and compose tasks into evaluation groups. Use `tasks/` as the `lm_eval --include_path` root so discovery does not walk unrelated repository directories.
 
 ## Naming Conventions
 
@@ -62,7 +62,7 @@ metric_list:
 
 ## Suites Overview
 
-Suites compose individual tasks into evaluation groups. See `suites/README.md` for full details.
+Suites compose individual tasks into evaluation groups. Suite YAMLs live under `tasks/suites/`.
 
 ### Parent Suites
 
@@ -555,7 +555,7 @@ Subtasks: arithmetic, coding, common_knowledge, logical_reasoning, pattern, stri
 2. Create a lean template `_<name>_template.yaml` with shared config (dataset, fewshot)
 3. Create task-specific configs for each variant (RC, BPB, CoT, code)
 4. Add `utils.py` with task-specific functions (process_docs, fewshot, BPB)
-5. Add the task to the relevant group in `suites/deu/` and/or `suites/deu_base_main.yaml`
+5. Add the task to the relevant group in `tasks/suites/deu/` and/or `tasks/suites/deu_base_main.yaml`
 
 ### For English
 
@@ -563,7 +563,7 @@ Subtasks: arithmetic, coding, common_knowledge, logical_reasoning, pattern, stri
 2. Create a lean template `_<name>_template.yaml` with shared config
 3. Create task-specific configs for each variant
 4. Add `utils.py` with task-specific functions
-5. Add the task to the relevant group in `suites/eng/` and/or `suites/eng_base_main.yaml`
+5. Add the task to the relevant group in `tasks/suites/eng/` and/or `tasks/suites/eng_base_main.yaml`
 
 ### Template Best Practices
 

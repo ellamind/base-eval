@@ -6,10 +6,10 @@ Every task is verified by running it against multiple reference models to check 
 
 ## Setup
 
-Install [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and point `lm_eval` at this repository via `--include_path`:
+Install [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) and point `lm_eval` at this repository's task root via `--include_path`:
 
 ```bash
-lm_eval --tasks deu_base_main --include_path /path/to/ellamind/base-eval --model ...
+lm_eval --tasks deu_base_main --include_path /path/to/ellamind/base-eval/tasks --model ...
 ```
 
 ## Suites
@@ -74,12 +74,13 @@ For detailed task listings, format variants, and per-benchmark documentation, se
 
 ```
 ellamind-base-eval/
-├── suites/              # Evaluation suite definitions
-│   ├── eng/             # English group configs
-│   └── deu/             # German group configs
-├── tasks/               # Task configurations (see tasks/README.md)
-│   ├── eng/             # 28 English benchmarks, ~470 task configs
-│   └── deu/             # 19 German benchmarks, ~260 task configs
+├── tasks/               # Task configurations and suite definitions
+│   ├── eng/             # English benchmark task configs
+│   ├── deu/             # German benchmark task configs
+│   ├── fra/             # French benchmark task configs
+│   ├── spa/             # Spanish benchmark task configs
+│   ├── ita/             # Italian benchmark task configs
+│   └── suites/          # Evaluation suite definitions
 └── README.md
 ```
 
