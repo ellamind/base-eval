@@ -1,4 +1,4 @@
-# German AGIEval — Rank Classification (9 subsets)
+# German AGIEval — Rank Classification (8 subsets)
 group: deu_agieval_rc
 task:
   - deu_agieval_aqua_rat_rc
@@ -8,7 +8,6 @@ task:
   - deu_agieval_lsat_lr_rc
   - deu_agieval_lsat_rc_rc
   - deu_agieval_sat_en_rc
-  - deu_agieval_sat_en_without_passage_rc
   - deu_agieval_sat_math_rc
 aggregate_metric_list:
   - metric: acc

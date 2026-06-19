@@ -4,7 +4,7 @@ task:
   - deu_stem_qa_mc
   # Non-STEM Multiple Choice (4 entries, ~16 tasks: MMMLU filtered non-STEM 13 subjects + CSQA + PiQA + SocialIQA)
   - deu_nonstem_qa_mc
-  # AGIEval Multiple Choice (9 subsets)
+  # AGIEval Multiple Choice (8 subsets)
   - deu_agieval_mc
   # Generative / RC (3 tasks)
   - deu_gen

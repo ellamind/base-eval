@@ -1,0 +1,14 @@
+# French Generative / Reading Comprehension Tasks
+group: fra_gen
+task:
+  - fra_hellaswag_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French generative and reading comprehension tasks"

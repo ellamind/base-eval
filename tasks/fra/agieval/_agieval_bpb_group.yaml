@@ -1,4 +1,4 @@
-# French AGIEval — Bits Per Byte (9 subsets)
+# French AGIEval — Bits Per Byte (8 subsets)
 group: fra_agieval_bpb
 task:
   - fra_agieval_aqua_rat_bpb
@@ -8,7 +8,6 @@ task:
   - fra_agieval_lsat_lr_bpb
   - fra_agieval_lsat_rc_bpb
   - fra_agieval_sat_en_bpb
-  - fra_agieval_sat_en_without_passage_bpb
   - fra_agieval_sat_math_bpb
 aggregate_metric_list:
   - metric: answer_bits_per_byte

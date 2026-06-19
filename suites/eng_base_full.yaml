@@ -1,9 +1,9 @@
 group: eng_base_full
 task:
-  # ── AGIEval (9 subsets × MC/RC/BPB) ──
-  - agieval_mc   # group: 9 subsets
-  - agieval_rc   # group: 9 subsets
-  - agieval_bpb  # group: 9 subsets
+  # ── AGIEval (8 subsets × MC/RC/BPB) ──
+  - agieval_mc   # group: 8 subsets
+  - agieval_rc   # group: 8 subsets
+  - agieval_bpb  # group: 8 subsets
 
   # ── ARC ──
   - arc_easy_mc

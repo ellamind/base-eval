@@ -1,0 +1,17 @@
+# Italian QA Multiple Choice Tasks
+group: ita_qa_mc
+task:
+  - ita_arc_challenge_mc
+  - ita_arc_easy_mc
+  - ita_hellaswag_mc
+  - ita_mmmlu_filtered_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Italian QA Multiple Choice suite - accuracy-based evaluation"

@@ -1,9 +1,9 @@
 group: deu_base_full
 task:
-  # ── AGIEval (9 subsets × MC/RC/BPB) ──
-  - deu_agieval_mc   # group: 9 subsets
-  - deu_agieval_rc   # group: 9 subsets
-  - deu_agieval_bpb  # group: 9 subsets
+  # ── AGIEval (8 subsets × MC/RC/BPB) ──
+  - deu_agieval_mc   # group: 8 subsets
+  - deu_agieval_rc   # group: 8 subsets
+  - deu_agieval_bpb  # group: 8 subsets
 
   # ── ARC ──
   - deu_arc_challenge_mc

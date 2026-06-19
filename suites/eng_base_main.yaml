@@ -8,7 +8,7 @@ task:
   - stem_qa_mc
   # Non-STEM Multiple Choice (46 tasks)
   - nonstem_qa_mc
-  # AGIEval Multiple Choice (9 subsets)
+  # AGIEval Multiple Choice (8 subsets)
   - agieval_mc
   # Generative Tasks (9 tasks)
   - gen

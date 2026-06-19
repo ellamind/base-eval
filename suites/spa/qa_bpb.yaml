@@ -1,0 +1,15 @@
+# Spanish QA BPB Tasks
+group: spa_qa_bpb
+task:
+  - spa_arc_challenge_bpb
+  - spa_arc_easy_bpb
+  - spa_hellaswag_bpb
+  - spa_mmmlu_filtered_bpb
+  - spa_agieval_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Spanish QA BPB suite - bits-per-byte evaluation"

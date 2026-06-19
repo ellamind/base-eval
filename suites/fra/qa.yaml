@@ -1,0 +1,18 @@
+# French QA Tasks (RC + MC)
+group: fra_qa
+task:
+  - fra_arc_challenge_rc
+  - fra_arc_easy_rc
+  - fra_hellaswag_rc
+  - fra_hellaswag_easy_rc
+  - fra_mmmlu_filtered_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French QA tasks - Knowledge & Reasoning (RC + MC)"

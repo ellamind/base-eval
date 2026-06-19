@@ -1,0 +1,14 @@
+# Spanish Generative / Reading Comprehension Tasks
+group: spa_gen
+task:
+  - spa_hellaswag_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Spanish generative and reading comprehension tasks"

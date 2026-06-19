@@ -1,4 +1,4 @@
-# Spanish AGIEval — Multiple Choice (9 subsets)
+# Spanish AGIEval — Multiple Choice (8 subsets)
 group: spa_agieval_mc
 task:
   - spa_agieval_aqua_rat_mc
@@ -8,7 +8,6 @@ task:
   - spa_agieval_lsat_lr_mc
   - spa_agieval_lsat_rc_mc
   - spa_agieval_sat_en_mc
-  - spa_agieval_sat_en_without_passage_mc
   - spa_agieval_sat_math_mc
 aggregate_metric_list:
   - metric: acc

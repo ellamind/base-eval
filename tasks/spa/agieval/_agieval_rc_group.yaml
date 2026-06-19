@@ -1,4 +1,4 @@
-# Spanish AGIEval — Rank Classification (9 subsets)
+# Spanish AGIEval — Rank Classification (8 subsets)
 group: spa_agieval_rc
 task:
   - spa_agieval_aqua_rat_rc
@@ -8,7 +8,6 @@ task:
   - spa_agieval_lsat_lr_rc
   - spa_agieval_lsat_rc_rc
   - spa_agieval_sat_en_rc
-  - spa_agieval_sat_en_without_passage_rc
   - spa_agieval_sat_math_rc
 aggregate_metric_list:
   - metric: acc

@@ -1,0 +1,67 @@
+group: fra_base_full
+task:
+  # AGIEval (8 subsets x MC/RC/BPB)
+  - fra_agieval_mc
+  - fra_agieval_rc
+  - fra_agieval_bpb
+
+  # ARC
+  - fra_arc_challenge_mc
+  - fra_arc_challenge_rc
+  - fra_arc_challenge_bpb
+  - fra_arc_easy_mc
+  - fra_arc_easy_rc
+  - fra_arc_easy_bpb
+
+  # GPQA
+  - fra_gpqa_main_mc
+  - fra_gpqa_main_cot
+  - fra_gpqa_diamond_mc
+  - fra_gpqa_diamond_cot
+
+  # GSM8K Platinum
+  - fra_gsm8k_platinum_cot
+
+  # HellaSwag
+  - fra_hellaswag_mc
+  - fra_hellaswag_rc
+  - fra_hellaswag_easy_rc
+  - fra_hellaswag_bpb
+
+  # INCLUDE (3 domains x 3 formulations)
+  - fra_include_mc
+  - fra_include_rc
+  - fra_include_bpb
+
+  # MMLU Pro (14 subjects)
+  - fra_mmlu_pro_mc
+  - fra_mmlu_pro_rc
+  - fra_mmlu_pro_cot
+
+  # MMMLU - full (all 57 subjects)
+  - fra_mmmlu_mc
+  - fra_mmmlu_rc
+  - fra_mmmlu_bpb
+
+  # MMMLU - filtered (32 translation-safe subjects)
+  # NOTE: Run separately to avoid overlap with full MMMLU above:
+  #   lm_eval --tasks fra_mmmlu_filtered,fra_mmmlu_filtered_rc,fra_mmmlu_filtered_bpb ...
+  # - fra_mmmlu_filtered_mc
+  # - fra_mmmlu_filtered_rc
+  # - fra_mmmlu_filtered_bpb
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French Base Full evaluation suite - all tasks in all available formulations (MC, RC, BPB, CoT)"

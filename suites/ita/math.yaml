@@ -1,0 +1,11 @@
+# Italian Math Reasoning Tasks
+group: ita_math
+task:
+  - ita_gsm8k_platinum_cot
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Italian math reasoning with chain-of-thought"

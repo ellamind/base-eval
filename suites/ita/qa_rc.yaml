@@ -1,0 +1,19 @@
+# Italian QA Reading Comprehension Tasks
+group: ita_qa_rc
+task:
+  - ita_arc_challenge_rc
+  - ita_arc_easy_rc
+  - ita_hellaswag_rc
+  - ita_hellaswag_easy_rc
+  - ita_mmmlu_filtered_rc
+  - ita_agieval_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Italian QA Reading Comprehension suite - accuracy-based evaluation"

@@ -1,4 +1,4 @@
-# Italian AGIEval — Multiple Choice (9 subsets)
+# Italian AGIEval — Multiple Choice (8 subsets)
 group: ita_agieval_mc
 task:
   - ita_agieval_aqua_rat_mc
@@ -8,7 +8,6 @@ task:
   - ita_agieval_lsat_lr_mc
   - ita_agieval_lsat_rc_mc
   - ita_agieval_sat_en_mc
-  - ita_agieval_sat_en_without_passage_mc
   - ita_agieval_sat_math_mc
 aggregate_metric_list:
   - metric: acc

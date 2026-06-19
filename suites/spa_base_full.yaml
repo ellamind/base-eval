@@ -1,0 +1,67 @@
+group: spa_base_full
+task:
+  # AGIEval (8 subsets x MC/RC/BPB)
+  - spa_agieval_mc
+  - spa_agieval_rc
+  - spa_agieval_bpb
+
+  # ARC
+  - spa_arc_challenge_mc
+  - spa_arc_challenge_rc
+  - spa_arc_challenge_bpb
+  - spa_arc_easy_mc
+  - spa_arc_easy_rc
+  - spa_arc_easy_bpb
+
+  # GPQA
+  - spa_gpqa_main_mc
+  - spa_gpqa_main_cot
+  - spa_gpqa_diamond_mc
+  - spa_gpqa_diamond_cot
+
+  # GSM8K Platinum
+  - spa_gsm8k_platinum_cot
+
+  # HellaSwag
+  - spa_hellaswag_mc
+  - spa_hellaswag_rc
+  - spa_hellaswag_easy_rc
+  - spa_hellaswag_bpb
+
+  # INCLUDE (3 domains x 3 formulations)
+  - spa_include_mc
+  - spa_include_rc
+  - spa_include_bpb
+
+  # MMLU Pro (14 subjects)
+  - spa_mmlu_pro_mc
+  - spa_mmlu_pro_rc
+  - spa_mmlu_pro_cot
+
+  # MMMLU - full (all 57 subjects)
+  - spa_mmmlu_mc
+  - spa_mmmlu_rc
+  - spa_mmmlu_bpb
+
+  # MMMLU - filtered (32 translation-safe subjects)
+  # NOTE: Run separately to avoid overlap with full MMMLU above:
+  #   lm_eval --tasks spa_mmmlu_filtered,spa_mmmlu_filtered_rc,spa_mmmlu_filtered_bpb ...
+  # - spa_mmmlu_filtered_mc
+  # - spa_mmmlu_filtered_rc
+  # - spa_mmmlu_filtered_bpb
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Spanish Base Full evaluation suite - all tasks in all available formulations (MC, RC, BPB, CoT)"

@@ -1,0 +1,19 @@
+group: spa_base_easy
+task:
+  # QA Reading Comprehension (6 entries)
+  - spa_qa_rc
+  # QA BPB (5 entries)
+  - spa_qa_bpb
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Spanish BASE EASY evaluation suite - BPB and RC tasks"

@@ -1,4 +1,4 @@
-# Spanish AGIEval — Bits Per Byte (9 subsets)
+# Spanish AGIEval — Bits Per Byte (8 subsets)
 group: spa_agieval_bpb
 task:
   - spa_agieval_aqua_rat_bpb
@@ -8,7 +8,6 @@ task:
   - spa_agieval_lsat_lr_bpb
   - spa_agieval_lsat_rc_bpb
   - spa_agieval_sat_en_bpb
-  - spa_agieval_sat_en_without_passage_bpb
   - spa_agieval_sat_math_bpb
 aggregate_metric_list:
   - metric: answer_bits_per_byte

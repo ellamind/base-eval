@@ -1,4 +1,4 @@
-# Italian AGIEval — Rank Classification (9 subsets)
+# Italian AGIEval — Rank Classification (8 subsets)
 group: ita_agieval_rc
 task:
   - ita_agieval_aqua_rat_rc
@@ -8,7 +8,6 @@ task:
   - ita_agieval_lsat_lr_rc
   - ita_agieval_lsat_rc_rc
   - ita_agieval_sat_en_rc
-  - ita_agieval_sat_en_without_passage_rc
   - ita_agieval_sat_math_rc
 aggregate_metric_list:
   - metric: acc

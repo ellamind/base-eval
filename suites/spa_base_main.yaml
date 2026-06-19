@@ -1,0 +1,27 @@
+group: spa_base_main
+task:
+  # STEM Multiple Choice (3 entries)
+  - spa_stem_qa_mc
+  # Non-STEM Multiple Choice (1 entry)
+  - spa_nonstem_qa_mc
+  # AGIEval Multiple Choice (8 subsets)
+  - spa_agieval_mc
+  # Generative / RC (1 task)
+  - spa_gen
+  # Math Reasoning (1 task)
+  - spa_math
+  # Heldout
+  - spa_heldout
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Spanish base main evaluation suite"

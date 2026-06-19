@@ -1,0 +1,16 @@
+# Spanish STEM Multiple Choice Tasks
+group: spa_stem_qa_mc
+task:
+  - spa_arc_easy_mc
+  - spa_arc_challenge_mc
+  - spa_mmmlu_filtered_stem_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Spanish STEM multiple choice QA tasks"

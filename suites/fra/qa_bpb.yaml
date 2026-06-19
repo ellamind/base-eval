@@ -1,0 +1,15 @@
+# French QA BPB Tasks
+group: fra_qa_bpb
+task:
+  - fra_arc_challenge_bpb
+  - fra_arc_easy_bpb
+  - fra_hellaswag_bpb
+  - fra_mmmlu_filtered_bpb
+  - fra_agieval_bpb
+aggregate_metric_list:
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French QA BPB suite - bits-per-byte evaluation"

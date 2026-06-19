@@ -1,4 +1,4 @@
-# English AGIEval — Bits Per Byte (9 subsets)
+# English AGIEval — Bits Per Byte (8 subsets)
 group: agieval_bpb
 task:
   - agieval_aqua_rat_bpb
@@ -8,7 +8,6 @@ task:
   - agieval_lsat_lr_bpb
   - agieval_lsat_rc_bpb
   - agieval_sat_en_bpb
-  - agieval_sat_en_without_passage_bpb
   - agieval_sat_math_bpb
 aggregate_metric_list:
   - metric: answer_bits_per_byte

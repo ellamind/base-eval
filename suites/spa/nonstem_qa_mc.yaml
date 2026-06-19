@@ -1,0 +1,14 @@
+# Spanish Non-STEM Multiple Choice Tasks
+group: spa_nonstem_qa_mc
+task:
+  - spa_mmmlu_filtered_nonstem_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Spanish non-STEM multiple choice QA tasks"

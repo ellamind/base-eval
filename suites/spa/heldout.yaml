@@ -1,0 +1,22 @@
+# Heldout Tasks (Spanish)
+group: spa_heldout
+task:
+  - spa_mmlu_pro_mc
+  - spa_gpqa_main_mc
+  - spa_gpqa_diamond_mc
+  - spa_gpqa_main_cot
+  - spa_gpqa_diamond_cot
+  - spa_include_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Heldout tasks for periodic evaluation (MMLU Pro, GPQA, INCLUDE)"

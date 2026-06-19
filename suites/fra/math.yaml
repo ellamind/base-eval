@@ -1,0 +1,11 @@
+# French Math Reasoning Tasks
+group: fra_math
+task:
+  - fra_gsm8k_platinum_cot
+aggregate_metric_list:
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French math reasoning with chain-of-thought"

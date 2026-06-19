@@ -1,0 +1,19 @@
+# Spanish QA Reading Comprehension Tasks
+group: spa_qa_rc
+task:
+  - spa_arc_challenge_rc
+  - spa_arc_easy_rc
+  - spa_hellaswag_rc
+  - spa_hellaswag_easy_rc
+  - spa_mmmlu_filtered_rc
+  - spa_agieval_rc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Spanish QA Reading Comprehension suite - accuracy-based evaluation"

@@ -1,4 +1,4 @@
-# English AGIEval — Rank Classification (9 subsets)
+# English AGIEval — Rank Classification (8 subsets)
 group: agieval_rc
 task:
   - agieval_aqua_rat_rc
@@ -8,7 +8,6 @@ task:
   - agieval_lsat_lr_rc
   - agieval_lsat_rc_rc
   - agieval_sat_en_rc
-  - agieval_sat_en_without_passage_rc
   - agieval_sat_math_rc
 aggregate_metric_list:
   - metric: acc

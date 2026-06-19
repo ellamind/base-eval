@@ -1,0 +1,17 @@
+# French QA Multiple Choice Tasks
+group: fra_qa_mc
+task:
+  - fra_arc_challenge_mc
+  - fra_arc_easy_mc
+  - fra_hellaswag_mc
+  - fra_mmmlu_filtered_mc
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "French QA Multiple Choice suite - accuracy-based evaluation"

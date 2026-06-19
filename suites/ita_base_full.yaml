@@ -1,0 +1,67 @@
+group: ita_base_full
+task:
+  # AGIEval (8 subsets x MC/RC/BPB)
+  - ita_agieval_mc
+  - ita_agieval_rc
+  - ita_agieval_bpb
+
+  # ARC
+  - ita_arc_challenge_mc
+  - ita_arc_challenge_rc
+  - ita_arc_challenge_bpb
+  - ita_arc_easy_mc
+  - ita_arc_easy_rc
+  - ita_arc_easy_bpb
+
+  # GPQA
+  - ita_gpqa_main_mc
+  - ita_gpqa_main_cot
+  - ita_gpqa_diamond_mc
+  - ita_gpqa_diamond_cot
+
+  # GSM8K Platinum
+  - ita_gsm8k_platinum_cot
+
+  # HellaSwag
+  - ita_hellaswag_mc
+  - ita_hellaswag_rc
+  - ita_hellaswag_easy_rc
+  - ita_hellaswag_bpb
+
+  # INCLUDE (3 domains x 3 formulations)
+  - ita_include_mc
+  - ita_include_rc
+  - ita_include_bpb
+
+  # MMLU Pro (14 subjects)
+  - ita_mmlu_pro_mc
+  - ita_mmlu_pro_rc
+  - ita_mmlu_pro_cot
+
+  # MMMLU - full (all 57 subjects)
+  - ita_mmmlu_mc
+  - ita_mmmlu_rc
+  - ita_mmmlu_bpb
+
+  # MMMLU - filtered (32 translation-safe subjects)
+  # NOTE: Run separately to avoid overlap with full MMMLU above:
+  #   lm_eval --tasks ita_mmmlu_filtered,ita_mmmlu_filtered_rc,ita_mmmlu_filtered_bpb ...
+  # - ita_mmmlu_filtered_mc
+  # - ita_mmmlu_filtered_rc
+  # - ita_mmmlu_filtered_bpb
+aggregate_metric_list:
+  - metric: acc
+    aggregation: mean
+    weight_by_size: false
+  - metric: acc_norm
+    aggregation: mean
+    weight_by_size: false
+  - metric: bits_per_byte
+    aggregation: mean
+    weight_by_size: false
+  - metric: exact_match
+    aggregation: mean
+    weight_by_size: false
+metadata:
+  version: 1.0
+  description: "Italian Base Full evaluation suite - all tasks in all available formulations (MC, RC, BPB, CoT)"
