@@ -1,0 +1,5 @@
+include: _grips_rc_template.yaml
+task: deu_grips_rc
+metadata:
+  version: 1.0
+  description: "GRIPS German — 5-shot Rank Choice (likelihood over full-text choices)"

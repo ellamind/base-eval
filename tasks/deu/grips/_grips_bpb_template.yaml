@@ -1,0 +1,21 @@
+# GRIPS German BPB Template (gold answer only) — 5-shot
+# Dataset: ellamind/grips-base
+# Scores only the gold answer continuation via loglikelihood, converted to
+# bits-per-byte.  BPB = -log2 P(answer | context) / bytes(answer)
+dataset_path: ellamind/grips-base
+test_split: test
+fewshot_split: fewshot
+output_type: loglikelihood
+target_delimiter: ""
+doc_to_text: "Frage: {{question}}\nAntwort:"
+doc_to_target: !function utils.doc_to_target_bpb
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+process_results: !function utils.process_results_bpb
+metric_list:
+  - metric: answer_bits_per_byte
+    aggregation: mean
+    higher_is_better: false
+metadata:
+  version: 1.0

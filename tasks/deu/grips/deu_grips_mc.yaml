@@ -1,0 +1,5 @@
+include: _grips_mc_template.yaml
+task: deu_grips_mc
+metadata:
+  version: 1.0
+  description: "GRIPS German — 5-shot Multiple Choice (letter pick)"

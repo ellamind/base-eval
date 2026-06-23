@@ -33,6 +33,12 @@ task:
   - deu_gpqa_diamond_mc
   - deu_gpqa_diamond_cot
 
+  # ── GRIPS (German reasoning, idioms, puzzles & wordplay) ──
+  - deu_grips_mc
+  - deu_grips_rc
+  - deu_grips_bpb
+  - deu_grips_bpb_expl
+
   # ── GSM8K Platinum ──
   - deu_gsm8k_platinum_cot
 

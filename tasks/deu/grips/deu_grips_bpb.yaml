@@ -1,0 +1,5 @@
+include: _grips_bpb_template.yaml
+task: deu_grips_bpb
+metadata:
+  version: 1.0
+  description: "GRIPS German — 5-shot BPB over the gold answer"

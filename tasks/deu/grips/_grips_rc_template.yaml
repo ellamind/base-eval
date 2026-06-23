@@ -1,0 +1,23 @@
+# GRIPS German Rank Choice Template — 5-shot
+# Dataset: ellamind/grips-base
+# Likelihood-based ranking over the full-text choices (no letter labels in
+# context); the highest-likelihood choice is the prediction.
+dataset_path: ellamind/grips-base
+test_split: test
+fewshot_split: fewshot
+output_type: multiple_choice
+doc_to_text: "Frage: {{question}}\nAntwort:"
+doc_to_target: "{{answer_idx}}"
+doc_to_choice: "{{choices}}"
+num_fewshot: 5
+fewshot_config:
+  sampler: first_n
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.0
