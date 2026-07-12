@@ -15,7 +15,6 @@ generation_kwargs:
   top_p: 0.6
   until:
     - "Q:"
-    - "\n\n"
 filter_list:
   - name: "get-answer"
     filter:

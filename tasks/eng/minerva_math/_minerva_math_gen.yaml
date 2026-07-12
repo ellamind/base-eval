@@ -12,7 +12,6 @@ generation_kwargs:
   max_gen_toks: 1024
   until:
     - "Problem:"
-    - "\n\n"
   do_sample: true
   temperature: 0.6
   top_p: 0.6

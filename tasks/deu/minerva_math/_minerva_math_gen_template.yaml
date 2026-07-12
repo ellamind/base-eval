@@ -14,7 +14,6 @@ generation_kwargs:
   until:
     - "Aufgabe:"
     - "Problem:"
-    - "\n\n"
   do_sample: true
   temperature: 0.6
   top_p: 0.6

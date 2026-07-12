@@ -15,7 +15,6 @@ generation_kwargs:
   max_gen_toks: 512
   until:
     - "Question:"
-    - "\n\n\n"
   do_sample: false
   temperature: 0.0
 num_fewshot: 8
