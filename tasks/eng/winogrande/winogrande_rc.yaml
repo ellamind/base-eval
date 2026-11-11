@@ -1,7 +1,6 @@
 task: winogrande_rc
 dataset_path: allenai/winogrande
-dataset_kwargs:
-  revision: refs/convert/parquet
+dataset_name: winogrande_xl
 test_split: validation
 output_type: multiple_choice
 target_delimiter: ""
